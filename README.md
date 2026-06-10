@@ -107,6 +107,74 @@ Confirmed against `botplacementsystem-csharp` (working reference) and `server-mo
 
 ---
 
+## 2b. Quest data reference (current DB — 558 quests)
+
+Enumerated from `quests.json` so the difficulty model + ports target real shapes. A quest is
+`Dictionary<string, IQuest>` keyed by `_id`; each `IQuest` has `QuestName`, `TraderId`, `Side`
+(all 558 are `Pmc`), `Type`, and `Conditions.{AvailableForStart, AvailableForFinish, Fail}` +
+`Rewards.{Started, Success, Fail}`.
+
+**`quest.Type`** (12 values): `PickUp` 136, `Elimination` 132, `Completion` 119, `Exploration`
+59, `Discover` 48, `WeaponAssembly` 28, `Multi` 12, `Skill` 9, `Loyalty` 7, `Merchant` 6,
+`Experience` 1, `Standing` 1.
+
+**`AvailableForStart.ConditionType`** (the gate types): `Quest` 736, `Level` 224,
+`TraderStanding` 8, `TraderLoyalty` 4.
+
+**`AvailableForFinish.ConditionType`** (the objective types): `CounterCreator` 609,
+`HandoverItem` 413, `FindItem` 269, `LeaveItemAtLocation` 149, `PlaceBeacon` 96,
+`WeaponAssembly` 32, `TraderLoyalty` 10, `Skill` 10, `Quest` 7, `SellItemToTrader` 5,
+`GlobalVariableValue` 3, `TraderStanding` 1, `VisitPlace` 1, `HideoutArea` 1.
+
+**`CounterCreator.Counter.Conditions.ConditionType`** (what a "counter" objective counts):
+`Kills` 275, `VisitPlace` 212, `Location` 203, `ExitStatus` 103, `InZone` 32, `Equipment` 24,
+`ExitName` 12, `LaunchFlare` 8, `ArenaGameMode` 6, `ArenaMatchPlace` 6, `HealthEffect` 5,
+`Shots` 2, `HealthBuff` 2, `ArenaPlayerInTeamPlace` 1, `Time` 1, `UnderArtilleryFire` 1.
+
+**`Rewards.Success.Type`**: `Item` 1472, `TraderStanding` 532, `Experience` 508,
+`AssortmentUnlock` 231, `Skill` 83, `ProductionScheme` 31, `CustomizationDirect` 11,
+`Achievement` 10, `NotificationPopup` 3, `TraderUnlock` 2, `WebPromoCode` 1, `Pockets` 1,
+`TraderStandingRestore` 1.
+
+> **Difficulty-model signals (from this distribution):** the meaningful objective difficulty
+> lives in `CounterCreator` (kills/location/exit-status counts + the `Value`), `HandoverItem`/
+> `FindItem` (item count + whether `OnlyFoundInRaid` + whether it's a real `QuestItem`),
+> `LeaveItemAtLocation`/`PlaceBeacon` (plant time + map exposure), and the **start-gate Level**.
+> Reward magnitude (`Experience`, `TraderStanding`, money `Item`) is a secondary proxy BSG
+> already tuned to difficulty — useful as a tie-breaker/sanity signal. See §4b.
+
+---
+
+## 2c. Porting gotchas (mined from the TS source — keep these in the C# port)
+
+The original TS handles many edge cases that are easy to miss. Each must be preserved:
+
+**AdjusterModule**
+- **Guard on objectives**: only touch a quest if `AvailableForFinish?.Count > 0` (skip empty/started-reward-only quests).
+- **Level scale fallback**: `round(value * mod) || 1` and `Number(value) || 1` — never let a requirement become `0`/`NaN`.
+- **No-op short-circuit**: every modifier checks `== 1` and breaks first (avoids needless rewrites + float drift).
+- **Don't scale single-target counters**: `CounterCreator` with `Value == 1` is skipped (a "kill 1 boss" must stay 1).
+- **⚠️ TS fall-through bug**: in the TS `switch`, `case "CounterCreator"` has **no `break`** before `HandoverItem`/`FindItem`, so kill-count quests also run the find-item logic. In C# decide deliberately — almost certainly **add the `break`** (port the *intent*, not the bug).
+- **Never reduce real quest-items**: in `HandoverItem`/`FindItem`, if `items[target]?._props?.QuestItem` is true, skip — scaling a story item count breaks the quest.
+- **`Target` is string OR array**: normalize `target?[0] ?? target` before lookups.
+- **Reward ITEM scaling**: skip if `items.Count > 1` or no `items[0]`, skip if `value == 1`; when scaling, update **both** `value` and `items[0].upd.StackObjectsCount`.
+- **Trader-standing rounding**: snap to 0.05 increments: `round((value/0.05) * mod * 0.05 * 100)/100`.
+- **Gunsmith replacement**: convert `WeaponAssembly → Elimination`, rebuild a kill condition, and rewrite locales for **every** language (`languages` keys), with `localeConfig[lang] ?? localeConfig.en` fallback and `<weapon>`/`<number>` placeholder substitution; handle `target` string-vs-array for the weapon name lookup.
+
+**OverhaulModule / transforms**
+- **Deterministic ids**: `generateMongoIdFromSeed` = MD5(seed) hex, take first 24 chars, `padEnd(24,'0')`. Must be byte-identical run-to-run (and ideally match the TS output) so quest links and profiles stay stable.
+- **Reverse-iterate + `seen` set** when building `QuestName → _id` so duplicate names resolve deterministically (first occurrence wins after the reverse).
+- **MainQuests entries are string OR array** — arrays are parallel sub-chains, linked with `quantity = 1`; the main list links with `TraderQuestProgressionQuantity[trader]`.
+- **Chain link uses `status: [4]`** (Success) on the `Quest` start-condition (vanilla often uses `[4,5]`).
+- **`IterateOverArrayAddingQuestReqs`**: chunk the ordered list into sets of `quantity`, and make every quest in set *n* require **all** quests in set *n-1*.
+- **Currency normalization**: each trader has a native currency (`TraderCurrencies`: Peacekeeper = USD, Ref = GP, rest = Roubles). Filter out money rewards not in the native currency and convert via `convertMoney` (static rates: USD≈160, EUR≈180, GP≈20000 roubles; convert through roubles, round, reject negatives/invalid).
+- **Ref is special-cased** (few quests): standing reward `= (index+1)/10`, money `= value + index * refMoneyMultiplier` (+ matching `StackObjectsCount`).
+- **Sort reward pools ascending** by value before index-assigning them along the chain.
+- **Assort reassignment**: strip the old `AssortmentUnlock` reward off each source quest first, then redistribute via `assignQuestNamesWithWeight` (weight 0..1, skew across the chain; Peacekeeper has *more* unlocks than quests — ~0.91 ratio — so guard the smoothing), plus ammo-tier unlocks keyed by `Caliber`.
+- **`weightFactor` must be 0..1** — throw/clamp otherwise.
+
+---
+
 ## 3. Proposed architecture (C#)
 
 Kept **minimal**, modeled on `server-mod-examples/5ReadCustomJsonConfig` and Lacy's mod (a flat
@@ -191,10 +259,49 @@ built **programmatically**:
 - **Fix from there**: manually slot unmatched/new quests into the ordering (or drop renamed
   ones), keeping the existing scored order intact where possible.
 
-**Future option (not v1):** re-implement the original difficulty-scoring algorithm in C# so
-the list can be **regenerated** from any wipe's quest set automatically (instead of manual
-fix-ups). Worth doing only if quest churn becomes a maintenance burden — for now the
-port-then-diff approach reuses the existing curation and only patches the deltas.
+**Decision (owner): also recreate the difficulty-scoring generator (§4b).** Rather than only
+patching a stale list by hand, we will re-implement a per-trader difficulty score so the
+ordering can be **regenerated** from any wipe's quest set. The baseline list still serves as a
+sanity-check/diff target, but the generator becomes the source of truth for ordering.
+
+---
+
+## 4b. Difficulty-scoring model (to recreate the generator)
+
+Goal: assign every quest a per-trader difficulty score, sort ascending (easy → hard) within
+each trader, then group adjacent quests into multi-step chains. Score is built from the data
+signals enumerated in §2b. Proposed weighted model (all weights live in config so we can tune):
+
+**Primary signal — start gate**
+- `Level` start-requirement value → strong difficulty proxy (BSG already gates by level).
+
+**Objective signals (`AvailableForFinish`)**
+- `CounterCreator` →
+  - `Kills`: `Value` × (target weight). Boss/Goons/PMC targets weigh more than `Savage`/`Any`;
+    `SavageRole` boss tags bump it. Single-target (`Value == 1`) bosses are still "hard".
+  - `Location` / `VisitPlace` / `InZone` / `ExitName` / `ExitStatus`: small map-knowledge cost.
+  - `Shots`/`HealthEffect`/`Equipment`/`UnderArtilleryFire`/etc.: minor situational difficulty.
+- `HandoverItem` / `FindItem`: `Value` × rarity, **bigger** if `OnlyFoundInRaid`, and **much**
+  bigger if it's a real `QuestItem` (must be found on a map). Skip-list barter junk weighs ~0.
+- `LeaveItemAtLocation` / `PlaceBeacon`: plant action under fire → moderate + `plantTime` factor.
+- `WeaponAssembly`: flat moderate (gunsmith) — and note these get replaced if `replaceGunsmith`.
+- `Skill` / `TraderLoyalty` / `SellItemToTrader`: grind cost, low-moderate.
+
+**Secondary signal — reward magnitude (tie-breaker / sanity check, low weight)**
+- `Experience` + money (`Item` reward in trader currency) + `TraderStanding`: BSG scales these
+  with difficulty, so use as a smoothing/tie-break term, not a primary driver.
+
+**Aggregation**
+- `score(quest) = wLevel*level + Σ objectiveScores + wReward*normalizedReward`.
+- Sort each trader's quests by `score` ascending. Stable-sort with a tie-break on level then
+  reward so output is deterministic.
+- **Chaining**: walk the sorted list and merge runs that are clearly the same arc (shared
+  name stem like "Part N", or same target item/location) into arrays — reproducing the
+  multi-step groups. Keep chain size small (the TS linked sub-chains with `quantity = 1`).
+
+**Validation**: regenerate, then diff against the carried-over baseline `MainQuests.json` to
+confirm the ordering is sane (large reorderings get eyeballed). Tunable weights mean we can
+match the old feel without hand-editing every wipe.
 
 ---
 

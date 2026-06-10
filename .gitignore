@@ -13,3 +13,6 @@ Thumbs.db
 
 # SPT reference data (not for version control)
 refDBS/
+
+# Local scratch / throwaway scripts
+.scratch/
