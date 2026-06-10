@@ -54,7 +54,22 @@ Lacy's algorithm (the reference we'll port), per quest in `databaseService.GetQu
 5. **Strip dangling `VisibilityConditions`** — any child `AvailableForFinish` condition whose `VisibilityConditions[].Target` pointed at the removed transit step gets that visibility link removed (so the step shows immediately instead of being gated behind a now-deleted transit).
 6. **Locale cleanup** — via `Locales.Global` lazy-load transformers, strip the trailing `" (MapName)"` suffix from the affected condition descriptions (`LastIndexOf(" (")`).
 
-> Note: the live server currently gets transit removal from Lacy's mod (its `transits` toggle is on). Folding it into AQP lets us drop that dependency and keep all quest-flow changes in one mod — but if Lacy's mod stays installed, only **one** of the two should have transit removal enabled to avoid double-processing.
+> **Decision (owner):** Lacy's mod will have its `transits` toggle **turned off**; AQP owns transit removal. Build it in (`removeTransitQuests`, default **on**).
+
+### D. NEW — PvE-friendly Ref quests (`refChanges`)
+Not in the original TS mod. **Ported from [Lacyway/LacywayPvETweaks](https://github.com/Lacyway/LacywayPvETweaks) `EditRef()`** — rewrites the 6-part Ref unlock questline so it's completable on a co-op PvE server (no live-PvP dogtag farming). Standalone toggle.
+
+Lacy's algorithm (the reference we'll port) — for the 6 Ref quests (`refQuests[0..5]`):
+1. For each part, `Conditions.AvailableForFinish.Clear()` then re-add PvE-doable `CounterCreator` / `HandoverItem` conditions:
+   - **Part 1** — eliminate Scavs (`Savage`).
+   - **Part 2** — eliminate PMCs (20×).
+   - **Part 3** — eliminate USEC + BEAR PMCs (`Usec` / `Bear`, 10× each).
+   - **Part 4** — hand over found-in-raid **BEAR** dogtags (15×, `DogtagLevel = 40`, FiR) + USEC dogtags.
+   - **Part 5** — eliminate the Goons in one raid (`bossKnight`, `followerBigPipe`, `followerBirdEye`), each `OneSessionOnly`.
+   - **Part 6** — eliminate Partisan (`bossPartisan`, 3×).
+2. Each new condition carries a stable `Id` (hard-coded MongoIds in Lacy's version) and a matching **locale** string, applied via `Locales.Global` lazy-load transformers (e.g. "Eliminate scavs on any location", "Hand over the found in raid BEAR PMC dogtag (Level 40+)").
+
+> **Decision (owner):** build Ref-quest tweaks into AQP (`refChanges`, default **on**), mirroring Lacy's behavior. If Lacy's mod stays installed, turn **off** its `refChanges` so only AQP edits Ref.
 
 ### Config surface (TS)
 - `config/config.json` — module toggles + debug flags + all scalar modifiers + `disableDailies`.
@@ -105,6 +120,7 @@ AlgorithmicQuestingProgression-csharp/
       OverhaulController.cs        # port of OverHaulModule
       AdjusterController.cs        # port of AdjusterModule
       TransitController.cs         # NEW — remove map-transit requirements (ports Lacy EditTransits)
+      RefController.cs             # NEW — PvE-friendly Ref questline (ports Lacy EditRef)
     Globals/
       ModConfig.cs                 # loads config.json + QuestConfigs/*.json into typed models
     Models/
@@ -139,6 +155,7 @@ wipes).
 | Config loading (typed JSON) | Easy | `server-mod-examples/5ReadCustomJsonConfig` |
 | AdjusterModule port | Easy–Med | Pure scalar loops; locale rewrite for gunsmith is the only fiddly bit |
 | Transit removal (Lacy port) | Easy–Med | Find Transit-status conditions, remove + fix VisibilityConditions + locale suffix cleanup |
+| Ref quest tweaks (Lacy port) | Med | Rebuild 6 Ref quests' conditions + hard-coded ids + locales; mostly transcription |
 | OverhaulModule: remove/flatten/link | Med | Direct port; careful with sub-chain branching |
 | OverhaulModule: trader unlock + fence/kappa | Med | Trader base flag + reward push |
 | OverhaulModule: reward rebalance | Med–Hard | Index-scaled exp/money/standing, currency normalization |
@@ -188,29 +205,43 @@ port-then-diff approach reuses the existing curation and only patches the deltas
 2. **Config** — port `config.json` + `QuestConfigs/*.json`, typed models, loader (`ModConfig`).
 3. **Adjuster** — port AdjusterModule (scalar modifiers). Testable in isolation, lowest risk → do first.
 4. **Transit removal** — port Lacy's `EditTransits()` as a standalone toggle (low risk, independent of Overhaul).
-5. **Overhaul core** — remove list, flatten, QuestName↔Id map, level-99 hide, chain re-linking.
-6. **Overhaul traders** — trader unlock chains, fence/kappa start requirements.
-7. **Overhaul rewards** — exp/money/standing rebalance + currency normalization.
-8. **Overhaul assorts** — loyalty reassignment + ammo tiers (last, hardest).
-9. **Validation pass** — re-check `MainQuests.json` against current 558-quest DB; log unmatched; fix.
-10. **Test** — fresh profile on TEST, walk early progression per trader, verify unlocks/rewards.
+5. **Ref quests** — port Lacy's `EditRef()` as a standalone toggle (low risk, independent of Overhaul).
+6. **Overhaul core** — remove list, flatten, QuestName↔Id map, level-99 hide, chain re-linking.
+7. **Overhaul traders** — trader unlock chains, fence/kappa start requirements.
+8. **Overhaul rewards** — exp/money/standing rebalance + currency normalization.
+9. **Overhaul assorts** — loyalty reassignment + ammo tiers (last, hardest).
+10. **Validation pass** — re-check `MainQuests.json` against current 558-quest DB; log unmatched; fix.
+11. **Test** — fresh profile on TEST, walk early progression per trader, verify unlocks/rewards.
 
 ---
 
-## 6. Open decisions (need owner input)
+## 6. Decisions (resolved)
 
-- **Scope v1**: ship Adjuster-only first (low-risk, useful immediately), then Overhaul? Or full parity in one go?
-- **MainQuests.json**: ~~reuse vs re-curate~~ **DECIDED** → port the existing list as baseline, diff against current DB, fix the deltas (see §4a). Re-implementing the scoring algorithm in C# is a possible future enhancement, not v1.
-- **Config-manager web UI**: ABPS has one (Blazor `wwwroot`); do we want runtime config for AQP or static JSON only?
-- **Transit removal vs Lacy's mod**: AQP will include its own transit removal (§1C). Decide whether to disable Lacy's `transits` toggle and let AQP own it, or keep Lacy's and ship AQP's transit removal **off** by default to avoid double-processing.
-- **Mod GUID / name / version / license** for `ModMetadata`.
-- **Repo destiny**: stays a private nested repo, or eventually pushed to your GitHub as `AlgorithmicQuestingProgression-csharp`?
+- **Scope v1**: **incremental** — ship the lower-risk standalone pieces first (Adjuster + Transit + Ref), then add the Overhaul. (Scope just meant release sequencing, not which features exist.)
+- **MainQuests.json**: port the existing list as baseline, diff against current DB, fix the deltas (see §4a). Re-implementing the scoring algorithm in C# is a possible future enhancement, not v1.
+- **Config-manager web UI**: **static JSON only** (no Blazor web UI).
+- **Transit removal**: turn **off** Lacy's `transits`; AQP owns it (§1C), default on.
+- **Ref quests**: build PvE Ref tweaks into AQP (§1D), default on; turn **off** Lacy's `refChanges` if Lacy stays installed.
+- **Repo destiny**: **public** GitHub repo (eventually pushed as `AlgorithmicQuestingProgression-csharp`).
+
+### Mod metadata (`ModMetadata`)
+Following the previous mod + ABPS conventions:
+
+| Field | Value |
+|---|---|
+| `ModGuid` | `com.dewardiandev.algorithmicquestingprogression` |
+| Name | `AlgorithmicQuestingProgression` (same as the TS mod) |
+| `Author` | `DewardianDev` |
+| Version | `2.0.0` (next major after the TS mod's `1.0.2`) |
+| `SptVersion` | `~4.0.x` (match the running server, e.g. ABPS uses `~4.0.3`) |
+| `License` | `MIT` (same as the TS mod) |
 
 ---
 
 ## 7. References
 - Original TS mod: https://github.com/Andrewgdewar/AlgorithmicQuestingProgression
 - Transit-removal reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditTransits()`, `Code/TweaksConfig.cs` → `RemoveTransitQuests`)
+- Ref-quest reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditRef()`, `Code/TweaksConfig.cs` → `RefChanges`)
 - Working C# reference: `D:\tarky\botplacementsystem\` (ABPS fork)
 - C# examples: `D:\tarky\server-mod-examples\` (esp. 2EditDatabase, 3EditSptConfig, 5ReadCustomJsonConfig, 14AfterDBLoadHook)
 - Quest data: `D:\tarky\TEST\SPT\SPT_Data\database\templates\quests.json` (558 quests)
