@@ -1,0 +1,19 @@
+{
+  "enableOverhaulModule": true,
+  "enableAdjusterModule": true,
+  "removeTransitQuests": true,
+  "refChanges": true,
+  "disableDailies": true,
+  "baseKillCountQuantity": 4,
+  "killCountModifier": 0.5,
+  "questLevelUnlockModifier": 1,
+  "questExperienceModifier": 1,
+  "traderStandingRewardModifier": 1,
+  "itemRewardModifier": 1,
+  "killQuestCountModifier": 1,
+  "findItemQuestModifier": 0.5,
+  "plantTimeModifier": 0.2,
+  "replaceGunsmith": true,
+  "overHaulDebug": false,
+  "adjusterDebug": false
+}

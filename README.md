@@ -109,36 +109,35 @@ Confirmed against `botplacementsystem-csharp` (working reference) and `server-mo
 
 ## 3. Proposed architecture (C#)
 
-Mirror the ABPS layout (`Server/` project, `Controllers/`, `Globals/`, `Models/`, data JSON copied via csproj `CopyToOutputDirectory`).
+Kept **minimal**, modeled on `server-mod-examples/5ReadCustomJsonConfig` and Lacy's mod (a flat
+project: one entry file + one file per concern + a `config/` folder of JSON). No `Server/`
+sub-project, no `Controllers/Globals/Models` layering, no web UI — that's ABPS overkill we don't
+need for a static-JSON DB-editing mod.
 
 ```
 AlgorithmicQuestingProgression-csharp/
-  Server/
-    AlgorithmicQuestingProgression.csproj
-    QuestProgression.cs            # ModMetadata + IOnLoad entry (calls modules)
-    Controllers/
-      OverhaulController.cs        # port of OverHaulModule
-      AdjusterController.cs        # port of AdjusterModule
-      TransitController.cs         # NEW — remove map-transit requirements (ports Lacy EditTransits)
-      RefController.cs             # NEW — PvE-friendly Ref questline (ports Lacy EditRef)
-    Globals/
-      ModConfig.cs                 # loads config.json + QuestConfigs/*.json into typed models
-    Models/
-      AqpConfig.cs                 # typed config (toggles, modifiers)
-      QuestAdjustments.cs          # deleteReqList/adjustReqsList/TraderUnlockQuests/etc.
-      MainQuests.cs                # per-trader ordered lists model
-    Utils/
-      QuestTransforms.cs           # AvailableForStart*/traderUnlock builders, MongoId-from-seed
-      Constants.cs                 # removeList
-    config.json
-    QuestConfigs/
-      MainQuests.json              # generated list (carry over from TS repo, diff vs 558-quest DB — see §4a)
-      questAdjustments.json
-      ammoLevelUnlocks.json
+  AlgorithmicQuestingProgression.csproj   # Sdk.Web, 3 SPTarkov pkg refs (Common/DI/Server.Core)
+  AlgorithmicQuestingProgression.cs       # ModMetadata record + IOnLoad entry (dispatches modules by toggle)
+  AdjusterModule.cs                        # port of AdjusterModule (scalar modifiers)
+  TransitModule.cs                         # NEW — remove map-transit requirements (ports Lacy EditTransits)
+  RefModule.cs                             # NEW — PvE-friendly Ref questline (ports Lacy EditRef)
+  OverhaulModule.cs                        # port of OverHaulModule (the big quest-tree restructure)
+  ModConfig.cs                             # typed config records (toggles, modifiers, adjustments, main quests)
+  Utils.cs                                 # MongoId-from-seed, QuestName↔Id helpers, removeList constants
+  config/
+    config.json                            # module toggles + scalar modifiers
+    MainQuests.json                        # generated list (carry over from TS repo, diff vs 558-quest DB — see §4a)
+    questAdjustments.json                  # deleteReqList/adjustReqsList/TraderUnlockQuests/etc.
+    ammoLevelUnlocks.json                  # calibre → ammo unlock tiers
+  LICENSE                                  # MIT
   .gitignore
   README.md  (this file)
   .git/      (own repository)
 ```
+
+Config is read with `ModHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly())` +
+`ModHelper.GetJsonDataFromFile<T>(path, "config/config.json")`. JSON files are copied to output
+via `<None Update="config\*.json"><CopyToOutputDirectory>PreserveNewest</...></None>`.
 
 ---
 
