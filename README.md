@@ -102,7 +102,7 @@ AlgorithmicQuestingProgression-csharp/
       Constants.cs                 # removeList
     config.json
     QuestConfigs/
-      MainQuests.json              # curated list (carry over from TS repo, verify IDs vs 558-quest DB)
+      MainQuests.json              # generated list (carry over from TS repo, diff vs 558-quest DB — see §4a)
       questAdjustments.json
       ammoLevelUnlocks.json
   .gitignore
@@ -138,6 +138,35 @@ wipes).
 
 ---
 
+## 4a. How `MainQuests.json` was generated, and the v1 validation strategy
+
+**Important context (from the author):** the curated list was **not** hand-typed. It was
+built **programmatically**:
+
+1. A custom **difficulty scoring** function assigned each quest a score, **per trader**.
+2. Quests were **sorted by that score** (rough easy → hard ordering) within each trader.
+3. Quests that worked well together were grouped into **multi-step chains** — this is why
+   some `MainQuests.json` entries are **arrays of names** (parallel/sub-chain) rather than
+   single strings.
+
+**v1 strategy (agreed): "port-then-diff, then fix."**
+- Carry over the existing `MainQuests.json` from the TS repo **as the baseline** (it already
+  encodes the difficulty ordering + the multi-step groupings — that work is preserved).
+- Run a **diff/validation pass** against the current 558-quest DB:
+  - Resolve every `QuestName` → quest `_id`. Report any name that **no longer exists** or
+    has changed.
+  - Report current-DB quests for a trader that are **missing from the list** (new quests
+    added since the list was generated).
+- **Fix from there**: manually slot unmatched/new quests into the ordering (or drop renamed
+  ones), keeping the existing scored order intact where possible.
+
+**Future option (not v1):** re-implement the original difficulty-scoring algorithm in C# so
+the list can be **regenerated** from any wipe's quest set automatically (instead of manual
+fix-ups). Worth doing only if quest churn becomes a maintenance burden — for now the
+port-then-diff approach reuses the existing curation and only patches the deltas.
+
+---
+
 ## 5. Build phases
 
 1. **Scaffold** — csproj (ref SPT 4.0 server assemblies like ABPS), ModMetadata, IOnLoad entry, logger, build to local TEST `SPT/user/mods/`.
@@ -155,7 +184,7 @@ wipes).
 ## 6. Open decisions (need owner input)
 
 - **Scope v1**: ship Adjuster-only first (low-risk, useful immediately), then Overhaul? Or full parity in one go?
-- **MainQuests.json**: reuse the existing curated list as-is and validate, or re-curate against the current wipe's quest set?
+- **MainQuests.json**: ~~reuse vs re-curate~~ **DECIDED** → port the existing list as baseline, diff against current DB, fix the deltas (see §4a). Re-implementing the scoring algorithm in C# is a possible future enhancement, not v1.
 - **Config-manager web UI**: ABPS has one (Blazor `wwwroot`); do we want runtime config for AQP or static JSON only?
 - **Mod GUID / name / version / license** for `ModMetadata`.
 - **Repo destiny**: stays a private nested repo, or eventually pushed to your GitHub as `AlgorithmicQuestingProgression-csharp`?
