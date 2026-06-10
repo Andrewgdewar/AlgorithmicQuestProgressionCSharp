@@ -43,6 +43,19 @@ Independent multipliers applied to every quest (does NOT restructure):
 - `questExperienceModifier`, `itemRewardModifier`, `traderStandingRewardModifier` — scale success rewards.
 - `replaceGunsmith` — replace WeaponAssembly quests with a kill quest (rewrites locale text).
 
+### C. NEW — Remove map-transit requirements (`removeTransitQuests`)
+Not in the original TS mod. **Inspired by [Lacyway/LacywayPvETweaks](https://github.com/Lacyway/LacywayPvETweaks) `EditTransits()`** — strips the "transit between maps" requirements that are tedious in a co-op PvE server. Behaves as a standalone toggle (like the Adjuster modifiers) so it works with or without the Overhaul.
+
+Lacy's algorithm (the reference we'll port), per quest in `databaseService.GetQuests()`:
+1. **Find transit quests** — any quest whose `Conditions.AvailableForFinish` has a `Counter.Conditions` entry where `Status.Count == 1 && Status.Contains("Transit")`.
+2. For each, locate that transit condition.
+3. For sibling `AvailableForFinish` conditions flagged `OneSessionOnly` → set `OneSessionOnly = false` and queue their locale Ids for cleanup. If the transit condition itself is `OneSessionOnly`, queue **all** of that quest's `AvailableForFinish` Ids.
+4. **Remove** the transit condition from `AvailableForFinish`.
+5. **Strip dangling `VisibilityConditions`** — any child `AvailableForFinish` condition whose `VisibilityConditions[].Target` pointed at the removed transit step gets that visibility link removed (so the step shows immediately instead of being gated behind a now-deleted transit).
+6. **Locale cleanup** — via `Locales.Global` lazy-load transformers, strip the trailing `" (MapName)"` suffix from the affected condition descriptions (`LastIndexOf(" (")`).
+
+> Note: the live server currently gets transit removal from Lacy's mod (its `transits` toggle is on). Folding it into AQP lets us drop that dependency and keep all quest-flow changes in one mod — but if Lacy's mod stays installed, only **one** of the two should have transit removal enabled to avoid double-processing.
+
 ### Config surface (TS)
 - `config/config.json` — module toggles + debug flags + all scalar modifiers + `disableDailies`.
 - `config/QuestConfigs/MainQuests.json` — the curated per-trader ordered quest-name lists (the heart of the mod).
@@ -91,6 +104,7 @@ AlgorithmicQuestingProgression-csharp/
     Controllers/
       OverhaulController.cs        # port of OverHaulModule
       AdjusterController.cs        # port of AdjusterModule
+      TransitController.cs         # NEW — remove map-transit requirements (ports Lacy EditTransits)
     Globals/
       ModConfig.cs                 # loads config.json + QuestConfigs/*.json into typed models
     Models/
@@ -124,6 +138,7 @@ wipes).
 | Project scaffold + ModMetadata + IOnLoad | Easy | Copy ABPS pattern |
 | Config loading (typed JSON) | Easy | `server-mod-examples/5ReadCustomJsonConfig` |
 | AdjusterModule port | Easy–Med | Pure scalar loops; locale rewrite for gunsmith is the only fiddly bit |
+| Transit removal (Lacy port) | Easy–Med | Find Transit-status conditions, remove + fix VisibilityConditions + locale suffix cleanup |
 | OverhaulModule: remove/flatten/link | Med | Direct port; careful with sub-chain branching |
 | OverhaulModule: trader unlock + fence/kappa | Med | Trader base flag + reward push |
 | OverhaulModule: reward rebalance | Med–Hard | Index-scaled exp/money/standing, currency normalization |
@@ -172,12 +187,13 @@ port-then-diff approach reuses the existing curation and only patches the deltas
 1. **Scaffold** — csproj (ref SPT 4.0 server assemblies like ABPS), ModMetadata, IOnLoad entry, logger, build to local TEST `SPT/user/mods/`.
 2. **Config** — port `config.json` + `QuestConfigs/*.json`, typed models, loader (`ModConfig`).
 3. **Adjuster** — port AdjusterModule (scalar modifiers). Testable in isolation, lowest risk → do first.
-4. **Overhaul core** — remove list, flatten, QuestName↔Id map, level-99 hide, chain re-linking.
-5. **Overhaul traders** — trader unlock chains, fence/kappa start requirements.
-6. **Overhaul rewards** — exp/money/standing rebalance + currency normalization.
-7. **Overhaul assorts** — loyalty reassignment + ammo tiers (last, hardest).
-8. **Validation pass** — re-check `MainQuests.json` against current 558-quest DB; log unmatched; fix.
-9. **Test** — fresh profile on TEST, walk early progression per trader, verify unlocks/rewards.
+4. **Transit removal** — port Lacy's `EditTransits()` as a standalone toggle (low risk, independent of Overhaul).
+5. **Overhaul core** — remove list, flatten, QuestName↔Id map, level-99 hide, chain re-linking.
+6. **Overhaul traders** — trader unlock chains, fence/kappa start requirements.
+7. **Overhaul rewards** — exp/money/standing rebalance + currency normalization.
+8. **Overhaul assorts** — loyalty reassignment + ammo tiers (last, hardest).
+9. **Validation pass** — re-check `MainQuests.json` against current 558-quest DB; log unmatched; fix.
+10. **Test** — fresh profile on TEST, walk early progression per trader, verify unlocks/rewards.
 
 ---
 
@@ -186,6 +202,7 @@ port-then-diff approach reuses the existing curation and only patches the deltas
 - **Scope v1**: ship Adjuster-only first (low-risk, useful immediately), then Overhaul? Or full parity in one go?
 - **MainQuests.json**: ~~reuse vs re-curate~~ **DECIDED** → port the existing list as baseline, diff against current DB, fix the deltas (see §4a). Re-implementing the scoring algorithm in C# is a possible future enhancement, not v1.
 - **Config-manager web UI**: ABPS has one (Blazor `wwwroot`); do we want runtime config for AQP or static JSON only?
+- **Transit removal vs Lacy's mod**: AQP will include its own transit removal (§1C). Decide whether to disable Lacy's `transits` toggle and let AQP own it, or keep Lacy's and ship AQP's transit removal **off** by default to avoid double-processing.
 - **Mod GUID / name / version / license** for `ModMetadata`.
 - **Repo destiny**: stays a private nested repo, or eventually pushed to your GitHub as `AlgorithmicQuestingProgression-csharp`?
 
@@ -193,6 +210,7 @@ port-then-diff approach reuses the existing curation and only patches the deltas
 
 ## 7. References
 - Original TS mod: https://github.com/Andrewgdewar/AlgorithmicQuestingProgression
+- Transit-removal reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditTransits()`, `Code/TweaksConfig.cs` → `RemoveTransitQuests`)
 - Working C# reference: `D:\tarky\botplacementsystem\` (ABPS fork)
 - C# examples: `D:\tarky\server-mod-examples\` (esp. 2EditDatabase, 3EditSptConfig, 5ReadCustomJsonConfig, 14AfterDBLoadHook)
 - Quest data: `D:\tarky\TEST\SPT\SPT_Data\database\templates\quests.json` (558 quests)
