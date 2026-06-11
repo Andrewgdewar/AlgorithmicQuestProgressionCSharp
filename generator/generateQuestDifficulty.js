@@ -19,6 +19,7 @@ const path = require("path");
 // Paths (point at the TEST server's bundled data)
 // ---------------------------------------------------------------------------
 const DB = "D:/tarky/TEST/SPT/SPT_Data/database";
+const QUEST_CONFIG = "D:/tarky/TEST/SPT/SPT_Data/configs/quest.json";
 const OUT_DIR = path.join(__dirname, "output");
 
 // ---------------------------------------------------------------------------
@@ -77,6 +78,17 @@ const WEIGHTS = {
 };
 
 // ---------------------------------------------------------------------------
+// EVENT FILTERING
+//   Seasonal event quests (Christmas/Halloween/etc.) REQUIRE the event window,
+//   so they are excluded. Non-seasonal event quests (season "None") do not
+//   require a calendar event; we keep them but tag them so they can be reviewed.
+// ---------------------------------------------------------------------------
+const EVENTS = {
+  excludeSeasonal: true, // drop quests with a real season (require the event)
+  excludeNonSeasonal: false, // drop non-seasonal event quests too? (kept + tagged by default)
+};
+
+// ---------------------------------------------------------------------------
 // Lookup tables
 // ---------------------------------------------------------------------------
 const CURRENCY_TPL = {
@@ -127,6 +139,16 @@ function loadJson(p) {
 const quests = loadJson(`${DB}/templates/quests.json`);
 const items = loadJson(`${DB}/templates/items.json`);
 const locale = loadJson(`${DB}/locales/global/en.json`);
+
+// Event quests from the quest config -> { questId: { season, name, yearly } }
+const questConfig = loadJson(QUEST_CONFIG);
+const eventQuests = questConfig.eventQuests || {};
+function eventInfo(questId) {
+  const e = eventQuests[questId];
+  if (!e) return null;
+  const seasonal = e.season && String(e.season).toLowerCase() !== "none";
+  return { season: e.season, seasonal, name: e.name };
+}
 
 // Trader id -> nickname
 const traderNames = {};
@@ -330,10 +352,13 @@ function scoreQuest(quest) {
   }
   score += (rewards.exp / 1000) * WEIGHTS.rewardExpWeight;
 
+  const ev = eventInfo(quest._id);
+
   return {
     score: Math.round(score * 100) / 100,
     level,
     type: quest.type,
+    event: ev ? (ev.seasonal ? ev.season : "non-seasonal") : null,
     reqs: reqs.join("; ") || "(no objectives)",
     rewards: {
       exp: rewards.exp,
@@ -349,7 +374,19 @@ function scoreQuest(quest) {
 // Build per-trader, score-sorted output
 // ---------------------------------------------------------------------------
 const byTrader = {}; // traderName -> [ {questName, ...scored} ]
+const excluded = []; // [{questName, trader, reason}]
 for (const quest of Object.values(quests)) {
+  const ev = eventInfo(quest._id);
+  if (ev) {
+    if (ev.seasonal && EVENTS.excludeSeasonal) {
+      excluded.push({ questName: quest.QuestName, trader: traderNames[quest.traderId] || quest.traderId, reason: `seasonal:${ev.season}` });
+      continue;
+    }
+    if (!ev.seasonal && EVENTS.excludeNonSeasonal) {
+      excluded.push({ questName: quest.QuestName, trader: traderNames[quest.traderId] || quest.traderId, reason: "non-seasonal-event" });
+      continue;
+    }
+  }
   const trader = traderNames[quest.traderId] || quest.traderId;
   if (!byTrader[trader]) byTrader[trader] = [];
   byTrader[trader].push({ questName: quest.QuestName, ...scoreQuest(quest) });
@@ -382,12 +419,17 @@ fs.writeFileSync(
   path.join(OUT_DIR, "questDifficulty.flat.json"),
   JSON.stringify(flat, null, 2)
 );
+fs.writeFileSync(
+  path.join(OUT_DIR, "excludedEventQuests.json"),
+  JSON.stringify(excluded, null, 2)
+);
 
 // ---------------------------------------------------------------------------
 // Console summary
 // ---------------------------------------------------------------------------
 console.log("Weights used:", JSON.stringify(WEIGHTS));
-console.log(`\nTotal quests scored: ${flat.length}\n`);
+console.log("Event filter:", JSON.stringify(EVENTS));
+console.log(`\nTotal quests scored: ${flat.length}  (excluded events: ${excluded.length})\n`);
 for (const trader of Object.keys(output)) {
   const entries = Object.entries(output[trader]);
   const min = entries[0];
@@ -397,4 +439,13 @@ for (const trader of Object.keys(output)) {
       `easiest: ${min[0]} (${min[1].score})  hardest: ${max[0]} (${max[1].score})`
   );
 }
-console.log(`\nWrote:\n  ${path.join(OUT_DIR, "questDifficulty.json")}\n  ${path.join(OUT_DIR, "questDifficulty.flat.json")}`);
+if (excluded.length) {
+  console.log(`\nExcluded event quests (${excluded.length}):`);
+  excluded.forEach((e) => console.log(`  - ${e.questName.padEnd(34)} [${e.reason}] (${e.trader})`));
+}
+const nonSeasonalKept = flat.filter((q) => q.event === "non-seasonal");
+if (nonSeasonalKept.length) {
+  console.log(`\nNon-seasonal event quests KEPT + tagged (${nonSeasonalKept.length}) — review:`);
+  nonSeasonalKept.forEach((q) => console.log(`  - ${q.questName.padEnd(34)} (${q.trader})`));
+}
+console.log(`\nWrote:\n  ${path.join(OUT_DIR, "questDifficulty.json")}\n  ${path.join(OUT_DIR, "questDifficulty.flat.json")}\n  ${path.join(OUT_DIR, "excludedEventQuests.json")}`);

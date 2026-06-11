@@ -1,0 +1,47 @@
+[
+  {
+    "questName": "Night of The Cult",
+    "trader": "Jaeger",
+    "reason": "seasonal:Halloween"
+  },
+  {
+    "questName": "Dont Believe Your Eyes",
+    "trader": "Jaeger",
+    "reason": "seasonal:Halloween"
+  },
+  {
+    "questName": "Global Threat",
+    "trader": "Peacekeeper",
+    "reason": "seasonal:Halloween"
+  },
+  {
+    "questName": "Christmas Dinner",
+    "trader": "Prapor",
+    "reason": "seasonal:Christmas"
+  },
+  {
+    "questName": "Chilly",
+    "trader": "Jaeger",
+    "reason": "seasonal:Christmas"
+  },
+  {
+    "questName": "Hide in Plain Sight",
+    "trader": "Ragman",
+    "reason": "seasonal:Christmas"
+  },
+  {
+    "questName": "Cheer Up",
+    "trader": "Prapor",
+    "reason": "seasonal:Christmas"
+  },
+  {
+    "questName": "Holiday Beyond the Means",
+    "trader": "Skier",
+    "reason": "seasonal:Christmas"
+  },
+  {
+    "questName": "Khorovod",
+    "trader": "Prapor",
+    "reason": "seasonal:Christmas"
+  }
+]

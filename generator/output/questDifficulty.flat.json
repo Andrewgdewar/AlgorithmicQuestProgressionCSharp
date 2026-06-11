@@ -6,6 +6,7 @@
     "score": 4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 5600,
@@ -22,6 +23,7 @@
     "score": 4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 6500,
@@ -38,6 +40,7 @@
     "score": 4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x2",
     "rewards": {
       "exp": 21000,
@@ -54,6 +57,7 @@
     "score": 5.32,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 3x Korund-VM Front/ESBI IV Side/… (FiR)",
     "rewards": {
       "exp": 3600,
@@ -70,6 +74,7 @@
     "score": 5.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item",
     "rewards": {
       "exp": 5000,
@@ -86,6 +91,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x2",
     "rewards": {
       "exp": 11000,
@@ -102,6 +108,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Dirt; Hand over 1x Dirt",
     "rewards": {
       "exp": 18500,
@@ -118,6 +125,7 @@
     "score": 7,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies",
     "rewards": {
       "exp": 5100,
@@ -134,6 +142,7 @@
     "score": 8.1,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Completion x1; on bigmap; Find 1x Overseer",
     "rewards": {
       "exp": 11700,
@@ -150,6 +159,7 @@
     "score": 8.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 2 PMCs",
     "rewards": {
       "exp": 7000,
@@ -166,6 +176,7 @@
     "score": 15.4,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 5x Aquamari/IceGreen/… (FiR); Hand over 5x Alyonka/Tushonka/… (FiR)",
     "rewards": {
       "exp": 4200,
@@ -182,6 +193,7 @@
     "score": 17,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 1,000,000 RUB; Completion x3; Completion x4",
     "rewards": {
       "exp": 12000,
@@ -198,6 +210,7 @@
     "score": 17.8,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 2 Kaban Sniper",
     "rewards": {
       "exp": 10000,
@@ -214,6 +227,7 @@
     "score": 37.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item; Kill 15 enemies",
     "rewards": {
       "exp": 32000,
@@ -230,6 +244,7 @@
     "score": 121,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 100 enemies",
     "rewards": {
       "exp": 23000,
@@ -246,6 +261,7 @@
     "score": 1.8,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Copy",
     "rewards": {
       "exp": 3500,
@@ -262,6 +278,7 @@
     "score": 2,
     "level": 1,
     "type": "Loyalty",
+    "event": null,
     "reqs": "TraderStanding",
     "rewards": {
       "exp": 8800,
@@ -278,6 +295,7 @@
     "score": 3.88,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 2x M4A1 (FiR)",
     "rewards": {
       "exp": 0,
@@ -294,6 +312,7 @@
     "score": 4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 28000,
@@ -310,6 +329,7 @@
     "score": 6.76,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Whiskey (FiR); Hand over 3x TarCola (FiR)",
     "rewards": {
       "exp": 0,
@@ -326,6 +346,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Dirt; Hand over 1x Dirt",
     "rewards": {
       "exp": 18500,
@@ -342,6 +363,7 @@
     "score": 15.4,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 5x BEAR (FiR); Hand over 5x USEC (FiR)",
     "rewards": {
       "exp": 0,
@@ -358,6 +380,7 @@
     "score": 18.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 30000,
@@ -374,6 +397,7 @@
     "score": 22,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 PMCs",
     "rewards": {
       "exp": 0,
@@ -390,6 +414,7 @@
     "score": 22,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 PMCs",
     "rewards": {
       "exp": 25600,
@@ -406,6 +431,7 @@
     "score": 31.78,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Ded Moroz; Hand over 1x Ded Moroz (FiR); Find 1x Mutkevich; Hand over 1x Mutkevich (FiR); Find 1x Killa; Hand over 1x Killa (FiR); Find 1x Reshala; Hand over 1x Reshala (FiR); Find 1x Ryzhy; Hand over 1x Ryzhy (FiR); Find 1x Scav; Hand over 1x Scav (FiR); Find 1x Tagilla; Hand over 1x Tagilla (FiR); Find 1x Cultist; Hand over 1x Cultist (FiR); Find 1x Den; Hand over 1x Den (FiR)",
     "rewards": {
       "exp": 22800,
@@ -422,6 +448,7 @@
     "score": 49,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 boar",
     "rewards": {
       "exp": 36800,
@@ -438,6 +465,7 @@
     "score": 50.8,
     "level": 50,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Hand over 1x Epsilon",
     "rewards": {
       "exp": 433333,
@@ -454,6 +482,7 @@
     "score": 57.16,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Firesteel (FiR); Hand over 1x Axe (FiR); Hand over 1x Book (FiR); Hand over 1x #FireKlean (FiR); Hand over 1x Rooster (FiR); Hand over 1x Badge (FiR); Hand over 1x BeardOil (FiR); Hand over 1x 1GPhone (FiR); Hand over 1x Mayo (FiR); Hand over 1x Sprats (FiR); Hand over 1x Mustache (FiR); Hand over 1x Kotton (FiR); Hand over 1x Raven (FiR); Hand over 1x Plague mask (FiR); Hand over 1x Shroud (FiR); Hand over 1x DrLupo's (FiR); Hand over 1x 42 (FiR); Hand over 1x Veritas (FiR); Hand over 1x Evasion (FiR); Hand over 1x RatCola (FiR); Hand over 1x Loot Lord (FiR); Hand over 1x Smoke (FiR); Hand over 1x WZ (FiR); Hand over 1x Poison (FiR); Hand over 1x Danex (FiR); Hand over 1x VHS (FiR); Hand over 1x BakeEzy (FiR); Hand over 1x JohnB (FiR); Hand over 1x Baddie (FiR); Hand over 1x DRD (FiR); Hand over 1x Gingy (FiR); Hand over 1x Egg (FiR); Hand over 1x Pass (FiR); Hand over 1x Axel (FiR); Hand over 1x BEAR Buddy (FiR); Hand over 1x Glorious (FiR); Hand over 1x Inseq (FiR); Hand over 1x Viibiin (FiR); Hand over 1x Tamatthi (FiR)",
     "rewards": {
       "exp": 0,
@@ -470,6 +499,7 @@
     "score": 137.5,
     "level": 25,
     "type": "Multi",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 30000,
@@ -486,6 +516,7 @@
     "score": 266.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 55 infectedassault; on Lighthouse",
     "rewards": {
       "exp": 45000,
@@ -502,6 +533,7 @@
     "score": 3.6,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Code; Completion x1",
     "rewards": {
       "exp": 6600,
@@ -514,26 +546,11 @@
   {
     "trader": "Jaeger",
     "order": 2,
-    "questName": "Dont Believe Your Eyes",
-    "score": 4,
-    "level": 1,
-    "type": "Discover",
-    "reqs": "Discover x1; Discover x1",
-    "rewards": {
-      "exp": 7000,
-      "standing": 0.01,
-      "money": 35000,
-      "moneyCcy": "RUB"
-    },
-    "id": "670404a2ea1caa8f2e0be106"
-  },
-  {
-    "trader": "Jaeger",
-    "order": 3,
     "questName": "Every Hunter Knows This",
     "score": 4,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1",
     "rewards": {
       "exp": 5800,
@@ -545,11 +562,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 4,
+    "order": 3,
     "questName": "Rough Tarkov",
     "score": 4,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1",
     "rewards": {
       "exp": 4440,
@@ -561,11 +579,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 5,
+    "order": 4,
     "questName": "The Tarkov Shooter - Part 2",
     "score": 4,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Elimination x3; Elimination x2",
     "rewards": {
       "exp": 12400,
@@ -577,11 +596,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 6,
+    "order": 5,
     "questName": "Fearless Beast",
     "score": 4.6,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Kill 3 enemies",
     "rewards": {
       "exp": 24200,
@@ -593,11 +613,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 7,
+    "order": 6,
     "questName": "The Survivalist Path - Zhivchik",
     "score": 5.5,
     "level": 1,
     "type": "Experience",
+    "event": null,
     "reqs": "Experience x1; on laboratory; Completion x1",
     "rewards": {
       "exp": 5700,
@@ -609,11 +630,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 8,
+    "order": 7,
     "questName": "Dirty Blood",
     "score": 5.75,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Infected blood; Hand over 1x Infected blood",
     "rewards": {
       "exp": 18000,
@@ -625,11 +647,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 9,
+    "order": 8,
     "questName": "Dragnet",
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Chemcont; Hand over 1x Chemcont",
     "rewards": {
       "exp": 17300,
@@ -641,11 +664,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 10,
+    "order": 9,
     "questName": "The Survivalist Path - Tough Guy",
     "score": 6.1,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 3 enemies; on Woods",
     "rewards": {
       "exp": 7000,
@@ -657,11 +681,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 11,
+    "order": 10,
     "questName": "The Survivalist Path - Wounded Beast",
     "score": 6.1,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 3 enemies",
     "rewards": {
       "exp": 5800,
@@ -673,11 +698,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 12,
+    "order": 11,
     "questName": "The Huntsman Path - Controller",
     "score": 7,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 2 PMCs",
     "rewards": {
       "exp": 7200,
@@ -689,11 +715,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 13,
+    "order": 12,
     "questName": "The Survivalist Path - Combat Medic",
     "score": 7,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Raise Vitality to 5",
     "rewards": {
       "exp": 5900,
@@ -705,11 +732,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 14,
+    "order": 13,
     "questName": "The Tarkov Shooter - Part 1",
     "score": 7,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies",
     "rewards": {
       "exp": 12300,
@@ -721,11 +749,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 15,
+    "order": 14,
     "questName": "Contagious Beast",
     "score": 7.3,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 infectedtagilla; Completion x1",
     "rewards": {
       "exp": 65000,
@@ -737,11 +766,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 16,
+    "order": 15,
     "questName": "Claustrophobia",
     "score": 8.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies",
     "rewards": {
       "exp": 25400,
@@ -753,11 +783,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 17,
+    "order": 16,
     "questName": "The Survivalist Path - Cold Blooded",
     "score": 8.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 2 PMCs",
     "rewards": {
       "exp": 5900,
@@ -769,11 +800,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 18,
+    "order": 17,
     "questName": "The Huntsman Path - Eraser - Part 1",
     "score": 9.4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 1 Glukhar",
     "rewards": {
       "exp": 18300,
@@ -785,11 +817,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 19,
+    "order": 18,
     "questName": "The Huntsman Path - Sadist",
     "score": 9.4,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Sanitar",
     "rewards": {
       "exp": 16300,
@@ -801,11 +834,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 20,
+    "order": 19,
     "questName": "The Survivalist Path - Unprotected but Dangerous",
     "score": 10,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 5 enemies; on Woods",
     "rewards": {
       "exp": 5600,
@@ -817,11 +851,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 21,
+    "order": 20,
     "questName": "The Tarkov Shooter - Part 3",
     "score": 10,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 3 PMCs",
     "rewards": {
       "exp": 10500,
@@ -833,11 +868,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 22,
+    "order": 21,
     "questName": "The Tarkov Shooter - Part 6",
     "score": 10,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 marksman",
     "rewards": {
       "exp": 13100,
@@ -849,11 +885,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 23,
+    "order": 22,
     "questName": "The Tarkov Shooter - Part 8",
     "score": 10,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 3 PMCs",
     "rewards": {
       "exp": 30000,
@@ -865,11 +902,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 24,
+    "order": 23,
     "questName": "Acquaintance",
     "score": 11.08,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 3x Iskra (FiR); Hand over 2x Noodles (FiR); Hand over 2x Tushonka (FiR)",
     "rewards": {
       "exp": 3900,
@@ -881,11 +919,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 25,
+    "order": 24,
     "questName": "The Survivalist Path - Eagle-Owl",
     "score": 11.2,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 6 enemies; on Lighthouse",
     "rewards": {
       "exp": 5900,
@@ -897,11 +936,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 26,
+    "order": 25,
     "questName": "The Tarkov Shooter - Part 5",
     "score": 12.1,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 8 enemies; on bigmap",
     "rewards": {
       "exp": 13000,
@@ -913,11 +953,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 27,
+    "order": 26,
     "questName": "The Delicious Sausage",
     "score": 12.44,
     "level": 5,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Discover x1; Hand over 1x Sausage (FiR)",
     "rewards": {
       "exp": 2600,
@@ -929,11 +970,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 28,
+    "order": 27,
     "questName": "Broadcast - Part 5",
     "score": 12.57,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Kill 1 Cultist Priest; Exploration x1; Plant item",
     "rewards": {
       "exp": 24000,
@@ -945,11 +987,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 29,
+    "order": 28,
     "questName": "The Huntsman Path - Factory Chief",
     "score": 12.82,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Tagilla; Find 1x Cap/Horns; Hand over 1x Cap/Horns (FiR)",
     "rewards": {
       "exp": 16000,
@@ -961,11 +1004,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 30,
+    "order": 29,
     "questName": "The Huntsman Path - Sellout",
     "score": 12.82,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Killa; Find 1x Maska-1SCh KE/Maska-1SCh CE; Hand over 1x Maska-1SCh KE/Maska-1SCh CE (FiR)",
     "rewards": {
       "exp": 20000,
@@ -977,11 +1021,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 31,
+    "order": 30,
     "questName": "The Huntsman Path - Trophy",
     "score": 12.82,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 1 Reshala; Find 1x TT Gold; Hand over 1x TT Gold (FiR)",
     "rewards": {
       "exp": 15300,
@@ -993,11 +1038,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 32,
+    "order": 31,
     "questName": "The Huntsman Path - Woods Keeper",
     "score": 12.82,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 1 Shturman; Find 1x SSK; Hand over 1x SSK (FiR)",
     "rewards": {
       "exp": 18000,
@@ -1009,11 +1055,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 33,
+    "order": 32,
     "questName": "Cease Fire",
     "score": 13,
     "level": 10,
     "type": "Completion",
+    "event": null,
     "reqs": "Elimination x1",
     "rewards": {
       "exp": 5600,
@@ -1025,11 +1072,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 34,
+    "order": 33,
     "questName": "Forgotten Oaths",
     "score": 14.15,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Vaccine recipe; Hand over 1x Vaccine recipe; Kill 1 Sanitar",
     "rewards": {
       "exp": 45000,
@@ -1041,27 +1089,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 35,
-    "questName": "Chilly",
-    "score": 14.5,
-    "level": 1,
-    "type": "Elimination",
-    "reqs": "Kill 10 enemies",
-    "rewards": {
-      "exp": 8900,
-      "standing": 0.02,
-      "money": 72000,
-      "moneyCcy": "RUB"
-    },
-    "id": "675031d3884e1da4a90b3bc9"
-  },
-  {
-    "trader": "Jaeger",
-    "order": 36,
+    "order": 34,
     "questName": "The Huntsman Path - Justice",
     "score": 15.4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 3 bully",
     "rewards": {
       "exp": 12300,
@@ -1073,11 +1106,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 37,
+    "order": 35,
     "questName": "The Tarkov Shooter - Part 4",
     "score": 16,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 PMCs",
     "rewards": {
       "exp": 11800,
@@ -1089,11 +1123,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 38,
+    "order": 36,
     "questName": "The Tarkov Shooter - Part 7",
     "score": 16,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 PMCs",
     "rewards": {
       "exp": 13300,
@@ -1105,11 +1140,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 39,
+    "order": 37,
     "questName": "Preemptive Strike",
     "score": 16.9,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Kill 12 enemies",
     "rewards": {
       "exp": 10500,
@@ -1121,11 +1157,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 40,
+    "order": 38,
     "questName": "The Graven Image",
     "score": 17.2,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 oni; Kill 1 predvestnik; Kill 1 prizrak",
     "rewards": {
       "exp": 40000,
@@ -1137,11 +1174,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 41,
+    "order": 39,
     "questName": "The Survivalist Path - Thrifty",
     "score": 18.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 4700,
@@ -1153,11 +1191,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 42,
+    "order": 40,
     "questName": "Foresters Duty",
     "score": 19,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies; Completion x1; on Lighthouse; Kill 5 enemies",
     "rewards": {
       "exp": 25600,
@@ -1169,11 +1208,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 43,
+    "order": 41,
     "questName": "The Huntsman Path - Evil Watchman",
     "score": 19,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 5 PMCs; on bigmap",
     "rewards": {
       "exp": 10000,
@@ -1185,11 +1225,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 44,
+    "order": 42,
     "questName": "The Huntsman Path - Secured Perimeter",
     "score": 22,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 6 PMCs; on factory4_day",
     "rewards": {
       "exp": 9800,
@@ -1201,11 +1242,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 45,
+    "order": 43,
     "questName": "The Survivalist Path - Junkie",
     "score": 22,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies; on Woods",
     "rewards": {
       "exp": 5900,
@@ -1217,11 +1259,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 46,
+    "order": 44,
     "questName": "Pest Control",
     "score": 23.5,
     "level": 10,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies",
     "rewards": {
       "exp": 7400,
@@ -1233,11 +1276,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 47,
+    "order": 45,
     "questName": "Broadcast - Part 3",
     "score": 24.5,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 10800,
@@ -1249,11 +1293,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 48,
+    "order": 46,
     "questName": "Reserve",
     "score": 24.5,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on RezervBase",
     "rewards": {
       "exp": 11800,
@@ -1265,11 +1310,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 49,
+    "order": 47,
     "questName": "The Hermit",
     "score": 26.25,
     "level": 20,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Letter; Hand over 1x Letter",
     "rewards": {
       "exp": 12000,
@@ -1281,11 +1327,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 50,
+    "order": 48,
     "questName": "Courtesy Visit",
     "score": 27.5,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; on Shoreline",
     "rewards": {
       "exp": 11800,
@@ -1297,27 +1344,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 51,
-    "questName": "Night of The Cult",
-    "score": 28,
-    "level": 1,
-    "type": "Elimination",
-    "reqs": "Kill 5 Cultist",
-    "rewards": {
-      "exp": 12500,
-      "standing": 0.02,
-      "money": 50000,
-      "moneyCcy": "RUB"
-    },
-    "id": "66e3e2ee2136472d220bcb36"
-  },
-  {
-    "trader": "Jaeger",
-    "order": 52,
+    "order": 49,
     "questName": "The Huntsman Path - Crooked Cop",
     "score": 30.04,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Kolontay; Kill 4 kolontayassault; Hand over 1x PR-Taran (FiR)",
     "rewards": {
       "exp": 36000,
@@ -1329,11 +1361,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 53,
+    "order": 50,
     "questName": "Shady Business",
     "score": 30.26,
     "level": 20,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x Flash drive; Hand over 3x Flash drive (FiR)",
     "rewards": {
       "exp": 11400,
@@ -1345,11 +1378,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 54,
+    "order": 51,
     "questName": "Rite of Passage",
     "score": 30.88,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; Kill 10 enemies; Hand over 2x Fuel (FiR)",
     "rewards": {
       "exp": 43000,
@@ -1361,11 +1395,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 55,
+    "order": 52,
     "questName": "Thirsty - Hounds",
     "score": 30.9,
     "level": 15,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 12 enemies; on Shoreline",
     "rewards": {
       "exp": 8500,
@@ -1377,11 +1412,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 56,
+    "order": 53,
     "questName": "Illegal Logging",
     "score": 31,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies; Kill 5 enemies; Kill 5 enemies; Kill 5 enemies",
     "rewards": {
       "exp": 9400,
@@ -1393,11 +1429,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 57,
+    "order": 54,
     "questName": "Broadcast - Part 4",
     "score": 31.5,
     "level": 27,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 22600,
@@ -1409,11 +1446,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 58,
+    "order": 55,
     "questName": "Fishing Place",
     "score": 31.84,
     "level": 25,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 2x Access; Hand over 2x Access (FiR)",
     "rewards": {
       "exp": 18000,
@@ -1425,11 +1463,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 59,
+    "order": 56,
     "questName": "Nostalgia",
     "score": 34.25,
     "level": 28,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Album; Hand over 1x Album",
     "rewards": {
       "exp": 16800,
@@ -1441,11 +1480,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 60,
+    "order": 57,
     "questName": "Ambulance",
     "score": 35.26,
     "level": 25,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 1x Defib (FiR); Find 2x CMS; Find 1x Defib; Hand over 2x CMS (FiR)",
     "rewards": {
       "exp": 14800,
@@ -1457,11 +1497,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 61,
+    "order": 58,
     "questName": "The Huntsman Path - Forest Cleaning",
     "score": 37,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 30 enemies",
     "rewards": {
       "exp": 5900,
@@ -1473,11 +1514,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 62,
+    "order": 59,
     "questName": "Fight Back",
     "score": 39.7,
     "level": 10,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 enemies; on Shoreline; Kill 7 enemies; on bigmap; Kill 7 enemies; on Woods",
     "rewards": {
       "exp": 7200,
@@ -1489,11 +1531,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 63,
+    "order": 60,
     "questName": "Hunting Trip",
     "score": 41.4,
     "level": 33,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 1 Shturman",
     "rewards": {
       "exp": 15000,
@@ -1505,11 +1548,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 64,
+    "order": 61,
     "questName": "The Huntsman Path - Big Game",
     "score": 43,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Kaban; Kill 5 boar; Kill 1 boarclose1; Kill 1 boarclose2",
     "rewards": {
       "exp": 33000,
@@ -1521,11 +1565,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 65,
+    "order": 62,
     "questName": "The Huntsman Path - Administrator",
     "score": 50,
     "level": 23,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 20 enemies; Completion x1",
     "rewards": {
       "exp": 15600,
@@ -1537,11 +1582,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 66,
+    "order": 63,
     "questName": "Stray Dogs",
     "score": 53,
     "level": 35,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Knight; Kill 1 Big Pipe; Kill 1 Bird Eye",
     "rewards": {
       "exp": 35000,
@@ -1553,11 +1599,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 67,
+    "order": 64,
     "questName": "The Huntsman Path - Eraser - Part 2",
     "score": 58.8,
     "level": 30,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 6 Raiders",
     "rewards": {
       "exp": 22500,
@@ -1569,11 +1616,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 68,
+    "order": 65,
     "questName": "The Huntsman Path - Outcasts",
     "score": 70,
     "level": 22,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 Rogues",
     "rewards": {
       "exp": 9000,
@@ -1585,11 +1633,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 69,
+    "order": 66,
     "questName": "Swift One",
     "score": 98,
     "level": 50,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 PMCs; on Woods",
     "rewards": {
       "exp": 107000,
@@ -1601,11 +1650,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 70,
+    "order": 67,
     "questName": "Hustle",
     "score": 102.7,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 1 Reshala; on Shoreline; Kill 1 Glukhar; on Shoreline; Kill 1 Killa; on Shoreline; Kill 1 Shturman; on Shoreline; Kill 1 Knight; on Shoreline; Kill 1 Big Pipe; on Shoreline; Kill 1 Bird Eye; on Shoreline; Kill 1 Sanitar; on Shoreline; Kill 1 Tagilla; on Shoreline; Kill 1 Kaban; on Shoreline; Kill 1 Kolontay; on Shoreline",
     "rewards": {
       "exp": 50000,
@@ -1617,11 +1667,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 71,
+    "order": 68,
     "questName": "The Huntsman Path - Relentless",
     "score": 115.4,
     "level": 65,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Tagilla; Kill 1 Killa; Kill 1 Reshala; Kill 1 Shturman; Kill 1 Glukhar; Kill 1 Sanitar",
     "rewards": {
       "exp": 280000,
@@ -1633,11 +1684,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 72,
+    "order": 69,
     "questName": "Gloves Off",
     "score": 121,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 infectedassault",
     "rewards": {
       "exp": 22000,
@@ -1649,11 +1701,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 73,
+    "order": 70,
     "questName": "Bloodhounds",
     "score": 145,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 30 Bloodhound",
     "rewards": {
       "exp": 0,
@@ -1665,11 +1718,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 74,
+    "order": 71,
     "questName": "Slaughterhouse",
     "score": 161.5,
     "level": 40,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; on factory4_day; Kill 10 enemies; on TarkovStreets; Kill 10 enemies; on Lighthouse; Kill 10 enemies; on Woods; Kill 10 enemies; on Shoreline; Kill 10 enemies; on Interchange; Kill 10 enemies; on bigmap; Kill 10 enemies; on RezervBase; Kill 10 enemies; on Sandbox",
     "rewards": {
       "exp": 34700,
@@ -1681,11 +1735,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 75,
+    "order": 72,
     "questName": "Hunter",
     "score": 169,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 Shturman",
     "rewards": {
       "exp": 0,
@@ -1697,11 +1752,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 76,
+    "order": 73,
     "questName": "Conservation Area",
     "score": 194.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 40 infectedassault; on Woods",
     "rewards": {
       "exp": 40000,
@@ -1713,11 +1769,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 77,
+    "order": 74,
     "questName": "Burn It Down",
     "score": 241,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 50 infectedassault",
     "rewards": {
       "exp": 15500,
@@ -1729,11 +1786,12 @@
   },
   {
     "trader": "Jaeger",
-    "order": 78,
+    "order": 75,
     "questName": "Darkest Hour Is Just Before Dawn",
     "score": 869.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 60 infectedassault; on Sandbox; Kill 60 infectedassault; on TarkovStreets; Kill 60 infectedassault; on laboratory",
     "rewards": {
       "exp": 33000,
@@ -1750,6 +1808,7 @@
     "score": 1.8,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Disk 1",
     "rewards": {
       "exp": 2500,
@@ -1766,6 +1825,7 @@
     "score": 1.8,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Decryption",
     "rewards": {
       "exp": 29000,
@@ -1782,6 +1842,7 @@
     "score": 2,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "GlobalVariableValue",
     "rewards": {
       "exp": 500,
@@ -1798,6 +1859,7 @@
     "score": 2,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "GlobalVariableValue",
     "rewards": {
       "exp": 1500,
@@ -1814,6 +1876,7 @@
     "score": 2,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "GlobalVariableValue",
     "rewards": {
       "exp": 5000,
@@ -1830,6 +1893,7 @@
     "score": 2.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 14000,
@@ -1846,6 +1910,7 @@
     "score": 3.1,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Labrys; Quest",
     "rewards": {
       "exp": 0,
@@ -1862,6 +1927,7 @@
     "score": 3.6,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Labrys",
     "rewards": {
       "exp": 4500,
@@ -1878,6 +1944,7 @@
     "score": 5.1,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Completion x1; Discover x1; Find 1x Knossos",
     "rewards": {
       "exp": 10300,
@@ -1894,6 +1961,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Experience x1; on Lighthouse",
     "rewards": {
       "exp": 31300,
@@ -1910,6 +1978,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Phone; Hand over 1x Phone",
     "rewards": {
       "exp": 4000,
@@ -1926,6 +1995,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Upgraded tools; Hand over 1x Upgraded tools",
     "rewards": {
       "exp": 7200,
@@ -1942,6 +2012,7 @@
     "score": 6,
     "level": 1,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 3000,
@@ -1958,6 +2029,7 @@
     "score": 6,
     "level": 1,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 29500,
@@ -1974,6 +2046,7 @@
     "score": 6,
     "level": 1,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 31250,
@@ -1990,6 +2063,7 @@
     "score": 6,
     "level": 1,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 35000,
@@ -2006,6 +2080,7 @@
     "score": 6,
     "level": 1,
     "type": "WeaponAssembly",
+    "event": "non-seasonal",
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 0,
@@ -2022,6 +2097,7 @@
     "score": 6.55,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Disk 1; Find 1x Release; Hand over 1x Release",
     "rewards": {
       "exp": 12300,
@@ -2038,6 +2114,7 @@
     "score": 6.67,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Plant item",
     "rewards": {
       "exp": 6700,
@@ -2054,6 +2131,7 @@
     "score": 6.76,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 4x SVDS (FiR)",
     "rewards": {
       "exp": 0,
@@ -2070,6 +2148,7 @@
     "score": 7,
     "level": 2,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 800,
@@ -2086,6 +2165,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Encr. info; Hand over 1x Encr. info",
     "rewards": {
       "exp": 4500,
@@ -2102,6 +2182,7 @@
     "score": 7.38,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Disk; Exploration x1; Plant item",
     "rewards": {
       "exp": 2000,
@@ -2118,6 +2199,7 @@
     "score": 7.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Completion x1; Plant item",
     "rewards": {
       "exp": 20500,
@@ -2134,6 +2216,7 @@
     "score": 8.35,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x V3 Flash; Find 1x DSPT; Hand over 1x V3 Flash; Exploration x1",
     "rewards": {
       "exp": 32000,
@@ -2150,6 +2233,7 @@
     "score": 8.35,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Find 1x V3 Flash; Find 1x DSPT; Hand over 1x V3 Flash; Exploration x1",
     "rewards": {
       "exp": 0,
@@ -2166,6 +2250,7 @@
     "score": 9.7,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Hand over 5x Labrys (FiR)",
     "rewards": {
       "exp": 15900,
@@ -2182,6 +2267,7 @@
     "score": 10,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1",
     "rewards": {
       "exp": 9800,
@@ -2198,6 +2284,7 @@
     "score": 10,
     "level": 5,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 2000,
@@ -2214,6 +2301,7 @@
     "score": 10.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Find 1x HDD; Hand over 1x HDD",
     "rewards": {
       "exp": 3800,
@@ -2230,6 +2318,7 @@
     "score": 11,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1,000,000 RUB",
     "rewards": {
       "exp": 500,
@@ -2246,6 +2335,7 @@
     "score": 11,
     "level": 1,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Hand over 1,000,000 RUB",
     "rewards": {
       "exp": 0,
@@ -2262,6 +2352,7 @@
     "score": 11.67,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Plant item; Plant item",
     "rewards": {
       "exp": 30200,
@@ -2278,6 +2369,7 @@
     "score": 12,
     "level": 7,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 2800,
@@ -2294,6 +2386,7 @@
     "score": 12.5,
     "level": 5,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Completion x1; on RezervBase",
     "rewards": {
       "exp": 7000,
@@ -2310,6 +2403,7 @@
     "score": 13.96,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 2x CPU (FiR); Hand over 4x RAM (FiR); Hand over 3x PCB/MB (FiR)",
     "rewards": {
       "exp": 3000,
@@ -2326,6 +2420,7 @@
     "score": 14,
     "level": 9,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 3600,
@@ -2342,6 +2437,7 @@
     "score": 15,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 8600,
@@ -2358,6 +2454,7 @@
     "score": 15,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 16500,
@@ -2374,6 +2471,7 @@
     "score": 15,
     "level": 10,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 4100,
@@ -2390,6 +2488,7 @@
     "score": 15,
     "level": 12,
     "type": "Standing",
+    "event": null,
     "reqs": "Reach LL3 Prapor",
     "rewards": {
       "exp": 6700,
@@ -2406,6 +2505,7 @@
     "score": 15.83,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 2x Plexiglass (FiR); Hand over 1x Tape (FiR); Hand over 2x MCB (FiR); Hand over 1x SG-C10 (FiR); Hand over 1x LCD (FiR); Find 1x Body; Hand over 1x Body",
     "rewards": {
       "exp": 30500,
@@ -2422,6 +2522,7 @@
     "score": 16.52,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Find 1x Tools; Completion x1; on bigmap; Kill 3 enemies; on factory4_night; Plant item",
     "rewards": {
       "exp": 19400,
@@ -2438,6 +2539,7 @@
     "score": 17.67,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 24200,
@@ -2454,6 +2556,7 @@
     "score": 17.75,
     "level": 13,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x MBT NC; Hand over 1x MBT NC",
     "rewards": {
       "exp": 7500,
@@ -2470,6 +2573,7 @@
     "score": 18,
     "level": 12,
     "type": "Discover",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 6700,
@@ -2486,6 +2590,7 @@
     "score": 18.1,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x MCable; Find 2x LCD; Find 2x Cord; Hand over 1x MCable (FiR); Hand over 2x LCD (FiR); Hand over 2x Cord (FiR)",
     "rewards": {
       "exp": 25000,
@@ -2502,6 +2607,7 @@
     "score": 18.28,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x SSD (FiR); Hand over 1x USB-A (FiR); Hand over 1x Powerbank (FiR); Hand over 1x RBattery (FiR); Hand over 1x CPU (FiR); Hand over 1x EC (FiR); Hand over 1x Wires (FiR); Hand over 1x Caps (FiR); Hand over 1x NIXXOR (FiR); Hand over 1x RAM (FiR); Hand over 1x LCD (FiR); Hand over 1x Bulb (FiR)",
     "rewards": {
       "exp": 32000,
@@ -2518,6 +2624,7 @@
     "score": 18.5,
     "level": 14,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Completion x1",
     "rewards": {
       "exp": 8200,
@@ -2534,6 +2641,7 @@
     "score": 19,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1",
     "rewards": {
       "exp": 10700,
@@ -2550,6 +2658,7 @@
     "score": 19,
     "level": 14,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 5800,
@@ -2566,6 +2675,7 @@
     "score": 19.5,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 7400,
@@ -2582,6 +2692,7 @@
     "score": 19.67,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 19100,
@@ -2598,6 +2709,7 @@
     "score": 20,
     "level": 15,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 6300,
@@ -2614,6 +2726,7 @@
     "score": 20.25,
     "level": 14,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Package; Hand over 1x Package",
     "rewards": {
       "exp": 6500,
@@ -2630,6 +2743,7 @@
     "score": 20.67,
     "level": 12,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 6600,
@@ -2646,6 +2760,7 @@
     "score": 21,
     "level": 12,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on factory4_day",
     "rewards": {
       "exp": 6800,
@@ -2662,6 +2777,7 @@
     "score": 21.25,
     "level": 15,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Knossos; Hand over 1x Knossos",
     "rewards": {
       "exp": 10600,
@@ -2678,6 +2794,7 @@
     "score": 22,
     "level": 17,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 8600,
@@ -2694,6 +2811,7 @@
     "score": 23.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 14000,
@@ -2710,6 +2828,7 @@
     "score": 24,
     "level": 19,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 9800,
@@ -2726,6 +2845,7 @@
     "score": 24.04,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 4x EC (FiR); Hand over 4x SG-C10 (FiR); Hand over 4x GasAn (FiR); Hand over 4x GPhone (FiR)",
     "rewards": {
       "exp": 18600,
@@ -2742,6 +2862,7 @@
     "score": 24.6,
     "level": 15,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Attention to 8",
     "rewards": {
       "exp": 8600,
@@ -2758,6 +2879,7 @@
     "score": 24.85,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies; Find 1x Map; Find 1x Diary; Hand over 1x Diary",
     "rewards": {
       "exp": 6000,
@@ -2774,6 +2896,7 @@
     "score": 25,
     "level": 20,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 10400,
@@ -2790,6 +2913,7 @@
     "score": 26.25,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Find 1x Flash; Hand over 1x Flash",
     "rewards": {
       "exp": 18500,
@@ -2806,6 +2930,7 @@
     "score": 26.5,
     "level": 17,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Data; Hand over 1x Data; Find 1x Report; Hand over 1x Report",
     "rewards": {
       "exp": 8000,
@@ -2822,6 +2947,7 @@
     "score": 26.5,
     "level": 22,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 13400,
@@ -2838,6 +2964,7 @@
     "score": 26.75,
     "level": 20,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Package; Completion x1; on Woods; Quest",
     "rewards": {
       "exp": 14000,
@@ -2854,6 +2981,7 @@
     "score": 27,
     "level": 22,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 11600,
@@ -2870,6 +2998,7 @@
     "score": 27.5,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 8500,
@@ -2886,6 +3015,7 @@
     "score": 27.5,
     "level": 23,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Completion x1",
     "rewards": {
       "exp": 23000,
@@ -2902,6 +3032,7 @@
     "score": 28,
     "level": 23,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 12300,
@@ -2918,6 +3049,7 @@
     "score": 29.5,
     "level": 25,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; on TarkovStreets; Completion x1",
     "rewards": {
       "exp": 25400,
@@ -2934,6 +3066,7 @@
     "score": 29.75,
     "level": 25,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x HDD; Hand over 1x HDD",
     "rewards": {
       "exp": 22800,
@@ -2950,6 +3083,7 @@
     "score": 30,
     "level": 25,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 13600,
@@ -2966,6 +3100,7 @@
     "score": 32,
     "level": 17,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon; Assemble weapon; Assemble weapon",
     "rewards": {
       "exp": 21930,
@@ -2982,6 +3117,7 @@
     "score": 32,
     "level": 27,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 14900,
@@ -2998,6 +3134,7 @@
     "score": 32,
     "level": 27,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 19400,
@@ -3014,6 +3151,7 @@
     "score": 35,
     "level": 30,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 20400,
@@ -3030,6 +3168,7 @@
     "score": 36,
     "level": 31,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 21400,
@@ -3046,6 +3185,7 @@
     "score": 38,
     "level": 33,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 23100,
@@ -3062,6 +3202,7 @@
     "score": 39.36,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x Cord; Hand over 2x Cord (FiR); Find 4x T-Plug; Hand over 4x T-Plug (FiR); Find 2x PCB; Hand over 2x PCB (FiR)",
     "rewards": {
       "exp": 5500,
@@ -3078,6 +3219,7 @@
     "score": 41,
     "level": 36,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 25500,
@@ -3094,6 +3236,7 @@
     "score": 41.84,
     "level": 35,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x RFIDR; Find 1x VPX; Hand over 1x RFIDR (FiR); Hand over 1x VPX (FiR)",
     "rewards": {
       "exp": 29000,
@@ -3110,6 +3253,7 @@
     "score": 42,
     "level": 37,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 26600,
@@ -3126,6 +3270,7 @@
     "score": 43,
     "level": 25,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 13000,
@@ -3142,6 +3287,7 @@
     "score": 44,
     "level": 39,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 28900,
@@ -3158,6 +3304,7 @@
     "score": 47.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 PMCs",
     "rewards": {
       "exp": 23500,
@@ -3174,6 +3321,7 @@
     "score": 48,
     "level": 38,
     "type": "WeaponAssembly",
+    "event": null,
     "reqs": "Assemble weapon; Assemble weapon",
     "rewards": {
       "exp": 27700,
@@ -3190,6 +3338,7 @@
     "score": 53.04,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x CPU; Hand over 3x CPU (FiR); Find 3x RBattery; Hand over 3x RBattery (FiR); Find 3x PCB; Hand over 3x PCB (FiR); Find 3x GPhone; Hand over 3x GPhone (FiR)",
     "rewards": {
       "exp": 6700,
@@ -3206,6 +3355,7 @@
     "score": 55,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; Kill 10 enemies; Kill 10 enemies; Kill 5 enemies; Kill 5 enemies; Kill 5 enemies",
     "rewards": {
       "exp": 20000,
@@ -3222,6 +3372,7 @@
     "score": 61,
     "level": 52,
     "type": "Multi",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 115000,
@@ -3238,6 +3389,7 @@
     "score": 62,
     "level": 35,
     "type": "Completion",
+    "event": null,
     "reqs": "Raise Sniper to 10; Kill 5 PMCs",
     "rewards": {
       "exp": 26700,
@@ -3254,6 +3406,7 @@
     "score": 63.3,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 5x Malboro; Hand over 5x Malboro (FiR); Find 5x Strike; Hand over 5x Strike (FiR); Find 5x Wilston; Hand over 5x Wilston (FiR)",
     "rewards": {
       "exp": 6700,
@@ -3270,6 +3423,7 @@
     "score": 64.2,
     "level": 30,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 5x Wires; Find 5x Caps; Hand over 5x Wires (FiR); Hand over 5x Caps (FiR)",
     "rewards": {
       "exp": 17200,
@@ -3286,6 +3440,7 @@
     "score": 66.34,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 Raiders; on laboratory; Hand over 15x SJ1 (FiR); Hand over 5x SJ6 (FiR); Hand over 1x SJ9 (FiR)",
     "rewards": {
       "exp": 24800,
@@ -3302,6 +3457,7 @@
     "score": 69.93,
     "level": 44,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x AK-50; Find 1x AK-50; Exploration x1; Exploration x1; Plant item; Plant item; Plant item; Plant item; Find 1x AK-50",
     "rewards": {
       "exp": 21380,
@@ -3318,6 +3474,7 @@
     "score": 75.56,
     "level": 14,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x GPU; Hand over 3x GPU (FiR); Find 15x CPU fan; Hand over 15x CPU fan (FiR)",
     "rewards": {
       "exp": 8000,
@@ -3334,6 +3491,7 @@
     "score": 107,
     "level": 47,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 PMCs",
     "rewards": {
       "exp": 93000,
@@ -3350,6 +3508,7 @@
     "score": 119.7,
     "level": 99,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 10 enemies; on factory4_night; Hand over 5x M4A1/MCX .300 BLK/… (FiR)",
     "rewards": {
       "exp": 64500,
@@ -3366,6 +3525,7 @@
     "score": 122.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 infectedassault; on factory4_day",
     "rewards": {
       "exp": 50000,
@@ -3382,6 +3542,7 @@
     "score": 133,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 PMCs; on Woods; Kill 5 PMCs; on RezervBase; Kill 5 PMCs; on Shoreline; Kill 5 PMCs; on bigmap; Kill 5 PMCs; on Lighthouse; Kill 5 PMCs; on TarkovStreets; Kill 5 PMCs; on Interchange; Kill 5 PMCs; on Sandbox",
     "rewards": {
       "exp": 12500,
@@ -3398,6 +3559,7 @@
     "score": 163,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 30 Cultist Priest",
     "rewards": {
       "exp": 0,
@@ -3414,6 +3576,7 @@
     "score": 451,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill ∞ PMCs",
     "rewards": {
       "exp": 0,
@@ -3430,6 +3593,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon",
     "rewards": {
       "exp": 8600,
@@ -3446,6 +3610,7 @@
     "score": 7,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1; on bigmap; Completion x1; on Shoreline",
     "rewards": {
       "exp": 6300,
@@ -3462,6 +3627,7 @@
     "score": 8.42,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Journal; Plant item",
     "rewards": {
       "exp": 15000,
@@ -3478,6 +3644,7 @@
     "score": 9,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Hand over 10x M4A1/MCX .300 BLK/…",
     "rewards": {
       "exp": 72600,
@@ -3494,6 +3661,7 @@
     "score": 10,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Completion x1; Completion x1; Completion x1; on Sandbox_high; Completion x1; Completion x1",
     "rewards": {
       "exp": 11800,
@@ -3510,6 +3678,7 @@
     "score": 10.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Group #3; Plant item; Hand over 1x Group #3",
     "rewards": {
       "exp": 17600,
@@ -3526,6 +3695,7 @@
     "score": 15,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 52400,
@@ -3542,6 +3712,7 @@
     "score": 16.5,
     "level": 12,
     "type": "Multi",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 8400,
@@ -3558,6 +3729,7 @@
     "score": 16.5,
     "level": 12,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 6200,
@@ -3574,6 +3746,7 @@
     "score": 16.75,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Toughbook; Hand over 1x Toughbook",
     "rewards": {
       "exp": 8200,
@@ -3590,6 +3763,7 @@
     "score": 16.75,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Health Resort; Hand over 1x Health Resort",
     "rewards": {
       "exp": 6500,
@@ -3606,6 +3780,7 @@
     "score": 18,
     "level": 12,
     "type": "Discover",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Discover x1; on Shoreline",
     "rewards": {
       "exp": 7700,
@@ -3622,6 +3797,7 @@
     "score": 18.25,
     "level": 12,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x 0013; Hand over 1x 0013",
     "rewards": {
       "exp": 8300,
@@ -3638,6 +3814,7 @@
     "score": 18.5,
     "level": 14,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 8200,
@@ -3654,6 +3831,7 @@
     "score": 18.75,
     "level": 14,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x T-90M CCP; Hand over 1x T-90M CCP",
     "rewards": {
       "exp": 7200,
@@ -3670,6 +3848,7 @@
     "score": 18.75,
     "level": 14,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Flash drive; Hand over 1x Flash drive",
     "rewards": {
       "exp": 8300,
@@ -3686,6 +3865,7 @@
     "score": 18.75,
     "level": 14,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x HDD; Hand over 1x HDD",
     "rewards": {
       "exp": 8400,
@@ -3702,6 +3882,7 @@
     "score": 19,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 7800,
@@ -3718,6 +3899,7 @@
     "score": 20,
     "level": 14,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Place beacon",
     "rewards": {
       "exp": 9700,
@@ -3734,6 +3916,7 @@
     "score": 20.5,
     "level": 10,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Plant item; Plant item",
     "rewards": {
       "exp": 4800,
@@ -3750,6 +3933,7 @@
     "score": 21,
     "level": 12,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon",
     "rewards": {
       "exp": 6300,
@@ -3766,6 +3950,7 @@
     "score": 21.9,
     "level": 12,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 enemies; on Shoreline",
     "rewards": {
       "exp": 7400,
@@ -3782,6 +3967,7 @@
     "score": 22.08,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x WD-40/WD-40 (FiR); Hand over 2x Clin (FiR); Hand over 2x Hose (FiR); Hand over 2x Bleach (FiR)",
     "rewards": {
       "exp": 7600,
@@ -3798,6 +3984,7 @@
     "score": 22.4,
     "level": 14,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Sniper to 7",
     "rewards": {
       "exp": 8500,
@@ -3814,6 +4001,7 @@
     "score": 23.5,
     "level": 10,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 5900,
@@ -3830,6 +4018,7 @@
     "score": 23.5,
     "level": 10,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 5900,
@@ -3846,6 +4035,7 @@
     "score": 23.5,
     "level": 11,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x SAS #1; Hand over 1x SAS #1; Exploration x1; Find 1x SAS #2; Hand over 1x SAS #2",
     "rewards": {
       "exp": 6600,
@@ -3862,6 +4052,7 @@
     "score": 23.6,
     "level": 12,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Hand over 8,000 USD",
     "rewards": {
       "exp": 9500,
@@ -3878,6 +4069,7 @@
     "score": 24.94,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x M.U.L.E.; Hand over 1x M.U.L.E. (FiR); Find 1x Obdolbos; Hand over 1x Obdolbos (FiR); Find 1x Meldonin; Hand over 1x Meldonin (FiR); Find 1x AHF1-M; Hand over 1x AHF1-M (FiR); Find 1x P22; Hand over 1x P22 (FiR); Find 1x L1; Hand over 1x L1 (FiR); Find 1x 3-(b-TG); Hand over 1x 3-(b-TG) (FiR)",
     "rewards": {
       "exp": 15300,
@@ -3894,6 +4086,7 @@
     "score": 26,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 10500,
@@ -3910,6 +4103,7 @@
     "score": 27.5,
     "level": 14,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; on Shoreline",
     "rewards": {
       "exp": 11400,
@@ -3926,6 +4120,7 @@
     "score": 29.25,
     "level": 23,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Flash drive; Hand over 1x Flash drive",
     "rewards": {
       "exp": 17000,
@@ -3942,6 +4137,7 @@
     "score": 30.9,
     "level": 15,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 12 enemies",
     "rewards": {
       "exp": 8500,
@@ -3958,6 +4154,7 @@
     "score": 31,
     "level": 17,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 8600,
@@ -3974,6 +4171,7 @@
     "score": 36,
     "level": 18,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 7500,
@@ -3990,6 +4188,7 @@
     "score": 39.75,
     "level": 35,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Flash; Hand over 1x Flash",
     "rewards": {
       "exp": 31400,
@@ -4006,6 +4205,7 @@
     "score": 40.26,
     "level": 30,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x Virtex; Find 1x SG-C10; Hand over 2x Virtex (FiR); Hand over 1x SG-C10 (FiR)",
     "rewards": {
       "exp": 21000,
@@ -4022,6 +4222,7 @@
     "score": 45.33,
     "level": 14,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Exploration x1",
     "rewards": {
       "exp": 7300,
@@ -4038,6 +4239,7 @@
     "score": 46.2,
     "level": 12,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 4x Morphine; Hand over 4x Morphine (FiR); Find 2x Alkali; Hand over 2x Alkali (FiR); Find 2x Hose; Hand over 2x Hose (FiR); Find 2x Propane; Hand over 2x Propane (FiR)",
     "rewards": {
       "exp": 9700,
@@ -4054,6 +4256,7 @@
     "score": 47.5,
     "level": 11,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Find 5x MRE; Hand over 5x MRE; Kill 10 enemies; on Shoreline; Exploration x1; Exploration x1",
     "rewards": {
       "exp": 11500,
@@ -4070,6 +4273,7 @@
     "score": 52.9,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 1 Reshala; Kill 1 Glukhar; Kill 1 Killa; Kill 1 Shturman; Kill 1 Sanitar; Kill 1 Tagilla; Completion x1",
     "rewards": {
       "exp": 0,
@@ -4086,6 +4290,7 @@
     "score": 61,
     "level": 25,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies",
     "rewards": {
       "exp": 15400,
@@ -4102,6 +4307,7 @@
     "score": 70,
     "level": 40,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; on Woods; Exploration x1; on bigmap; Exploration x1; on Interchange; Exploration x1; on Shoreline; Exploration x1; on factory4_day; Exploration x1; on laboratory; Exploration x1; on RezervBase; Exploration x1; on Lighthouse; Exploration x1; on TarkovStreets; Exploration x1; on Sandbox",
     "rewards": {
       "exp": 42600,
@@ -4118,6 +4324,7 @@
     "score": 81,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 50,000 EUR",
     "rewards": {
       "exp": 0,
@@ -4134,6 +4341,7 @@
     "score": 101.5,
     "level": 25,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 PMCs; on Lighthouse",
     "rewards": {
       "exp": 18200,
@@ -4150,6 +4358,7 @@
     "score": 105.4,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 12 enemies; on Woods; Kill 12 enemies; on bigmap; Kill 12 enemies; on Interchange; Kill 12 enemies; on Shoreline; Kill 12 enemies; on TarkovStreets; Kill 12 enemies; on Sandbox",
     "rewards": {
       "exp": 25500,
@@ -4166,6 +4375,7 @@
     "score": 112.6,
     "level": 55,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 20x BEAR/BEAR/… (FiR); Hand over 20x USEC/USEC/… (FiR)",
     "rewards": {
       "exp": 137000,
@@ -4182,6 +4392,7 @@
     "score": 122.7,
     "level": 30,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 BEAR; on Lighthouse; Hand over 20x BEAR/BEAR/… (FiR)",
     "rewards": {
       "exp": 22000,
@@ -4198,6 +4409,7 @@
     "score": 142.08,
     "level": 60,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 5x VPX; Find 5x RFIDR; Find 5x Virtex; Find 5x SG-C10; Find 4x MFD; Hand over 5x VPX (FiR); Hand over 5x RFIDR (FiR); Hand over 5x Virtex (FiR); Hand over 5x SG-C10 (FiR); Hand over 4x MFD (FiR)",
     "rewards": {
       "exp": 177000,
@@ -4214,6 +4426,7 @@
     "score": 223,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 50 PMCs; Hand over 50x BEAR/USEC (FiR)",
     "rewards": {
       "exp": 0,
@@ -4230,6 +4443,7 @@
     "score": 238.5,
     "level": 45,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 40 Raiders; on RezervBase",
     "rewards": {
       "exp": 84000,
@@ -4240,44 +4454,13 @@
     "id": "60e71c9ad54b755a3b53eb66"
   },
   {
-    "trader": "Peacekeeper",
-    "order": 52,
-    "questName": "Global Threat",
-    "score": 242.5,
-    "level": 1,
-    "type": "Elimination",
-    "reqs": "Kill 50 infectedassault; on Shoreline",
-    "rewards": {
-      "exp": 40000,
-      "standing": 0.03,
-      "money": 2000,
-      "moneyCcy": "USD"
-    },
-    "id": "67190f6c1b3f4964d90d71e9"
-  },
-  {
     "trader": "Prapor",
     "order": 1,
-    "questName": "Cheer Up",
-    "score": 2,
-    "level": 1,
-    "type": "Completion",
-    "reqs": "HideoutArea",
-    "rewards": {
-      "exp": 5000,
-      "standing": 0.02,
-      "money": 50000,
-      "moneyCcy": "RUB"
-    },
-    "id": "675031f57775aada6b0f96a1"
-  },
-  {
-    "trader": "Prapor",
-    "order": 2,
     "questName": "Into the Inferno",
     "score": 2.5,
     "level": 1,
     "type": "Exploration",
+    "event": "non-seasonal",
     "reqs": "Completion x1",
     "rewards": {
       "exp": 5000,
@@ -4289,11 +4472,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 3,
+    "order": 2,
     "questName": "Shipping Delay - Part 1",
     "score": 3,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 1x Package",
     "rewards": {
       "exp": 11000,
@@ -4305,11 +4489,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 4,
+    "order": 3,
     "questName": "Belka and Strelka",
     "score": 4,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 8200,
@@ -4321,27 +4506,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 5,
-    "questName": "Khorovod",
-    "score": 4,
-    "level": 1,
-    "type": "Completion",
-    "reqs": "Completion x1; on bigmap",
-    "rewards": {
-      "exp": 18000,
-      "standing": 0.02,
-      "money": 126000,
-      "moneyCcy": "RUB"
-    },
-    "id": "67503247622398376d0b57cd"
-  },
-  {
-    "trader": "Prapor",
-    "order": 6,
+    "order": 4,
     "questName": "Forge a Friendship",
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Cargo; Hand over 1x Cargo",
     "rewards": {
       "exp": 18800,
@@ -4353,11 +4523,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 7,
+    "order": 5,
     "questName": "Possessor",
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Logbook; Hand over 1x Logbook",
     "rewards": {
       "exp": 7300,
@@ -4369,11 +4540,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 8,
+    "order": 6,
     "questName": "Big Customer",
     "score": 7,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Place beacon",
     "rewards": {
       "exp": 8100,
@@ -4385,11 +4557,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 9,
+    "order": 7,
     "questName": "Luxurious Life",
     "score": 7.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Discover x1; Find 1x Wine; Hand over 1x Wine",
     "rewards": {
       "exp": 1750,
@@ -4401,11 +4574,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 10,
+    "order": 8,
     "questName": "Properties All Around",
     "score": 7.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Discover x1; Find 1x Records; Hand over 1x Records",
     "rewards": {
       "exp": 11600,
@@ -4417,11 +4591,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 11,
+    "order": 9,
     "questName": "Shaking Up the Teller",
     "score": 7.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Case; Hand over 1x Case; Exploration x1",
     "rewards": {
       "exp": 5900,
@@ -4433,11 +4608,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 12,
+    "order": 10,
     "questName": "Background Check",
     "score": 7.85,
     "level": 2,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Watch; Hand over 1x Watch; Find 1x Machinery",
     "rewards": {
       "exp": 1800,
@@ -4449,11 +4625,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 13,
+    "order": 11,
     "questName": "Reconnaissance",
     "score": 8.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Completion x1; on Lighthouse",
     "rewards": {
       "exp": 18000,
@@ -4465,11 +4642,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 14,
+    "order": 12,
     "questName": "Debut",
     "score": 8.6,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies; Hand over 2x MP-133",
     "rewards": {
       "exp": 1700,
@@ -4481,11 +4659,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 15,
+    "order": 13,
     "questName": "Provide Cover",
     "score": 10,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 39800,
@@ -4497,11 +4676,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 16,
+    "order": 14,
     "questName": "Cream of the Crop",
     "score": 10.48,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x KOSA; Exploration x1; on Shoreline; Plant item",
     "rewards": {
       "exp": 52600,
@@ -4513,11 +4693,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 17,
+    "order": 15,
     "questName": "Search Mission",
     "score": 11,
     "level": 5,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Completion x1; on Woods",
     "rewards": {
       "exp": 2800,
@@ -4529,11 +4710,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 18,
+    "order": 16,
     "questName": "Shooting Cans",
     "score": 11.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Kill 5 enemies; on Sandbox",
     "rewards": {
       "exp": 1600,
@@ -4545,11 +4727,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 19,
+    "order": 17,
     "questName": "Delivery From the Past",
     "score": 11.92,
     "level": 5,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x 0022; Plant item",
     "rewards": {
       "exp": 4000,
@@ -4561,11 +4744,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 20,
+    "order": 18,
     "questName": "The Good Times - Part 2",
     "score": 13,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies",
     "rewards": {
       "exp": 62400,
@@ -4577,11 +4761,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 21,
+    "order": 19,
     "questName": "Viewer",
     "score": 15,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 74000,
@@ -4593,11 +4778,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 22,
+    "order": 20,
     "questName": "The Bunker - Part 1",
     "score": 16,
     "level": 10,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Completion x1; on RezervBase",
     "rewards": {
       "exp": 5700,
@@ -4609,11 +4795,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 23,
+    "order": 21,
     "questName": "Bad Rep Evidence",
     "score": 16.35,
     "level": 6,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Bunkhouse; Find 1x 0031; Hand over 1x 0031; Completion x1; on bigmap",
     "rewards": {
       "exp": 4100,
@@ -4625,11 +4812,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 24,
+    "order": 22,
     "questName": "Postman Pat - Part 1",
     "score": 16.75,
     "level": 10,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Letter; Completion x1; on factory4_day; Quest",
     "rewards": {
       "exp": 5900,
@@ -4641,27 +4829,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 25,
-    "questName": "Christmas Dinner",
-    "score": 17,
-    "level": 1,
-    "type": "PickUp",
-    "reqs": "Hand over 5x Sausage; Hand over 5x Peas; Hand over 5x Mayo; Hand over 1x Vodka; Hand over 1x Whiskey; Hand over 3x Pickles",
-    "rewards": {
-      "exp": 18800,
-      "standing": 0.03,
-      "money": 200000,
-      "moneyCcy": "RUB"
-    },
-    "id": "675031be899713ccad00060c"
-  },
-  {
-    "trader": "Prapor",
-    "order": 26,
+    "order": 23,
     "questName": "Hell on Earth - Part 2",
     "score": 17.2,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 3 Cultist Priest",
     "rewards": {
       "exp": 98000,
@@ -4673,11 +4846,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 27,
+    "order": 24,
     "questName": "In and Out",
     "score": 17.38,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Hand over 2x Radar (FiR); Kill 10 enemies; on Shoreline",
     "rewards": {
       "exp": 22700,
@@ -4689,11 +4863,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 28,
+    "order": 25,
     "questName": "Youve Got Mail",
     "score": 19.75,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Letter; Hand over 1x Letter",
     "rewards": {
       "exp": 4800,
@@ -4705,11 +4880,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 29,
+    "order": 26,
     "questName": "No Offence",
     "score": 20,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 10x M67; Hand over 10x M67",
     "rewards": {
       "exp": 0,
@@ -4721,11 +4897,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 30,
+    "order": 27,
     "questName": "Gendarmerie - Mall Cop",
     "score": 20.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies",
     "rewards": {
       "exp": 21500,
@@ -4737,11 +4914,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 31,
+    "order": 28,
     "questName": "Glory to CPSU - Part 1",
     "score": 21.5,
     "level": 17,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 7300,
@@ -4753,11 +4931,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 32,
+    "order": 29,
     "questName": "Ice Cream Cones",
     "score": 21.56,
     "level": 9,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x 6L31; Hand over 3x 6L31 (FiR); Hand over 1x ZB-014; Exploration x1",
     "rewards": {
       "exp": 5200,
@@ -4769,11 +4948,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 33,
+    "order": 30,
     "questName": "Special Comms",
     "score": 22,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item; Plant item; Completion x1; on Woods; Plant item; Plant item",
     "rewards": {
       "exp": 12800,
@@ -4785,11 +4965,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 34,
+    "order": 31,
     "questName": "Shootout Picnic",
     "score": 22.5,
     "level": 3,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies; on Woods",
     "rewards": {
       "exp": 2000,
@@ -4801,11 +4982,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 35,
+    "order": 32,
     "questName": "Half-Empty",
     "score": 22.6,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 5x PFilter/MGT/… (FiR); Hand over 10x DVD/PSU/… (FiR)",
     "rewards": {
       "exp": 14900,
@@ -4817,11 +4999,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 36,
+    "order": 33,
     "questName": "BP Depot",
     "score": 23,
     "level": 5,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 2800,
@@ -4833,11 +5016,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 37,
+    "order": 34,
     "questName": "Easy Job - Part 1",
     "score": 23,
     "level": 17,
     "type": "Discover",
+    "event": null,
     "reqs": "Exploration x1; Place beacon",
     "rewards": {
       "exp": 15000,
@@ -4849,11 +5033,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 38,
+    "order": 35,
     "questName": "The Bunker - Part 2",
     "score": 25.5,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on RezervBase",
     "rewards": {
       "exp": 9200,
@@ -4865,11 +5050,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 39,
+    "order": 36,
     "questName": "Green Corridor",
     "score": 26,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 10400,
@@ -4881,11 +5067,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 40,
+    "order": 37,
     "questName": "Easy Job - Part 2",
     "score": 26.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 enemies",
     "rewards": {
       "exp": 18000,
@@ -4897,11 +5084,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 41,
+    "order": 38,
     "questName": "Tourists",
     "score": 26.5,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 1 Knight; on factory4_day; Kill 1 Big Pipe; on factory4_day; Kill 1 Bird Eye; on factory4_day; Completion x1; on factory4_day",
     "rewards": {
       "exp": 0,
@@ -4913,11 +5101,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 42,
+    "order": 39,
     "questName": "Glory to CPSU - Part 2",
     "score": 28.25,
     "level": 22,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Find 1x Journal; Hand over 1x Journal",
     "rewards": {
       "exp": 10100,
@@ -4929,11 +5118,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 43,
+    "order": 40,
     "questName": "Hell on Earth - Part 1",
     "score": 32,
     "level": 27,
     "type": "Merchant",
+    "event": null,
     "reqs": "Assemble weapon",
     "rewards": {
       "exp": 15600,
@@ -4945,11 +5135,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 44,
+    "order": 41,
     "questName": "Gendarmerie - Tickets Please",
     "score": 32.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 enemies",
     "rewards": {
       "exp": 22600,
@@ -4961,11 +5152,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 45,
+    "order": 42,
     "questName": "Polikhim Hobo",
     "score": 32.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 enemies; on bigmap",
     "rewards": {
       "exp": 5900,
@@ -4977,11 +5169,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 46,
+    "order": 43,
     "questName": "Documents",
     "score": 33.25,
     "level": 19,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Docs #1; Find 1x Docs #2; Find 1x Docs #3; Hand over 1x Docs #1; Hand over 1x Docs #2; Hand over 1x Docs #3",
     "rewards": {
       "exp": 7800,
@@ -4993,11 +5186,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 47,
+    "order": 44,
     "questName": "This Is My Party",
     "score": 34,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 PMCs; on Shoreline",
     "rewards": {
       "exp": 13800,
@@ -5009,11 +5203,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 48,
+    "order": 45,
     "questName": "Anesthesia",
     "score": 34.5,
     "level": 21,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 18100,
@@ -5025,11 +5220,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 49,
+    "order": 46,
     "questName": "The Punisher - Part 1",
     "score": 36.5,
     "level": 17,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies; on Shoreline",
     "rewards": {
       "exp": 10200,
@@ -5041,11 +5237,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 50,
+    "order": 47,
     "questName": "Stick in the Wheel",
     "score": 37,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies",
     "rewards": {
       "exp": 21500,
@@ -5057,11 +5254,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 51,
+    "order": 48,
     "questName": "Gendarmerie - District Patrol",
     "score": 38.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies",
     "rewards": {
       "exp": 25000,
@@ -5073,11 +5271,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 52,
+    "order": 49,
     "questName": "Kings of the Rooftops",
     "score": 41.5,
     "level": 22,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 10 marksman; on TarkovStreets",
     "rewards": {
       "exp": 14700,
@@ -5089,11 +5288,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 53,
+    "order": 50,
     "questName": "No Place for Renegades",
     "score": 44,
     "level": 17,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 Raiders; on RezervBase",
     "rewards": {
       "exp": 15300,
@@ -5105,11 +5305,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 54,
+    "order": 51,
     "questName": "Grenadier",
     "score": 44,
     "level": 20,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 8 PMCs",
     "rewards": {
       "exp": 18000,
@@ -5121,11 +5322,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 55,
+    "order": 52,
     "questName": "Test Drive - Part 1",
     "score": 45,
     "level": 30,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 PMCs",
     "rewards": {
       "exp": 18200,
@@ -5137,11 +5339,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 56,
+    "order": 53,
     "questName": "Regulated Materials",
     "score": 45.52,
     "level": 25,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Tank battery; Hand over 1x Tank battery (FiR); Find 5x OFZ; Hand over 5x OFZ (FiR)",
     "rewards": {
       "exp": 14800,
@@ -5153,11 +5356,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 57,
+    "order": 54,
     "questName": "The Punisher - Part 3",
     "score": 50.5,
     "level": 19,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 25 enemies; on bigmap",
     "rewards": {
       "exp": 11700,
@@ -5169,11 +5373,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 58,
+    "order": 55,
     "questName": "Perfect Mediator",
     "score": 56,
     "level": 35,
     "type": "Skill",
+    "event": null,
     "reqs": "Reach LL4 Ragman; Reach LL4 Skier; Reach LL4 Mechanic; Reach LL4 Peacekeeper; Reach LL4 Prapor; Reach LL4 Therapist; Reach LL4 Jaeger",
     "rewards": {
       "exp": 20900,
@@ -5185,11 +5390,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 59,
+    "order": 56,
     "questName": "The Punisher - Part 2",
     "score": 57.84,
     "level": 18,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 12 enemies; on RezervBase; Find 7x Half-mask; Hand over 7x Half-mask (FiR)",
     "rewards": {
       "exp": 13100,
@@ -5201,11 +5407,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 60,
+    "order": 57,
     "questName": "Before the Rain",
     "score": 58.6,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Hand over 25x Radar (FiR); Hand over 15x EW unit (FiR)",
     "rewards": {
       "exp": 108600,
@@ -5217,11 +5424,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 61,
+    "order": 58,
     "questName": "Best Job in the World",
     "score": 61,
     "level": 25,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies",
     "rewards": {
       "exp": 15400,
@@ -5233,11 +5441,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 62,
+    "order": 59,
     "questName": "The Good Times - Part 1",
     "score": 61.5,
     "level": 27,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 PMCs; on factory4_night",
     "rewards": {
       "exp": 76000,
@@ -5249,11 +5458,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 63,
+    "order": 60,
     "questName": "Test Drive - Part 2",
     "score": 62.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 PMCs; on TarkovStreets",
     "rewards": {
       "exp": 28000,
@@ -5265,11 +5475,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 64,
+    "order": 61,
     "questName": "Test Drive - Part 3",
     "score": 62.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 PMCs; on Lighthouse",
     "rewards": {
       "exp": 35300,
@@ -5281,11 +5492,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 65,
+    "order": 62,
     "questName": "Test Drive - Part 5",
     "score": 62.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 50 enemies; on factory4_night",
     "rewards": {
       "exp": 50000,
@@ -5297,11 +5509,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 66,
+    "order": 63,
     "questName": "Test Drive - Part 6",
     "score": 62.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 50 enemies; on bigmap",
     "rewards": {
       "exp": 65000,
@@ -5313,11 +5526,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 67,
+    "order": 64,
     "questName": "The Punisher - Part 5",
     "score": 65.18,
     "level": 20,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x AK-74N/AK-74M/…; Hand over 1x AK-74N/AK-74/… (FiR); Find 1x M4A1; Hand over 1x M4A1 (FiR); Find 2x PM/PM (t); Hand over 2x PM/PM (t) (FiR); Kill 10 PMCs",
     "rewards": {
       "exp": 18200,
@@ -5329,11 +5543,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 68,
+    "order": 65,
     "questName": "Ours by Right",
     "score": 69.88,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Hand over 2x EW unit (FiR); Kill 10 Rogues; Kill 1 Big Pipe; Kill 1 Bird Eye; Kill 1 Knight",
     "rewards": {
       "exp": 60400,
@@ -5345,11 +5560,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 69,
+    "order": 66,
     "questName": "The Art of Explosion",
     "score": 75,
     "level": 33,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 35 enemies",
     "rewards": {
       "exp": 19200,
@@ -5361,11 +5577,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 70,
+    "order": 67,
     "questName": "Test Drive - Part 4",
     "score": 77.5,
     "level": 40,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies; on Shoreline",
     "rewards": {
       "exp": 40000,
@@ -5377,11 +5594,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 71,
+    "order": 68,
     "questName": "The Punisher - Part 6",
     "score": 78.7,
     "level": 21,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 PMCs; on TarkovStreets; Hand over 7x BEAR/BEAR/…; Hand over 7x USEC/USEC/…",
     "rewards": {
       "exp": 19400,
@@ -5393,11 +5611,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 72,
+    "order": 69,
     "questName": "The Punisher - Part 4",
     "score": 85.1,
     "level": 20,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; on Lighthouse; Kill 10 PMCs; on Lighthouse; Find 5x A-2607; Hand over 5x A-2607 (FiR)",
     "rewards": {
       "exp": 18000,
@@ -5409,11 +5628,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 73,
+    "order": 70,
     "questName": "Intimidator",
     "score": 93,
     "level": 45,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 40 enemies",
     "rewards": {
       "exp": 84000,
@@ -5425,11 +5645,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 74,
+    "order": 71,
     "questName": "Our Own Land",
     "score": 109.9,
     "level": 30,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 USEC; on Lighthouse; Hand over 20x USEC/USEC/…",
     "rewards": {
       "exp": 22000,
@@ -5441,11 +5662,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 75,
+    "order": 72,
     "questName": "Capturing Outposts",
     "score": 118.5,
     "level": 42,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 8 PMCs; Kill 8 PMCs; Kill 8 PMCs",
     "rewards": {
       "exp": 69999,
@@ -5457,11 +5679,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 76,
+    "order": 73,
     "questName": "Escort",
     "score": 168,
     "level": 60,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 4 PMCs; on factory4_day; Kill 4 PMCs; on bigmap; Kill 4 PMCs; on Shoreline; Kill 4 PMCs; on RezervBase; Kill 4 PMCs; on Woods; Kill 4 PMCs; on Interchange; Kill 4 PMCs; on laboratory; Kill 4 PMCs; on Sandbox",
     "rewards": {
       "exp": 177000,
@@ -5473,11 +5696,12 @@
   },
   {
     "trader": "Prapor",
-    "order": 77,
+    "order": 74,
     "questName": "Not a Step Back",
     "score": 170.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 35 infectedassault; on RezervBase",
     "rewards": {
       "exp": 42000,
@@ -5494,6 +5718,7 @@
     "score": 2.6,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x 6B43; Hand over 1x 6B43",
     "rewards": {
       "exp": 18200,
@@ -5510,6 +5735,7 @@
     "score": 4,
     "level": 1,
     "type": "Skill",
+    "event": null,
     "reqs": "Reach LL3 Therapist",
     "rewards": {
       "exp": 15800,
@@ -5526,6 +5752,7 @@
     "score": 4.8,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Gzhel-K; Hand over 1x Gzhel-K; Find 1x Gzhel-K; Hand over 1x Gzhel-K",
     "rewards": {
       "exp": 17500,
@@ -5542,6 +5769,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Completion x1; Completion x1; on Woods",
     "rewards": {
       "exp": 12800,
@@ -5558,6 +5786,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 7200,
@@ -5574,6 +5803,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x OLI route; Hand over 1x OLI route",
     "rewards": {
       "exp": 8500,
@@ -5590,6 +5820,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Souvenir; Hand over 1x Souvenir",
     "rewards": {
       "exp": 55000,
@@ -5606,6 +5837,7 @@
     "score": 6.1,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Moonshine; Exploration x1; on TarkovStreets; Quest",
     "rewards": {
       "exp": 20300,
@@ -5622,6 +5854,7 @@
     "score": 9.17,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 29400,
@@ -5634,26 +5867,11 @@
   {
     "trader": "Ragman",
     "order": 10,
-    "questName": "Hide in Plain Sight",
-    "score": 10,
-    "level": 1,
-    "type": "Exploration",
-    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1",
-    "rewards": {
-      "exp": 7000,
-      "standing": 0.01,
-      "money": 64000,
-      "moneyCcy": "RUB"
-    },
-    "id": "675031e1f300496cc4104450"
-  },
-  {
-    "trader": "Ragman",
-    "order": 11,
     "questName": "Big Sale",
     "score": 11.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on Interchange",
     "rewards": {
       "exp": 8200,
@@ -5665,11 +5883,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 12,
+    "order": 11,
     "questName": "Charisma Brings Success",
     "score": 13,
     "level": 1,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Charisma to 10",
     "rewards": {
       "exp": 15600,
@@ -5681,11 +5900,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 13,
+    "order": 12,
     "questName": "Old Patterns",
     "score": 13,
     "level": 1,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Hand over 15x 0.2BTC",
     "rewards": {
       "exp": 0,
@@ -5697,11 +5917,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 14,
+    "order": 13,
     "questName": "Stabilize Business",
     "score": 13.9,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 enemies; on Sandbox_high; Completion x1; on Sandbox_high",
     "rewards": {
       "exp": 24100,
@@ -5713,11 +5934,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 15,
+    "order": 14,
     "questName": "The Blood of War - Part 1",
     "score": 14.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 7500,
@@ -5729,11 +5951,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 16,
+    "order": 15,
     "questName": "Dressed to Kill",
     "score": 14.68,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 2x Cowboy; Find 2x Ushanka; Hand over 2x Ushanka (FiR); Hand over 2x Cowboy (FiR)",
     "rewards": {
       "exp": 8400,
@@ -5745,11 +5968,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 17,
+    "order": 16,
     "questName": "Sew it Good - Part 4",
     "score": 14.68,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x TV-106 + TV-109; Hand over 2x TV-106 + TV-109 (FiR); Find 2x BlackRock; Hand over 2x BlackRock (FiR)",
     "rewards": {
       "exp": 18500,
@@ -5761,11 +5985,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 18,
+    "order": 17,
     "questName": "Database - Part 1",
     "score": 15.25,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Goshan; Hand over 1x Goshan; Find 1x OLI; Hand over 1x OLI; Find 1x IDEA; Hand over 1x IDEA",
     "rewards": {
       "exp": 8400,
@@ -5777,11 +6002,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 19,
+    "order": 18,
     "questName": "Know Your Place",
     "score": 17.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies; on TarkovStreets; Completion x1; Kill 5 enemies; on Interchange",
     "rewards": {
       "exp": 28800,
@@ -5793,11 +6019,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 20,
+    "order": 19,
     "questName": "Break the Deal",
     "score": 18,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 11400,
@@ -5809,11 +6036,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 21,
+    "order": 20,
     "questName": "Only Business",
     "score": 18,
     "level": 15,
     "type": "Merchant",
+    "event": null,
     "reqs": "Reach LL2 Ragman",
     "rewards": {
       "exp": 6700,
@@ -5825,11 +6053,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 22,
+    "order": 21,
     "questName": "Special Offer",
     "score": 18.1,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Sanitar; Hand over 1x Sanitar (FiR); Find 1x AVS TE; Hand over 1x AVS TE (FiR); Find 1x LBCR GE; Hand over 1x LBCR GE (FiR); Find 1x COMM 3; Hand over 1x COMM 3 (FiR); Find 1x CPC GE; Hand over 1x CPC GE (FiR)",
     "rewards": {
       "exp": 85500,
@@ -5841,11 +6070,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 23,
+    "order": 22,
     "questName": "Gratitude",
     "score": 18.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 14400,
@@ -5857,11 +6087,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 24,
+    "order": 23,
     "questName": "Audit",
     "score": 21.75,
     "level": 17,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Notes; Hand over 1x Notes",
     "rewards": {
       "exp": 8700,
@@ -5873,11 +6104,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 25,
+    "order": 24,
     "questName": "A Fuel Matter",
     "score": 23.33,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon",
     "rewards": {
       "exp": 8200,
@@ -5889,11 +6121,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 26,
+    "order": 25,
     "questName": "Ballet Lover",
     "score": 24.5,
     "level": 20,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 10700,
@@ -5905,11 +6138,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 27,
+    "order": 26,
     "questName": "Inventory Check",
     "score": 25.5,
     "level": 15,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on RezervBase",
     "rewards": {
       "exp": 10000,
@@ -5921,11 +6155,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 28,
+    "order": 27,
     "questName": "Living High is Not a Crime - Part 2",
     "score": 28.36,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x Teapot; Find 2x Vase; Find 1x Axel; Find 2x Raven; Hand over 3x Teapot (FiR); Hand over 2x Vase (FiR); Hand over 1x Axel (FiR); Hand over 2x Raven (FiR)",
     "rewards": {
       "exp": 25900,
@@ -5937,11 +6172,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 29,
+    "order": 28,
     "questName": "Audiophile",
     "score": 31.25,
     "level": 25,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Find 1x Guitar pick; Hand over 1x Guitar pick",
     "rewards": {
       "exp": 17200,
@@ -5953,11 +6189,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 30,
+    "order": 29,
     "questName": "Sew it Good - Part 1",
     "score": 31.84,
     "level": 25,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Shmaska; Hand over 1x Shmaska (FiR); Find 1x Pilgrim; Hand over 1x Pilgrim (FiR)",
     "rewards": {
       "exp": 12300,
@@ -5969,11 +6206,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 31,
+    "order": 30,
     "questName": "Make ULTRA Great Again",
     "score": 32.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 25 enemies; on Interchange",
     "rewards": {
       "exp": 9800,
@@ -5985,11 +6223,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 32,
+    "order": 31,
     "questName": "Sales Night",
     "score": 33,
     "level": 30,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x7; on Interchange",
     "rewards": {
       "exp": 17500,
@@ -6001,11 +6240,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 33,
+    "order": 32,
     "questName": "The Key to Success",
     "score": 35.5,
     "level": 26,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Book p.1; Hand over 1x Book p.1; Find 1x Book p.2; Hand over 1x Book p.2",
     "rewards": {
       "exp": 15600,
@@ -6017,11 +6257,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 34,
+    "order": 33,
     "questName": "Scavenger",
     "score": 35.8,
     "level": 25,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Search to 9",
     "rewards": {
       "exp": 17700,
@@ -6033,11 +6274,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 35,
+    "order": 34,
     "questName": "The Blood of War - Part 2",
     "score": 36.68,
     "level": 23,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 4x FCond; Hand over 4x FCond (FiR)",
     "rewards": {
       "exp": 14600,
@@ -6049,11 +6291,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 36,
+    "order": 35,
     "questName": "Minibus",
     "score": 37.5,
     "level": 24,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 13800,
@@ -6065,11 +6308,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 37,
+    "order": 36,
     "questName": "Supervisor",
     "score": 41.9,
     "level": 40,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Goshan reg.; Hand over 1x Goshan reg.",
     "rewards": {
       "exp": 24100,
@@ -6081,11 +6325,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 38,
+    "order": 37,
     "questName": "Hot Delivery",
     "score": 42.5,
     "level": 29,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 20300,
@@ -6097,11 +6342,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 39,
+    "order": 38,
     "questName": "The Blood of War - Part 3",
     "score": 43.5,
     "level": 30,
     "type": "Completion",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 21300,
@@ -6113,11 +6359,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 40,
+    "order": 39,
     "questName": "Combat Proven",
     "score": 44.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 Kaban",
     "rewards": {
       "exp": 92000,
@@ -6129,11 +6376,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 41,
+    "order": 40,
     "questName": "Vacate the Premises",
     "score": 45.7,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 36 enemies; on Labyrinth",
     "rewards": {
       "exp": 20400,
@@ -6145,11 +6393,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 42,
+    "order": 41,
     "questName": "Living High is Not a Crime - Part 1",
     "score": 50.94,
     "level": 27,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x Lion; Hand over 2x Lion (FiR); Find 2x Horse; Hand over 2x Horse (FiR); Find 1x Cat; Hand over 1x Cat (FiR); Find 1x Roler; Hand over 1x Roler (FiR); Find 1x Egg; Hand over 1x Egg (FiR)",
     "rewards": {
       "exp": 19900,
@@ -6161,11 +6410,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 43,
+    "order": 42,
     "questName": "The Invisible Hand",
     "score": 53,
     "level": 35,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies",
     "rewards": {
       "exp": 12800,
@@ -6177,11 +6427,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 44,
+    "order": 43,
     "questName": "Enough Drinks for That One",
     "score": 60.4,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Killa; on Interchange; Kill 10 assault; on Interchange",
     "rewards": {
       "exp": 16000,
@@ -6193,11 +6444,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 45,
+    "order": 44,
     "questName": "Textile - Part 1",
     "score": 62.56,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 5x Aramid; Hand over 5x Aramid (FiR); Find 10x Ripstop; Hand over 10x Ripstop (FiR); Find 3x Paracord; Hand over 3x Paracord (FiR)",
     "rewards": {
       "exp": 32000,
@@ -6209,11 +6461,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 46,
+    "order": 45,
     "questName": "Textile - Part 1",
     "score": 62.56,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 5x Aramid; Hand over 5x Aramid (FiR); Find 10x Ripstop; Hand over 10x Ripstop (FiR); Find 3x Paracord; Hand over 3x Paracord (FiR)",
     "rewards": {
       "exp": 32000,
@@ -6225,11 +6478,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 47,
+    "order": 46,
     "questName": "Overseas Trust - Part 2",
     "score": 73.5,
     "level": 1,
     "type": "Merchant",
+    "event": null,
     "reqs": "Hand over 50,000 USD",
     "rewards": {
       "exp": 0,
@@ -6241,11 +6495,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 48,
+    "order": 47,
     "questName": "Circulate",
     "score": 76,
     "level": 1,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Sell 150x 6Sh118/Sling/…",
     "rewards": {
       "exp": 32000,
@@ -6257,11 +6512,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 49,
+    "order": 48,
     "questName": "Dandies",
     "score": 82.17,
     "level": 33,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 30 enemies; on TarkovStreets; Plant item; Plant item",
     "rewards": {
       "exp": 33000,
@@ -6273,11 +6529,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 50,
+    "order": 49,
     "questName": "Textile - Part 2",
     "score": 86.5,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 10x Fleece; Hand over 10x Fleece (FiR); Find 10x Cordura; Hand over 10x Cordura (FiR); Find 5x KEK; Hand over 5x KEK (FiR)",
     "rewards": {
       "exp": 34300,
@@ -6289,11 +6546,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 51,
+    "order": 50,
     "questName": "Textile - Part 2",
     "score": 86.5,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 10x Fleece; Hand over 10x Fleece (FiR); Find 10x Cordura; Hand over 10x Cordura (FiR); Find 5x KEK; Hand over 5x KEK (FiR)",
     "rewards": {
       "exp": 34300,
@@ -6305,11 +6563,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 52,
+    "order": 51,
     "questName": "Long Line",
     "score": 106.5,
     "level": 45,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 PMCs",
     "rewards": {
       "exp": 84000,
@@ -6321,11 +6580,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 53,
+    "order": 52,
     "questName": "Booze",
     "score": 197.06,
     "level": 50,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 10x Vodka; Find 10x Whiskey; Find 3x Superwater; Find 20x Pevko; Hand over 10x Vodka (FiR); Hand over 10x Whiskey (FiR); Hand over 3x Superwater (FiR); Hand over 20x Pevko (FiR)",
     "rewards": {
       "exp": 107000,
@@ -6337,11 +6597,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 54,
+    "order": 53,
     "questName": "The Stylish One",
     "score": 421,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 50 Killa",
     "rewards": {
       "exp": 0,
@@ -6353,11 +6614,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 55,
+    "order": 54,
     "questName": "Drip-Out - Part 1",
     "score": 553,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 100 Raiders; Hand over 50x TV-115/Berkut/… (FiR)",
     "rewards": {
       "exp": 0,
@@ -6369,11 +6631,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 56,
+    "order": 55,
     "questName": "Drip-Out - Part 1",
     "score": 553,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 100 Raiders; Hand over 50x TV-115/Berkut/… (FiR)",
     "rewards": {
       "exp": 0,
@@ -6385,11 +6648,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 57,
+    "order": 56,
     "questName": "Drip-Out - Part 2",
     "score": 553,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 100 Rogues; Hand over 50x LBCR GE/LBT-1476A/… (FiR)",
     "rewards": {
       "exp": 0,
@@ -6401,11 +6665,12 @@
   },
   {
     "trader": "Ragman",
-    "order": 58,
+    "order": 57,
     "questName": "Drip-Out - Part 2",
     "score": 553,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 100 Rogues; Hand over 50x LBCR GE/LBT-1476A/… (FiR)",
     "rewards": {
       "exp": 0,
@@ -6422,6 +6687,7 @@
     "score": 3,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x 0052",
     "rewards": {
       "exp": 4500,
@@ -6438,6 +6704,7 @@
     "score": 4,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Completion x1",
     "rewards": {
       "exp": 5500,
@@ -6454,6 +6721,7 @@
     "score": 4.42,
     "level": 1,
     "type": "PickUp",
+    "event": "non-seasonal",
     "reqs": "Find 1x Flash drive; Hand over 1x Flash drive (FiR)",
     "rewards": {
       "exp": 6300,
@@ -6470,6 +6738,7 @@
     "score": 5.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; on Sandbox",
     "rewards": {
       "exp": 1900,
@@ -6486,6 +6755,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Diary; Hand over 1x Diary",
     "rewards": {
       "exp": 18400,
@@ -6502,6 +6772,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Vial; Hand over 1x Vial",
     "rewards": {
       "exp": 21300,
@@ -6518,6 +6789,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Weapon case; Hand over 1x Weapon case",
     "rewards": {
       "exp": 32000,
@@ -6534,6 +6806,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Case; Hand over 1x Case",
     "rewards": {
       "exp": 22500,
@@ -6550,6 +6823,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Magazine; Hand over 1x Magazine",
     "rewards": {
       "exp": 40000,
@@ -6566,6 +6840,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Wallet; Hand over 1x Wallet",
     "rewards": {
       "exp": 23000,
@@ -6582,6 +6857,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x HDD; Hand over 1x HDD",
     "rewards": {
       "exp": 36000,
@@ -6598,6 +6874,7 @@
     "score": 6.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x AK-50; Quest",
     "rewards": {
       "exp": 3000,
@@ -6614,6 +6891,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x HDD; Hand over 1x HDD",
     "rewards": {
       "exp": 11700,
@@ -6630,6 +6908,7 @@
     "score": 7.5,
     "level": 3,
     "type": "PickUp",
+    "event": null,
     "reqs": "Plant item",
     "rewards": {
       "exp": 4500,
@@ -6646,6 +6925,7 @@
     "score": 7.84,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x Propane; Hand over 2x Propane (FiR)",
     "rewards": {
       "exp": 9600,
@@ -6662,6 +6942,7 @@
     "score": 7.88,
     "level": 5,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Module-3M (FiR); Hand over 1x TOZ-106 (FiR)",
     "rewards": {
       "exp": 3300,
@@ -6678,6 +6959,7 @@
     "score": 8.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 2 PMCs; on Woods",
     "rewards": {
       "exp": 8000,
@@ -6694,6 +6976,7 @@
     "score": 11,
     "level": 1,
     "type": "Loyalty",
+    "event": null,
     "reqs": "Hand over 1,000,000 RUB",
     "rewards": {
       "exp": 0,
@@ -6710,6 +6993,7 @@
     "score": 13,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Plant item; Exploration x1; Plant item",
     "rewards": {
       "exp": 14200,
@@ -6726,6 +7010,7 @@
     "score": 13.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 12900,
@@ -6742,6 +7027,7 @@
     "score": 14.75,
     "level": 7,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x 0048; Hand over 1x 0048; Exploration x1; Exploration x1",
     "rewards": {
       "exp": 3200,
@@ -6758,6 +7044,7 @@
     "score": 14.84,
     "level": 8,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 2x Flash drive; Hand over 2x Flash drive (FiR)",
     "rewards": {
       "exp": 4500,
@@ -6774,6 +7061,7 @@
     "score": 15,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 78000,
@@ -6790,6 +7078,7 @@
     "score": 15,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 7200,
@@ -6806,6 +7095,7 @@
     "score": 15.25,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 21800,
@@ -6822,6 +7112,7 @@
     "score": 15.25,
     "level": 8,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x ZibboG; Plant item",
     "rewards": {
       "exp": 4500,
@@ -6838,6 +7129,7 @@
     "score": 15.75,
     "level": 11,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Reagent; Hand over 1x Reagent",
     "rewards": {
       "exp": 5400,
@@ -6854,6 +7146,7 @@
     "score": 16.25,
     "level": 9,
     "type": "Merchant",
+    "event": null,
     "reqs": "Hand over 5,000 USD",
     "rewards": {
       "exp": 10000,
@@ -6870,6 +7163,7 @@
     "score": 17,
     "level": 8,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 3 PMCs",
     "rewards": {
       "exp": 5300,
@@ -6886,6 +7180,7 @@
     "score": 17,
     "level": 11,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Place beacon",
     "rewards": {
       "exp": 6500,
@@ -6902,6 +7197,7 @@
     "score": 18.15,
     "level": 10,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x 0013; Hand over 1x 0013; Find 1x Dorm 220; Hand over 1x Dorm 220; Exploration x1",
     "rewards": {
       "exp": 4800,
@@ -6918,6 +7214,7 @@
     "score": 19.5,
     "level": 10,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Sliderkey; Hand over 1x Sliderkey; Find 1x Letter; Hand over 1x Letter",
     "rewards": {
       "exp": 4800,
@@ -6934,6 +7231,7 @@
     "score": 24.94,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 4x Respirator (FiR); Find 4x Respirator; Find 3x Bloodset; Hand over 3x Bloodset (FiR)",
     "rewards": {
       "exp": 15800,
@@ -6950,6 +7248,7 @@
     "score": 25,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Kill 20 enemies",
     "rewards": {
       "exp": 39900,
@@ -6966,6 +7265,7 @@
     "score": 25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 15x Zhuk EMR; Hand over 12x Vulkan-5; Hand over 3x 1SCh FS",
     "rewards": {
       "exp": 0,
@@ -6982,6 +7282,7 @@
     "score": 26.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 17900,
@@ -6998,6 +7299,7 @@
     "score": 28,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Completion x1; on bigmap; Completion x1; on RezervBase; Completion x1; on Woods; Completion x1; on Lighthouse; Kill 5 PMCs",
     "rewards": {
       "exp": 85200,
@@ -7014,6 +7316,7 @@
     "score": 30,
     "level": 15,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; on RezervBase",
     "rewards": {
       "exp": 9000,
@@ -7030,6 +7333,7 @@
     "score": 31.1,
     "level": 20,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 8 enemies",
     "rewards": {
       "exp": 15300,
@@ -7046,6 +7350,7 @@
     "score": 31.4,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 8x Vodka; Hand over 15x Whiskey; Hand over 15x Moonshine",
     "rewards": {
       "exp": 0,
@@ -7058,26 +7363,11 @@
   {
     "trader": "Skier",
     "order": 41,
-    "questName": "Holiday Beyond the Means",
-    "score": 32.5,
-    "level": 1,
-    "type": "Elimination",
-    "reqs": "Kill 10 PMCs",
-    "rewards": {
-      "exp": 9800,
-      "standing": 0.02,
-      "money": 1300,
-      "moneyCcy": "EUR"
-    },
-    "id": "6750320e23fc8fd9cc087d14"
-  },
-  {
-    "trader": "Skier",
-    "order": 42,
     "questName": "No Swiping",
     "score": 34,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Discover x1; Kill 25 enemies",
     "rewards": {
       "exp": 26000,
@@ -7089,11 +7379,12 @@
   },
   {
     "trader": "Skier",
-    "order": 43,
+    "order": 42,
     "questName": "The Price of Celebration",
     "score": 34,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 PMCs; on Shoreline",
     "rewards": {
       "exp": 13250,
@@ -7105,11 +7396,12 @@
   },
   {
     "trader": "Skier",
-    "order": 44,
+    "order": 43,
     "questName": "Debtor",
     "score": 35.5,
     "level": 31,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 26600,
@@ -7121,11 +7413,12 @@
   },
   {
     "trader": "Skier",
-    "order": 45,
+    "order": 44,
     "questName": "Vitamins - Part 1",
     "score": 36.25,
     "level": 22,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Chemcont; Hand over 1x Chemcont; Find 1x Chemcont; Hand over 1x Chemcont; Find 1x Chemcont; Hand over 1x Chemcont",
     "rewards": {
       "exp": 13000,
@@ -7137,11 +7430,12 @@
   },
   {
     "trader": "Skier",
-    "order": 46,
+    "order": 45,
     "questName": "Missing Cargo",
     "score": 36.25,
     "level": 30,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Military documents; Hand over 1x Military documents",
     "rewards": {
       "exp": 14000,
@@ -7153,11 +7447,12 @@
   },
   {
     "trader": "Skier",
-    "order": 47,
+    "order": 46,
     "questName": "Friend From the West - Part 1",
     "score": 36.44,
     "level": 9,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 7 USEC; Hand over 7x USEC/USEC/…",
     "rewards": {
       "exp": 10000,
@@ -7169,11 +7464,12 @@
   },
   {
     "trader": "Skier",
-    "order": 48,
+    "order": 47,
     "questName": "Profit Retention",
     "score": 37,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 30x GPU; Hand over 15x 0.2BTC",
     "rewards": {
       "exp": 0,
@@ -7185,11 +7481,12 @@
   },
   {
     "trader": "Skier",
-    "order": 49,
+    "order": 48,
     "questName": "Informed Means Armed",
     "score": 37,
     "level": 24,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 14000,
@@ -7201,11 +7498,12 @@
   },
   {
     "trader": "Skier",
-    "order": 50,
+    "order": 49,
     "questName": "House Arrest - Part 1",
     "score": 37.5,
     "level": 33,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 28800,
@@ -7217,11 +7515,12 @@
   },
   {
     "trader": "Skier",
-    "order": 51,
+    "order": 50,
     "questName": "Indisputable Authority",
     "score": 38.2,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 tagillaagro; Kill 6 tagillahelperagro",
     "rewards": {
       "exp": 25500,
@@ -7233,11 +7532,12 @@
   },
   {
     "trader": "Skier",
-    "order": 52,
+    "order": 51,
     "questName": "Key Partner",
     "score": 38.5,
     "level": 1,
     "type": "Merchant",
+    "event": null,
     "reqs": "Sell 75x SOIC/AEM/…",
     "rewards": {
       "exp": 14600,
@@ -7249,11 +7549,12 @@
   },
   {
     "trader": "Skier",
-    "order": 53,
+    "order": 52,
     "questName": "House Arrest - Part 2",
     "score": 39,
     "level": 33,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 29200,
@@ -7265,11 +7566,12 @@
   },
   {
     "trader": "Skier",
-    "order": 54,
+    "order": 53,
     "questName": "Staff Shortage",
     "score": 39.4,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 1 Partisan; Kill 10 PMCs",
     "rewards": {
       "exp": 16300,
@@ -7281,11 +7583,12 @@
   },
   {
     "trader": "Skier",
-    "order": 55,
+    "order": 54,
     "questName": "Bullshit",
     "score": 40.5,
     "level": 25,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Bullshit; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 29900,
@@ -7297,11 +7600,12 @@
   },
   {
     "trader": "Skier",
-    "order": 56,
+    "order": 55,
     "questName": "Flint",
     "score": 41,
     "level": 35,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise StressResistance to 5",
     "rewards": {
       "exp": 25100,
@@ -7313,11 +7617,12 @@
   },
   {
     "trader": "Skier",
-    "order": 57,
+    "order": 56,
     "questName": "Setup",
     "score": 45,
     "level": 18,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 8 PMCs; on bigmap",
     "rewards": {
       "exp": 21900,
@@ -7329,11 +7634,12 @@
   },
   {
     "trader": "Skier",
-    "order": 58,
+    "order": 57,
     "questName": "Lend-Lease - Part 1",
     "score": 48.75,
     "level": 25,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Controller #1; Hand over 1x Controller #1; Find 1x Controller #2; Hand over 1x Controller #2; Find 1x Controller #3; Hand over 1x Controller #3; Find 1x FOG #1; Hand over 1x FOG #1; Find 1x FOG #2; Hand over 1x FOG #2",
     "rewards": {
       "exp": 17500,
@@ -7345,11 +7651,12 @@
   },
   {
     "trader": "Skier",
-    "order": 59,
+    "order": 58,
     "questName": "Pyramid Scheme",
     "score": 50.5,
     "level": 28,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1",
     "rewards": {
       "exp": 25500,
@@ -7361,11 +7668,12 @@
   },
   {
     "trader": "Skier",
-    "order": 60,
+    "order": 59,
     "questName": "Chumming",
     "score": 52.5,
     "level": 23,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Kill 5 PMCs; on Interchange",
     "rewards": {
       "exp": 19100,
@@ -7377,11 +7685,12 @@
   },
   {
     "trader": "Skier",
-    "order": 61,
+    "order": 60,
     "questName": "Cocktail Tasting",
     "score": 62.5,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 20 PMCs",
     "rewards": {
       "exp": 0,
@@ -7393,11 +7702,12 @@
   },
   {
     "trader": "Skier",
-    "order": 62,
+    "order": 61,
     "questName": "Profitable Venture",
     "score": 73,
     "level": 61,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 15x REAP-IR",
     "rewards": {
       "exp": 0,
@@ -7409,11 +7719,12 @@
   },
   {
     "trader": "Skier",
-    "order": 63,
+    "order": 62,
     "questName": "Fair Price - Part 1",
     "score": 81,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 50,000 EUR",
     "rewards": {
       "exp": 1000,
@@ -7425,11 +7736,12 @@
   },
   {
     "trader": "Skier",
-    "order": 64,
+    "order": 63,
     "questName": "Silent Caliber",
     "score": 84,
     "level": 30,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 20 enemies; Kill 10 PMCs",
     "rewards": {
       "exp": 18000,
@@ -7441,11 +7753,12 @@
   },
   {
     "trader": "Skier",
-    "order": 65,
+    "order": 64,
     "questName": "Night Sweep",
     "score": 91.04,
     "level": 50,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 12x Knife; Hand over 12x Knife (FiR)",
     "rewards": {
       "exp": 107000,
@@ -7457,11 +7770,12 @@
   },
   {
     "trader": "Skier",
-    "order": 66,
+    "order": 65,
     "questName": "Hint",
     "score": 122.8,
     "level": 1,
     "type": "Elimination",
+    "event": "non-seasonal",
     "reqs": "Kill 1 Reshala; Kill 1 Glukhar; Kill 1 Killa; Kill 1 Shturman; Kill 1 Knight; Kill 1 Big Pipe; Kill 1 Bird Eye; Kill 1 Sanitar; Kill 1 Tagilla; Kill 5 Raiders; Kill 5 Rogues; Kill 1 Cultist Priest",
     "rewards": {
       "exp": 0,
@@ -7473,11 +7787,12 @@
   },
   {
     "trader": "Skier",
-    "order": 67,
+    "order": 66,
     "questName": "Never Too Late To Learn",
     "score": 139.4,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 15x HK 416A5; Hand over 150x SOST; Hand over 8x Taiga-1",
     "rewards": {
       "exp": 0,
@@ -7489,11 +7804,12 @@
   },
   {
     "trader": "Skier",
-    "order": 68,
+    "order": 67,
     "questName": "Connections Up North",
     "score": 151,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 50 PMCs",
     "rewards": {
       "exp": 21000,
@@ -7505,11 +7821,12 @@
   },
   {
     "trader": "Skier",
-    "order": 69,
+    "order": 68,
     "questName": "Get a Foothold",
     "score": 193,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 30x SJ6; Hand over 30x Dolbos 2; Hand over 30x Propital; Hand over 30x M.U.L.E.; Hand over 30x eTG-c; Hand over 30x SJ9; Hand over 30x SJ12; Hand over 30x Meldonin",
     "rewards": {
       "exp": 0,
@@ -7521,11 +7838,12 @@
   },
   {
     "trader": "Skier",
-    "order": 70,
+    "order": 69,
     "questName": "Consolation Prize",
     "score": 485.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x15; on laboratory; Kill 100 Raiders; on laboratory",
     "rewards": {
       "exp": 0,
@@ -7542,6 +7860,7 @@
     "score": 2.6,
     "level": 1,
     "type": "Completion",
+    "event": "non-seasonal",
     "reqs": "Hand over 1x Bandage; Hand over 1x Bandage",
     "rewards": {
       "exp": 0,
@@ -7558,6 +7877,7 @@
     "score": 3,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Hand over 1x Journal",
     "rewards": {
       "exp": 13500,
@@ -7574,6 +7894,7 @@
     "score": 3,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 1x Letter",
     "rewards": {
       "exp": 3500,
@@ -7590,6 +7911,7 @@
     "score": 5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Hand over 400,000 RUB",
     "rewards": {
       "exp": 0,
@@ -7606,6 +7928,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Sample; Hand over 1x Sample",
     "rewards": {
       "exp": 17200,
@@ -7622,6 +7945,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Report; Hand over 1x Report",
     "rewards": {
       "exp": 10300,
@@ -7638,6 +7962,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Sample; Hand over 1x Sample",
     "rewards": {
       "exp": 9300,
@@ -7654,6 +7979,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x LEDX US; Hand over 1x LEDX US",
     "rewards": {
       "exp": 42000,
@@ -7670,6 +7996,7 @@
     "score": 5.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Documents; Hand over 1x Documents",
     "rewards": {
       "exp": 9600,
@@ -7686,6 +8013,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x TG-Vi-24; Hand over 1x TG-Vi-24",
     "rewards": {
       "exp": 24000,
@@ -7702,6 +8030,7 @@
     "score": 5.8,
     "level": 1,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Health to 4",
     "rewards": {
       "exp": 6000,
@@ -7718,6 +8047,7 @@
     "score": 6.67,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Plant item",
     "rewards": {
       "exp": 7500,
@@ -7734,6 +8064,7 @@
     "score": 6.75,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Notes; Hand over 1x Notes; VisitPlace",
     "rewards": {
       "exp": 9100,
@@ -7750,6 +8081,7 @@
     "score": 7,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Place beacon",
     "rewards": {
       "exp": 7700,
@@ -7766,6 +8098,7 @@
     "score": 7,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 8100,
@@ -7782,6 +8115,7 @@
     "score": 7,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Completion x1",
     "rewards": {
       "exp": 9000,
@@ -7798,6 +8132,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x V.O. diary; Hand over 1x V.O. diary",
     "rewards": {
       "exp": 30000,
@@ -7814,6 +8149,7 @@
     "score": 7.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Diary; Hand over 1x Diary",
     "rewards": {
       "exp": 11200,
@@ -7830,6 +8166,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Slaughter; Hand over 1x Slaughter",
     "rewards": {
       "exp": 15500,
@@ -7846,6 +8183,7 @@
     "score": 7.42,
     "level": 4,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x GasAn; Hand over 1x GasAn (FiR)",
     "rewards": {
       "exp": 2200,
@@ -7862,6 +8200,7 @@
     "score": 8.25,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Substance; Plant item",
     "rewards": {
       "exp": 14700,
@@ -7878,6 +8217,7 @@
     "score": 8.5,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Exploration x1; on factory4_night; Plant item",
     "rewards": {
       "exp": 7300,
@@ -7894,6 +8234,7 @@
     "score": 8.6,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Dorm 303; Find 1x ZB-014; Find 1x Checkpoint; Find 1x Gas store; Hand over 1x Dorm 303; Hand over 1x ZB-014; Hand over 1x Checkpoint; Hand over 1x Gas store",
     "rewards": {
       "exp": 0,
@@ -7910,6 +8251,7 @@
     "score": 8.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x GPX; Completion x1; Hand over 1x GPX",
     "rewards": {
       "exp": 12000,
@@ -7926,6 +8268,7 @@
     "score": 8.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x 0060; Hand over 1x 0060; Completion x1; on Shoreline",
     "rewards": {
       "exp": 5900,
@@ -7942,6 +8285,7 @@
     "score": 10.25,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Exploration x1; Find 1x BSample; Hand over 1x BSample; Completion x1; on Woods",
     "rewards": {
       "exp": 5900,
@@ -7958,6 +8302,7 @@
     "score": 10.5,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Surgical set; Hand over 1x Surgical set; Find 1x OScope; Hand over 1x OScope",
     "rewards": {
       "exp": 12400,
@@ -7974,6 +8319,7 @@
     "score": 10.5,
     "level": 6,
     "type": "PickUp",
+    "event": null,
     "reqs": "Exploration x1; Completion x1; on bigmap",
     "rewards": {
       "exp": 3300,
@@ -7990,6 +8336,7 @@
     "score": 11.08,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x Sample IV; Completion x1; on laboratory; Plant item",
     "rewards": {
       "exp": 26000,
@@ -8006,6 +8353,7 @@
     "score": 11.26,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x Salewa; Hand over 3x Salewa (FiR)",
     "rewards": {
       "exp": 2000,
@@ -8022,6 +8370,7 @@
     "score": 11.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Completion x1; on TarkovStreets; Discover x1; Discover x1; Discover x1; Discover x1",
     "rewards": {
       "exp": 46700,
@@ -8038,6 +8387,7 @@
     "score": 13.3,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Completion x1; Hand over 3x Augmentin/GoldenStar/… (FiR)",
     "rewards": {
       "exp": 1200,
@@ -8054,6 +8404,7 @@
     "score": 13.96,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 2x Adrenaline (FiR); Hand over 4x Vitamins (FiR); Hand over 3x NaCl (FiR)",
     "rewards": {
       "exp": 13100,
@@ -8070,6 +8421,7 @@
     "score": 14.84,
     "level": 8,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 2x GasAn; Hand over 2x GasAn (FiR)",
     "rewards": {
       "exp": 4500,
@@ -8086,6 +8438,7 @@
     "score": 15.4,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Hand over 5x Tushonka/Croutons/… (FiR); Hand over 5x EWR/Superwater/… (FiR)",
     "rewards": {
       "exp": 8600,
@@ -8102,6 +8455,7 @@
     "score": 15.6,
     "level": 10,
     "type": "PickUp",
+    "event": "non-seasonal",
     "reqs": "Hand over 1x Black; Hand over 1x Blue; Hand over 1x Green; Hand over 1x Red; Hand over 1x Yellow; Hand over 1x Violet; Hand over 1x Access",
     "rewards": {
       "exp": 0,
@@ -8118,6 +8472,7 @@
     "score": 16.75,
     "level": 12,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Journal; Hand over 1x Journal",
     "rewards": {
       "exp": 6900,
@@ -8134,6 +8489,7 @@
     "score": 17.75,
     "level": 10,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Case; Hand over 1x Case; Exploration x1; Exploration x1",
     "rewards": {
       "exp": 5700,
@@ -8150,6 +8506,7 @@
     "score": 19.5,
     "level": 15,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; on TarkovStreets",
     "rewards": {
       "exp": 7800,
@@ -8166,6 +8523,7 @@
     "score": 20.75,
     "level": 13,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x 0052; Completion x1; on Woods; Hand over 1x 0052",
     "rewards": {
       "exp": 7500,
@@ -8182,6 +8540,7 @@
     "score": 21.68,
     "level": 8,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 4x Morphine; Hand over 4x Morphine (FiR)",
     "rewards": {
       "exp": 4500,
@@ -8198,6 +8557,7 @@
     "score": 21.75,
     "level": 17,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Toughbook; Hand over 1x Toughbook",
     "rewards": {
       "exp": 8000,
@@ -8214,6 +8574,7 @@
     "score": 23.25,
     "level": 17,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Find 1x Chemcont; Hand over 1x Chemcont",
     "rewards": {
       "exp": 10200,
@@ -8230,6 +8591,7 @@
     "score": 24.5,
     "level": 15,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x Journal #1; Find 1x Journal #2; Hand over 1x Journal #1; Hand over 1x Journal #2",
     "rewards": {
       "exp": 7200,
@@ -8246,6 +8608,7 @@
     "score": 25.5,
     "level": 6,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 enemies; on bigmap",
     "rewards": {
       "exp": 3400,
@@ -8262,6 +8625,7 @@
     "score": 26,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item; Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 70000,
@@ -8278,6 +8642,7 @@
     "score": 28.5,
     "level": 21,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Completion x1; on Shoreline",
     "rewards": {
       "exp": 12300,
@@ -8294,6 +8659,7 @@
     "score": 30.5,
     "level": 26,
     "type": "Exploration",
+    "event": null,
     "reqs": "Exploration x1; Exploration x1; on Lighthouse",
     "rewards": {
       "exp": 7000,
@@ -8310,6 +8676,7 @@
     "score": 30.75,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 9400,
@@ -8326,6 +8693,7 @@
     "score": 33.5,
     "level": 20,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 4800,
@@ -8342,6 +8710,7 @@
     "score": 41.84,
     "level": 35,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 1x OScope; Find 1x LEDX; Hand over 1x OScope (FiR); Hand over 1x LEDX (FiR)",
     "rewards": {
       "exp": 30600,
@@ -8358,6 +8727,7 @@
     "score": 42,
     "level": 30,
     "type": "Skill",
+    "event": null,
     "reqs": "Raise Health to 10",
     "rewards": {
       "exp": 21900,
@@ -8374,6 +8744,7 @@
     "score": 42.04,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 4x Car battery; Find 8x SPlug; Hand over 4x Car battery (FiR); Hand over 8x SPlug (FiR)",
     "rewards": {
       "exp": 6900,
@@ -8390,6 +8761,7 @@
     "score": 43.04,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Quest; Find 10x Access; Hand over 10x Access (FiR); Find 1x AHF1-M; Hand over 1x AHF1-M (FiR); Find 1x 3-(b-TG); Hand over 1x 3-(b-TG) (FiR)",
     "rewards": {
       "exp": 15800,
@@ -8406,6 +8778,7 @@
     "score": 52,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 40 enemies; on Interchange",
     "rewards": {
       "exp": 30500,
@@ -8422,6 +8795,7 @@
     "score": 52.3,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Find 15x Tushonka; Hand over 15x Tushonka (FiR)",
     "rewards": {
       "exp": 4800,
@@ -8438,6 +8812,7 @@
     "score": 177.96,
     "level": 48,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 3x Defib; Find 3x OScope; Find 2x LEDX; Find 20x Meds; Find 10x Vitamins; Hand over 3x Defib (FiR); Hand over 3x OScope (FiR); Hand over 2x LEDX (FiR); Hand over 20x Meds (FiR); Hand over 10x Vitamins (FiR)",
     "rewards": {
       "exp": 97000,
@@ -8454,6 +8829,7 @@
     "score": 7.25,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Find 1x Journal; Hand over 1x Journal",
     "rewards": {
       "exp": 0,
@@ -8470,6 +8846,7 @@
     "score": 8,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Case; Plant item",
     "rewards": {
       "exp": 56700,
@@ -8486,6 +8863,7 @@
     "score": 8.08,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Find 1x KOSA; Plant item",
     "rewards": {
       "exp": 46700,
@@ -8502,6 +8880,7 @@
     "score": 14.5,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 56800,
@@ -8518,6 +8897,7 @@
     "score": 16.17,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1; on Lighthouse; Find 1x Intel; Find 1x Intel; Plant item; Hand over 1x Intel",
     "rewards": {
       "exp": 0,
@@ -8534,6 +8914,7 @@
     "score": 16.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Discover x1; Plant item; Discover x1; Plant item; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 0,
@@ -8550,6 +8931,7 @@
     "score": 25.33,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Completion x1; Completion x1; Completion x1; Completion x1; Completion x1; Place beacon; Place beacon",
     "rewards": {
       "exp": 0,
@@ -8566,6 +8948,7 @@
     "score": 31,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Raise Sniper to 10; Kill 10 marksman",
     "rewards": {
       "exp": 0,
@@ -8582,6 +8965,7 @@
     "score": 41.25,
     "level": 35,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Find 1x Dirt; Hand over 1x Dirt",
     "rewards": {
       "exp": 25500,
@@ -8598,6 +8982,7 @@
     "score": 42.7,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 1 Glukhar; Kill 6 gluharassault; Completion x1; Completion x1",
     "rewards": {
       "exp": 0,
@@ -8614,6 +8999,7 @@
     "score": 42.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 20 enemies; Plant item; Plant item; Plant item; Completion x1; on Interchange",
     "rewards": {
       "exp": 0,
@@ -8630,6 +9016,7 @@
     "score": 56.67,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 15 PMCs; Plant item; Plant item",
     "rewards": {
       "exp": 0,
@@ -8646,6 +9033,7 @@
     "score": 104.75,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Kill 20 Raiders; Discover x1; Discover x1; Find 1x Tape; Hand over 1x Tape",
     "rewards": {
       "exp": 0,
@@ -8662,6 +9050,7 @@
     "score": 163.17,
     "level": 1,
     "type": "Completion",
+    "event": null,
     "reqs": "Exploration x1; Kill 50 PMCs; on TarkovStreets; Place beacon; Completion x1; Completion x1; on TarkovStreets",
     "rewards": {
       "exp": 0,
@@ -8678,6 +9067,7 @@
     "score": 757,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 15 Reshala; Kill 15 Glukhar; Kill 15 Killa; Kill 15 Shturman; Kill 15 Sanitar; Kill 15 Tagilla",
     "rewards": {
       "exp": 100000,
@@ -8694,6 +9084,7 @@
     "score": 2.9,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Tank battery; Hand over 1x Tank battery",
     "rewards": {
       "exp": 58700,
@@ -8710,6 +9101,7 @@
     "score": 2.9,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x Tank battery; Hand over 1x Tank battery",
     "rewards": {
       "exp": 58700,
@@ -8726,6 +9118,7 @@
     "score": 2.9,
     "level": 1,
     "type": "PickUp",
+    "event": null,
     "reqs": "Find 1x Moonshine; Hand over 1x Moonshine",
     "rewards": {
       "exp": 6800,
@@ -8742,6 +9135,7 @@
     "score": 5.33,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item",
     "rewards": {
       "exp": 13500,
@@ -8758,6 +9152,7 @@
     "score": 5.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Find 1x KOSA; Hand over 1x KOSA",
     "rewards": {
       "exp": 25400,
@@ -8774,6 +9169,7 @@
     "score": 6.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Discover x1; Discover x1; Discover x1; Quest",
     "rewards": {
       "exp": 11500,
@@ -8790,6 +9186,7 @@
     "score": 9.5,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 24300,
@@ -8806,6 +9203,7 @@
     "score": 9.5,
     "level": 1,
     "type": "Exploration",
+    "event": null,
     "reqs": "Plant item; Plant item",
     "rewards": {
       "exp": 26800,
@@ -8822,6 +9220,7 @@
     "score": 13.75,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Plant item; Plant item; Plant item",
     "rewards": {
       "exp": 23400,
@@ -8838,6 +9237,7 @@
     "score": 14.5,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 10 enemies; on Woods",
     "rewards": {
       "exp": 16000,
@@ -8854,6 +9254,7 @@
     "score": 18,
     "level": 1,
     "type": "Discover",
+    "event": null,
     "reqs": "Place beacon; Place beacon; Place beacon; Place beacon",
     "rewards": {
       "exp": 13200,
@@ -8870,6 +9271,7 @@
     "score": 19,
     "level": 1,
     "type": "Elimination",
+    "event": null,
     "reqs": "Kill 5 enemies; on Woods; Completion x1; on Woods; Kill 5 enemies; on RezervBase",
     "rewards": {
       "exp": 15500,
@@ -8886,6 +9288,7 @@
     "score": 40.1,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Find 1x Letter; Completion x1; on bigmap; Plant item; Completion x1; on RezervBase; Kill 3 enemies; on Woods; Completion x1; on Woods; Discover x1; Discover x1; Kill 10 enemies; Completion x1; on Lighthouse",
     "rewards": {
       "exp": 85400,
@@ -8902,6 +9305,7 @@
     "score": 40.1,
     "level": 1,
     "type": "Multi",
+    "event": null,
     "reqs": "Find 1x Letter; Completion x1; on bigmap; Plant item; Completion x1; on RezervBase; Kill 3 enemies; on Woods; Completion x1; on Woods; Discover x1; Discover x1; Kill 10 enemies; Completion x1; on Lighthouse",
     "rewards": {
       "exp": 85400,
@@ -8918,6 +9322,7 @@
     "score": 76,
     "level": 1,
     "type": "Merchant",
+    "event": null,
     "reqs": "Sell 50x SOIC/AEM/…; Sell 50x SOIC/AEM/…; Sell 50x SOIC/AEM/…",
     "rewards": {
       "exp": 14500,
