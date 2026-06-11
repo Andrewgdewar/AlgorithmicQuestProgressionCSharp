@@ -2,6 +2,8 @@
   "PRAPOR": [
     "Debut",
     "Background Check",
+    "Postman Pat - Part 1",
+    "No Offence",
     "Shootout Picnic",
     "Search Mission",
     "Big Customer",
@@ -24,23 +26,37 @@
     "Possessor",
     "Documents",
     "No Place for Renegades",
-    ["The Bunker - Part 1", "The Bunker - Part 2"],
+    [
+      "The Bunker - Part 1",
+      "The Bunker - Part 2"
+    ],
     "Anesthesia",
     "Shooting Cans",
     "Stick in the Wheel",
-    ["Shipping Delay - Part 1", "A Helping Hand"],
+    [
+      "Shipping Delay - Part 1",
+      "A Helping Hand"
+    ],
     "Reconnaissance",
     "Youve Got Mail",
     "Green Corridor",
     "Viewer",
-    ["Glory to CPSU - Part 1", "Glory to CPSU - Part 2"],
+    [
+      "Glory to CPSU - Part 1",
+      "Glory to CPSU - Part 2"
+    ],
     "Properties All Around",
     "Half-Empty",
     "Special Comms",
     "Grenadier",
     "Kings of the Rooftops",
-    ["Easy Job - Part 1", "Easy Job - Part 2"],
+    [
+      "Easy Job - Part 1",
+      "Easy Job - Part 2"
+    ],
     "Belka and Strelka",
+    "Perfect Mediator",
+    "The Art of Explosion",
     "Capturing Outposts",
     "Intimidator",
     "Best Job in the World",
@@ -50,9 +66,15 @@
       "Gendarmerie - District Patrol"
     ],
     "Our Own Land",
-    ["The Good Times - Part 1", "The Good Times - Part 2"],
+    [
+      "The Good Times - Part 1",
+      "The Good Times - Part 2"
+    ],
     "Escort",
-    ["Hell on Earth - Part 1", "Hell on Earth - Part 2"],
+    [
+      "Hell on Earth - Part 1",
+      "Hell on Earth - Part 2"
+    ],
     "Regulated Materials",
     [
       "Test Drive - Part 1",
@@ -64,10 +86,20 @@
     ]
   ],
   "THERAPIST": [
+    "Postman Pat - Part 2",
     "Closer to the People",
+    "Secret Benefactor",
+    "Out of Curiosity",
+    "This Tape Sucks",
+    "The Tarkov Butcher",
+    "Trust Regain",
+    "An Alternative",
     "Supply Plans",
     "All Is Revealed",
-    ["Operation Aquarius - Part 1", "Operation Aquarius - Part 2"],
+    [
+      "Operation Aquarius - Part 1",
+      "Operation Aquarius - Part 2"
+    ],
     "First in Line",
     "General Wares",
     "Pharmacist",
@@ -75,11 +107,17 @@
     "Car Repair",
     "Abandoned Cargo",
     "Shortage",
-    ["Sanitary Standards - Part 1", "Sanitary Standards - Part 2"],
+    [
+      "Sanitary Standards - Part 1",
+      "Sanitary Standards - Part 2"
+    ],
     "Lost Contact",
     "Seaside Vacation",
     "Painkiller",
-    ["Thirsty - Echo", "Thirsty - Secrets"],
+    [
+      "Thirsty - Echo",
+      "Thirsty - Secrets"
+    ],
     "Dangerous Road",
     "An Apple a Day Keeps the Doctor Away",
     [
@@ -92,12 +130,19 @@
       "Private Clinic"
     ],
     "Disease History",
-    ["Colleagues - Part 1", "Colleagues - Part 2", "Colleagues - Part 3"],
+    [
+      "Colleagues - Part 1",
+      "Colleagues - Part 2",
+      "Colleagues - Part 3"
+    ],
     "Drug Trafficking",
     "Shipment Tracking",
     "Urban Medicine",
     "Ambulances Again",
-    ["Pets Wont Need It - Part 1", "Pets Wont Need It - Part 2"],
+    [
+      "Pets Wont Need It - Part 1",
+      "Pets Wont Need It - Part 2"
+    ],
     "Quality Standard",
     "Decontamination Service",
     "Athlete",
@@ -106,6 +151,11 @@
   ],
   "SKIER": [
     "Exit Here",
+    [
+      "Fair Price - Part 1",
+      "Fair Price - Part 2"
+    ],
+    "Loyalty Buyout",
     "Golden Swag",
     "Killer Argument",
     "Serious Allegations",
@@ -123,40 +173,70 @@
     ],
     "Irresistible",
     "Minute of Fame",
-    ["Thirsty - Breadwinner", "Thirsty - Delivery"],
-    "Easy Money - Part 1",
+    [
+      "Thirsty - Breadwinner",
+      "Thirsty - Delivery"
+    ],
+    "Easy Money - Part 1 PVE ZONE",
     "The Higher They Fly",
     "Stirrup",
+    "Safety Guarantee",
+    "A Life Lesson",
+    "The Price of Celebration",
     "Informed Means Armed",
     "Missing Cargo",
-    "Friend From the West - Part 1",
+    [
+      "Friend From the West - Part 1",
+      "Friend From the West - Part 2"
+    ],
     "Safe Corridor",
     "Rigged Game",
     "Proper Comeback",
-    ["Vitamins - Part 1", "Vitamins - Part 2"],
+    [
+      "Vitamins - Part 1",
+      "Vitamins - Part 2"
+    ],
     "Hindsight 2020",
     "Long Road",
+    "Profit Retention",
+    "Indisputable Authority",
+    "Staff Shortage",
     "Lend-Lease - Part 1",
-    ["House Arrest - Part 1", "House Arrest - Part 2"],
+    [
+      "House Arrest - Part 1",
+      "House Arrest - Part 2"
+    ],
     "No Swiping",
     "Chumming",
+    "Profitable Venture",
     "Silent Caliber",
     "Bullshit",
     "Debtor",
     "Setup",
     "Key Partner",
-    ["Beyond the Red Meat - Part 1", "Beyond the Red Meat - Part 2"],
+    [
+      "Beyond the Red Meat - Part 1",
+      "Beyond the Red Meat - Part 2"
+    ],
     "Dangerous Props",
     "Route Deviation",
     "Flint",
     "Pyramid Scheme",
     "Choose Your Friends Wisely",
     "Night Sweep",
-    "Connections Up North"
+    "Never Too Late To Learn",
+    "Connections Up North",
+    "Get a Foothold",
+    "Consolation Prize"
   ],
   "PEACEKEEPER": [
+    "Confidential Info",
     "Fishing Gear",
-    ["The Cult - Part 1", "The Cult - Part 2", "The Cleaner"],
+    [
+      "The Cult - Part 1",
+      "The Cult - Part 2",
+      "The Cleaner"
+    ],
     "Tigr Safari",
     "Scrap Metal",
     "Classified Technologies",
@@ -173,6 +253,7 @@
       "Worst Job in the World"
     ],
     "Overpopulation",
+    "Lend-Lease - Part 2",
     "Humanitarian Supplies",
     [
       "Cargo X - Part 1",
@@ -180,6 +261,8 @@
       "Cargo X - Part 3",
       "Cargo X - Part 4"
     ],
+    "The Guide",
+    "Mentor",
     "Insomnia",
     [
       "Revision - Reserve",
@@ -206,6 +289,34 @@
     "Trophies"
   ],
   "MECHANIC": [
+    [
+      "Progression Difficulties - Part 1",
+      "Progression Difficulties - Part 2"
+    ],
+    [
+      "Game Review - Part 1",
+      "Game Review - Part 2",
+      "Game Review - Part 3"
+    ],
+    "Forced Alliance",
+    "Offensive Reconnaissance",
+    "Hidden Layer",
+    [
+      "Friend from Norvinsk - Part 1",
+      "Friend from Norvinsk - Part 2",
+      "Friend from Norvinsk - Part 3",
+      "Friend from Norvinsk - Part 4",
+      "Friend from Norvinsk - Part 5"
+    ],
+    "Breathing Room",
+    "Last Spurt - Pioneer",
+    "Make Amends - Equipment",
+    "Introduction",
+    "Hypotheses Testing",
+    "Needle in a Haystack",
+    "Make Amends - Buyout",
+    "Friend from Norvinsk - Alternative Solution",
+    "Shady Contractor",
     "Steady Signal",
     "Airmail",
     "Passion for Ergonomics",
@@ -237,7 +348,10 @@
       "Gunsmith - Part 25",
       "Gunsmith - Old Friends Request"
     ],
-    ["Saving the Mole", "Bad Habit"],
+    [
+      "Saving the Mole",
+      "Bad Habit"
+    ],
     "Secrets of Polikhim",
     [
       "Farming - Part 1",
@@ -273,22 +387,34 @@
       "Top Secret"
     ],
     "Scout",
+    "Watching You",
     "Fertilizers",
-    ["Broadcast - Part 1", "Camera Action", "Broadcast - Part 2"],
+    [
+      "Broadcast - Part 1",
+      "Camera Action",
+      "Broadcast - Part 2"
+    ],
     "Energy Crisis",
     "Chemistry Closet",
     "Back Door",
     "Surveillance",
     "Surplus Goods",
     "Corporate Secrets",
-    ["Developers Secrets - Part 1", "Developers Secrets - Part 2"],
+    [
+      "Developers Secrets - Part 1",
+      "Developers Secrets - Part 2"
+    ],
     "The Door",
-    "The Courier"
+    "The Courier",
+    "Hobby Club"
   ],
   "RAGMAN": [
     "Nothing Fishy About This",
     "Another Shipping Delay",
+    "Sensory Analysis - Part 1",
+    "Hot Zone",
     "Big Sale",
+    "Only Business",
     "Ballet Lover",
     "Audit",
     "A Fuel Matter",
@@ -304,6 +430,7 @@
     "Make ULTRA Great Again",
     "Dressed to Kill",
     "Stabilize Business",
+    "Vacate the Premises",
     "Long Line",
     [
       "Sew it Good - Part 1",
@@ -311,7 +438,11 @@
       "Sew it Good - Part 3",
       "Sew it Good - Part 4"
     ],
-    ["Database - Part 1", "Database - Part 2", "Old Patterns"],
+    [
+      "Database - Part 1",
+      "Database - Part 2",
+      "Old Patterns"
+    ],
     "Audiophile",
     "No Fuss Needed",
     "Supervisor",
@@ -325,17 +456,25 @@
     "The Invisible Hand",
     "Circulate",
     "Dandies",
-    ["Textile - Part 1", "Textile - Part 2"],
+    [
+      "Textile - Part 1",
+      "Textile - Part 2"
+    ],
     "Booze",
     "Combat Proven",
     "Key to the City",
     "Special Offer",
-    ["Drip-Out - Part 1", "Drip-Out - Part 2"],
+    [
+      "Drip-Out - Part 1",
+      "Drip-Out - Part 2"
+    ],
     "Know Your Place",
     "The Key to Success",
     "Charisma Brings Success"
   ],
   "JAEGER": [
+    "Fearless Beast",
+    "Preemptive Strike",
     "The Hermit",
     "Courtesy Visit",
     [
@@ -349,8 +488,16 @@
       "The Survivalist Path - Combat Medic",
       "The Survivalist Path - Junkie"
     ],
-    ["Nostalgia", "Slaughterhouse"],
-    ["Rough Tarkov", "Every Hunter Knows This", "Stray Dogs", "Hunter"],
+    [
+      "Nostalgia",
+      "Slaughterhouse"
+    ],
+    [
+      "Rough Tarkov",
+      "Every Hunter Knows This",
+      "Stray Dogs",
+      "Hunter"
+    ],
     "Pest Control",
     "Acquaintance",
     "Work Smarter",
@@ -364,6 +511,7 @@
       "The Tarkov Shooter - Part 7",
       "The Tarkov Shooter - Part 8"
     ],
+    "Fight Back",
     "Hunting Trip",
     "Ambulance",
     "Reserve",
@@ -395,11 +543,23 @@
     "Cease Fire",
     "The Delicious Sausage",
     "Claustrophobia",
-    ["Broadcast - Part 3", "Broadcast - Part 4", "Broadcast - Part 5"],
+    [
+      "Broadcast - Part 3",
+      "Broadcast - Part 4",
+      "Broadcast - Part 5"
+    ],
     "Dragnet"
   ],
   "FENCE": [
-    ["Compensation for Damage - Trust", "Compensation for Damage - Wager"],
+    "External Interest",
+    "Establish Contact",
+    "Compensation for Damage - Collection",
+    "Compensation for Damage - Barkeep",
+    "Between Two Fires PVE ZONE",
+    [
+      "Compensation for Damage - Trust",
+      "Compensation for Damage - Wager"
+    ],
     "Friend Among Strangers",
     "Immunity",
     "Is This a Reference",
@@ -413,9 +573,12 @@
   ],
   "LIGHTHOUSEKEEPER": [
     "Simple Side Job",
+    "Keepers Word",
     "Information Source",
     "Order From Outside",
     "Missing Informant",
+    "Surprise Gift PVE ZONE",
+    "Return the Favor",
     "Trouble in the Big City",
     "Payback",
     "Provocation",
@@ -424,14 +587,9 @@
     "Snatch",
     "Make an Impression"
   ],
-  "REF": [
-    "Surprise",
-    "Balancing - Part 1",
-    "Balancing - Part 2",
-    "Create a Distraction - Part 1",
-    "Create a Distraction - Part 2"
-  ],
   "BTR": [
+    "Sensory Analysis - Part 2",
+    "Shipping Delay - Part 2",
     "Swift Retribution",
     "Building Foundations",
     "Protect the Sky",
