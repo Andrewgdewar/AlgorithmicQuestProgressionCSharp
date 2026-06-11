@@ -1,0 +1,36 @@
+{
+  "currency": [
+    "An Apple a Day Keeps the Doctor Away",
+    "Fair Price - Part 1",
+    "Friend From the West - Part 2",
+    "Friend from Norvinsk - Alternative Solution",
+    "Loyalty Buyout",
+    "Make Amends - Buyout",
+    "Mentor",
+    "Overseas Trust - Part 2",
+    "Spa Tour - Part 6",
+    "To Great Heights - Part 4 PVE ZONE"
+  ],
+  "loyalty": [
+    "Establish Contact",
+    "Insider",
+    "No Fuss Needed",
+    "Only Business",
+    "Perfect Mediator"
+  ],
+  "labyrinth": [
+    "Confidential Info",
+    "Hypotheses Testing",
+    "Indisputable Authority",
+    "Keepers Word",
+    "This Tape Sucks",
+    "Vacate the Premises"
+  ],
+  "christmas": [
+    "Cheer Up",
+    "Hide in Plain Sight",
+    "Holiday Beyond the Means",
+    "The Price of Celebration",
+    "This Is My Party"
+  ]
+}

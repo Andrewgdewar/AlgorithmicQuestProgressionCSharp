@@ -66,5 +66,34 @@ public static class Constants
         "Pressured by Circumstances",
         "Conservation Area",
         "Contagious Beast",
+
+        // --- Currency-handover quests ("Hand over RUB/EUR/USD x∞") — removed per curation rules.
+        // (Spa Tour - Part 6 is also currency but stays: it is internal to the Spa Tour chain.)
+        "An Apple a Day Keeps the Doctor Away",
+        "Fair Price - Part 1",
+        "Friend From the West - Part 2",
+        "Friend from Norvinsk - Alternative Solution",
+        "Loyalty Buyout",
+        "Make Amends - Buyout",
+        "Mentor",
+
+        // --- Loyalty/standing-gate quests ("Reach level N loyalty / X standing") — blocking, removed.
+        // (Insider is also a loyalty gate but stays: it is internal to the Insider/Network Provider chain.)
+        "Establish Contact",
+        "No Fuss Needed",
+        "Only Business",
+        "Perfect Mediator",
+
+        // --- Christmas / seasonal-event quests not caught by the eventQuests filter.
+        "The Price of Celebration",
+
+        // --- Pure skill-leveling / XP-grind quests ("Reach the required <skill> skill level"
+        // as the ONLY objective). Standalone ones removed here; chain-internal skill
+        // conditions (Wet Job - Part 6, Health Care Privacy - Part 4, Signal - Part 4,
+        // The Survivalist Path - Combat Medic) are stripped at runtime instead of deleted.
+        "Athlete",
+        "Flint",
+        "Scavenger",
+        "Charisma Brings Success",
     ];
 }

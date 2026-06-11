@@ -1,0 +1,1016 @@
+{
+  "PRAPOR": [
+    {
+      "quest": "Postman Pat - Part 1",
+      "comesAfter": "Background Check",
+      "asks": "Locate the dead messenger and obtain his letter on Factory; Survive and extract from the location; Hand over the letter to Therapist",
+      "level": 10,
+      "score": 16.75,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 5900,
+        "standing": 0.02,
+        "money": 40000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "No Offence",
+      "comesAfter": "Postman Pat - Part 1",
+      "asks": "Obtain M67 hand grenades (x10); Hand over the grenades (x10)",
+      "level": 1,
+      "score": 20,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.25,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Perfect Mediator",
+      "comesAfter": "Belka and Strelka",
+      "asks": "Reach level 4 loyalty with Ragman (x4); Reach level 4 loyalty with Skier (x4); Reach level 4 loyalty with Mechanic (x4); Reach level 4 loyalty with Peacekeeper (x4); Reach level 4 loyalty with Prapor (x4); Reach level 4 loyalty with Therapist (x4); Reach level 4 loyalty with Jaeger (x4)",
+      "level": 35,
+      "score": 56,
+      "type": "Skill",
+      "rewards": {
+        "exp": 20900,
+        "standing": 0.02,
+        "money": 55000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "The Art of Explosion",
+      "comesAfter": "Perfect Mediator",
+      "asks": "Eliminate any target while using grenades or grenade launchers (x35)",
+      "level": 33,
+      "score": 75,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 19200,
+        "standing": 0,
+        "money": 95300,
+        "moneyCcy": "RUB"
+      }
+    }
+  ],
+  "THERAPIST": [
+    {
+      "quest": "Postman Pat - Part 2",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Hand over the letter from Prapor's messenger",
+      "level": 1,
+      "score": 3,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 3500,
+        "standing": 0.02,
+        "money": 5000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Secret Benefactor",
+      "comesAfter": "Closer to the People",
+      "asks": "Locate and obtain the new charity recruiters' notes; Hand over the found information; Scout the Scav checkpoints on Customs, Shoreline or Woods",
+      "level": 1,
+      "score": 6.75,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 9100,
+        "standing": 0.02,
+        "money": 75000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Out of Curiosity",
+      "comesAfter": "Secret Benefactor",
+      "asks": "Locate the transport with the chemicals on Customs; Mark the vehicle with an MS2000 Marker",
+      "level": 1,
+      "score": 7,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 7700,
+        "standing": 0.04,
+        "money": 170000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "This Tape Sucks",
+      "comesAfter": "Out of Curiosity",
+      "asks": "Locate the torture room inside The Labyrinth; Locate and obtain any evidence of torture; Hand over the found information",
+      "level": 1,
+      "score": 7.25,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 15500,
+        "standing": 0.03,
+        "money": 218000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "The Tarkov Butcher",
+      "comesAfter": "This Tape Sucks",
+      "asks": "Locate and obtain the chemical container on Ground Zero; Stash the container inside the ambulance car by the cottages on Shoreline",
+      "level": 1,
+      "score": 8.25,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 14700,
+        "standing": 0.02,
+        "money": 52000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Trust Regain",
+      "comesAfter": "The Tarkov Butcher",
+      "asks": "Obtain the Dorm room 303 key; Obtain the ZB-014 key; Obtain the Military checkpoint key; Obtain the Gas station storage room key; Hand over the Dorm room 303 key; Hand over the ZB-014 key; Hand over the Military checkpoint key; Hand over the Gas station storage room key",
+      "level": 1,
+      "score": 8.6,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.25,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "An Alternative",
+      "comesAfter": "Trust Regain",
+      "asks": "Hand over the found in raid dry food type items (x5);  Hand over the found in raid clean water type items (x5)",
+      "level": 1,
+      "score": 15.4,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 8600,
+        "standing": 0.02,
+        "money": 68000,
+        "moneyCcy": "RUB"
+      }
+    }
+  ],
+  "SKIER": [
+    {
+      "quest": "Fair Price - Part 1",
+      "comesAfter": "Exit Here",
+      "asks": "Hand over EUR (x∞)",
+      "level": 1,
+      "score": 81,
+      "type": "Completion",
+      "rewards": {
+        "exp": 1000,
+        "standing": 0.01,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Fair Price - Part 2",
+      "comesAfter": "Fair Price - Part 1",
+      "asks": "Locate the stash spot; Locate and obtain the AK-50 handguard at the old sawmill on Woods; Complete the task Hobby Club",
+      "level": 1,
+      "score": 6.25,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 3000,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Loyalty Buyout",
+      "comesAfter": "Fair Price - Part 2",
+      "asks": "Hand over RUB (x∞)",
+      "level": 1,
+      "score": 11,
+      "type": "Loyalty",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.25,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Easy Money - Part 1 PVE ZONE",
+      "comesAfter": "Thirsty - Delivery",
+      "asks": "Plant the Bison vs Undertaker poster in the living quarters at the Scav base on Customs",
+      "level": 3,
+      "score": 7.5,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 4500,
+        "standing": 0,
+        "money": 35000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Safety Guarantee",
+      "comesAfter": "Stirrup",
+      "asks": "Hand over the item: BNTI Zhuk body armor (EMR) (x15); Hand over the item: Vulkan-5 LShZ-5 bulletproof helmet (x12); Hand over the item: Maska-1SCh face shield (Killa Edition) (x3)",
+      "level": 1,
+      "score": 25,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "A Life Lesson",
+      "comesAfter": "Safety Guarantee",
+      "asks": "Hand over the item: Bottle of Tarkovskaya vodka (x8); Hand over the item: Bottle of Dan Jackiel whiskey (x15); Hand over the item: Bottle of Fierce Hatchling moonshine (x15)",
+      "level": 1,
+      "score": 31.4,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "The Price of Celebration",
+      "comesAfter": "A Life Lesson",
+      "asks": "Eliminate PMC operators while not wearing the Christmas armband (x10)",
+      "level": 1,
+      "score": 34,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 13250,
+        "standing": 0.03,
+        "money": 2200,
+        "moneyCcy": "EUR"
+      }
+    },
+    {
+      "quest": "Friend From the West - Part 2",
+      "comesAfter": "Friend From the West - Part 1",
+      "asks": "Hand over USD (x∞)",
+      "level": 9,
+      "score": 16.25,
+      "type": "Merchant",
+      "rewards": {
+        "exp": 10000,
+        "standing": 0.05,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Profit Retention",
+      "comesAfter": "Long Road",
+      "asks": "Hand over the item: Graphics card (x30); Hand over the item: Physical Bitcoin (x15)",
+      "level": 1,
+      "score": 37,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Indisputable Authority",
+      "comesAfter": "Profit Retention",
+      "asks": "Locate and neutralize the \"Minotaur\" inside The Labyrinth; Eliminate the \"Minotaur's\" guards inside The Labyrinth (x6)",
+      "level": 1,
+      "score": 38.2,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 25500,
+        "standing": 0.03,
+        "money": 2900,
+        "moneyCcy": "EUR"
+      }
+    },
+    {
+      "quest": "Staff Shortage",
+      "comesAfter": "Indisputable Authority",
+      "asks": "Locate and neutralize Partisan; Eliminate PMC operatives (x10)",
+      "level": 1,
+      "score": 39.4,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 16300,
+        "standing": 0.05,
+        "money": 150000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Profitable Venture",
+      "comesAfter": "Chumming",
+      "asks": "Hand over the item: Trijicon REAP-IR thermal scope (x15)",
+      "level": 61,
+      "score": 73,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Never Too Late To Learn",
+      "comesAfter": "Night Sweep",
+      "asks": "Hand over the item: HK 416A5 5.56x45 assault rifle (x15); Hand over the item: 5.56x45mm MK 318 Mod 0 (SOST) (x∞); Hand over the item: UVSR Taiga-1 survival machete (x8)",
+      "level": 1,
+      "score": 139.4,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Get a Foothold",
+      "comesAfter": "Connections Up North",
+      "asks": "Hand over the item: SJ6 TGLabs combat stimulant injector (x30); Hand over the item: Obdolbos 2 cocktail injector (x30); Hand over the item: Propital regenerative stimulant injector (x30); Hand over the item: M.U.L.E. stimulant injector (x30); Hand over the item: eTG-change regenerative stimulant injector (x30); Hand over the item: SJ9 TGLabs combat stimulant injector (x30); Hand over the item: SJ12 TGLabs combat stimulant injector (x30); Hand over the item: Meldonin injector (x30)",
+      "level": 1,
+      "score": 193,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Consolation Prize",
+      "comesAfter": "Get a Foothold",
+      "asks": "Survive and extract from The Lab (x15); Eliminate Raiders in The Lab (x100)",
+      "level": 1,
+      "score": 485.5,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    }
+  ],
+  "PEACEKEEPER": [
+    {
+      "quest": "Confidential Info",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Locate and obtain the special storage module inside The Labyrinth; Plant a hand grenade in the assembly workshop inside The Labyrinth; Hand over the found information",
+      "level": 1,
+      "score": 10.25,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 17600,
+        "standing": 0.03,
+        "money": 1600,
+        "moneyCcy": "USD"
+      }
+    },
+    {
+      "quest": "Lend-Lease - Part 2",
+      "comesAfter": "Overpopulation",
+      "asks": "Find Virtex programmable processors in raid (x2); Find Military COFDM Wireless Signal Transmitter in raid; Hand over the processors (x2); Hand over the transmitter",
+      "level": 30,
+      "score": 40.26,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 21000,
+        "standing": 0.04,
+        "money": 2000,
+        "moneyCcy": "USD"
+      }
+    },
+    {
+      "quest": "The Guide",
+      "comesAfter": "Cargo X - Part 4",
+      "asks": "Survive and extract from Woods with the \"Survived\" exit status; Survive and extract from Customs with the \"Survived\" exit status; Survive and extract from Interchange with the \"Survived\" exit status; Survive and extract from Shoreline with the \"Survived\" exit status; Survive and extract from Factory with the \"Survived\" exit status; Survive and extract from The Lab with the \"Survived\" exit status; Survive and extract from Reserve with the \"Survived\" exit status; Survive and extract from Lighthouse with the \"Survived\" exit status; Survive and extract from Streets of Tarkov with the \"Survived\" exit status; Survive and extract from Ground Zero with the \"Survived\" exit status",
+      "level": 40,
+      "score": 70,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 42600,
+        "standing": 0.04,
+        "money": 25000,
+        "moneyCcy": "USD"
+      }
+    },
+    {
+      "quest": "Mentor",
+      "comesAfter": "The Guide",
+      "asks": "Hand over EUR (x∞)",
+      "level": 1,
+      "score": 81,
+      "type": "Completion",
+      "rewards": {
+        "exp": 0,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    }
+  ],
+  "MECHANIC": [
+    {
+      "quest": "Progression Difficulties - Part 1",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Hand over the drive with the game",
+      "level": 1,
+      "score": 1.8,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 2500,
+        "standing": 0.01,
+        "money": 10500,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Progression Difficulties - Part 2",
+      "comesAfter": "Progression Difficulties - Part 1",
+      "asks": "Hand over the item: Decrypted intelligence folder",
+      "level": 1,
+      "score": 1.8,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 29000,
+        "standing": 0.01,
+        "money": 112000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Game Review - Part 1",
+      "comesAfter": "Progression Difficulties - Part 2",
+      "asks": "Explore the game disk's contents",
+      "level": 1,
+      "score": 2,
+      "type": "Multi",
+      "rewards": {
+        "exp": 500,
+        "standing": 0.01,
+        "money": 2300,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Game Review - Part 2",
+      "comesAfter": "Game Review - Part 1",
+      "asks": "Continue exploring the disk's contents",
+      "level": 1,
+      "score": 2,
+      "type": "Multi",
+      "rewards": {
+        "exp": 1500,
+        "standing": 0.01,
+        "money": 2500,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Game Review - Part 3",
+      "comesAfter": "Game Review - Part 2",
+      "asks": "Explore the game disk's contents",
+      "level": 1,
+      "score": 2,
+      "type": "Multi",
+      "rewards": {
+        "exp": 5000,
+        "standing": 0.02,
+        "money": 10000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Forced Alliance",
+      "comesAfter": "Game Review - Part 3",
+      "asks": "Find a way to get behind the Health Resort bunker door on Shoreline; Assist Therapist with her investigation",
+      "level": 1,
+      "score": 3.1,
+      "type": "Completion",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.01,
+        "money": 36000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Offensive Reconnaissance",
+      "comesAfter": "Forced Alliance",
+      "asks": "Find out what is behind the Health Resort bunker door on Shoreline; Obtain the Labrys access keycard",
+      "level": 1,
+      "score": 3.6,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 4500,
+        "standing": 0,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Hidden Layer",
+      "comesAfter": "Offensive Reconnaissance",
+      "asks": "Locate a good lead related to Knossos LLC; Find a way inside the Knossos LLC facility; Locate and obtain the Knossos LLC facility key",
+      "level": 1,
+      "score": 5.1,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 10300,
+        "standing": 0.02,
+        "money": 50000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Part 1",
+      "comesAfter": "Hidden Layer",
+      "asks": "Scout the command bunker offices on Reserve; Scout the medical building commander's office on Reserve; Scout the educational building offices on Reserve; Survive and extract from the location",
+      "level": 5,
+      "score": 12.5,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 7000,
+        "standing": 0.01,
+        "money": 24600,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Part 2",
+      "comesAfter": "Friend from Norvinsk - Part 1",
+      "asks": "Locate and obtain anything that could help with the investigation at the Health Resort on Shoreline; Hand over the found info",
+      "level": 1,
+      "score": 5.75,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 4000,
+        "standing": 0.01,
+        "money": 15300,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Part 3",
+      "comesAfter": "Friend from Norvinsk - Part 2",
+      "asks": "Eliminate Scavs (x15); Obtain any information on the diary from the Scavs; Locate and obtain Mechanic friend's diary; Hand over the found item",
+      "level": 1,
+      "score": 24.85,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 6000,
+        "standing": 0.01,
+        "money": 21800,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Part 4",
+      "comesAfter": "Friend from Norvinsk - Part 3",
+      "asks": "Hand over the found in raid item: PC CPU (x2); Hand over the found in raid item: RAM stick (x4); Hand over the found in raid item: Printed circuit board or Microcontroller board (x3)",
+      "level": 1,
+      "score": 13.96,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 3000,
+        "standing": 0.01,
+        "money": 11600,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Part 5",
+      "comesAfter": "Friend from Norvinsk - Part 4",
+      "asks": "Figure out the cipher and hand over the found item; Locate the place mentioned in the cipher; Stash the copy of the diary in the specified location",
+      "level": 1,
+      "score": 7.38,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 2000,
+        "standing": 0.02,
+        "money": 10200,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Breathing Room",
+      "comesAfter": "Friend from Norvinsk - Part 5",
+      "asks": "Modify an IWI UZI to comply with the given specifications",
+      "level": 1,
+      "score": 6,
+      "type": "WeaponAssembly",
+      "rewards": {
+        "exp": 3000,
+        "standing": 0.01,
+        "money": 12300,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Last Spurt - Pioneer",
+      "comesAfter": "Breathing Room",
+      "asks": "Hand over the beta version game disk; Locate and obtain the second game disk on Reserve; Hand over the found item",
+      "level": 1,
+      "score": 6.55,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 12300,
+        "standing": 0.01,
+        "money": 142300,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Make Amends - Equipment",
+      "comesAfter": "Last Spurt - Pioneer",
+      "asks": "Hand over the found in raid SVDS sniper rifles (x4)",
+      "level": 1,
+      "score": 6.76,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.01,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Introduction",
+      "comesAfter": "Make Amends - Equipment",
+      "asks": "Find Jaeger's camp at the specified spot on Woods; Obtain Jaeger's encrypted message; Hand over the message",
+      "level": 1,
+      "score": 7.25,
+      "type": "Completion",
+      "rewards": {
+        "exp": 4500,
+        "standing": 0.03,
+        "money": 30000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Hypotheses Testing",
+      "comesAfter": "Introduction",
+      "asks": "Locate the lab area with the prototype weapon inside The Labyrinth; Hand over the found in raid item: Labrys research notes (x5)",
+      "level": 1,
+      "score": 9.7,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 15900,
+        "standing": 0.02,
+        "money": 82000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Needle in a Haystack",
+      "comesAfter": "Hypotheses Testing",
+      "asks": "Investigate the courtyard park by TerraGroup HQ on Ground Zero; Investigate the kart track on Interchange; Investigate the children's playground on Interchange; Investigate the children's playground by Concordia on Streets of Tarkov; Investigate the coast-side construction site on Shoreline; Investigate the children's playground by the Health Resort on Shoreline",
+      "level": 1,
+      "score": 10,
+      "type": "Exploration",
+      "rewards": {
+        "exp": 9800,
+        "standing": 0.01,
+        "money": 47000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Make Amends - Buyout",
+      "comesAfter": "Needle in a Haystack",
+      "asks": "Hand over RUB (x∞)",
+      "level": 1,
+      "score": 11,
+      "type": "Loyalty",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.01,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Friend from Norvinsk - Alternative Solution",
+      "comesAfter": "Make Amends - Buyout",
+      "asks": "Hand over RUB (x∞)",
+      "level": 1,
+      "score": 11,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 500,
+        "standing": 0.01,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Shady Contractor",
+      "comesAfter": "Friend from Norvinsk - Alternative Solution",
+      "asks": "Locate the Knossos LLC senior manager's car on Ground Zero; Locate and obtain the manager's diary; Hand over the diary",
+      "level": 15,
+      "score": 21.25,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 10600,
+        "standing": 0.01,
+        "money": 52000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Watching You",
+      "comesAfter": "Scout",
+      "asks": "Locate the surveillance spot on Streets of Tarkov; Obtain the observation results; Hand over the data",
+      "level": 20,
+      "score": 26.25,
+      "type": "Completion",
+      "rewards": {
+        "exp": 18500,
+        "standing": 0.02,
+        "money": 94000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Hobby Club",
+      "comesAfter": "The Courier",
+      "asks": "Locate and obtain the AK-50 barrel on Reserve; Locate and obtain the AK-50 dust cover at one of Tarkov's security checkpoints; Locate the checkpoint with seized cargo; Locate Glukhar's workshop on Reserve; Stash the AK-50 body at the specified spot on Customs; Stash the AK-50 handguard at the specified spot on Customs; Stash the AK-50 barrel at the specified spot on Customs; Stash the AK-50 dust cover at the specified spot on Customs; Build the AK-50 body",
+      "level": 44,
+      "score": 69.93,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 21380,
+        "standing": 0.05,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    }
+  ],
+  "RAGMAN": [
+    {
+      "quest": "Sensory Analysis - Part 1",
+      "comesAfter": "Another Shipping Delay",
+      "asks": "Obtain the item: Bottle of Fierce Hatchling moonshine; Go to Woods or Streets of Tarkov; Hand over the Bottle of Fierce Hatchling moonshine to BTR driver",
+      "level": 1,
+      "score": 6.1,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 20300,
+        "standing": 0.02,
+        "money": 112000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Hot Zone",
+      "comesAfter": "Sensory Analysis - Part 1",
+      "asks": "Stash the Zulu Nylon Gear M4 RSCR chest rigs at the new gas station on Customs (x12); Stash the class 4 ballistic plates on the roof of the specified repair workshop on Reserve (x12)",
+      "level": 1,
+      "score": 9.17,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 29400,
+        "standing": 0.03,
+        "money": 169000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Only Business",
+      "comesAfter": "Big Sale",
+      "asks": "Reach level 2 loyalty with Ragman (x2)",
+      "level": 15,
+      "score": 18,
+      "type": "Merchant",
+      "rewards": {
+        "exp": 6700,
+        "standing": 0.02,
+        "money": 10000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Vacate the Premises",
+      "comesAfter": "Stabilize Business",
+      "asks": "Eliminate any target inside The Labyrinth (x36)",
+      "level": 1,
+      "score": 45.7,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 20400,
+        "standing": 0.03,
+        "money": 208000,
+        "moneyCcy": "RUB"
+      }
+    }
+  ],
+  "JAEGER": [
+    {
+      "quest": "Fearless Beast",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Eliminate any target while using the F-1 hand grenade with reduced delay (x3)",
+      "level": 1,
+      "score": 4.6,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 24200,
+        "standing": 0.05,
+        "money": 200000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Preemptive Strike",
+      "comesAfter": "Fearless Beast",
+      "asks": "Eliminate Scavs at Skier's charity checkpoints (x12)",
+      "level": 1,
+      "score": 16.9,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 10500,
+        "standing": 0.03,
+        "money": 72000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Fight Back",
+      "comesAfter": "The Tarkov Shooter - Part 8",
+      "asks": "Eliminate Scavs on Shoreline (x7); Eliminate Scavs on Customs (x7); Eliminate Scavs on Woods (x7)",
+      "level": 10,
+      "score": 39.7,
+      "type": "Elimination",
+      "rewards": {
+        "exp": 7200,
+        "standing": 0.02,
+        "money": 62000,
+        "moneyCcy": "RUB"
+      }
+    }
+  ],
+  "FENCE": [
+    {
+      "quest": "External Interest",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Hand over the copy of the programmer's diary",
+      "level": 1,
+      "score": 1.8,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 3500,
+        "standing": 0.01,
+        "money": 14300,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Establish Contact",
+      "comesAfter": "External Interest",
+      "asks": "Reach 5.0 standing with Fence (x5)",
+      "level": 1,
+      "score": 2,
+      "type": "Loyalty",
+      "rewards": {
+        "exp": 8800,
+        "standing": 0.02,
+        "money": 600,
+        "moneyCcy": "EUR"
+      }
+    },
+    {
+      "quest": "Compensation for Damage - Collection",
+      "comesAfter": "Establish Contact",
+      "asks": "Hand over the found in raid Colt M4A1 assault rifles (x2)",
+      "level": 1,
+      "score": 3.88,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 1,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Compensation for Damage - Barkeep",
+      "comesAfter": "Compensation for Damage - Collection",
+      "asks": "Hand over the found in raid Bottle of Dan Jackiel whiskey; Hand over the found in raid Cans of TarCola soda (x3)",
+      "level": 1,
+      "score": 6.76,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 0,
+        "standing": 1,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    },
+    {
+      "quest": "Between Two Fires PVE ZONE",
+      "comesAfter": "Compensation for Damage - Barkeep",
+      "asks": "Return to the old champion's hideout on Customs; Locate and obtain the compromising information on Ref; Hand over the found info",
+      "level": 1,
+      "score": 7.25,
+      "type": "Completion",
+      "rewards": {
+        "exp": 18500,
+        "standing": 0.2,
+        "money": 165000,
+        "moneyCcy": "RUB"
+      }
+    }
+  ],
+  "LIGHTHOUSEKEEPER": [
+    {
+      "quest": "Keepers Word",
+      "comesAfter": "Simple Side Job",
+      "asks": "Stash a Cultist knife in the first special place inside The Labyrinth; Stash a Cultist knife in the second special place inside The Labyrinth; Stash a Cultist knife in the third special place inside The Labyrinth",
+      "level": 1,
+      "score": 14.5,
+      "type": "Completion",
+      "rewards": {
+        "exp": 56800,
+        "standing": 0.03,
+        "money": 4200,
+        "moneyCcy": "USD"
+      }
+    },
+    {
+      "quest": "Surprise Gift PVE ZONE",
+      "comesAfter": "Missing Informant",
+      "asks": "Return to the old champion's hideout on Customs; Locate and obtain the compromising information on Ref; Hand over the found info",
+      "level": 35,
+      "score": 41.25,
+      "type": "Completion",
+      "rewards": {
+        "exp": 25500,
+        "standing": 0.01,
+        "money": 1000,
+        "moneyCcy": "USD"
+      }
+    },
+    {
+      "quest": "Return the Favor",
+      "comesAfter": "Surprise Gift PVE ZONE",
+      "asks": "Eliminate PMC operatives around the mountain area on Woods (x15); Hide the TerraGroup \"Blue Folders\" materials inside the black SUV in the USEC camp on Woods; Hide the TerraGroup \"Blue Folders\" materials in the crates near the satellite antenna in the USEC camp on Woods",
+      "level": 1,
+      "score": 56.67,
+      "type": "Completion",
+      "rewards": {
+        "exp": 0,
+        "standing": 0.03,
+        "money": 0,
+        "moneyCcy": ""
+      }
+    }
+  ],
+  "BTR": [
+    {
+      "quest": "Sensory Analysis - Part 2",
+      "comesAfter": "(first quest for this trader)",
+      "asks": "Find a Bottle of Fierce Hatchling moonshine; Hand over a Bottle of Fierce Hatchling moonshine",
+      "level": 1,
+      "score": 2.9,
+      "type": "PickUp",
+      "rewards": {
+        "exp": 6800,
+        "standing": 0.01,
+        "money": 32000,
+        "moneyCcy": "RUB"
+      }
+    },
+    {
+      "quest": "Shipping Delay - Part 2",
+      "comesAfter": "Sensory Analysis - Part 2",
+      "asks": "Locate and scout the warehouses at the depot on Woods; Locate and scout the office at the depot on Woods; Locate and scout the garages at the depot on Woods; Complete the task A Helping Hand",
+      "level": 1,
+      "score": 6.5,
+      "type": "Discover",
+      "rewards": {
+        "exp": 11500,
+        "standing": 0.01,
+        "money": 84000,
+        "moneyCcy": "RUB"
+      }
+    }
+  ]
+}
