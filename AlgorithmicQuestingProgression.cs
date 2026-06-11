@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Text.Json;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
@@ -45,10 +46,12 @@ public class AlgorithmicQuestingProgression(
     {
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
         var config = modHelper.GetJsonDataFromFile<ModConfig>(pathToMod, "config/config.json");
+        var mainQuests = modHelper.GetJsonDataFromFile<Dictionary<string, List<JsonElement>>>(pathToMod, "config/MainQuests.json");
+        var adjustments = modHelper.GetJsonDataFromFile<QuestAdjustments>(pathToMod, "config/questAdjustments.json");
 
         if (config.EnableOverhaulModule)
         {
-            new OverhaulModule(logger, databaseService, configServer, config).Run();
+            new OverhaulModule(logger, databaseService, configServer, config, mainQuests, adjustments).Run();
         }
 
         if (config.EnableAdjusterModule)
