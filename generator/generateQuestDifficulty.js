@@ -416,13 +416,29 @@ function scoreQuest(quest) {
   const distinctMaps = Object.keys(mapHits).length;
   if (distinctMaps >= FLAGS.multiMapCount) flags.add(`multi-map:${distinctMaps}`);
 
+  // --- human-readable objective text ---
+  // The locale has an authoritative task string keyed by each finish-condition's id
+  // (e.g. "Win a match in CheckPoint or LastHero mode in Arena"). Prefer that; fall
+  // back to the synthesized summary (`reqs`) for any condition with no locale entry.
+  const localeReqs = finishConds
+    .map((c) => {
+      const txt = locale[c.id];
+      if (!txt) return null;
+      // append a count when the objective wants more than 1 (locale text rarely says it)
+      const n = Number(c.value) || 1;
+      const clamped = Math.min(n, WEIGHTS.maxObjectiveCount);
+      return n > 1 ? `${txt} (x${n > WEIGHTS.maxObjectiveCount ? "∞" : clamped})` : txt;
+    })
+    .filter(Boolean);
+
   return {
     score: Math.round(score * 100) / 100,
     level,
     type: quest.type,
     event: ev ? (ev.seasonal ? ev.season : "non-seasonal") : null,
     flags: [...flags],
-    reqs: reqs.join("; ") || "(no objectives)",
+    reqs: localeReqs.length ? localeReqs.join("; ") : reqs.join("; ") || "(no objectives)",
+    reqsRaw: reqs.join("; ") || "(no objectives)",
     rewards: {
       exp: rewards.exp,
       standing: Math.round(rewards.standing * 100) / 100,
