@@ -117,12 +117,19 @@ const EVENT_ONLY_ROLES = new Set([
   "arenafighterevent",
 ]);
 
-// The "Arena" trader (Lacy calls it "Ref") gives the Arena PvP-mode questline
-// ("To Great Heights", "Against the Conscience", "Balancing", etc.). These are
-// unplayable in co-op PvE and get fully rewritten by the RefModule (port of
-// Lacy's EditRef). We flag them "arena-pvp" so they're treated as RefModule's
-// job, not raw curation.
+// The "Arena" trader (Lacy calls it "Ref") gives the Arena PvP-mode questline.
+// Some of its quests have counter conditions tied to the Arena PvP game mode
+// (winning matches) — these are IMPOSSIBLE in co-op PvE and MUST be rewritten by
+// the RefModule (port of Lacy's EditRef). We detect those precisely via the
+// Arena-mode counter condition types below and flag them "arena-pvp".
+// (The trader's other quests are already normal raid objectives and need no rewrite.)
 const ARENA_TRADER_ID = "6617beeaa9cfa777ca915b7c";
+const ARENA_PVP_TYPES = new Set([
+  "ArenaGameMode",
+  "ArenaMatchPlace",
+  "ArenaPlayerInTeamPlace",
+]);
+
 
 
 
@@ -255,8 +262,15 @@ function scoreQuest(quest) {
   const reqs = [];
   const flags = new Set();
 
-  // Arena PvP-mode trader -> these quests are rewritten by RefModule (Lacy EditRef)
-  if (quest.traderId === ARENA_TRADER_ID) flags.add("arena-pvp");
+  // Arena PvP-mode quests: only flag the ones whose counter conditions actually
+  // require the Arena PvP game mode (win matches) — those are impossible in PvE
+  // and must be rewritten by RefModule. The trader's other quests are fine as-is.
+  if (quest.traderId === ARENA_TRADER_ID) {
+    const needsArenaPvp = (quest.conditions?.AvailableForFinish || []).some((c) =>
+      (c.counter?.conditions || []).some((ic) => ARENA_PVP_TYPES.has(ic.conditionType))
+    );
+    if (needsArenaPvp) flags.add("arena-pvp");
+  }
 
   // --- start gate: level ---
   let level = 1;

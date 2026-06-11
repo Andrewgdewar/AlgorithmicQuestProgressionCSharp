@@ -67,6 +67,16 @@ Lacy's `refQuests` ids resolve to the Arena trader's "To Great Heights - Part 1.
 
 > **Decision (owner):** build Ref/Arena-quest tweaks into AQP (`refChanges`, default **on**), mirroring Lacy's behavior. If Lacy's mod stays installed, turn **off** its `refChanges` so only AQP edits this trader. The 15 Arena quests are listed for reference in `generator/output/questDifficulty.json` under the `"Arena"` trader.
 
+#### Which Arena quests actually need a rewrite (data-verified)
+Inspected all 15 Arena-trader quests' `AvailableForFinish` conditions. Only the ones whose counter conditions use the **Arena PvP game-mode types** (`ArenaGameMode`, `ArenaMatchPlace`, `ArenaPlayerInTeamPlace`) are impossible in co-op PvE. Result:
+
+- **MUST REWRITE — 5 quests** (the whole "To Great Heights" chain): all require *"Win a match in TeamFight/BlastGang/CheckPoint/LastHero/place ≥3rd in Arena"*. Part 4 also has a `Failure Condition: lose 4 matches`. These cannot be completed without the PvP mode → RefModule rewrites them into normal raid objectives (Lacy's EditRef pattern: eliminate Scavs/PMCs/USEC/BEAR, dogtag handovers, kill Goons/Partisan, etc.).
+- **NO REWRITE NEEDED — 10 quests** are already plain raid objectives despite the "PVE ZONE"/Arena framing:
+  - *Against the Conscience - Part 2* — locale says "in any game mode in Arena" but the **data is just "kill 100 Any"** (grindy, flagged `extreme-kills`, but PvE-doable). Lacy still rewrites it (to "kill Partisan 3×") — optional for us.
+  - *Provide Viewership, Easy Money - Part 2, Balancing - Part 1 & 2, Surprise, Create a Distraction - Part 1 & 2, Against the Conscience - Part 1, Decisions Decisions* — normal kills/handover/plant/find objectives, fine as-is.
+
+The generator flags exactly the 5 impossible quests with `arena-pvp` (precise detection via the Arena counter types, not a blanket trader match).
+
 ### Config surface (TS)
 - `config/config.json` — module toggles + debug flags + all scalar modifiers + `disableDailies`.
 - `config/QuestConfigs/MainQuests.json` — the curated per-trader ordered quest-name lists (the heart of the mod).

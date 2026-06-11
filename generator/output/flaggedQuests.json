@@ -25,67 +25,11 @@
   },
   {
     "trader": "Arena",
-    "questName": "Surprise PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Hand over the found in raid items: Class 4 or higher ballistic plates (x3)"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Create a Distraction - Part 1 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero (x3)"
-  },
-  {
-    "trader": "Arena",
     "questName": "To Great Heights - Part 3 PVE ZONE",
     "flags": [
       "arena-pvp"
     ],
     "reqs": "Win a match while claiming at least 3rd place in TeamFight, BlastGang, or CheckPoint mode in Arena (x2)"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Decisions Decisions PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Locate and obtain the compromising information on Ref; Hand over the found info"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Balancing - Part 1 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Eliminate Scavs while using a Steyr AUG on any location (x5)"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Against the Conscience - Part 1 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Locate the old champion's room on Customs; Find out what happened to the champion; Survive and extract from the location; Locate and obtain the key at the smugglers' base on Shoreline"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Balancing - Part 2 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Eliminate PMC operatives while wearing a PACA Soft Armor on any location (x2)"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Easy Money - Part 2 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Hand over the found in raid items from the Drinks category (x5); Hand over the found in raid items from the Food category (x5)"
   },
   {
     "trader": "Arena",
@@ -97,25 +41,8 @@
   },
   {
     "trader": "Arena",
-    "questName": "Create a Distraction - Part 2 PVE ZONE",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Eliminate Kaban's or Kollontay's guards on Streets of Tarkov (x2)"
-  },
-  {
-    "trader": "Arena",
-    "questName": "Provide Viewership",
-    "flags": [
-      "arena-pvp"
-    ],
-    "reqs": "Install the first WI-FI Camera inside the industrial plant on Customs; Install the second WI-FI Camera inside the industrial plant on Customs; Install the third WI-FI Camera inside the industrial plant on Customs; Install the fourth WI-FI Camera inside the industrial plant on Customs; Eliminate any target inside the industrial plant on Customs (x15)"
-  },
-  {
-    "trader": "Arena",
     "questName": "Against the Conscience - Part 2 PVE ZONE",
     "flags": [
-      "arena-pvp",
       "extreme-kills"
     ],
     "reqs": "Eliminate enemies in any game mode in Arena (x100)"
