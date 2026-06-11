@@ -72,7 +72,7 @@ Inspected all 15 Arena-trader quests' `AvailableForFinish` conditions. Only the 
 
 - **MUST REWRITE — 5 quests** (the whole "To Great Heights" chain): all require *"Win a match in TeamFight/BlastGang/CheckPoint/LastHero/place ≥3rd in Arena"*. Part 4 also has a `Failure Condition: lose 4 matches`. These cannot be completed without the PvP mode → RefModule rewrites them into normal raid objectives (Lacy's EditRef pattern: eliminate Scavs/PMCs/USEC/BEAR, dogtag handovers, kill Goons/Partisan, etc.).
 - **NO REWRITE NEEDED — 10 quests** are already plain raid objectives despite the "PVE ZONE"/Arena framing:
-  - *Against the Conscience - Part 2* — locale says "in any game mode in Arena" but the **data is just "kill 100 Any"** (grindy, flagged `extreme-kills`, but PvE-doable). Lacy still rewrites it (to "kill Partisan 3×") — optional for us.
+  - *Against the Conscience - Part 2* — locale says "in any game mode in Arena" but the **data is just "kill 100 Any"**. **Decision (owner): leave as-is** — it counts *anything*, so it's PvE-doable (grindy but fine; the Adjuster's `killQuestCountModifier` can tone it down if wanted). NOT rewritten.
   - *Provide Viewership, Easy Money - Part 2, Balancing - Part 1 & 2, Surprise, Create a Distraction - Part 1 & 2, Against the Conscience - Part 1, Decisions Decisions* — normal kills/handover/plant/find objectives, fine as-is.
 
 The generator flags exactly the 5 impossible quests with `arena-pvp` (precise detection via the Arena counter types, not a blanket trader match).
