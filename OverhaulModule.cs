@@ -31,7 +31,8 @@ public class OverhaulModule(
     ConfigServer configServer,
     ModConfig config,
     Dictionary<string, List<JsonElement>> mainQuests,
-    QuestAdjustments adjustments)
+    QuestAdjustments adjustments,
+    Dictionary<string, List<AmmoUnlock>> ammoUnlocks)
 {
     private const string Prefix = "[AQP][Overhaul]";
 
@@ -173,6 +174,9 @@ public class OverhaulModule(
 
         // ---- Phase 2c: reward rebalance + container rewards ----
         RebalanceRewards(quests);
+
+        // ---- Phase 2d: trader tweaks (faction gates, dailies, ammo loyalty levels) ----
+        ApplyTraderTweaks();
     }
 
     /// <summary>
@@ -596,6 +600,70 @@ public class OverhaulModule(
                 }
             }
         }
+    }
+
+    /// <summary>
+    /// Phase 2d. Trader / quest-config tweaks:
+    ///   - clear BEAR/USEC faction-only quest gates (everyone can do every quest),
+    ///   - optionally disable repeatable "daily" quests (config.DisableDailies),
+    ///   - set ammo trader-loyalty levels from ammoLevelUnlocks.json (pen-ordered),
+    ///     so better ammo unlocks at higher loyalty in a logical progression.
+    /// </summary>
+    private void ApplyTraderTweaks()
+    {
+        var questConfig = configServer.GetConfig<QuestConfig>();
+
+        // --- faction gates: everyone can do every quest ---
+        if (questConfig != null)
+        {
+            questConfig.BearOnlyQuests = [];
+            questConfig.UsecOnlyQuests = [];
+        }
+
+        // --- dailies (config-gated) ---
+        var dailiesDisabled = false;
+        if (config.DisableDailies && questConfig?.RepeatableQuests != null)
+        {
+            foreach (var rq in questConfig.RepeatableQuests)
+            {
+                rq.NumQuests = 0;
+                rq.TraderWhitelist = [];
+            }
+            dailiesDisabled = true;
+        }
+
+        // --- ammo loyalty levels (pen-ordered, from ammoLevelUnlocks.json) ---
+        // Flatten to tpl -> level (level is a property of the ammo's penetration, so it's
+        // consistent for a given tpl regardless of which trader/caliber bucket it sits in).
+        var tplToLevel = new Dictionary<string, int>();
+        foreach (var bucket in ammoUnlocks.Values)
+            foreach (var a in bucket)
+                if (!string.IsNullOrEmpty(a.Tpl))
+                    tplToLevel[a.Tpl] = a.Level;
+
+        var ammoLevelsSet = 0;
+        var traders = databaseService.GetTables().Traders;
+        if (traders != null)
+        {
+            foreach (var trader in traders.Values)
+            {
+                var assort = trader?.Assort;
+                if (assort?.Items == null || assort.LoyalLevelItems == null) continue;
+
+                foreach (var item in assort.Items)
+                {
+                    var tpl = item.Template.ToString();
+                    if (!tplToLevel.TryGetValue(tpl, out var level)) continue;
+                    if (assort.LoyalLevelItems.TryGetValue(item.Id, out var current) && current == level) continue;
+                    assort.LoyalLevelItems[item.Id] = level;
+                    ammoLevelsSet++;
+                }
+            }
+        }
+
+        logger.Success(
+            $"{Prefix} trader tweaks done. Faction gates cleared. " +
+            $"Dailies disabled: {dailiesDisabled}. Ammo loyalty levels set: {ammoLevelsSet}.");
     }
 
     /// <summary>Seasonal event quest ids (a real season, not "None") from the quest config.</summary>

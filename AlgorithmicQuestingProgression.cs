@@ -48,10 +48,11 @@ public class AlgorithmicQuestingProgression(
         var config = modHelper.GetJsonDataFromFile<ModConfig>(pathToMod, "config/config.json");
         var mainQuests = modHelper.GetJsonDataFromFile<Dictionary<string, List<JsonElement>>>(pathToMod, "config/MainQuests.json");
         var adjustments = modHelper.GetJsonDataFromFile<QuestAdjustments>(pathToMod, "config/questAdjustments.json");
+        var ammoUnlocks = modHelper.GetJsonDataFromFile<Dictionary<string, List<AmmoUnlock>>>(pathToMod, "config/ammoLevelUnlocks.json");
 
         if (config.EnableOverhaulModule)
         {
-            new OverhaulModule(logger, databaseService, configServer, config, mainQuests, adjustments).Run();
+            new OverhaulModule(logger, databaseService, configServer, config, mainQuests, adjustments, ammoUnlocks).Run();
         }
 
         if (config.EnableAdjusterModule)
