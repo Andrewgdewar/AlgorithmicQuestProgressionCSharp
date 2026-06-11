@@ -107,4 +107,63 @@ public static class Utils
         Target = traderId,
         Type = SPTarkov.Server.Core.Models.Enums.RewardType.TraderUnlock,
     };
+
+    /// <summary>
+    /// Convert an amount between Tarkov currencies via static rouble exchange rates
+    /// (port of TS <c>convertMoney</c>). Rounds to nearest whole.
+    /// </summary>
+    public static double ConvertMoney(double amount, string fromTpl, string toTpl)
+    {
+        if (amount < 0) amount = 0;
+        if (fromTpl == toTpl) return amount;
+        var from = Constants.ExchangeRates.GetValueOrDefault(fromTpl, 1);
+        var to = Constants.ExchangeRates.GetValueOrDefault(toTpl, 1);
+        return Math.Round(amount * from / to);
+    }
+
+    /// <summary>Build an EXPERIENCE success reward.</summary>
+    public static Reward ExperienceReward(string seed, double value) => new()
+    {
+        AvailableInGameEditions = [],
+        Id = new MongoId(GenerateMongoIdFromSeed(seed + "experience")),
+        Index = 0,
+        Type = SPTarkov.Server.Core.Models.Enums.RewardType.Experience,
+        Value = value,
+    };
+
+    /// <summary>Build a TRADER_STANDING success reward for the given trader.</summary>
+    public static Reward StandingReward(string seed, string traderId, double value) => new()
+    {
+        AvailableInGameEditions = [],
+        Id = new MongoId(GenerateMongoIdFromSeed(seed + "standing")),
+        Index = 0,
+        Target = traderId,
+        Type = SPTarkov.Server.Core.Models.Enums.RewardType.TraderStanding,
+        Value = value,
+    };
+
+    /// <summary>Build an ITEM success reward granting a single item template (e.g. a container).</summary>
+    public static Reward ItemReward(string seed, string itemTpl)
+    {
+        var rewardItemId = new MongoId(GenerateMongoIdFromSeed(seed + "containerItem"));
+        return new Reward
+        {
+            AvailableInGameEditions = [],
+            FindInRaid = true,
+            Id = new MongoId(GenerateMongoIdFromSeed(seed + "container")),
+            Index = 0,
+            Type = SPTarkov.Server.Core.Models.Enums.RewardType.Item,
+            Value = 1,
+            Target = rewardItemId.ToString(),
+            Items =
+            [
+                new Item
+                {
+                    Id = rewardItemId,
+                    Template = new MongoId(itemTpl),
+                    Upd = new Upd { StackObjectsCount = 1, SpawnedInSession = true },
+                },
+            ],
+        };
+    }
 }

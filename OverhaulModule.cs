@@ -170,6 +170,9 @@ public class OverhaulModule(
 
         // ---- Phase 2b: chain rebuild + trader unlocks + fence ----
         RebuildChains(quests);
+
+        // ---- Phase 2c: reward rebalance + container rewards ----
+        RebalanceRewards(quests);
     }
 
     /// <summary>
@@ -395,6 +398,179 @@ public class OverhaulModule(
             foreach (var inner in el.EnumerateArray())
                 if (inner.ValueKind == JsonValueKind.String) return inner.GetString();
         return null;
+    }
+
+    /// <summary>
+    /// Phase 2c. Per trader: pull each quest's xp / money / trader-standing rewards into
+    /// pools, sort ascending, and redistribute by chain position so reward scales with
+    /// progression. Money is converted to the trader's native currency; negative rep is
+    /// dropped. Ref gets bespoke scaling (few quests). Quests in containerRewardList are
+    /// skipped entirely and instead granted their secure container (money reward removed).
+    /// </summary>
+    private void RebalanceRewards(Dictionary<MongoId, Quest> quests)
+    {
+        var nameToId = new Dictionary<string, string>();
+        foreach (var (id, quest) in quests)
+        {
+            var name = quest.QuestName ?? "";
+            if (name.Length > 0 && !nameToId.ContainsKey(name))
+                nameToId[name] = id.ToString();
+        }
+
+        const string Exp = "experience";
+        var rebalancedTraders = 0;
+        var containersGranted = 0;
+
+        foreach (var (trader, list) in mainQuests)
+        {
+            // Ordered flattened quest names for this trader (chain members inline).
+            var names = new List<string>();
+            foreach (var el in list)
+            {
+                if (el.ValueKind == JsonValueKind.String)
+                {
+                    var s = el.GetString();
+                    if (!string.IsNullOrEmpty(s)) names.Add(s);
+                }
+                else if (el.ValueKind == JsonValueKind.Array)
+                {
+                    foreach (var inner in el.EnumerateArray())
+                        if (inner.ValueKind == JsonValueKind.String)
+                        {
+                            var s = inner.GetString();
+                            if (!string.IsNullOrEmpty(s)) names.Add(s);
+                        }
+                }
+            }
+
+            // Exclude container quests from the rebalance entirely.
+            var rebalanceNames = names.Where(n => !adjustments.ContainerRewardList.ContainsKey(n)).ToList();
+
+            var expPool = new List<Reward>();
+            var moneyPool = new List<Reward>();
+            var standingPool = new List<Reward>();
+
+            foreach (var name in rebalanceNames)
+            {
+                if (!nameToId.TryGetValue(name, out var qid) ||
+                    !quests.TryGetValue(new MongoId(qid), out var quest) || quest.Conditions == null)
+                    continue;
+
+                var traderId = quest.TraderId.ToString();
+                var traderCurrency = Constants.TraderCurrency.GetValueOrDefault(traderId, Constants.Roubles);
+
+                Reward experience = Utils.ExperienceReward(name, 1200);
+                Reward standing = Utils.StandingReward(name, traderId, 0.01);
+
+                quest.Rewards ??= new();
+                if (quest.Rewards.TryGetValue("Success", out var success) && success != null)
+                {
+                    var kept = new List<Reward>();
+                    foreach (var rew in success)
+                    {
+                        var moneyTpl = rew.Items?.FirstOrDefault()?.Template.ToString();
+                        if (moneyTpl != null && Constants.MoneyTpls.Contains(moneyTpl))
+                        {
+                            // Convert to the trader's currency, collect, drop from quest.
+                            if (moneyTpl != traderCurrency)
+                            {
+                                var newValue = Utils.ConvertMoney(rew.Value ?? 0, moneyTpl, traderCurrency);
+                                if (rew.Items!.First().Upd is { } upd) upd.StackObjectsCount = newValue;
+                                rew.Items!.First().Template = new MongoId(traderCurrency);
+                                rew.Value = newValue;
+                            }
+                            moneyPool.Add(rew);
+                            continue;
+                        }
+
+                        if (rew.Type == SPTarkov.Server.Core.Models.Enums.RewardType.Experience)
+                        {
+                            experience = rew;
+                            continue;
+                        }
+
+                        if (rew.Type == SPTarkov.Server.Core.Models.Enums.RewardType.TraderStanding &&
+                            rew.Target?.ToString() == traderId)
+                        {
+                            standing = rew;
+                            continue;
+                        }
+
+                        // Drop negative trader-standing penalties.
+                        if (rew.Type == SPTarkov.Server.Core.Models.Enums.RewardType.TraderStanding &&
+                            (rew.Value ?? 0) < 0)
+                            continue;
+
+                        kept.Add(rew);
+                    }
+                    quest.Rewards["Success"] = kept;
+                }
+
+                expPool.Add(experience);
+                standingPool.Add(standing);
+            }
+
+            expPool.Sort((a, b) => (a.Value ?? 0).CompareTo(b.Value ?? 0));
+            moneyPool.Sort((a, b) => (a.Value ?? 0).CompareTo(b.Value ?? 0));
+            standingPool.Sort((a, b) => (a.Value ?? 0).CompareTo(b.Value ?? 0));
+
+            // Ref special: few quests -> climb standing 0.1..n/10 and scale money.
+            if (trader == "REF")
+            {
+                for (var i = 0; i < standingPool.Count; i++)
+                    standingPool[i].Value = (i + 1) / 10.0;
+                for (var i = 0; i < moneyPool.Count; i++)
+                {
+                    var add = i * adjustments.RefMoneyMultiplier;
+                    moneyPool[i].Value = (moneyPool[i].Value ?? 0) + add;
+                    if (moneyPool[i].Items?.FirstOrDefault()?.Upd is { } upd)
+                        upd.StackObjectsCount = (upd.StackObjectsCount ?? 0) + add;
+                }
+            }
+
+            // Reassign pooled rewards by chain position.
+            for (var i = 0; i < rebalanceNames.Count; i++)
+            {
+                if (!nameToId.TryGetValue(rebalanceNames[i], out var qid) ||
+                    !quests.TryGetValue(new MongoId(qid), out var quest))
+                    continue;
+                quest.Rewards ??= new();
+                if (!quest.Rewards.TryGetValue("Success", out var success) || success == null)
+                    quest.Rewards["Success"] = success = [];
+
+                if (i < expPool.Count && (expPool[i].Value ?? 0) > 0) success.Add(expPool[i]);
+                if (i < moneyPool.Count && (moneyPool[i].Value ?? 0) > 0) success.Add(moneyPool[i]);
+                if (i < standingPool.Count && (standingPool[i].Value ?? 0) != 0) success.Add(standingPool[i]);
+            }
+
+            rebalancedTraders++;
+        }
+
+        // ---- container rewards (manual, after rebalance) ----
+        foreach (var (questName, containerTpl) in adjustments.ContainerRewardList)
+        {
+            if (!nameToId.TryGetValue(questName, out var qid) ||
+                !quests.TryGetValue(new MongoId(qid), out var quest))
+                continue;
+
+            quest.Rewards ??= new();
+            if (!quest.Rewards.TryGetValue("Success", out var success) || success == null)
+                quest.Rewards["Success"] = success = [];
+
+            // Strip any money-item rewards (container is the prize).
+            success.RemoveAll(r =>
+            {
+                var tpl = r.Items?.FirstOrDefault()?.Template.ToString();
+                return tpl != null && Constants.MoneyTpls.Contains(tpl);
+            });
+
+            success.Add(Utils.ItemReward(questName, containerTpl));
+            containersGranted++;
+        }
+
+        logger.Success(
+            $"{Prefix} reward rebalance done. Traders rebalanced: {rebalancedTraders}. " +
+            $"Containers granted: {containersGranted}.");
     }
 
     /// <summary>Flatten the curated MainQuests structure into all quest names (incl. chain members).</summary>

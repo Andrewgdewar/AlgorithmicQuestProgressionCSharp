@@ -127,4 +127,38 @@ public static class Constants
         ["REF"] = "6617beeaa9cfa777ca915b7c",
         ["BTR"] = "656f0f98d80a697f855d34b1",
     };
+
+    // --- Currency item template ids ---
+    public const string Roubles = "5449016a4bdc2d6f028b456f";
+    public const string Euros = "569668774bdc2da2298b4568";
+    public const string Dollars = "5696686a4bdc2da3298b456a";
+    public const string Gp = "5d235b4d86f7742e017bc88a";
+
+    /// <summary>All currency tpls (for detecting money rewards).</summary>
+    public static readonly HashSet<string> MoneyTpls = new() { Roubles, Euros, Dollars, Gp };
+
+    /// <summary>Trader id -> the currency that trader's quest money rewards should use.</summary>
+    public static readonly Dictionary<string, string> TraderCurrency = new()
+    {
+        [TraderIds["PRAPOR"]] = Roubles,
+        [TraderIds["THERAPIST"]] = Roubles,
+        [TraderIds["FENCE"]] = Roubles,
+        [TraderIds["SKIER"]] = Roubles,
+        [TraderIds["PEACEKEEPER"]] = Dollars,
+        [TraderIds["MECHANIC"]] = Roubles,
+        [TraderIds["RAGMAN"]] = Roubles,
+        [TraderIds["JAEGER"]] = Roubles,
+        [TraderIds["LIGHTHOUSEKEEPER"]] = Roubles,
+        [TraderIds["REF"]] = Gp,
+        [TraderIds["BTR"]] = Roubles,
+    };
+
+    /// <summary>Static rouble exchange rates (rubles per unit of the given currency).</summary>
+    public static readonly Dictionary<string, double> ExchangeRates = new()
+    {
+        [Roubles] = 1,
+        [Dollars] = 160,
+        [Euros] = 180,
+        [Gp] = 20000,
+    };
 }
