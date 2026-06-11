@@ -4,6 +4,8 @@ using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
+using SPTarkov.Server.Core.Servers;
+using SPTarkov.Server.Core.Services;
 
 namespace AlgorithmicQuestingProgression;
 
@@ -33,7 +35,9 @@ public record ModMetadata : AbstractModMetadata
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
 public class AlgorithmicQuestingProgression(
     ISptLogger<AlgorithmicQuestingProgression> logger,
-    ModHelper modHelper) : IOnLoad
+    ModHelper modHelper,
+    DatabaseService databaseService,
+    ConfigServer configServer) : IOnLoad
 {
     private const string Prefix = "[AlgorithmicQuestingProgression]";
 
@@ -44,8 +48,7 @@ public class AlgorithmicQuestingProgression(
 
         if (config.EnableOverhaulModule)
         {
-            logger.Debug($"{Prefix} Overhaul module enabled (not yet implemented)");
-            // TODO: OverhaulModule.Run(...)
+            new OverhaulModule(logger, databaseService, configServer, config).Run();
         }
 
         if (config.EnableAdjusterModule)
@@ -56,8 +59,8 @@ public class AlgorithmicQuestingProgression(
 
         if (config.RemoveTransitQuests)
         {
-            logger.Debug($"{Prefix} Transit removal enabled (not yet implemented)");
-            // TODO: TransitModule.Run(...)
+            logger.Debug($"{Prefix} Transit removal handled inside Overhaul teardown for now");
+            // NOTE: transit stripping currently runs inside OverhaulModule; standalone TransitModule TBD
         }
 
         if (config.RefChanges)

@@ -36,6 +36,13 @@
     </None>
   </ItemGroup>
 
+  <!-- The generator/ folder is a standalone Node data tool + scratch; never ship it. -->
+  <ItemGroup>
+    <Content Remove="generator\**" />
+    <None Remove="generator\**" />
+    <Compile Remove="generator\**" />
+  </ItemGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>None</DebugType>
     <DebugSymbols>false</DebugSymbols>

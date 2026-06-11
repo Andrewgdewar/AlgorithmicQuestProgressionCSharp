@@ -1,1 +1,327 @@
-{}
+{
+  "Caliber545x39": [
+    {
+      "key": "67877f7cecc0f8078906063a",
+      "name": "patron_545x39_7n40",
+      "tpl": "61962b617c6c7b169525f168",
+      "level": 4,
+      "damage": 55,
+      "pen": 42,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "67877f70ecc0f80789060177",
+      "name": "patron_545x39_FMJ",
+      "tpl": "56dff0bed2720bb0668b4567",
+      "level": 1,
+      "damage": 55,
+      "pen": 24,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "656629d07cac3c3b160e63fb",
+      "name": "patron_545x39_7n40",
+      "tpl": "61962b617c6c7b169525f168",
+      "level": 4,
+      "damage": 55,
+      "pen": 42,
+      "trader": "PEACEKEEPER"
+    }
+  ],
+  "Caliber762x54R": [
+    {
+      "key": "67877f70ecc0f80789060183",
+      "name": "patron_762х54R_7N1",
+      "tpl": "59e77a2386f7742ee578960a",
+      "level": 3,
+      "damage": 84,
+      "pen": 45,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "677536f97949f878820372db",
+      "name": "patron_762x54r_spbt",
+      "tpl": "64b8f7b5389d7ffd620ccba2",
+      "level": 1,
+      "damage": 92,
+      "pen": 27,
+      "trader": "SKIER"
+    }
+  ],
+  "Caliber762x39": [
+    {
+      "key": "67877f71ecc0f807890601a7",
+      "name": "patron_762x39_PS",
+      "tpl": "5656d7c34bdc2d9d198b4587",
+      "level": 2,
+      "damage": 61,
+      "pen": 35,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "656629d07cac3c3b160e63fd",
+      "name": "patron_762x39_mai_ap",
+      "tpl": "601aa3d2b2bcb34913271e6d",
+      "level": 4,
+      "damage": 53,
+      "pen": 58,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "6492e44bf4287b13040fcd1e",
+      "name": "patron_762x39_BP",
+      "tpl": "59e0d99486f7744a32234762",
+      "level": 4,
+      "damage": 58,
+      "pen": 47,
+      "trader": "JAEGER"
+    }
+  ],
+  "Caliber9x39": [
+    {
+      "key": "67877f71ecc0f807890601a4",
+      "name": "patron_9x39_sp6",
+      "tpl": "57a0e5022459774d1673f889",
+      "level": 4,
+      "damage": 60,
+      "pen": 48,
+      "trader": "PRAPOR"
+    }
+  ],
+  "Caliber9x21": [
+    {
+      "key": "67877f75ecc0f80789060311",
+      "name": "patron_9x21_sp10",
+      "tpl": "5a269f97c4a282000b151807",
+      "level": 2,
+      "damage": 59,
+      "pen": 22,
+      "QuestName": "The Punisher - Part 5",
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "67877f75ecc0f80789060314",
+      "name": "patron_9x21_sp13",
+      "tpl": "5a26ac0ec4a28200741e1e18",
+      "level": 2,
+      "damage": 52,
+      "pen": 32,
+      "trader": "PRAPOR"
+    }
+  ],
+  "Caliber40mmRU": [
+    {
+      "key": "67877f7cecc0f807890605f4",
+      "name": "40 VOG-25",
+      "tpl": "5656eb674bdc2d35148b457c",
+      "level": 2,
+      "damage": 199,
+      "pen": 0,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "64a2e6f09b9ad2b93b0cab9d",
+      "name": "40 VOG-25",
+      "tpl": "5656eb674bdc2d35148b457c",
+      "level": 2,
+      "damage": 199,
+      "pen": 0,
+      "trader": "MECHANIC"
+    }
+  ],
+  "Caliber9x18PM": [
+    {
+      "key": "67877f73ecc0f80789060296",
+      "name": "patron_9x18pm_SP7_gzh",
+      "tpl": "57372140245977611f70ee91",
+      "level": 2,
+      "damage": 77,
+      "pen": 2,
+      "trader": "PRAPOR"
+    }
+  ],
+  "Caliber23x75": [
+    {
+      "key": "678ddf585cafcfbb56059366",
+      "name": "patron_23x75_star",
+      "tpl": "5e85a9f4add9fe03027d9bf1",
+      "level": 2,
+      "damage": 0,
+      "pen": 0,
+      "trader": "PRAPOR"
+    },
+    {
+      "key": "677536fa7949f87882037392",
+      "name": "patron_23x75_star",
+      "tpl": "5e85a9f4add9fe03027d9bf1",
+      "level": 2,
+      "damage": 0,
+      "pen": 0,
+      "trader": "SKIER"
+    }
+  ],
+  "Caliber26x75": [
+    {
+      "key": "667eac90d135442276096594",
+      "name": "patron_26x75_acidgreen",
+      "tpl": "635267f063651329f75a4ee8",
+      "level": 1,
+      "damage": 37,
+      "pen": 0,
+      "trader": "THERAPIST"
+    }
+  ],
+  "Caliber9x19PARA": [
+    {
+      "key": "6492e44bf4287b13040fccf6",
+      "name": "patron_9x19_7n31",
+      "tpl": "5efb0da7a29a85116f6ea05f",
+      "level": 3,
+      "damage": 44,
+      "pen": 39,
+      "QuestName": "Private Club",
+      "trader": "SKIER"
+    },
+    {
+      "key": "656629d07cac3c3b160e63ff",
+      "name": "patron_9x19_7n31",
+      "tpl": "5efb0da7a29a85116f6ea05f",
+      "level": 3,
+      "damage": 44,
+      "pen": 39,
+      "trader": "PEACEKEEPER"
+    }
+  ],
+  "Caliber556x45NATO": [
+    {
+      "key": "676d24b0798491c5260f4f94",
+      "name": "patron_556x45_55_FMJ",
+      "tpl": "59e6920f86f77411d82aa167",
+      "level": 1,
+      "damage": 57,
+      "pen": 23,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "676d24b2798491c5260f5080",
+      "name": "patron_556x45_varmageddon",
+      "tpl": "5c0d5ae286f7741e46554302",
+      "level": 1,
+      "damage": 88,
+      "pen": 3,
+      "QuestName": "Spa Tour - Part 1",
+      "trader": "SKIER"
+    },
+    {
+      "key": "656629d07cac3c3b160e63fc",
+      "name": "patron_556x45_ssa_ap",
+      "tpl": "601949593ae8f707c4608daa",
+      "level": 4,
+      "damage": 38,
+      "pen": 57,
+      "trader": "PEACEKEEPER"
+    }
+  ],
+  "Caliber57x28": [
+    {
+      "key": "676d24a9798491c5260f4c65",
+      "name": "patron_57x28_ss197sr",
+      "tpl": "5cc80f8fe4a949033b0224a2",
+      "level": 2,
+      "damage": 62,
+      "pen": 25,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "677536dbb06e57fd5c0e0db4",
+      "name": "patron_57x28_r37f",
+      "tpl": "5cc86832d7f00c000d3a6e6c",
+      "level": 2,
+      "damage": 98,
+      "pen": 8,
+      "trader": "MECHANIC"
+    }
+  ],
+  "Caliber762x51": [
+    {
+      "key": "676d24a8798491c5260f4c36",
+      "name": "patron_762x51_M80",
+      "tpl": "58dd3ad986f77403051cba8f",
+      "level": 3,
+      "damage": 80,
+      "pen": 43,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "656629d07cac3c3b160e63fe",
+      "name": "patron_762x51_m993",
+      "tpl": "5efb0c1bd79ff02a1f5e68d9",
+      "level": 4,
+      "damage": 70,
+      "pen": 65,
+      "trader": "PEACEKEEPER"
+    }
+  ],
+  "Caliber68x51": [
+    {
+      "key": "676d24b6798491c5260f523d",
+      "name": "patron_68x51",
+      "tpl": "6529243824cbe3c74a05e5c1",
+      "level": 3,
+      "damage": 72,
+      "pen": 47,
+      "trader": "PEACEKEEPER"
+    }
+  ],
+  "Caliber40x46": [
+    {
+      "key": "676d24b0798491c5260f4f5b",
+      "name": "patron_40x46_m386",
+      "tpl": "5ede475b549eed7c6d5c18fb",
+      "level": 3,
+      "damage": 199,
+      "pen": 1,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "64a2e6f09b9ad2b93b0cab9f",
+      "name": "patron_40x46_m386",
+      "tpl": "5ede475b549eed7c6d5c18fb",
+      "level": 3,
+      "damage": 199,
+      "pen": 1,
+      "trader": "MECHANIC"
+    }
+  ],
+  "Caliber46x30": [
+    {
+      "key": "656629d07cac3c3b160e6400",
+      "name": "patron_46x30_ap_sx",
+      "tpl": "5ba26835d4351e0035628ff5",
+      "level": 4,
+      "damage": 35,
+      "pen": 53,
+      "trader": "PEACEKEEPER"
+    },
+    {
+      "key": "677536d2b06e57fd5c0e0cdb",
+      "name": "patron_46x30_fmj_sx",
+      "tpl": "5ba2678ad4351e44f824b344",
+      "level": 3,
+      "damage": 43,
+      "pen": 40,
+      "trader": "MECHANIC"
+    }
+  ],
+  "Caliber1143x23ACP": [
+    {
+      "key": "677536e0b06e57fd5c0e0f9f",
+      "name": "patron_1143x23_rip",
+      "tpl": "5ea2a8e200685063ec28c05a",
+      "level": 3,
+      "damage": 130,
+      "pen": 3,
+      "trader": "MECHANIC"
+    }
+  ]
+}
