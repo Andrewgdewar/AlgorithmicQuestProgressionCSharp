@@ -242,6 +242,33 @@ Config is read with `ModHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingA
 `ModHelper.GetJsonDataFromFile<T>(path, "config/config.json")`. JSON files are copied to output
 via `<None Update="config\*.json"><CopyToOutputDirectory>PreserveNewest</...></None>`.
 
+### `MainQuests.json` structure (mirrors the old mod)
+Same shape as `AlgorithmicQuestingProgression-ts/config/QuestConfigs/MainQuests.json`: a top-level
+object keyed by **trader name** (uppercase enum key — `PRAPOR`, `THERAPIST`, `SKIER`, `PEACEKEEPER`,
+`MECHANIC`, `RAGMAN`, `JAEGER`, `FENCE`, `LIGHTHOUSEKEEPER`, `REF`, `BTR`), whose value is an
+**ordered array** (easy → hard). Each entry is either:
+- a **string** = a single quest (`QuestName`), or
+- an **embedded array of strings** = a grouped multi-part sub-chain (e.g. "Part 1/2/3"), linked
+  internally with `quantity = 1` so they must be done in order.
+
+```jsonc
+{
+  "PRAPOR": [
+    "Debut",
+    "Background Check",
+    ["The Punisher - Part 1", "The Punisher - Part 2", "The Punisher - Part 3",
+     "The Punisher - Part 4", "The Punisher - Part 5", "The Punisher - Part 6"],
+    ["The Bunker - Part 1", "The Bunker - Part 2"],
+    "Capturing Outposts"
+  ]
+}
+```
+
+C# typed model: `Dictionary<string, List<object>>` won't bind cleanly, so model each entry as a
+small union — e.g. parse into `List<List<string>>` where a bare string becomes a 1-element inner
+list (the loader normalizes string-or-array on read). The linear chain is then built per trader
+via `TraderQuestProgressionQuantity` for the top level and `quantity = 1` inside each sub-array.
+
 ---
 
 ## 4. Effort estimate & risk
