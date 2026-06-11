@@ -34,6 +34,27 @@ the author "manually went through." For each trader it:
 10. **Per-quest condition fixups**: `deleteReqList` (remove specific finish conditions) and `adjustReqsList` (patch specific finish conditions).
 11. Optionally **disables dailies** (`disableDailies` → zero out `repeatableQuests`).
 
+#### Disassociation pass (verified from the old mod's `OverHaulModule.ts`)
+This is the **"disassociate everything, then rebuild"** step. The old mod loops every quest and:
+- **Quests NOT in the curated list** → `AvailableForStart = [ Level 99 ]` (hidden, not deleted).
+- **Quests IN the list** → fully **disassociated** from all other quests:
+  - `AvailableForStart = []` — clears **all** start gates (both the `Level` requirement AND every cross-quest `Quest` prerequisite).
+  - `AvailableForFinish` → filter out every condition with `conditionType == "Quest"` (cross-quest finish links).
+  - `Fail` → filter out every condition with `conditionType == "Quest"` (this is what breaks **betrayal / mutually-exclusive branching** — e.g. the "give the letter to trader A *or* B, failing the other" pairs; once Fail-quest links are stripped, those quests no longer cancel each other).
+  - `rewards.Fail = []`, `restartable = true`.
+  - Then `deleteReqList` / `adjustReqsList` fixups.
+- After every quest is standalone, the chain is **rebuilt** linearly via `IterateOverArrayAddingQuestReqs` (start-requirement on the previous N quests per trader).
+
+> So "disassociate all requirements and rewards from each other" = clear `AvailableForStart`, strip `Quest`-type `AvailableForFinish` + `Fail` conditions, and clear `rewards.Fail`, for every kept quest — breaking all inter-quest and cross-trader links so the curated linear chain can be re-applied cleanly.
+
+#### Full `removeList` carried over from the old mod (56 quests)
+These are deleted outright (deprecated / problematic / event / cross-trader-branching). Carried verbatim from `AlgorithmicQuestingProgression-ts/src/Changers/Constants.ts` (re-validated against the current DB: **53 still present, 3 renamed** — `To Great Heights - Part 1/2/3` are now the Arena `PVE ZONE` quests handled by the RefModule, so drop them from removeList):
+`Make Amends`, `Illegal Logging`, `Chilly`, `Enough Drinks for That One`, `Hide in Plain Sight`, `This Is My Party`, `A Healthy Alternative`, `Kind of Sabotage`, `The Stylish One`, `Important Patient`, `Bloodhounds`, `Hint`, `Failed Setup`, `Hustle`, `Tourists`, `Cocktail Tasting`, `Overseas Trust - Part 1`, `Overseas Trust - Part 2`, `The Punisher Harvest`, `The Tarkov Mystery`, `To Great Heights - Part 1/2/3`, `A Key to Salvation`, `Import ontrol`, `Whats Your Evidence`, `Caught Red-Handed`, `Gunsmith - Special Order`, `Gun Connoisseur`, `Customer Communication`, `Supply and Demand`, `Into the Inferno`, `In and Out`, `Ours by Right`, `Provide Cover`, `Cream of the Crop`, `Before the Rain`, `Night of The Cult`, `The Graven Image`, `Dont Believe Your Eyes`, `Dirty Blood`, `Burn It Down`, `The Root Cause`, `Matter of Technique`, `Find the Source`, `Gloves Off`, `Sample IV - A New Hope`, `Darkest Hour Is Just Before Dawn`, `Radical Treatment`, `Forgotten Oaths`, `Global Threat`, `Watch the Watcher`, `Not a Step Back`, `Pressured by Circumstances`, `Conservation Area`, `Contagious Beast`.
+
+> Trader-unlock notes from the old `Constants.ts`: **Fence** is always unlocked but his first quest is gated via `FenceStartRequiredQuests`; **Lightkeeper** unlocks by finishing Mechanic's "Network Provider" series; **BTR** unlocks by finishing "Shipping Delay - Part 1".
+
+> Reference clone available locally at `D:\tarky\AlgorithmicQuestingProgression-ts\` (gitignored) for porting.
+
 ### B. Adjuster Module (`AdjusterModule.ts`) — scalar tuning
 Independent multipliers applied to every quest (does NOT restructure):
 - `questLevelUnlockModifier` — scale `AvailableForStart` Level condition values.
