@@ -56,6 +56,14 @@ Lacy's algorithm (the reference we'll port), per quest in `databaseService.GetQu
 
 > **Decision (owner):** Lacy's mod will have its `transits` toggle **turned off**; AQP owns transit removal. Build it in (`removeTransitQuests`, default **on**).
 
+#### Transit quests, data-verified (current DB)
+Scanned with the precise rule (`Counter.Conditions[].Status` is exactly `["Transit"]`, NOT a normal extract whose status is `["Survived","Transit"]`). Result: **14 quests** have a real transit-between-maps requirement.
+
+- **Mainly-transit (only transit objectives) → remove the quest: 1** — *Khorovod* (Prapor), which is **already excluded** as a Christmas event quest. So in practice there are **no** pure-transit quests left to delete; transit handling is purely "strip the transit step".
+- **Has other objectives → keep the quest, strip ONLY the transit step: 13** — New Day New Paths (PK), Know Your Place (Ragman), Secrets of Polikhim (Mechanic), Special Comms (Prapor), Foresters Duty (Jaeger), Beneath The Streets (Therapist), Cream of the Crop (Prapor), Sample IV - A New Hope (Therapist), Inevitable Response (БТР), The Price of Independence (БТР, 3 transit steps), Choose Your Friends Wisely (Skier, 3 transit steps), Seizing the Initiative (PK).
+
+Algorithm for AQP: per quest, find conditions that are real transit (status exactly `["Transit"]`). If **all** finish conditions are transit → remove quest. Else → remove just the transit conditions + fix dangling `VisibilityConditions` + locale cleanup (Lacy's steps 3-6). Remaining "(In one raid)" sub-objectives simply become per-map tasks across separate raids.
+
 ### D. NEW — PvE-friendly Ref / Arena quests (`refChanges`)
 Not in the original TS mod. **Ported from [Lacyway/LacywayPvETweaks](https://github.com/Lacyway/LacywayPvETweaks) `EditRef()`** — rewrites the questline so it's completable on a co-op PvE server. Standalone toggle.
 
