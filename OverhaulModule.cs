@@ -167,6 +167,9 @@ public class OverhaulModule(
 
         // ---- Phase 2a: applier (consumes MainQuests + questAdjustments) ----
         ApplyAdjustments(quests);
+
+        // ---- Phase 2b: chain rebuild + trader unlocks + fence ----
+        RebuildChains(quests);
     }
 
     /// <summary>
@@ -268,6 +271,130 @@ public class OverhaulModule(
             $"{Prefix} applier done. Hidden (non-curated @lvl99): {hidden}. " +
             $"deleteReqList: {deleted} conditions removed. adjustReqsList: {adjusted} conditions tuned. " +
             $"weaponBuildStrip: {weaponStripped} kills conditions. skillStrip: {skillStripped} conditions removed.");
+    }
+
+    /// <summary>
+    /// Phase 2b. Rebuild the linear progression: for each trader, gate quests behind the
+    /// previous N (TraderQuestProgressionQuantity); grouped chains are strict 1-by-1.
+    /// Then wire trader unlocks and the Fence start requirement.
+    /// </summary>
+    private void RebuildChains(Dictionary<MongoId, Quest> quests)
+    {
+        // name -> id (first occurrence wins on duplicate names)
+        var nameToId = new Dictionary<string, string>();
+        foreach (var (id, quest) in quests)
+        {
+            var name = quest.QuestName ?? "";
+            if (name.Length > 0 && !nameToId.ContainsKey(name))
+                nameToId[name] = id.ToString();
+        }
+
+        string IdOrEmpty(string name) => nameToId.GetValueOrDefault(name) ?? "";
+
+        // ---- chain rebuild per trader ----
+        var chainsBuilt = 0;
+        foreach (var (trader, list) in mainQuests)
+        {
+            var mainList = new List<string>();   // ids of first-of-group / standalone
+            var groups = new List<List<string>>();
+
+            foreach (var el in list)
+            {
+                if (el.ValueKind == JsonValueKind.String)
+                {
+                    var s = el.GetString();
+                    if (string.IsNullOrEmpty(s)) continue;
+                    mainList.Add(IdOrEmpty(s));
+                }
+                else if (el.ValueKind == JsonValueKind.Array)
+                {
+                    var group = el.EnumerateArray()
+                        .Where(x => x.ValueKind == JsonValueKind.String)
+                        .Select(x => x.GetString())
+                        .Where(s => !string.IsNullOrEmpty(s))
+                        .Select(s => IdOrEmpty(s!))
+                        .ToList();
+                    if (group.Count == 0) continue;
+                    groups.Add(group);
+                    mainList.Add(group[0]);   // the chain's head sits on the main line
+                }
+            }
+
+            var quantity = adjustments.TraderQuestProgressionQuantity.GetValueOrDefault(trader, 1);
+            Utils.IterateOverArrayAddingQuestReqs(quests, mainList, quantity);
+
+            // within each grouped chain: strict linear (1-by-1)
+            foreach (var group in groups)
+                Utils.IterateOverArrayAddingQuestReqs(quests, group, 1);
+
+            chainsBuilt++;
+        }
+
+        // ---- trader unlocks ----
+        var traders = databaseService.GetTables().Traders;
+        var unlocksWired = 0;
+        foreach (var (traderName, unlockQuestName) in adjustments.TraderUnlockQuests)
+        {
+            if (!Constants.TraderIds.TryGetValue(traderName, out var traderId)) continue;
+            if (traders == null || !traders.TryGetValue(new MongoId(traderId), out var trader) || trader?.Base == null)
+                continue;
+
+            if (string.IsNullOrEmpty(unlockQuestName))
+            {
+                trader.Base.UnlockedByDefault = true;
+                continue;
+            }
+
+            trader.Base.UnlockedByDefault = false;
+            if (nameToId.TryGetValue(unlockQuestName, out var qid) &&
+                quests.TryGetValue(new MongoId(qid), out var quest))
+            {
+                quest.Rewards ??= new();
+                if (!quest.Rewards.TryGetValue("Success", out var success) || success == null)
+                    quest.Rewards["Success"] = success = [];
+                success.Add(Utils.TraderUnlockReward(traderId));
+                unlocksWired++;
+            }
+            else
+            {
+                logger.Warning($"{Prefix} trader-unlock quest not found: {unlockQuestName} ({traderName})");
+            }
+        }
+
+        // ---- Fence start requirement: gate Fence's first quest behind required quests ----
+        var fenceFirstName = mainQuests.TryGetValue("FENCE", out var fenceList) && fenceList.Count > 0
+            ? FirstQuestName(fenceList[0])
+            : null;
+
+        var fenceReqsAdded = 0;
+        if (fenceFirstName != null && nameToId.TryGetValue(fenceFirstName, out var fenceFirstId) &&
+            quests.TryGetValue(new MongoId(fenceFirstId), out var fenceFirstQuest) &&
+            fenceFirstQuest.Conditions != null)
+        {
+            fenceFirstQuest.Conditions.AvailableForStart ??= [];
+            foreach (var reqName in adjustments.FenceStartRequiredQuests)
+            {
+                if (Constants.RemoveList.Contains(reqName)) continue;
+                if (!nameToId.TryGetValue(reqName, out var reqId)) continue;
+                fenceFirstQuest.Conditions.AvailableForStart.Add(
+                    Utils.AvailableForStartQuestRequirement(reqId, reqId + "fence"));
+                fenceReqsAdded++;
+            }
+        }
+
+        logger.Success(
+            $"{Prefix} chain rebuild done. Traders chained: {chainsBuilt}. " +
+            $"Trader unlocks wired: {unlocksWired}. Fence start reqs added: {fenceReqsAdded}.");
+    }
+
+    /// <summary>First quest name of a MainQuests entry (string, or first element of a group array).</summary>
+    private static string? FirstQuestName(JsonElement el)
+    {
+        if (el.ValueKind == JsonValueKind.String) return el.GetString();
+        if (el.ValueKind == JsonValueKind.Array)
+            foreach (var inner in el.EnumerateArray())
+                if (inner.ValueKind == JsonValueKind.String) return inner.GetString();
+        return null;
     }
 
     /// <summary>Flatten the curated MainQuests structure into all quest names (incl. chain members).</summary>

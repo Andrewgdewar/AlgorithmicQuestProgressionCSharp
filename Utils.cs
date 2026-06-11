@@ -60,4 +60,51 @@ public static class Utils
         Target = new(null, questId),
         VisibilityConditions = [],
     };
+
+    /// <summary>
+    /// Walk an ordered quest-id list, grouping it into sets of <paramref name="quantity"/>,
+    /// and add "must complete the previous set" start requirements to each quest in every
+    /// set after the first (port of TS <c>IterateOverArrayAddingQuestReqs</c>). Empty ids
+    /// are kept as placeholders to preserve set alignment but are skipped when applied.
+    /// </summary>
+    public static void IterateOverArrayAddingQuestReqs(
+        Dictionary<MongoId, Quest> quests, List<string> questIdList, int quantity = 1)
+    {
+        if (quantity < 1) quantity = 1;
+
+        var sets = new List<List<string>>();
+        for (var i = 0; i < questIdList.Count; i += quantity)
+            sets.Add(questIdList.GetRange(i, Math.Min(quantity, questIdList.Count - i)));
+
+        for (var i = 1; i < sets.Count; i++)
+        {
+            var prev = sets[i - 1];
+            foreach (var qid in sets[i])
+            {
+                if (string.IsNullOrEmpty(qid) || !quests.TryGetValue(new MongoId(qid), out var quest))
+                    continue;
+                if (quest.Conditions == null) continue;
+                quest.Conditions.AvailableForStart ??= [];
+                foreach (var prevId in prev)
+                {
+                    if (string.IsNullOrEmpty(prevId)) continue;
+                    quest.Conditions.AvailableForStart.Add(
+                        AvailableForStartQuestRequirement(prevId, prevId + "prevQuest"));
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Build a TRADER_UNLOCK success reward (port of TS <c>traderUnlockSuccessByID</c>).
+    /// Completing the owning quest unlocks the target trader.
+    /// </summary>
+    public static Reward TraderUnlockReward(string traderId) => new()
+    {
+        AvailableInGameEditions = [],
+        Id = new MongoId(GenerateMongoIdFromSeed(traderId)),
+        Index = 0,
+        Target = traderId,
+        Type = SPTarkov.Server.Core.Models.Enums.RewardType.TraderUnlock,
+    };
 }
