@@ -1,0 +1,1226 @@
+[
+  {
+    "trader": "Arena",
+    "questName": "Against the Conscience - Part 2 PVE ZONE",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 100 enemies"
+  },
+  {
+    "trader": "Fence",
+    "questName": "Small Business - Part 1",
+    "flags": [
+      "multi-objective:18"
+    ],
+    "reqs": "Find 1x Ded Moroz; Hand over 1x Ded Moroz (FiR); Find 1x Mutkevich; Hand over 1x Mutkevich (FiR); Find 1x Killa; Hand over 1x Killa (FiR); Find 1x Reshala; Hand over 1x Reshala (FiR); Find 1x Ryzhy; Hand over 1x Ryzhy (FiR); Find 1x Scav; Hand over 1x Scav (FiR); Find 1x Tagilla; Hand over 1x Tagilla (FiR); Find 1x Cultist; Hand over 1x Cultist (FiR); Find 1x Den; Hand over 1x Den (FiR)"
+  },
+  {
+    "trader": "Fence",
+    "questName": "Small Business - Part 2",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 10 boar"
+  },
+  {
+    "trader": "Fence",
+    "questName": "Collector",
+    "flags": [
+      "multi-objective:39"
+    ],
+    "reqs": "Hand over 1x Firesteel (FiR); Hand over 1x Axe (FiR); Hand over 1x Book (FiR); Hand over 1x #FireKlean (FiR); Hand over 1x Rooster (FiR); Hand over 1x Badge (FiR); Hand over 1x BeardOil (FiR); Hand over 1x 1GPhone (FiR); Hand over 1x Mayo (FiR); Hand over 1x Sprats (FiR); Hand over 1x Mustache (FiR); Hand over 1x Kotton (FiR); Hand over 1x Raven (FiR); Hand over 1x Plague mask (FiR); Hand over 1x Shroud (FiR); Hand over 1x DrLupo's (FiR); Hand over 1x 42 (FiR); Hand over 1x Veritas (FiR); Hand over 1x Evasion (FiR); Hand over 1x RatCola (FiR); Hand over 1x Loot Lord (FiR); Hand over 1x Smoke (FiR); Hand over 1x WZ (FiR); Hand over 1x Poison (FiR); Hand over 1x Danex (FiR); Hand over 1x VHS (FiR); Hand over 1x BakeEzy (FiR); Hand over 1x JohnB (FiR); Hand over 1x Baddie (FiR); Hand over 1x DRD (FiR); Hand over 1x Gingy (FiR); Hand over 1x Egg (FiR); Hand over 1x Pass (FiR); Hand over 1x Axel (FiR); Hand over 1x BEAR Buddy (FiR); Hand over 1x Glorious (FiR); Hand over 1x Inseq (FiR); Hand over 1x Viibiin (FiR); Hand over 1x Tamatthi (FiR)"
+  },
+  {
+    "trader": "Fence",
+    "questName": "Is This a Reference",
+    "flags": [
+      "multi-objective:27"
+    ],
+    "reqs": "Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item; Plant item"
+  },
+  {
+    "trader": "Fence",
+    "questName": "Watch the Watcher",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 55 infectedassault; on Lighthouse"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Work Smarter",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Find 1x Code; Completion x1"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Contagious Beast",
+    "flags": [
+      "event-enemy:infectedTagilla",
+      "one-session-only"
+    ],
+    "reqs": "Kill 1 infectedtagilla; Completion x1"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "The Graven Image",
+    "flags": [
+      "event-enemy:sectantOni",
+      "event-enemy:sectantPredvestnik",
+      "event-enemy:sectantPrizrak"
+    ],
+    "reqs": "Kill 1 oni; Kill 1 predvestnik; Kill 1 prizrak"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Foresters Duty",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Kill 5 enemies; Completion x1; on Lighthouse; Kill 5 enemies"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Broadcast - Part 3",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Reserve",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on RezervBase"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Courtesy Visit",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; on Shoreline"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Broadcast - Part 4",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "The Huntsman Path - Forest Cleaning",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "The Huntsman Path - Big Game",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 1 Kaban; Kill 5 boar; Kill 1 boarclose1; Kill 1 boarclose2"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Hustle",
+    "flags": [
+      "multi-objective:11"
+    ],
+    "reqs": "Kill 1 Reshala; on Shoreline; Kill 1 Glukhar; on Shoreline; Kill 1 Killa; on Shoreline; Kill 1 Shturman; on Shoreline; Kill 1 Knight; on Shoreline; Kill 1 Big Pipe; on Shoreline; Kill 1 Bird Eye; on Shoreline; Kill 1 Sanitar; on Shoreline; Kill 1 Tagilla; on Shoreline; Kill 1 Kaban; on Shoreline; Kill 1 Kolontay; on Shoreline"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "The Huntsman Path - Relentless",
+    "flags": [
+      "event-enemy:infectedTagilla",
+      "multi-objective:6"
+    ],
+    "reqs": "Kill 1 Tagilla; Kill 1 Killa; Kill 1 Reshala; Kill 1 Shturman; Kill 1 Glukhar; Kill 1 Sanitar"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Gloves Off",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla"
+    ],
+    "reqs": "Kill 25 infectedassault"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Bloodhounds",
+    "flags": [
+      "event-enemy:arenaFighterEvent",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 Bloodhound"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Slaughterhouse",
+    "flags": [
+      "multi-objective:9",
+      "multi-map:9"
+    ],
+    "reqs": "Kill 10 enemies; on factory4_day; Kill 10 enemies; on TarkovStreets; Kill 10 enemies; on Lighthouse; Kill 10 enemies; on Woods; Kill 10 enemies; on Shoreline; Kill 10 enemies; on Interchange; Kill 10 enemies; on bigmap; Kill 10 enemies; on RezervBase; Kill 10 enemies; on Sandbox"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Hunter",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 20 Shturman"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Conservation Area",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 40 infectedassault; on Woods"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Burn It Down",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 infectedassault"
+  },
+  {
+    "trader": "Jaeger",
+    "questName": "Darkest Hour Is Just Before Dawn",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 60 infectedassault; on Sandbox; Kill 60 infectedassault; on TarkovStreets; Kill 60 infectedassault; on laboratory"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Knock-Knock",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Experience x1; on Lighthouse"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Needle in a Haystack",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Key to the Tower",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Hand over 2x Plexiglass (FiR); Hand over 1x Tape (FiR); Hand over 2x MCB (FiR); Hand over 1x SG-C10 (FiR); Hand over 1x LCD (FiR); Find 1x Body; Hand over 1x Body"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Secrets of Polikhim",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Find 1x Tools; Completion x1; on bigmap; Kill 3 enemies; on factory4_night; Plant item"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Signal - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Customer Communication",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 1x MCable; Find 2x LCD; Find 2x Cord; Hand over 1x MCable (FiR); Hand over 2x LCD (FiR); Hand over 2x Cord (FiR)"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Camera Action",
+    "flags": [
+      "multi-objective:12"
+    ],
+    "reqs": "Hand over 1x SSD (FiR); Hand over 1x USB-A (FiR); Hand over 1x Powerbank (FiR); Hand over 1x RBattery (FiR); Hand over 1x CPU (FiR); Hand over 1x EC (FiR); Hand over 1x Wires (FiR); Hand over 1x Caps (FiR); Hand over 1x NIXXOR (FiR); Hand over 1x RAM (FiR); Hand over 1x LCD (FiR); Hand over 1x Bulb (FiR)"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Back Door",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Forklift Certified",
+    "flags": [
+      "multi-objective:12"
+    ],
+    "reqs": "Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Broadcast - Part 2",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Scout",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on factory4_day"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Chemistry Closet",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Developers Secrets - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Completion x1"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Developers Secrets - Part 2",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; on TarkovStreets; Completion x1"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Farming - Part 2",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 2x Cord; Hand over 2x Cord (FiR); Find 4x T-Plug; Hand over 4x T-Plug (FiR); Find 2x PCB; Hand over 2x PCB (FiR)"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Signal - Part 2",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Find 3x CPU; Hand over 3x CPU (FiR); Find 3x RBattery; Hand over 3x RBattery (FiR); Find 3x PCB; Hand over 3x PCB (FiR); Find 3x GPhone; Hand over 3x GPhone (FiR)"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Gun Connoisseur",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Kill 10 enemies; Kill 10 enemies; Kill 10 enemies; Kill 5 enemies; Kill 5 enemies; Kill 5 enemies"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Bad Habit",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 5x Malboro; Hand over 5x Malboro (FiR); Find 5x Strike; Hand over 5x Strike (FiR); Find 5x Wilston; Hand over 5x Wilston (FiR)"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Hobby Club",
+    "flags": [
+      "multi-objective:9"
+    ],
+    "reqs": "Find 1x AK-50; Find 1x AK-50; Exploration x1; Exploration x1; Plant item; Plant item; Plant item; Plant item; Find 1x AK-50"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Pressured by Circumstances",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla"
+    ],
+    "reqs": "Kill 25 infectedassault; on factory4_day"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "A Shooter Born in Heaven",
+    "flags": [
+      "multi-objective:8",
+      "multi-map:8"
+    ],
+    "reqs": "Kill 5 PMCs; on Woods; Kill 5 PMCs; on RezervBase; Kill 5 PMCs; on Shoreline; Kill 5 PMCs; on bigmap; Kill 5 PMCs; on Lighthouse; Kill 5 PMCs; on TarkovStreets; Kill 5 PMCs; on Interchange; Kill 5 PMCs; on Sandbox"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Failed Setup",
+    "flags": [
+      "boss-grind",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 Cultist Priest"
+  },
+  {
+    "trader": "Mechanic",
+    "questName": "Supply and Demand",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill ∞ PMCs"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Seizing the Initiative",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Completion x1; on bigmap; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "New Day New Paths",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Completion x1; Completion x1; Completion x1; on Sandbox_high; Completion x1; Completion x1"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Cargo X - Part 3",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "The Cult - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Spa Tour - Part 4",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Discover x1; on Shoreline"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Wet Job - Part 3",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Eagle Eye",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Exploration x1; Find 1x SAS #1; Hand over 1x SAS #1; Exploration x1; Find 1x SAS #2; Hand over 1x SAS #2"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Samples",
+    "flags": [
+      "multi-objective:14"
+    ],
+    "reqs": "Find 1x M.U.L.E.; Hand over 1x M.U.L.E. (FiR); Find 1x Obdolbos; Hand over 1x Obdolbos (FiR); Find 1x Meldonin; Hand over 1x Meldonin (FiR); Find 1x AHF1-M; Hand over 1x AHF1-M (FiR); Find 1x P22; Hand over 1x P22 (FiR); Find 1x L1; Hand over 1x L1 (FiR); Find 1x 3-(b-TG); Hand over 1x 3-(b-TG) (FiR)"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Road Closed",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Revision - Reserve",
+    "flags": [
+      "multi-objective:12"
+    ],
+    "reqs": "Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Place beacon; Exploration x1; Exploration x1"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Spa Tour - Part 7",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Find 4x Morphine; Hand over 4x Morphine (FiR); Find 2x Alkali; Hand over 2x Alkali (FiR); Find 2x Hose; Hand over 2x Hose (FiR); Find 2x Propane; Hand over 2x Propane (FiR)"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Humanitarian Supplies",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Place beacon; Place beacon; Find 5x MRE; Hand over 5x MRE; Kill 10 enemies; on Shoreline; Exploration x1; Exploration x1"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Hustle",
+    "flags": [
+      "multi-objective:7",
+      "one-session-only"
+    ],
+    "reqs": "Kill 1 Reshala; Kill 1 Glukhar; Kill 1 Killa; Kill 1 Shturman; Kill 1 Sanitar; Kill 1 Tagilla; Completion x1"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Worst Job in the World",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "The Guide",
+    "flags": [
+      "multi-objective:10",
+      "multi-map:10"
+    ],
+    "reqs": "Exploration x1; on Woods; Exploration x1; on bigmap; Exploration x1; on Interchange; Exploration x1; on Shoreline; Exploration x1; on factory4_day; Exploration x1; on laboratory; Exploration x1; on RezervBase; Exploration x1; on Lighthouse; Exploration x1; on TarkovStreets; Exploration x1; on Sandbox"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Peacekeeping Mission",
+    "flags": [
+      "multi-objective:6",
+      "multi-map:6"
+    ],
+    "reqs": "Kill 12 enemies; on Woods; Kill 12 enemies; on bigmap; Kill 12 enemies; on Interchange; Kill 12 enemies; on Shoreline; Kill 12 enemies; on TarkovStreets; Kill 12 enemies; on Sandbox"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "Special Equipment",
+    "flags": [
+      "multi-objective:10"
+    ],
+    "reqs": "Find 5x VPX; Find 5x RFIDR; Find 5x Virtex; Find 5x SG-C10; Find 4x MFD; Hand over 5x VPX (FiR); Hand over 5x RFIDR (FiR); Hand over 5x Virtex (FiR); Hand over 5x SG-C10 (FiR); Hand over 4x MFD (FiR)"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "The Punisher Harvest",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 PMCs; Hand over 50x BEAR/USEC (FiR)"
+  },
+  {
+    "trader": "Peacekeeper",
+    "questName": "The Cleaner",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 40 Raiders; on RezervBase"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Reconnaissance",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Completion x1; on Lighthouse"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Cream of the Crop",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Find 1x KOSA; Exploration x1; on Shoreline; Plant item"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Search Mission",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Completion x1; on Woods"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "The Bunker - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Completion x1; on RezervBase"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Glory to CPSU - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "The Bunker - Part 2",
+    "flags": [
+      "multi-objective:6",
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on RezervBase"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Green Corridor",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Tourists",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Kill 1 Knight; on factory4_day; Kill 1 Big Pipe; on factory4_day; Kill 1 Bird Eye; on factory4_day; Completion x1; on factory4_day"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Documents",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 1x Docs #1; Find 1x Docs #2; Find 1x Docs #3; Hand over 1x Docs #1; Hand over 1x Docs #2; Hand over 1x Docs #3"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Stick in the Wheel",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Gendarmerie - District Patrol",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Perfect Mediator",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Reach LL4 Ragman; Reach LL4 Skier; Reach LL4 Mechanic; Reach LL4 Peacekeeper; Reach LL4 Prapor; Reach LL4 Therapist; Reach LL4 Jaeger"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Best Job in the World",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Test Drive - Part 5",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 enemies; on factory4_night"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Test Drive - Part 6",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 enemies; on bigmap"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "The Punisher - Part 5",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Find 1x AK-74N/AK-74M/…; Hand over 1x AK-74N/AK-74/… (FiR); Find 1x M4A1; Hand over 1x M4A1 (FiR); Find 2x PM/PM (t); Hand over 2x PM/PM (t) (FiR); Kill 10 PMCs"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "The Art of Explosion",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 35 enemies"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Test Drive - Part 4",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies; on Shoreline"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Intimidator",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 40 enemies"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Escort",
+    "flags": [
+      "multi-objective:8",
+      "multi-map:8"
+    ],
+    "reqs": "Kill 4 PMCs; on factory4_day; Kill 4 PMCs; on bigmap; Kill 4 PMCs; on Shoreline; Kill 4 PMCs; on RezervBase; Kill 4 PMCs; on Woods; Kill 4 PMCs; on Interchange; Kill 4 PMCs; on laboratory; Kill 4 PMCs; on Sandbox"
+  },
+  {
+    "trader": "Prapor",
+    "questName": "Not a Step Back",
+    "flags": [
+      "event-enemy:infectedAssault",
+      "event-enemy:infectedCivil",
+      "event-enemy:infectedLaborant",
+      "event-enemy:infectedPmc",
+      "event-enemy:infectedTagilla",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 35 infectedassault; on RezervBase"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Another Shipping Delay",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Completion x1; Completion x1; on Woods"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Nothing Fishy About This",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Big Sale",
+    "flags": [
+      "multi-objective:6",
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on Interchange"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Stabilize Business",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Kill 7 enemies; on Sandbox_high; Completion x1; on Sandbox_high"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Database - Part 1",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 1x Goshan; Hand over 1x Goshan; Find 1x OLI; Hand over 1x OLI; Find 1x IDEA; Hand over 1x IDEA"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Know Your Place",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Kill 5 enemies; on TarkovStreets; Completion x1; Kill 5 enemies; on Interchange"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Special Offer",
+    "flags": [
+      "multi-objective:10"
+    ],
+    "reqs": "Find 1x Sanitar; Hand over 1x Sanitar (FiR); Find 1x AVS TE; Hand over 1x AVS TE (FiR); Find 1x LBCR GE; Hand over 1x LBCR GE (FiR); Find 1x COMM 3; Hand over 1x COMM 3 (FiR); Find 1x CPC GE; Hand over 1x CPC GE (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Ballet Lover",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Inventory Check",
+    "flags": [
+      "multi-objective:6",
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Exploration x1; Exploration x1; Exploration x1; Completion x1; on RezervBase"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Living High is Not a Crime - Part 2",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Find 3x Teapot; Find 2x Vase; Find 1x Axel; Find 2x Raven; Hand over 3x Teapot (FiR); Hand over 2x Vase (FiR); Hand over 1x Axel (FiR); Hand over 2x Raven (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Combat Proven",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 5 Kaban"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Vacate the Premises",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 36 enemies; on Labyrinth"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Living High is Not a Crime - Part 1",
+    "flags": [
+      "multi-objective:10"
+    ],
+    "reqs": "Find 2x Lion; Hand over 2x Lion (FiR); Find 2x Horse; Hand over 2x Horse (FiR); Find 1x Cat; Hand over 1x Cat (FiR); Find 1x Roler; Hand over 1x Roler (FiR); Find 1x Egg; Hand over 1x Egg (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Textile - Part 1",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 5x Aramid; Hand over 5x Aramid (FiR); Find 10x Ripstop; Hand over 10x Ripstop (FiR); Find 3x Paracord; Hand over 3x Paracord (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Textile - Part 1",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 5x Aramid; Hand over 5x Aramid (FiR); Find 10x Ripstop; Hand over 10x Ripstop (FiR); Find 3x Paracord; Hand over 3x Paracord (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Dandies",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 30 enemies; on TarkovStreets; Plant item; Plant item"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Textile - Part 2",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 10x Fleece; Hand over 10x Fleece (FiR); Find 10x Cordura; Hand over 10x Cordura (FiR); Find 5x KEK; Hand over 5x KEK (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Textile - Part 2",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 10x Fleece; Hand over 10x Fleece (FiR); Find 10x Cordura; Hand over 10x Cordura (FiR); Find 5x KEK; Hand over 5x KEK (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Booze",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Find 10x Vodka; Find 10x Whiskey; Find 3x Superwater; Find 20x Pevko; Hand over 10x Vodka (FiR); Hand over 10x Whiskey (FiR); Hand over 3x Superwater (FiR); Hand over 20x Pevko (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "The Stylish One",
+    "flags": [
+      "boss-grind",
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 Killa"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Drip-Out - Part 1",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 100 Raiders; Hand over 50x TV-115/Berkut/… (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Drip-Out - Part 1",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 100 Raiders; Hand over 50x TV-115/Berkut/… (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Drip-Out - Part 2",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 100 Rogues; Hand over 50x LBCR GE/LBT-1476A/… (FiR)"
+  },
+  {
+    "trader": "Ragman",
+    "questName": "Drip-Out - Part 2",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 100 Rogues; Hand over 50x LBCR GE/LBT-1476A/… (FiR)"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Route Deviation",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Choose Your Friends Wisely",
+    "flags": [
+      "one-session-only",
+      "multi-map:4"
+    ],
+    "reqs": "Completion x1; on bigmap; Completion x1; on RezervBase; Completion x1; on Woods; Completion x1; on Lighthouse; Kill 5 PMCs"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Debtor",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Vitamins - Part 1",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Find 1x Chemcont; Hand over 1x Chemcont; Find 1x Chemcont; Hand over 1x Chemcont; Find 1x Chemcont; Hand over 1x Chemcont"
+  },
+  {
+    "trader": "Skier",
+    "questName": "House Arrest - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Indisputable Authority",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 1 tagillaagro; Kill 6 tagillahelperagro"
+  },
+  {
+    "trader": "Skier",
+    "questName": "House Arrest - Part 2",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Lend-Lease - Part 1",
+    "flags": [
+      "multi-objective:10"
+    ],
+    "reqs": "Find 1x Controller #1; Hand over 1x Controller #1; Find 1x Controller #2; Hand over 1x Controller #2; Find 1x Controller #3; Hand over 1x Controller #3; Find 1x FOG #1; Hand over 1x FOG #1; Find 1x FOG #2; Hand over 1x FOG #2"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Pyramid Scheme",
+    "flags": [
+      "multi-objective:15"
+    ],
+    "reqs": "Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1; Discover x1"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Hint",
+    "flags": [
+      "multi-objective:12"
+    ],
+    "reqs": "Kill 1 Reshala; Kill 1 Glukhar; Kill 1 Killa; Kill 1 Shturman; Kill 1 Knight; Kill 1 Big Pipe; Kill 1 Bird Eye; Kill 1 Sanitar; Kill 1 Tagilla; Kill 5 Raiders; Kill 5 Rogues; Kill 1 Cultist Priest"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Connections Up North",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 50 PMCs"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Get a Foothold",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Hand over 30x SJ6; Hand over 30x Dolbos 2; Hand over 30x Propital; Hand over 30x M.U.L.E.; Hand over 30x eTG-c; Hand over 30x SJ9; Hand over 30x SJ12; Hand over 30x Meldonin"
+  },
+  {
+    "trader": "Skier",
+    "questName": "Consolation Prize",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Exploration x15; on laboratory; Kill 100 Raiders; on laboratory"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Pets Wont Need It - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Pets Wont Need It - Part 2",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Discover x1; Completion x1"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Trust Regain",
+    "flags": [
+      "multi-objective:8"
+    ],
+    "reqs": "Find 1x Dorm 303; Find 1x ZB-014; Find 1x Checkpoint; Find 1x Gas store; Hand over 1x Dorm 303; Hand over 1x ZB-014; Hand over 1x Checkpoint; Hand over 1x Gas store"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Operation Aquarius - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Completion x1; on bigmap"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Sample IV - A New Hope",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Find 1x Sample IV; Completion x1; on laboratory; Plant item"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Beneath The Streets",
+    "flags": [
+      "multi-objective:6",
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Completion x1; on TarkovStreets; Discover x1; Discover x1; Discover x1; Discover x1"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "A Key to Salvation",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Hand over 1x Black; Hand over 1x Blue; Hand over 1x Green; Hand over 1x Red; Hand over 1x Yellow; Hand over 1x Violet; Hand over 1x Access"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Radical Treatment",
+    "flags": [
+      "multi-objective:6"
+    ],
+    "reqs": "Plant item; Plant item; Plant item; Plant item; Plant item; Plant item"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Colleagues - Part 1",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Discover x1; Discover x1; Discover x1; Completion x1; on Shoreline"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Lost Contact",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Exploration x1; Exploration x1; on Lighthouse"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Abandoned Cargo",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon; Place beacon"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Colleagues - Part 3",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Quest; Find 10x Access; Hand over 10x Access (FiR); Find 1x AHF1-M; Hand over 1x AHF1-M (FiR); Find 1x 3-(b-TG); Hand over 1x 3-(b-TG) (FiR)"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Decontamination Service",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Kill 40 enemies; on Interchange"
+  },
+  {
+    "trader": "Therapist",
+    "questName": "Crisis",
+    "flags": [
+      "multi-objective:10"
+    ],
+    "reqs": "Find 3x Defib; Find 3x OScope; Find 2x LEDX; Find 20x Meds; Find 10x Vitamins; Hand over 3x Defib (FiR); Hand over 3x OScope (FiR); Hand over 2x LEDX (FiR); Hand over 20x Meds (FiR); Hand over 10x Vitamins (FiR)"
+  },
+  {
+    "trader": "caretaker",
+    "questName": "Information Source",
+    "flags": [
+      "multi-objective:7"
+    ],
+    "reqs": "Completion x1; Completion x1; Completion x1; Completion x1; Completion x1; Place beacon; Place beacon"
+  },
+  {
+    "trader": "caretaker",
+    "questName": "Payback",
+    "flags": [
+      "boss-grind"
+    ],
+    "reqs": "Kill 1 Glukhar; Kill 6 gluharassault; Completion x1; Completion x1"
+  },
+  {
+    "trader": "caretaker",
+    "questName": "Trouble in the Big City",
+    "flags": [
+      "extreme-kills"
+    ],
+    "reqs": "Exploration x1; Kill 50 PMCs; on TarkovStreets; Place beacon; Completion x1; Completion x1; on TarkovStreets"
+  },
+  {
+    "trader": "caretaker",
+    "questName": "Overseas Trust - Part 1",
+    "flags": [
+      "boss-grind",
+      "multi-objective:6"
+    ],
+    "reqs": "Kill 15 Reshala; Kill 15 Glukhar; Kill 15 Killa; Kill 15 Shturman; Kill 15 Sanitar; Kill 15 Tagilla"
+  },
+  {
+    "trader": "БТР",
+    "questName": "Inevitable Response",
+    "flags": [
+      "one-session-only"
+    ],
+    "reqs": "Kill 5 enemies; on Woods; Completion x1; on Woods; Kill 5 enemies; on RezervBase"
+  },
+  {
+    "trader": "БТР",
+    "questName": "The Price of Independence",
+    "flags": [
+      "multi-objective:10",
+      "one-session-only",
+      "multi-map:4"
+    ],
+    "reqs": "Find 1x Letter; Completion x1; on bigmap; Plant item; Completion x1; on RezervBase; Kill 3 enemies; on Woods; Completion x1; on Woods; Discover x1; Discover x1; Kill 10 enemies; Completion x1; on Lighthouse"
+  },
+  {
+    "trader": "БТР",
+    "questName": "The Price of Independence",
+    "flags": [
+      "multi-objective:10",
+      "one-session-only",
+      "multi-map:4"
+    ],
+    "reqs": "Find 1x Letter; Completion x1; on bigmap; Plant item; Completion x1; on RezervBase; Kill 3 enemies; on Woods; Completion x1; on Woods; Discover x1; Discover x1; Kill 10 enemies; Completion x1; on Lighthouse"
+  }
+]

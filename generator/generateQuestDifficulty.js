@@ -89,6 +89,36 @@ const EVENTS = {
 };
 
 // ---------------------------------------------------------------------------
+// "DON'T WANT" FLAGS  — pattern-based candidates for removal (a GUIDE, not a
+//   hard rule; see the author's old removeList for the flavour). Flags are
+//   attached to each quest's output for review; nothing is auto-removed unless
+//   FLAGS.dropFlagged is set true.
+// ---------------------------------------------------------------------------
+const FLAGS = {
+  dropFlagged: false, // if true, flagged quests are EXCLUDED like events
+  extremeKillCount: 30, // single kill objective >= this -> "extreme-kills"
+  bossGrindCount: 5, // killing >= this many of a boss/follower -> "boss-grind"
+  multiObjectiveCount: 6, // >= this many finish conditions -> "multi-objective" (e.g. Collector)
+  multiMapCount: 4, // same objective spread across >= this many maps -> "multi-map" (e.g. Escort)
+};
+
+// Enemy roles that only spawn during events / special modes (zombies, the
+// Halloween cultist bosses, the arena Bloodhound). Quests requiring these can't
+// be completed in a normal raid -> flagged "event-enemy".
+const EVENT_ONLY_ROLES = new Set([
+  "infectedassault",
+  "infectedtagilla",
+  "infectedcivil",
+  "infectedlaborant",
+  "infectedpmc",
+  "sectantoni",
+  "sectantprizrak",
+  "sectantpredvestnik",
+  "arenafighterevent",
+]);
+
+
+// ---------------------------------------------------------------------------
 // Lookup tables
 // ---------------------------------------------------------------------------
 const CURRENCY_TPL = {
@@ -215,6 +245,7 @@ function killTargetInfo(inner) {
 function scoreQuest(quest) {
   let score = 0;
   const reqs = [];
+  const flags = new Set();
 
   // --- start gate: level ---
   let level = 1;
@@ -257,9 +288,21 @@ function scoreQuest(quest) {
           for (const k of kills) {
             const info = killTargetInfo(k);
             if (info.weight > best.weight) best = info;
+            // flag: requires event-only enemies (zombies / Halloween cultists / arena)
+            for (const r of k.savageRole || []) {
+              if (EVENT_ONLY_ROLES.has(String(r).toLowerCase())) {
+                flags.add(`event-enemy:${r}`);
+              }
+            }
+            // flag: grinding many bosses/followers
+            const roleStr = (k.savageRole || []).map((r) => String(r).toLowerCase());
+            const isBossish = roleStr.some((r) => r.startsWith("boss") || r.startsWith("follower") || r.startsWith("sectant"));
+            if (isBossish && count >= FLAGS.bossGrindCount) flags.add("boss-grind");
           }
           score += count * WEIGHTS.perKill * best.weight;
           reqs.push(`Kill ${sentinel ? "∞" : count} ${best.label}`);
+          // flag: extreme kill count (incl. sentinel "endless")
+          if (sentinel || count >= FLAGS.extremeKillCount) flags.add("extreme-kills");
         } else {
           // exploration / placement style counter
           reqs.push(`${c.type || "Objective"} x${sentinel ? "∞" : count}`);
@@ -354,11 +397,31 @@ function scoreQuest(quest) {
 
   const ev = eventInfo(quest._id);
 
+  // --- extra "annoying" flags ---
+  const finishConds = quest.conditions?.AvailableForFinish || [];
+  // multi-objective bloat (e.g. Collector, Slaughterhouse): many finish conditions
+  if (finishConds.length >= FLAGS.multiObjectiveCount) flags.add(`multi-objective:${finishConds.length}`);
+  // one-session-only objectives (kill X in a single raid) — common "too annoying" tuning target
+  if (finishConds.some((c) => c.oneSessionOnly)) flags.add("one-session-only");
+  // same map repeated across many sub-objectives (e.g. Escort: kill on every map)
+  const mapHits = {};
+  for (const c of finishConds) {
+    for (const ic of c.counter?.conditions || []) {
+      if (ic.conditionType === "Location") {
+        const m = Array.isArray(ic.target) ? ic.target[0] : ic.target;
+        if (m) mapHits[m] = (mapHits[m] || 0) + 1;
+      }
+    }
+  }
+  const distinctMaps = Object.keys(mapHits).length;
+  if (distinctMaps >= FLAGS.multiMapCount) flags.add(`multi-map:${distinctMaps}`);
+
   return {
     score: Math.round(score * 100) / 100,
     level,
     type: quest.type,
     event: ev ? (ev.seasonal ? ev.season : "non-seasonal") : null,
+    flags: [...flags],
     reqs: reqs.join("; ") || "(no objectives)",
     rewards: {
       exp: rewards.exp,
@@ -388,8 +451,13 @@ for (const quest of Object.values(quests)) {
     }
   }
   const trader = traderNames[quest.traderId] || quest.traderId;
+  const scored = scoreQuest(quest);
+  if (FLAGS.dropFlagged && scored.flags.length) {
+    excluded.push({ questName: quest.QuestName, trader, reason: `flags:${scored.flags.join("|")}` });
+    continue;
+  }
   if (!byTrader[trader]) byTrader[trader] = [];
-  byTrader[trader].push({ questName: quest.QuestName, ...scoreQuest(quest) });
+  byTrader[trader].push({ questName: quest.QuestName, ...scored });
 }
 
 const output = {}; // traderName -> { questName -> details }
@@ -423,6 +491,16 @@ fs.writeFileSync(
   path.join(OUT_DIR, "excludedEventQuests.json"),
   JSON.stringify(excluded, null, 2)
 );
+// Flagged quests kept in output (annoying-but-keepable: trim/tune candidates)
+const flaggedKept = flat.filter((q) => (q.flags || []).length);
+fs.writeFileSync(
+  path.join(OUT_DIR, "flaggedQuests.json"),
+  JSON.stringify(
+    flaggedKept.map((q) => ({ trader: q.trader, questName: q.questName, flags: q.flags, reqs: q.reqs })),
+    null,
+    2
+  )
+);
 
 // ---------------------------------------------------------------------------
 // Console summary
@@ -448,4 +526,20 @@ if (nonSeasonalKept.length) {
   console.log(`\nNon-seasonal event quests KEPT + tagged (${nonSeasonalKept.length}) — review:`);
   nonSeasonalKept.forEach((q) => console.log(`  - ${q.questName.padEnd(34)} (${q.trader})`));
 }
-console.log(`\nWrote:\n  ${path.join(OUT_DIR, "questDifficulty.json")}\n  ${path.join(OUT_DIR, "questDifficulty.flat.json")}\n  ${path.join(OUT_DIR, "excludedEventQuests.json")}`);
+if (flaggedKept.length) {
+  // group by flag category for a quick scan
+  const byFlag = {};
+  flaggedKept.forEach((q) =>
+    q.flags.forEach((f) => {
+      const cat = f.split(":")[0];
+      (byFlag[cat] = byFlag[cat] || []).push(q.questName);
+    })
+  );
+  console.log(`\nFlagged "annoying" quests KEPT (${flaggedKept.length}) — trim/tune candidates:`);
+  Object.entries(byFlag)
+    .sort((a, b) => b[1].length - a[1].length)
+    .forEach(([cat, names]) =>
+      console.log(`  ${cat.padEnd(18)} ${names.length}  e.g. ${[...new Set(names)].slice(0, 5).join(", ")}`)
+    );
+}
+console.log(`\nWrote:\n  ${path.join(OUT_DIR, "questDifficulty.json")}\n  ${path.join(OUT_DIR, "questDifficulty.flat.json")}\n  ${path.join(OUT_DIR, "excludedEventQuests.json")}\n  ${path.join(OUT_DIR, "flaggedQuests.json")}`);
