@@ -56,20 +56,16 @@ Lacy's algorithm (the reference we'll port), per quest in `databaseService.GetQu
 
 > **Decision (owner):** Lacy's mod will have its `transits` toggle **turned off**; AQP owns transit removal. Build it in (`removeTransitQuests`, default **on**).
 
-### D. NEW — PvE-friendly Ref quests (`refChanges`)
-Not in the original TS mod. **Ported from [Lacyway/LacywayPvETweaks](https://github.com/Lacyway/LacywayPvETweaks) `EditRef()`** — rewrites the 6-part Ref unlock questline so it's completable on a co-op PvE server (no live-PvP dogtag farming). Standalone toggle.
+### D. NEW — PvE-friendly Ref / Arena quests (`refChanges`)
+Not in the original TS mod. **Ported from [Lacyway/LacywayPvETweaks](https://github.com/Lacyway/LacywayPvETweaks) `EditRef()`** — rewrites the questline so it's completable on a co-op PvE server. Standalone toggle.
 
-Lacy's algorithm (the reference we'll port) — for the 6 Ref quests (`refQuests[0..5]`):
-1. For each part, `Conditions.AvailableForFinish.Clear()` then re-add PvE-doable `CounterCreator` / `HandoverItem` conditions:
-   - **Part 1** — eliminate Scavs (`Savage`).
-   - **Part 2** — eliminate PMCs (20×).
-   - **Part 3** — eliminate USEC + BEAR PMCs (`Usec` / `Bear`, 10× each).
-   - **Part 4** — hand over found-in-raid **BEAR** dogtags (15×, `DogtagLevel = 40`, FiR) + USEC dogtags.
-   - **Part 5** — eliminate the Goons in one raid (`bossKnight`, `followerBigPipe`, `followerBirdEye`), each `OneSessionOnly`.
-   - **Part 6** — eliminate Partisan (`bossPartisan`, 3×).
-2. Each new condition carries a stable `Id` (hard-coded MongoIds in Lacy's version) and a matching **locale** string, applied via `Locales.Global` lazy-load transformers (e.g. "Eliminate scavs on any location", "Hand over the found in raid BEAR PMC dogtag (Level 40+)").
+> **⚠️ Terminology: Ref === Arena.** The trader Lacy calls "Ref" has the in-game **nickname "Arena"** (trader id `6617beeaa9cfa777ca915b7c`). Its quests are the **Arena PvP-mode** tasks ("To Great Heights", "Against the Conscience", "Balancing", "Create a Distraction", "Decisions Decisions", "Provide Viewership", etc.) — objectives like *"Win a match in CheckPoint/LastHero mode in Arena"*. Arena is BSG's separate PvP mode and is **annoying/unplayable in co-op PvE**, so these `... PVE ZONE` quests must be rewritten into normal raid objectives. This is the same fix as Ref — same trader, just the Arena-mode questline.
 
-> **Decision (owner):** build Ref-quest tweaks into AQP (`refChanges`, default **on**), mirroring Lacy's behavior. If Lacy's mod stays installed, turn **off** its `refChanges` so only AQP edits Ref.
+Lacy's algorithm (the reference we'll port) — clears each target quest's `Conditions.AvailableForFinish` and re-adds PvE-doable `CounterCreator` / `HandoverItem` conditions (eliminate Scavs/PMCs/USEC/BEAR, hand over FiR dogtags, kill the Goons in one raid, kill Partisan), each with a stable `Id` + matching **locale** string applied via `Locales.Global` lazy-load transformers.
+
+Lacy's `refQuests` ids resolve to the Arena trader's "To Great Heights - Part 1..5" line (verified against the current DB: ids `68341eb2…`, `68341f6f…`, `6834202a…`, `68342151…`, `68342265…`). We'll port the same approach and extend it to cover **all 15 Arena quests** (the full `PVE ZONE` set), since every one is a PvP-mode task in raw data.
+
+> **Decision (owner):** build Ref/Arena-quest tweaks into AQP (`refChanges`, default **on**), mirroring Lacy's behavior. If Lacy's mod stays installed, turn **off** its `refChanges` so only AQP edits this trader. The 15 Arena quests are listed for reference in `generator/output/questDifficulty.json` under the `"Arena"` trader.
 
 ### Config surface (TS)
 - `config/config.json` — module toggles + debug flags + all scalar modifiers + `disableDailies`.
@@ -188,7 +184,7 @@ AlgorithmicQuestingProgression-csharp/
   AlgorithmicQuestingProgression.cs       # ModMetadata record + IOnLoad entry (dispatches modules by toggle)
   AdjusterModule.cs                        # port of AdjusterModule (scalar modifiers)
   TransitModule.cs                         # NEW — remove map-transit requirements (ports Lacy EditTransits)
-  RefModule.cs                             # NEW — PvE-friendly Ref questline (ports Lacy EditRef)
+      RefModule.cs                             # NEW — PvE-friendly Ref/Arena questline (ports Lacy EditRef)
   OverhaulModule.cs                        # port of OverHaulModule (the big quest-tree restructure)
   ModConfig.cs                             # typed config records (toggles, modifiers, adjustments, main quests)
   Utils.cs                                 # MongoId-from-seed, QuestName↔Id helpers, removeList constants
@@ -222,7 +218,7 @@ wipes).
 | Config loading (typed JSON) | Easy | `server-mod-examples/5ReadCustomJsonConfig` |
 | AdjusterModule port | Easy–Med | Pure scalar loops; locale rewrite for gunsmith is the only fiddly bit |
 | Transit removal (Lacy port) | Easy–Med | Find Transit-status conditions, remove + fix VisibilityConditions + locale suffix cleanup |
-| Ref quest tweaks (Lacy port) | Med | Rebuild 6 Ref quests' conditions + hard-coded ids + locales; mostly transcription |
+| Ref quest tweaks (Lacy port) | Med | Rebuild Ref/Arena quests' conditions + hard-coded ids + locales; Arena (PvP-mode) trader, 15 quests; mostly transcription |
 | OverhaulModule: remove/flatten/link | Med | Direct port; careful with sub-chain branching |
 | OverhaulModule: trader unlock + fence/kappa | Med | Trader base flag + reward push |
 | OverhaulModule: reward rebalance | Med–Hard | Index-scaled exp/money/standing, currency normalization |
@@ -329,7 +325,7 @@ This data is the raw material for hand-building the eventual `MainQuests` quest 
 2. **Config** — port `config.json` + `QuestConfigs/*.json`, typed models, loader (`ModConfig`).
 3. **Adjuster** — port AdjusterModule (scalar modifiers). Testable in isolation, lowest risk → do first.
 4. **Transit removal** — port Lacy's `EditTransits()` as a standalone toggle (low risk, independent of Overhaul).
-5. **Ref quests** — port Lacy's `EditRef()` as a standalone toggle (low risk, independent of Overhaul).
+5. **Ref quests** — port Lacy's `EditRef()` as a standalone toggle (low risk, independent of Overhaul). Targets the Ref/**Arena** trader (PvP-mode quests).
 6. **Overhaul core** — remove list, flatten, QuestName↔Id map, level-99 hide, chain re-linking.
 7. **Overhaul traders** — trader unlock chains, fence/kappa start requirements.
 8. **Overhaul rewards** — exp/money/standing rebalance + currency normalization.
@@ -365,7 +361,7 @@ Following the previous mod + ABPS conventions:
 ## 7. References
 - Original TS mod: https://github.com/Andrewgdewar/AlgorithmicQuestingProgression
 - Transit-removal reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditTransits()`, `Code/TweaksConfig.cs` → `RemoveTransitQuests`)
-- Ref-quest reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditRef()`, `Code/TweaksConfig.cs` → `RefChanges`)
+- Ref-quest reference: https://github.com/Lacyway/LacywayPvETweaks (`Code/LacyPvETweaks.cs` → `EditRef()`, `Code/TweaksConfig.cs` → `RefChanges`). Note: Lacy's "Ref" trader = in-game nickname **"Arena"** (id `6617beeaa9cfa777ca915b7c`), the PvP-mode questline.
 - Working C# reference: `D:\tarky\botplacementsystem\` (ABPS fork)
 - C# examples: `D:\tarky\server-mod-examples\` (esp. 2EditDatabase, 3EditSptConfig, 5ReadCustomJsonConfig, 14AfterDBLoadHook)
 - Quest data: `D:\tarky\TEST\SPT\SPT_Data\database\templates\quests.json` (558 quests)

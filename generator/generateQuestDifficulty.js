@@ -117,6 +117,14 @@ const EVENT_ONLY_ROLES = new Set([
   "arenafighterevent",
 ]);
 
+// The "Arena" trader (Lacy calls it "Ref") gives the Arena PvP-mode questline
+// ("To Great Heights", "Against the Conscience", "Balancing", etc.). These are
+// unplayable in co-op PvE and get fully rewritten by the RefModule (port of
+// Lacy's EditRef). We flag them "arena-pvp" so they're treated as RefModule's
+// job, not raw curation.
+const ARENA_TRADER_ID = "6617beeaa9cfa777ca915b7c";
+
+
 
 // ---------------------------------------------------------------------------
 // Lookup tables
@@ -246,6 +254,9 @@ function scoreQuest(quest) {
   let score = 0;
   const reqs = [];
   const flags = new Set();
+
+  // Arena PvP-mode trader -> these quests are rewritten by RefModule (Lacy EditRef)
+  if (quest.traderId === ARENA_TRADER_ID) flags.add("arena-pvp");
 
   // --- start gate: level ---
   let level = 1;

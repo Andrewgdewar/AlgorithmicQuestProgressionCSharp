@@ -7,7 +7,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Win a match in CheckPoint or LastHero mode in Arena",
     "reqsRaw": "Completion x1",
     "rewards": {
@@ -26,7 +28,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Win a match in TeamFight, BlastGang, or CheckPoint mode in Arena",
     "reqsRaw": "Completion x1",
     "rewards": {
@@ -45,7 +49,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Win two matches in a row in TeamFight, BlastGang, or CheckPoint mode in Arena (x2)",
     "reqsRaw": "Completion x2",
     "rewards": {
@@ -64,7 +70,9 @@
     "level": 1,
     "type": "PickUp",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Hand over the found in raid items: Class 4 or higher ballistic plates (x3)",
     "reqsRaw": "Hand over 3x Korund-VM Front/ESBI IV Side/… (FiR)",
     "rewards": {
@@ -83,7 +91,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero (x3)",
     "reqsRaw": "Plant item",
     "rewards": {
@@ -102,7 +112,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Win a match while claiming at least 3rd place in TeamFight, BlastGang, or CheckPoint mode in Arena (x2)",
     "reqsRaw": "Completion x2",
     "rewards": {
@@ -121,7 +133,9 @@
     "level": 1,
     "type": "PickUp",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Locate and obtain the compromising information on Ref; Hand over the found info",
     "reqsRaw": "Find 1x Dirt; Hand over 1x Dirt",
     "rewards": {
@@ -140,7 +154,9 @@
     "level": 1,
     "type": "Elimination",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Eliminate Scavs while using a Steyr AUG on any location (x5)",
     "reqsRaw": "Kill 5 enemies",
     "rewards": {
@@ -159,7 +175,9 @@
     "level": 1,
     "type": "Discover",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Locate the old champion's room on Customs; Find out what happened to the champion; Survive and extract from the location; Locate and obtain the key at the smugglers' base on Shoreline",
     "reqsRaw": "Exploration x1; Exploration x1; Completion x1; on bigmap; Find 1x Overseer",
     "rewards": {
@@ -178,7 +196,9 @@
     "level": 1,
     "type": "Elimination",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Eliminate PMC operatives while wearing a PACA Soft Armor on any location (x2)",
     "reqsRaw": "Kill 2 PMCs",
     "rewards": {
@@ -197,7 +217,9 @@
     "level": 1,
     "type": "PickUp",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Hand over the found in raid items from the Drinks category (x5); Hand over the found in raid items from the Food category (x5)",
     "reqsRaw": "Hand over 5x Aquamari/IceGreen/… (FiR); Hand over 5x Alyonka/Tushonka/… (FiR)",
     "rewards": {
@@ -216,7 +238,9 @@
     "level": 1,
     "type": "Completion",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Hand over Roubles from the EFT balance (x∞); Win three out of six matches in TeamFight, BlastGang, or CheckPoint mode in Arena (x3); Failure Condition: Lose 4 matches (x4)",
     "reqsRaw": "Hand over 1,000,000 RUB; Completion x3; Completion x4",
     "rewards": {
@@ -235,7 +259,9 @@
     "level": 1,
     "type": "Elimination",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Eliminate Kaban's or Kollontay's guards on Streets of Tarkov (x2)",
     "reqsRaw": "Kill 2 Kaban Sniper",
     "rewards": {
@@ -254,7 +280,9 @@
     "level": 1,
     "type": "Elimination",
     "event": null,
-    "flags": [],
+    "flags": [
+      "arena-pvp"
+    ],
     "reqs": "Install the first WI-FI Camera inside the industrial plant on Customs; Install the second WI-FI Camera inside the industrial plant on Customs; Install the third WI-FI Camera inside the industrial plant on Customs; Install the fourth WI-FI Camera inside the industrial plant on Customs; Eliminate any target inside the industrial plant on Customs (x15)",
     "reqsRaw": "Plant item; Plant item; Plant item; Plant item; Kill 15 enemies",
     "rewards": {
@@ -274,6 +302,7 @@
     "type": "Completion",
     "event": null,
     "flags": [
+      "arena-pvp",
       "extreme-kills"
     ],
     "reqs": "Eliminate enemies in any game mode in Arena (x100)",
