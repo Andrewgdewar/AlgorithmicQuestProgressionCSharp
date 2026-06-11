@@ -21,6 +21,9 @@ public class AdjusterModule(
 {
     private const string Prefix = "[AQP][Adjuster]";
 
+    // Arena trader (Lacy's "Ref") — owned by Lacy's PvE Tweaks; AQP skips its quests.
+    private const string ArenaTraderId = "6617beeaa9cfa777ca915b7c";
+
     public void Run()
     {
         var quests = databaseService.GetQuests();
@@ -37,6 +40,9 @@ public class AdjusterModule(
 
         foreach (var (id, quest) in quests)
         {
+            // Arena/Ref quests are owned by Lacy's PvE Tweaks — never touch them.
+            if (quest.TraderId == ArenaTraderId) continue;
+
             var conds = quest.Conditions;
 
             // --- level start-requirement scaling ---

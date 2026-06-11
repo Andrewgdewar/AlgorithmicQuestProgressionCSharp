@@ -2,7 +2,7 @@
   "enableOverhaulModule": true,
   "enableAdjusterModule": true,
   "removeTransitQuests": true,
-  "refChanges": true,
+  "refChanges": false,
   "disableDailies": true,
   "baseKillCountQuantity": 4,
   "killCountModifier": 0.5,

@@ -21,9 +21,11 @@ public record ModConfig
     [JsonPropertyName("removeTransitQuests")]
     public bool RemoveTransitQuests { get; set; } = true;
 
-    /// <summary>NEW — make the Ref questline PvE-friendly (port of Lacy's EditRef).</summary>
+    /// <summary>NEW — Ref/Arena questline is delegated to Lacy's PvE Tweaks (its own
+    /// refChanges option); AQP leaves all Arena-trader quests untouched. Kept as an
+    /// informational toggle only.</summary>
     [JsonPropertyName("refChanges")]
-    public bool RefChanges { get; set; } = true;
+    public bool RefChanges { get; set; } = false;
 
     // --- Adjuster modifiers ---
 

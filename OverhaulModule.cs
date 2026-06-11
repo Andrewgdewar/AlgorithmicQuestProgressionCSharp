@@ -36,7 +36,8 @@ public class OverhaulModule(
 {
     private const string Prefix = "[AQP][Overhaul]";
 
-    // Arena trader (Lacy's "Ref") — its PvP-mode quests are rewritten by the RefModule, not removed.
+    // Arena trader (Lacy's "Ref") — its PvP-mode quests are owned by Lacy's PvE Tweaks
+    // (refChanges); AQP skips every Arena-trader quest in all passes.
     private const string ArenaTraderId = "6617beeaa9cfa777ca915b7c";
 
     // Enemy roles that only spawn during events / special modes (zombies, the Halloween
@@ -65,6 +66,9 @@ public class OverhaulModule(
         var toRemove = new List<string>();
         foreach (var (id, quest) in quests)
         {
+            // Arena/Ref quests are owned by Lacy's PvE Tweaks (refChanges) — never touch them.
+            if (quest.TraderId == ArenaTraderId) continue;
+
             var name = quest.QuestName ?? "";
 
             if (Constants.RemoveList.Contains(name))
@@ -102,6 +106,9 @@ public class OverhaulModule(
         var crossLinksStripped = 0;
         foreach (var (id, quest) in quests.ToList())
         {
+            // Arena/Ref quests are owned by Lacy's PvE Tweaks (refChanges) — never touch them.
+            if (quest.TraderId == ArenaTraderId) continue;
+
             var conds = quest.Conditions;
             if (conds == null) continue;
 
@@ -152,12 +159,8 @@ public class OverhaulModule(
             quest.Restartable = true;
 
             // --- disassociate: strip cross-quest links so the chain can be rebuilt cleanly ---
-            // Arena PvP quests are left intact for the RefModule to rewrite.
-            if (quest.TraderId != ArenaTraderId)
-            {
-                crossLinksStripped += conds.AvailableForStart?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
-                crossLinksStripped += finish?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
-            }
+            crossLinksStripped += conds.AvailableForStart?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
+            crossLinksStripped += finish?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
         }
 
         logger.Success(
@@ -213,7 +216,7 @@ public class OverhaulModule(
 
         foreach (var (id, quest) in quests)
         {
-            // Arena quests are owned by the RefModule — leave them alone.
+            // Arena quests are owned by Lacy's PvE Tweaks — leave them alone.
             if (quest.TraderId == ArenaTraderId) continue;
 
             var conds = quest.Conditions;

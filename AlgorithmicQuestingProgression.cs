@@ -69,8 +69,7 @@ public class AlgorithmicQuestingProgression(
 
         if (config.RefChanges)
         {
-            logger.Debug($"{Prefix} Ref quest tweaks enabled (not yet implemented)");
-            // TODO: RefModule.Run(...)
+            logger.Debug($"{Prefix} Ref/Arena quests are delegated to Lacy's PvE Tweaks (refChanges) — AQP does not touch them.");
         }
 
         logger.Success(
