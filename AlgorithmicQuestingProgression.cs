@@ -57,8 +57,8 @@ public class AlgorithmicQuestingProgression(
 
         if (config.EnableAdjusterModule)
         {
-            logger.Debug($"{Prefix} Adjuster module enabled (not yet implemented)");
-            // TODO: AdjusterModule.Run(...)
+            var localeConfig = modHelper.GetJsonDataFromFile<Dictionary<string, LocaleTemplate>>(pathToMod, "config/localeConfig.json");
+            new AdjusterModule(logger, databaseService, config, localeConfig).Run();
         }
 
         if (config.RemoveTransitQuests)

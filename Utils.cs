@@ -190,4 +190,67 @@ public static class Utils
             ],
         };
     }
+
+    /// <summary>
+    /// Parse the trailing number out of a Gunsmith quest name (port of TS
+    /// <c>getNumbersFromName</c>). "Gunsmith - Old Friends Request" is special-cased to 27;
+    /// names with no digits return 0.
+    /// </summary>
+    public static int GetNumbersFromName(string name)
+    {
+        if (name == "Gunsmith - Old Friends Request") return 27;
+        var digits = new string(name.Where(char.IsDigit).ToArray());
+        return digits.Length > 0 && int.TryParse(digits, out var n) ? n : 0;
+    }
+
+    /// <summary>
+    /// Build the replacement "eliminate N enemies with &lt;weapon&gt;" CounterCreator condition
+    /// for a Gunsmith quest (port of TS <c>getKillQuestForGunsmith</c>/<c>defaultKillQuest</c>).
+    /// Kill count = round(baseKillCountQuantity + questNumber * killCountModifier).
+    /// </summary>
+    public static QuestCondition GunsmithKillCondition(int questNumber, string weaponTpl, double baseKillCount, double killModifier)
+    {
+        var totalBots = (int)Math.Round(baseKillCount + questNumber * killModifier);
+        if (totalBots < 1) totalBots = 1;
+
+        var innerId = new MongoId(GenerateMongoIdFromSeed("conditionId" + questNumber));
+        var counterId = new MongoId(GenerateMongoIdFromSeed("counterId" + questNumber));
+        var conditionId = new MongoId(GenerateMongoIdFromSeed("questId" + questNumber));
+
+        return new QuestCondition
+        {
+            ConditionType = "CounterCreator",
+            DynamicLocale = false,
+            GlobalQuestCounterId = "",
+            Id = conditionId,
+            Index = 0,
+            IsNecessary = false,
+            ParentId = "",
+            OneSessionOnly = false,
+            Value = totalBots,
+            VisibilityConditions = [],
+            Counter = new QuestConditionCounter
+            {
+                Id = counterId,
+                Conditions =
+                [
+                    new QuestConditionCounterCondition
+                    {
+                        BodyPart = [],
+                        CompareMethod = ">=",
+                        ConditionType = "Kills",
+                        DynamicLocale = false,
+                        Id = innerId,
+                        ResetOnSessionEnd = false,
+                        SavageRole = [],
+                        Target = new(null, "Any"),
+                        Value = 1,
+                        Weapon = [weaponTpl],
+                        WeaponModsInclusive = new List<List<string>>(),
+                        WeaponModsExclusive = new List<List<string>>(),
+                    },
+                ],
+            },
+        };
+    }
 }

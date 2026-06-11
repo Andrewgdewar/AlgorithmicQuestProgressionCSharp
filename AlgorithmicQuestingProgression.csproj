@@ -34,8 +34,10 @@
     <None Update="config\ammoLevelUnlocks.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="config\localeConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
-
   <!-- The generator/ folder is a standalone Node data tool + scratch; never ship it. -->
   <ItemGroup>
     <Content Remove="generator\**" />
