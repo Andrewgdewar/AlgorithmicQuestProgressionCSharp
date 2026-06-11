@@ -303,6 +303,24 @@ signals enumerated in §2b. Proposed weighted model (all weights live in config 
 confirm the ordering is sane (large reorderings get eyeballed). Tunable weights mean we can
 match the old feel without hand-editing every wipe.
 
+### Implementation: `generator/generateQuestDifficulty.js`
+
+A standalone, dependency-free **Node script** (NOT run on game start) implements the model
+above by reading the TEST server's `SPT_Data` JSON directly
+(`quests.json` + `items.json` + `locales/global/en.json` + `traders/*/base.json`).
+
+- All knobs live in a `WEIGHTS` block at the top — tweak + re-run to discuss values.
+- Money hand-overs (e.g. "give 1,000,000 RUB") are scored by rouble-normalized amount, not
+  item count; objective counts are clamped (`maxObjectiveCount`) so sentinel values like
+  `9,999,999,999` (repeatable/"endless") don't blow up the score.
+- Run: `node generator/generateQuestDifficulty.js`
+- Outputs (committed, for tweaking/discussion):
+  - `generator/output/questDifficulty.json` — `{ traderName: { questName: { order, score, level, type, reqs, rewards, id } } }`, each trader sorted easy → hard.
+  - `generator/output/questDifficulty.flat.json` — flat array across all traders.
+- `reqs` is a one-line human summary (e.g. `Kill 5 Scavs; Hand over 2x MP-133`).
+
+This data is the raw material for hand-building the eventual `MainQuests` quest config.
+
 ---
 
 ## 5. Build phases
