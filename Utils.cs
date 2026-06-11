@@ -121,6 +121,30 @@ public static class Utils
         return Math.Round(amount * from / to);
     }
 
+    /// <summary>
+    /// Distribute <paramref name="count"/> assort unlocks across an ordered quest-name list,
+    /// weighted toward the front by <paramref name="weightFactor"/> (0..1) so lower-level
+    /// stock unlocks at earlier quests (port of TS <c>assignQuestNamesWithWeight</c>).
+    /// Returns a list parallel to the (level-sorted) assort list: index i -> quest name.
+    /// </summary>
+    public static List<string?> AssignQuestNamesWithWeight(List<string> questNames, int count, double weightFactor)
+    {
+        if (weightFactor < 0 || weightFactor > 1)
+            throw new ArgumentException("Weight factor must be between 0 and 1.", nameof(weightFactor));
+
+        var result = new List<string?>(count);
+        var totalQuests = questNames.Count;
+        for (var i = 0; i < count; i++)
+        {
+            var normalized = count <= 1 ? 0 : (double)i / (count - 1) * weightFactor;
+            var skewed = (int)Math.Round(normalized * totalQuests);
+            if (skewed >= totalQuests) skewed = totalQuests - 1;
+            if (skewed < 0) skewed = 0;
+            result.Add(totalQuests > 0 ? questNames[skewed] : null);
+        }
+        return result;
+    }
+
     /// <summary>Build an EXPERIENCE success reward.</summary>
     public static Reward ExperienceReward(string seed, double value) => new()
     {

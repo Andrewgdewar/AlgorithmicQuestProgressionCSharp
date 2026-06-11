@@ -177,6 +177,9 @@ public class OverhaulModule(
 
         // ---- Phase 2d: trader tweaks (faction gates, dailies, ammo loyalty levels) ----
         ApplyTraderTweaks();
+
+        // ---- Phase 2e: assort-unlock reassignment ----
+        ReassignAssorts(quests);
     }
 
     /// <summary>
@@ -600,6 +603,110 @@ public class OverhaulModule(
                 }
             }
         }
+    }
+
+    /// <summary>
+    /// Phase 2e. Redistribute each trader's quest-unlocked stock across its curated chain:
+    /// pull every ASSORTMENT_UNLOCK reward off its (now-reordered) original quest, sort the
+    /// unlocks by trader-loyalty level, and weight-assign them to curated quests so cheaper
+    /// stock unlocks earlier (port of TS assort reassignment + assignQuestNamesWithWeight).
+    /// </summary>
+    private void ReassignAssorts(Dictionary<MongoId, Quest> quests)
+    {
+        var nameToId = new Dictionary<string, string>();
+        foreach (var (id, quest) in quests)
+        {
+            var name = quest.QuestName ?? "";
+            if (name.Length > 0 && !nameToId.ContainsKey(name))
+                nameToId[name] = id.ToString();
+        }
+
+        var traders = databaseService.GetTables().Traders;
+        if (traders == null)
+        {
+            logger.Warning($"{Prefix} no traders table; skipping assort reassignment.");
+            return;
+        }
+
+        var totalReassigned = 0;
+        var tradersTouched = 0;
+
+        foreach (var (trader, list) in mainQuests)
+        {
+            if (!Constants.TraderIds.TryGetValue(trader, out var traderId)) continue;
+            if (!traders.TryGetValue(new MongoId(traderId), out var traderData) || traderData == null) continue;
+
+            var questAssort = traderData.QuestAssort;
+            var assort = traderData.Assort;
+            if (questAssort == null || !questAssort.TryGetValue("success", out var successMap) ||
+                successMap == null || successMap.Count == 0 || assort?.LoyalLevelItems == null)
+                continue;
+
+            // Ordered curated quest names for this trader.
+            var names = new List<string>();
+            foreach (var el in list)
+            {
+                if (el.ValueKind == JsonValueKind.String)
+                {
+                    var s = el.GetString();
+                    if (!string.IsNullOrEmpty(s)) names.Add(s);
+                }
+                else if (el.ValueKind == JsonValueKind.Array)
+                    foreach (var inner in el.EnumerateArray())
+                        if (inner.ValueKind == JsonValueKind.String)
+                        {
+                            var s = inner.GetString();
+                            if (!string.IsNullOrEmpty(s)) names.Add(s);
+                        }
+            }
+            if (names.Count == 0) continue;
+
+            // Collect (assortItemKey, level, rewardObject), pulling the reward off the old quest.
+            var entries = new List<(MongoId key, int level, Reward reward)>();
+            foreach (var (assortKey, oldQuestId) in successMap)
+            {
+                if (!quests.TryGetValue(oldQuestId, out var oldQuest) || oldQuest.Rewards == null) continue;
+                if (!oldQuest.Rewards.TryGetValue("Success", out var oldSuccess) || oldSuccess == null) continue;
+
+                // Prefer the unlock whose target is this assort item; else the first unclaimed unlock.
+                var reward = oldSuccess.FirstOrDefault(r =>
+                                 r.Type == SPTarkov.Server.Core.Models.Enums.RewardType.AssortmentUnlock &&
+                                 r.Target?.ToString() == assortKey.ToString())
+                             ?? oldSuccess.FirstOrDefault(r =>
+                                 r.Type == SPTarkov.Server.Core.Models.Enums.RewardType.AssortmentUnlock);
+                if (reward == null) continue;
+
+                oldSuccess.Remove(reward);
+                var level = assort.LoyalLevelItems.GetValueOrDefault(assortKey, 1);
+                entries.Add((assortKey, level, reward));
+            }
+            if (entries.Count == 0) continue;
+
+            entries.Sort((a, b) => a.level.CompareTo(b.level));
+
+            var assigned = Utils.AssignQuestNamesWithWeight(names, entries.Count, adjustments.UnlockAssortWeightFactorZeroToOne);
+
+            for (var i = 0; i < entries.Count; i++)
+            {
+                var name = assigned[i];
+                if (string.IsNullOrEmpty(name) || !nameToId.TryGetValue(name, out var qid) ||
+                    !quests.TryGetValue(new MongoId(qid), out var newQuest))
+                    continue;
+
+                successMap[entries[i].key] = new MongoId(qid);
+
+                newQuest.Rewards ??= new();
+                if (!newQuest.Rewards.TryGetValue("Success", out var success) || success == null)
+                    newQuest.Rewards["Success"] = success = [];
+                success.Add(entries[i].reward);
+                totalReassigned++;
+            }
+
+            tradersTouched++;
+        }
+
+        logger.Success(
+            $"{Prefix} assort reassignment done. Traders: {tradersTouched}. Unlocks reassigned: {totalReassigned}.");
     }
 
     /// <summary>
