@@ -13,6 +13,18 @@ public static class Constants
     /// </summary>
     public static readonly HashSet<string> RemoveList =
     [
+        // Cross-trader hard block: Part 1 (Prapor) finds the Sealed letter that Part 2
+        // (Therapist) hands in. Only true cross-trader quest-item dependency in the set.
+        "Postman Pat - Part 1",
+        "Postman Pat - Part 2",
+        // Merchant grind: "Sell 75 items to Peacekeeper" — loyalty/grind-style, remove.
+        "Key Partner",
+        // Loyalty gate: "Reach LL3 with Prapor". Pulled out of the Network Provider chain.
+        "Insider",
+        // Merchant grind: "Sell 250 backpacks/rigs to Ragman".
+        "Circulate",
+        // Merchant grind: "Sell 50 items each to Ragman/Prapor/Peacekeeper" (150 total).
+        "Building Foundations",
         "Make Amends",
         "Illegal Logging",
         "Chilly",

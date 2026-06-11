@@ -2,7 +2,6 @@
   "PRAPOR": [
     "Debut",
     "Background Check",
-    "Postman Pat - Part 1",
      "Belka and Strelka",
     "Shootout Picnic",
     "Search Mission",
@@ -86,7 +85,6 @@
     ]
   ],
   "THERAPIST": [
-    "Postman Pat - Part 2",
     "Closer to the People",
     "Secret Benefactor",
     "Out of Curiosity",
@@ -148,7 +146,6 @@
   ],
   "SKIER": [
     "Exit Here",
-
     "Golden Swag",
     "Killer Argument",
     "Serious Allegations",
@@ -186,7 +183,6 @@
     ],
     "Hindsight 2020",
     "Long Road",
-    "Indisputable Authority",
     "Staff Shortage",
     "Lend-Lease - Part 1",
     [
@@ -200,7 +196,6 @@
     "Bullshit",
     "Debtor",
     "Setup",
-    "Key Partner",
     [
       "Beyond the Red Meat - Part 1",
       "Beyond the Red Meat - Part 2"
@@ -211,10 +206,10 @@
     "Choose Your Friends Wisely",
     "Night Sweep",
     "Connections Up North",
-    "Consolation Prize"
+    "Consolation Prize",
+    "Indisputable Authority"
   ],
   "PEACEKEEPER": [
-
     "Fishing Gear",
     [
       "The Cult - Part 1",
@@ -276,7 +271,6 @@
   "MECHANIC": [
     "Last Spurt - Pioneer",
     "Introduction",
-    "Hypotheses Testing",
     "Needle in a Haystack",
     "Shady Contractor",
      [
@@ -347,7 +341,6 @@
     ],
     "Make Amends - Equipment",
     [
-      "Insider",
       "Network Provider - Part 1",
       "Network Provider - Part 2",
       "Assessment - Part 1",
@@ -356,10 +349,10 @@
       "Key to the Tower",
       "Knock-Knock",
       "Getting Acquainted",
-      "Top Secret"
+      "Top Secret",
+      "Hypotheses Testing"
     ],
     "Scout",
-
     "Fertilizers",
     [
       "Broadcast - Part 1",
@@ -423,7 +416,6 @@
     "Break the Deal",
     "Inventory Check",
     "The Invisible Hand",
-    "Circulate",
     "Dandies",
     [
       "Textile - Part 1",
@@ -553,7 +545,6 @@
     "Sensory Analysis - Part 2",
     "Shipping Delay - Part 2",
     "Swift Retribution",
-    "Building Foundations",
     "Protect the Sky",
     "Discombobulate",
     "Ask for Directions",

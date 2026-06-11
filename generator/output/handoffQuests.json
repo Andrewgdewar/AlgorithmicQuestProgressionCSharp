@@ -1,0 +1,6941 @@
+[
+  {
+    "trader": "PRAPOR",
+    "quest": "Ice Cream Cones",
+    "condType": "HandoverItem",
+    "item": "ZB-014",
+    "itemTpl": "591afe0186f77431bd616a11",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Trust Regain",
+        "trader": "(not curated)",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Shipping Delay - Part 1",
+    "condType": "HandoverItem",
+    "item": "Package",
+    "itemTpl": "67499a9669a58fceba104a41",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "A Helping Hand",
+        "trader": "PRAPOR",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Viewer",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Viewer",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Viewer",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "PFilter",
+    "itemTpl": "5d0378d486f77420421a5ff4",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Dressed to Kill",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Surveillance",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Import ontrol",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "In and Out",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Hot Wheels",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "Hypotheses Testing",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "Iridium",
+    "itemTpl": "5d0377ce86f774186372f689",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Import",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Hunting Trip",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Special Equipment",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "MCable",
+    "itemTpl": "5d0375ff86f774186372f685",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      },
+      {
+        "quest": "The Punisher - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Watching You",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Steady Signal",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "SG-C10",
+    "itemTpl": "5c052f6886f7746b1e3db148",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Special Equipment",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Missing Informant",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Order From Outside",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Simple Side Job",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "MCB",
+    "itemTpl": "5d0376a486f7747d8050965c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Huntsman Path - Big Game",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Steady Signal",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Whats Your Evidence",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "Virtex",
+    "itemTpl": "5c05308086f7746b2101e90b",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Special Equipment",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Information Source",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Provocation",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Small Business - Part 1",
+        "trader": "FENCE",
+        "via": "reward"
+      },
+      {
+        "quest": "Order From Outside",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Simple Side Job",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Keepers Word",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "DVD",
+    "itemTpl": "5734781f24597737e04bf32a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 5",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "PSU",
+    "itemTpl": "57347c2e24597744902c94a1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Secrets of Polikhim",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "GPU",
+    "itemTpl": "57347ca924597744596b4e71",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 4",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Chemistry Closet",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Natural Exchange",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "The Price of Independence",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "Holiday Beyond the Means",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "PCB",
+    "itemTpl": "590a3b0486f7743954552bdb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "CPU fan",
+    "itemTpl": "5734779624597737e04bf329",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 4",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Developers Secrets - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "CPU",
+    "itemTpl": "573477e124597737dd42e191",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Developers Secrets - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "Cord",
+    "itemTpl": "59e36c6f86f774176c10a2a7",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      },
+      {
+        "quest": "Secrets of Polikhim",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Half-Empty",
+    "condType": "HandoverItem",
+    "item": "Wires",
+    "itemTpl": "5c06779c86f77426e00dd782",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Fertilizers",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Gunsmith - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 10",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 3",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Special Comms",
+    "condType": "LeaveItemAtLocation",
+    "item": "MCable",
+    "itemTpl": "5d0375ff86f774186372f685",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      },
+      {
+        "quest": "The Punisher - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Watching You",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Steady Signal",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Special Comms",
+    "condType": "LeaveItemAtLocation",
+    "item": "Bulbex",
+    "itemTpl": "619cbfeb6b8a1b37a54eebfa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 19",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Special Comms",
+    "condType": "LeaveItemAtLocation",
+    "item": "MCable",
+    "itemTpl": "5d0375ff86f774186372f685",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      },
+      {
+        "quest": "The Punisher - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Watching You",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Steady Signal",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Special Comms",
+    "condType": "LeaveItemAtLocation",
+    "item": "Bulbex",
+    "itemTpl": "619cbfeb6b8a1b37a54eebfa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 19",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PRAPOR",
+    "quest": "Hell on Earth - Part 1",
+    "condType": "WeaponAssembly",
+    "item": "MP-43-1C",
+    "itemTpl": "5580223e4bdc2d1c128b457f",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Bloodhounds",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Postman Pat - Part 2",
+    "condType": "HandoverItem",
+    "item": "Letter",
+    "itemTpl": "591093bb86f7747caa7bb2ee",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "Postman Pat - Part 1",
+        "trader": "PRAPOR",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Tushonka",
+    "itemTpl": "57347d7224597744596b4e72",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "General Wares",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Emelya",
+    "itemTpl": "5751487e245977207e26a315",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Courtesy Visit",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "MRE",
+    "itemTpl": "590c5f0d86f77413997acfab",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Humanitarian Supplies",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Iskra",
+    "itemTpl": "590c5d4b86f774784e1b9c45",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "General Wares",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Thrifty",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Superwater",
+    "itemTpl": "5d1b33a686f7742523398398",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Booze",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Conservation Area",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Water",
+    "itemTpl": "5448fee04bdc2dbc018b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "First in Line",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "An Alternative",
+    "condType": "HandoverItem",
+    "item": "Aquamari",
+    "itemTpl": "5c0fa877d174af02a012e1cf",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Survivalist Path - Zhivchik",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Thirsty - Echo",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "GoldenStar",
+    "itemTpl": "5751a89d24597722aa0e8db0",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Vitamins - Part 2",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Ambulance",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Ibuprofen",
+    "itemTpl": "5af0548586f7743a532b7e99",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Disease History",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Health Care Privacy - Part 6",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Morphine",
+    "itemTpl": "544fb3f34bdc2d03748b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Painkiller",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Spa Tour - Part 7",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Health Care Privacy - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Vitamins - Part 2",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Decontamination Service",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Analgin",
+    "itemTpl": "544fb37f4bdc2dee738b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shortage",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Painkiller",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Vaseline",
+    "itemTpl": "5755383e24597772cb798966",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Important Patient",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Grizzly",
+    "itemTpl": "590c657e86f77412b013051d",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Car Repair",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Health Care Privacy - Part 4",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Ambulance",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Disease History",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Lost Contact",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Important Patient",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Ambulances Again",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "AFAK",
+    "itemTpl": "60098ad7c2240c0fe85c570a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Pharmacist",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 5",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Car",
+    "itemTpl": "590c661e86f7741e566b646a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shortage",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Sanitary Standards - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "IFAK",
+    "itemTpl": "590c678286f77426c9660122",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Health Care Privacy - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Decontamination Service",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Salewa",
+    "itemTpl": "544fb45d4bdc2dee738b4568",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shortage",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Postman Pat - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Health Care Privacy - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Population Census",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Chilly",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Bandage",
+    "itemTpl": "5751a25924597722c463c472",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "CMS",
+    "itemTpl": "5d02778e86f774203e7dedbe",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ambulance",
+        "trader": "JAEGER",
+        "via": "find"
+      },
+      {
+        "quest": "Supply Plans",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Tough Guy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Work Smarter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Alu splint",
+    "itemTpl": "5af0454c86f7746bf20992e8",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Seaside Vacation",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Dangerous Road",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Esmarch",
+    "itemTpl": "5e831507ea0a7c419c2f9bd9",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "CALOK-B",
+    "itemTpl": "5e8488fa988a8701445df1e4",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Disease History",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Dangerous Road",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Splint",
+    "itemTpl": "544fb3364bdc2d34748b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shortage",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Surv12",
+    "itemTpl": "5d02797c86f774203f38e30a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ambulance",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Sadist",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Colleagues - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Broadcast - Part 3",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Ambulances Again",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "3-(b-TG)",
+    "itemTpl": "5ed515c8d380ab312177c0fa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Radical Treatment",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "This Tape Sucks",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "AHF1-M",
+    "itemTpl": "5ed515f6915ec335206e4152",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Adrenaline",
+    "itemTpl": "5c10c8fd86f7743d7d706df3",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Car Repair",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Health Care Privacy - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Athlete",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Urban Medicine",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "L1",
+    "itemTpl": "5ed515e03a40a50460332579",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "M.U.L.E.",
+    "itemTpl": "5ed51652f6c34d2cc26336a1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Thirsty - Echo",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Meldonin",
+    "itemTpl": "5ed5160a87bb8443d10680b5",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "This Tape Sucks",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Obdolbos",
+    "itemTpl": "5ed5166ad380ab312177c100",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Dolbos 2",
+    "itemTpl": "637b60c3b7afa97bfc3d7001",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Colleagues - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "P22",
+    "itemTpl": "5ed515ece452db0eb56fc028",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Colleagues - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Propital",
+    "itemTpl": "5c0e530286f7747fa1419862",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sanitary Standards - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Drug Trafficking",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Important Patient",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Ambulances Again",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Quality Standard",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Abandoned Cargo",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "An Alternative",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "SJ12",
+    "itemTpl": "637b612fb7afa97bfc3d7005",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "This Tape Sucks",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "SJ1",
+    "itemTpl": "5c0e531286f7747fa54205c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Colleagues - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "SJ6",
+    "itemTpl": "5c0e531d86f7747fa23f4d42",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Colleagues - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Radical Treatment",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "An Alternative",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Trimadol",
+    "itemTpl": "637b620db7afa97bfc3d7009",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Radical Treatment",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Zagustin",
+    "itemTpl": "5c0e533786f7747fa23f4d47",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Athlete",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Drug Trafficking",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Urban Medicine",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "eTG-c",
+    "itemTpl": "5c0e534186f7747fa1419867",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Car Repair",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Drug Trafficking",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Important Patient",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Quality Standard",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "A Healthy Alternative",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "xTG-12",
+    "itemTpl": "5fca138c2a7b221b2852a5c6",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Immunity",
+        "trader": "FENCE",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Defib",
+    "itemTpl": "5c052e6986f7746b207bc3c9",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ambulance",
+        "trader": "JAEGER",
+        "via": "find"
+      },
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Closer to the People",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "LEDX",
+    "itemTpl": "5c0530ee86f774697952d952",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Private Clinic",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Payback",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "LEDX US",
+    "itemTpl": "666879d498b97e3a8f09f1ae",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "Quality Standard",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Bloodset",
+    "itemTpl": "5b4335ba86f7744d2837a264",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Vitamins - Part 2",
+        "trader": "SKIER",
+        "via": "find"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "OScope",
+    "itemTpl": "5af0534a86f7743b6f354284",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Private Clinic",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "NaCl",
+    "itemTpl": "59e3606886f77417674759a5",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Health Care Privacy - Part 4",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Meds",
+    "itemTpl": "5d1b3a5d86f774252167ba22",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Painkiller",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pharmacist",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Tough Guy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Syringe",
+    "itemTpl": "5d1b3f2d86f774253763b735",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Painkiller",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 2",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Vitamins",
+    "itemTpl": "62a0a043cf4a99369e2624a5",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Bad Habit",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "MedTools",
+    "itemTpl": "619cc01e0a7c3a1a2731940c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Population Census",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "BSample",
+    "itemTpl": "5a687e7886f7740c4a5133fb",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "Health Care Privacy - Part 3",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Sample",
+    "itemTpl": "66a0f0926fee20fa70036da6",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "Health Care Privacy - Part 6",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "First in Line",
+    "condType": "HandoverItem",
+    "item": "Sample",
+    "itemTpl": "669fac549b0ce3feae01a137",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "All Is Revealed",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Thirsty - Secrets",
+    "condType": "HandoverItem",
+    "item": "Adrenaline",
+    "itemTpl": "5c10c8fd86f7743d7d706df3",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Car Repair",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Health Care Privacy - Part 3",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Athlete",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Urban Medicine",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Thirsty - Secrets",
+    "condType": "HandoverItem",
+    "item": "Vitamins",
+    "itemTpl": "62a0a043cf4a99369e2624a5",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Crisis",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Bad Habit",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Thirsty - Secrets",
+    "condType": "HandoverItem",
+    "item": "NaCl",
+    "itemTpl": "59e3606886f77417674759a5",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Health Care Privacy - Part 4",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "Pets Wont Need It - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Health Care Privacy - Part 5",
+    "condType": "LeaveItemAtLocation",
+    "item": "Kite",
+    "itemTpl": "590c5a7286f7747884343aea",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "THERAPIST",
+    "quest": "Drug Trafficking",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "The Walls Have Eyes",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "The Walls Have Eyes",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "The Walls Have Eyes",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Thirsty - Delivery",
+    "condType": "LeaveItemAtLocation",
+    "item": "Propane",
+    "itemTpl": "59fafb5d86f774067a6f2084",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 7",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Thirsty - Breadwinner",
+        "trader": "SKIER",
+        "via": "find"
+      },
+      {
+        "quest": "The Huntsman Path - Justice",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "A Fuel Matter",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "No Swiping",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Thirsty - Delivery",
+    "condType": "LeaveItemAtLocation",
+    "item": "Propane",
+    "itemTpl": "59fafb5d86f774067a6f2084",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 7",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Thirsty - Breadwinner",
+        "trader": "SKIER",
+        "via": "find"
+      },
+      {
+        "quest": "The Huntsman Path - Justice",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "A Fuel Matter",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "No Swiping",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Safety Guarantee",
+    "condType": "HandoverItem",
+    "item": "Zhuk EMR",
+    "itemTpl": "5c0e625a86f7742d77340f62",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gendarmerie - District Patrol",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 6",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Safety Guarantee",
+    "condType": "HandoverItem",
+    "item": "Vulkan-5",
+    "itemTpl": "5ca20ee186f774799474abc2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Before the Rain",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Hot Zone",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Safety Guarantee",
+    "condType": "HandoverItem",
+    "item": "1SCh FS",
+    "itemTpl": "5c0e842486f77443a74d2976",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Surprise PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Informed Means Armed",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Informed Means Armed",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Informed Means Armed",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PS12B",
+    "itemTpl": "648983d6b5a2df1c815a04ec",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Regulated Materials",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "7N40",
+    "itemTpl": "64898602f09d032aa9399d56",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Shipping Delay - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372db0245977685d4159b2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shootout Picnic",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372d4c245977685a3da2a1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ice Cream Cones",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372bd3245977670b7cd243",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 8",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372b832459776701014e41",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Pressured by Circumstances",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "57372ac324597767001bc261",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Youve Got Mail",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "64acea16c4eda9354b0226b0",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 6",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Indisputable Authority",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "64ace9f9c4eda9354b0226aa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "No Place for Renegades",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gendarmerie - Tickets Please",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Ours by Right",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "6489875745f9ca4ba51c4808",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Cheer Up",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "6489854673c462723909a14e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Khorovod",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PAB-9",
+    "itemTpl": "657025cfbfc87b3a34093253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Stick in the Wheel",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "5737292724597765e5728562",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Safe Corridor",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Forge a Friendship",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c21245977670937c6c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Survivalist Path - Junkie",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c89245977685d4159b1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Beyond the Red Meat - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "SP-6",
+    "itemTpl": "657025dabfc87b3a34093256",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Anesthesia",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Provide Cover",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PS12B",
+    "itemTpl": "648983d6b5a2df1c815a04ec",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Regulated Materials",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "7N40",
+    "itemTpl": "64898602f09d032aa9399d56",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Shipping Delay - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372db0245977685d4159b2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shootout Picnic",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372d4c245977685a3da2a1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ice Cream Cones",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372bd3245977670b7cd243",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 8",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372b832459776701014e41",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Pressured by Circumstances",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "57372ac324597767001bc261",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Youve Got Mail",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "64acea16c4eda9354b0226b0",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 6",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Indisputable Authority",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "64ace9f9c4eda9354b0226aa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "No Place for Renegades",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gendarmerie - Tickets Please",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Ours by Right",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "6489875745f9ca4ba51c4808",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Cheer Up",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "6489854673c462723909a14e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Khorovod",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PAB-9",
+    "itemTpl": "657025cfbfc87b3a34093253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Stick in the Wheel",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "5737292724597765e5728562",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Safe Corridor",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Forge a Friendship",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c21245977670937c6c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Survivalist Path - Junkie",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c89245977685d4159b1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Beyond the Red Meat - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "SP-6",
+    "itemTpl": "657025dabfc87b3a34093256",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Anesthesia",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Provide Cover",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PS12B",
+    "itemTpl": "648983d6b5a2df1c815a04ec",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Regulated Materials",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "7N40",
+    "itemTpl": "64898602f09d032aa9399d56",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Shipping Delay - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372db0245977685d4159b2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shootout Picnic",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "57372d4c245977685a3da2a1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Ice Cream Cones",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372bd3245977670b7cd243",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 8",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BS",
+    "itemTpl": "57372b832459776701014e41",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Pressured by Circumstances",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "57372ac324597767001bc261",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Youve Got Mail",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "64acea16c4eda9354b0226b0",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 6",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Indisputable Authority",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PP",
+    "itemTpl": "64ace9f9c4eda9354b0226aa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "No Place for Renegades",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gendarmerie - Tickets Please",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Ours by Right",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "6489875745f9ca4ba51c4808",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Bunker - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Cheer Up",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "6489854673c462723909a14e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Khorovod",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "PAB-9",
+    "itemTpl": "657025cfbfc87b3a34093253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Test Drive - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Stick in the Wheel",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BP",
+    "itemTpl": "5737292724597765e5728562",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Safe Corridor",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Forge a Friendship",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c21245977670937c6c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Survivalist Path - Junkie",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "BT",
+    "itemTpl": "57372c89245977685d4159b1",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Beyond the Red Meat - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Hindsight 2020",
+    "condType": "LeaveItemAtLocation",
+    "item": "SP-6",
+    "itemTpl": "657025dabfc87b3a34093256",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Anesthesia",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Provide Cover",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "A Life Lesson",
+    "condType": "HandoverItem",
+    "item": "Vodka",
+    "itemTpl": "5d40407c86f774318526545a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Booze",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Flint",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Glory to CPSU - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gendarmerie - District Patrol",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Viewer",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "The Price of Celebration",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "A Life Lesson",
+    "condType": "HandoverItem",
+    "item": "Whiskey",
+    "itemTpl": "5d403f9186f7743cac3f229b",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Booze",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "The Price of Celebration",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "A Life Lesson",
+    "condType": "HandoverItem",
+    "item": "Moonshine",
+    "itemTpl": "5d1b376e86f774252519444e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sensory Analysis - Part 1",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Sensory Analysis - Part 2",
+        "trader": "BTR",
+        "via": "find"
+      },
+      {
+        "quest": "Circulate",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Key to the City",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Cream of the Crop",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Building Foundations",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "This Is My Party",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "External Interest",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Chumming",
+    "condType": "LeaveItemAtLocation",
+    "item": "GoldChain",
+    "itemTpl": "5734758f24597738025ee253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Cult - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Trophy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Chumming",
+    "condType": "LeaveItemAtLocation",
+    "item": "GoldChain",
+    "itemTpl": "5734758f24597738025ee253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Cult - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Trophy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Chumming",
+    "condType": "LeaveItemAtLocation",
+    "item": "GoldChain",
+    "itemTpl": "5734758f24597738025ee253",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Cult - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Trophy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Bullshit",
+    "condType": "LeaveItemAtLocation",
+    "item": "SV-98",
+    "itemTpl": "55801eed4bdc2d89578b4588",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Back Door",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "SKIER",
+    "quest": "Bullshit",
+    "condType": "LeaveItemAtLocation",
+    "item": "Roler",
+    "itemTpl": "59faf7ca86f7740dbe19f6c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Friend From the West - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Chumming",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Trophy",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Audiophile",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Fishing Gear",
+    "condType": "LeaveItemAtLocation",
+    "item": "SV-98",
+    "itemTpl": "55801eed4bdc2d89578b4588",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Back Door",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Spa Tour - Part 3",
+    "condType": "HandoverItem",
+    "item": "WD-40",
+    "itemTpl": "590c5bbd86f774785762df04",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Forklift Certified",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Secret Benefactor",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Spa Tour - Part 3",
+    "condType": "HandoverItem",
+    "item": "WD-40",
+    "itemTpl": "590c5c9f86f77477c91c36e7",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Huntsman Path - Justice",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Spa Tour - Part 3",
+    "condType": "HandoverItem",
+    "item": "Hose",
+    "itemTpl": "59e35cbb86f7741778269d83",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 7",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Gunsmith - Part 13",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Delicious Sausage",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Spa Tour - Part 6",
+    "condType": "HandoverItem",
+    "item": "USD",
+    "itemTpl": "5696686a4bdc2da3298b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Car Repair",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "The Extortionist",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Punisher - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 4",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 5",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Fishing Gear",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Tigr Safari",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Scrap Metal",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Eagle Eye",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Humanitarian Supplies",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Cult - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Cult - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 4",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 5",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 6",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend From the West - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 3",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 13",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 7",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 5",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 12",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Lend-Lease - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Bullshit",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Insomnia",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Guide",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Eraser - Part 1",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Samples",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "TerraGroup Employee",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Revision - Reserve",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Classified Technologies",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Overpopulation",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Revision - Lighthouse",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Counteraction",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 4",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Your Car Needs a Service",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Revision - Streets of Tarkov",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 11",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 14",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Hustle",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "The Punisher Harvest",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Whats Your Evidence",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Caught Red-Handed",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "One Less Loose End",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "New Day New Paths",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Global Threat",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Order From Outside",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Simple Side Job",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Seizing the Initiative",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Confidential Info",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Keepers Word",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Surprise Gift PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Confidential Info",
+    "condType": "LeaveItemAtLocation",
+    "item": "VOG-25",
+    "itemTpl": "5e340dcdcb6d5863cc5e5efb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Hell on Earth - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Confidential Info",
+    "condType": "LeaveItemAtLocation",
+    "item": "VOG-17",
+    "itemTpl": "5e32f56fcb6d5863cc5e5ee4",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Confidential Info",
+    "condType": "LeaveItemAtLocation",
+    "item": "M67",
+    "itemTpl": "58d3db5386f77426186285a0",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "No Offence",
+        "trader": "PRAPOR",
+        "via": "find"
+      },
+      {
+        "quest": "Spa Tour - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Tigr Safari",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Confidential Info",
+    "condType": "LeaveItemAtLocation",
+    "item": "F-1",
+    "itemTpl": "5710c24ad2720bc3458b45a3",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Polikhim Hobo",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Chemical - Part 2",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "PEACEKEEPER",
+    "quest": "Confidential Info",
+    "condType": "LeaveItemAtLocation",
+    "item": "RGD-5",
+    "itemTpl": "5448be9a4bdc2dfd2f8b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Polikhim Hobo",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Belka and Strelka",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Friend from Norvinsk - Part 4",
+    "condType": "HandoverItem",
+    "item": "CPU",
+    "itemTpl": "573477e124597737dd42e191",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Developers Secrets - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Friend from Norvinsk - Part 4",
+    "condType": "HandoverItem",
+    "item": "PCB",
+    "itemTpl": "590a3b0486f7743954552bdb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Friend from Norvinsk - Part 4",
+    "condType": "HandoverItem",
+    "item": "MB",
+    "itemTpl": "6389c7750ef44505c87f5996",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Missing Informant",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Payback",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Spotter",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Friend from Norvinsk - Part 5",
+    "condType": "LeaveItemAtLocation",
+    "item": "Letter",
+    "itemTpl": "591093bb86f7747caa7bb2ee",
+    "isQuestItem": true,
+    "providers": [
+      {
+        "quest": "Postman Pat - Part 1",
+        "trader": "PRAPOR",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 3",
+    "condType": "WeaponAssembly",
+    "item": "MP5",
+    "itemTpl": "5926bb2186f7744b1c6c6e60",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Scrap Metal",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Rigged Game",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 4",
+    "condType": "WeaponAssembly",
+    "item": "OP-SKS",
+    "itemTpl": "587e02ff24597743df3deaeb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Whats on the Flash Drive",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 5",
+    "condType": "WeaponAssembly",
+    "item": "M870",
+    "itemTpl": "5a7828548dc32e5a9c28b516",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Extortionist",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Door",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 7",
+    "condType": "WeaponAssembly",
+    "item": "M4A1",
+    "itemTpl": "5447a9cd4bdc2dbd208b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "find"
+      },
+      {
+        "quest": "The Punisher - Part 4",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 9",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 11",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 8",
+    "condType": "WeaponAssembly",
+    "item": "AKS-74N",
+    "itemTpl": "5ab8e9fcd8ce870019439434",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 11",
+    "condType": "WeaponAssembly",
+    "item": "Vector 9x19",
+    "itemTpl": "5fc3f2d5900b1d5091531e57",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Vitamins - Part 2",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "House Arrest - Part 2",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Hint",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 12",
+    "condType": "WeaponAssembly",
+    "item": "MPX",
+    "itemTpl": "58948c8e86f77409493f7266",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 1",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Eagle Eye",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Hustle",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 13",
+    "condType": "WeaponAssembly",
+    "item": "RSASS",
+    "itemTpl": "5a367e5dc4a282000e49738f",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Wet Job - Part 5",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 14",
+    "condType": "WeaponAssembly",
+    "item": "HK 416A5",
+    "itemTpl": "5bb2475ed4351e00853264e3",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Wet Job - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Against the Conscience - Part 1 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 15",
+    "condType": "WeaponAssembly",
+    "item": "AS VAL",
+    "itemTpl": "57c44b372459772d2b39b8ce",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Anesthesia",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Test Drive - Part 5",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Stick in the Wheel",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 16",
+    "condType": "WeaponAssembly",
+    "item": "DVL-10",
+    "itemTpl": "588892092459774ac91d4b11",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 6",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Long Road",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Special Comms",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 3 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 19",
+    "condType": "WeaponAssembly",
+    "item": "SVDS",
+    "itemTpl": "5c46fbd72e2216398b5a8c9c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 5",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 20",
+    "condType": "WeaponAssembly",
+    "item": "M1A",
+    "itemTpl": "5aafa857e5b5b00018480968",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Fishing Gear",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Good Times - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Dragnet",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 21",
+    "condType": "WeaponAssembly",
+    "item": "M700",
+    "itemTpl": "5bfea6e90db834001b7347f3",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Peacekeeping Mission",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Woods Keeper",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Fishing Place",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Administrator",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Rite of Passage",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 1 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 22",
+    "condType": "WeaponAssembly",
+    "item": "M4A1",
+    "itemTpl": "5447a9cd4bdc2dbd208b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 5",
+        "trader": "PRAPOR",
+        "via": "find"
+      },
+      {
+        "quest": "The Punisher - Part 4",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Cargo X - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 9",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 11",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 23",
+    "condType": "WeaponAssembly",
+    "item": "Mk47",
+    "itemTpl": "606587252535c57a13424cfd",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Bullshit",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 2 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 24",
+    "condType": "WeaponAssembly",
+    "item": "SR-25",
+    "itemTpl": "5df8ce05b11454561e39243b",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Cult - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Part 25",
+    "condType": "WeaponAssembly",
+    "item": "PKP",
+    "itemTpl": "64ca3d3954fc657e230529cc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Before the Rain",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Old Friends Request",
+    "condType": "WeaponAssembly",
+    "item": "T-5000M",
+    "itemTpl": "5df24cf80dee1b22f862e9bc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Lend-Lease - Part 1",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Old Friends Request",
+    "condType": "WeaponAssembly",
+    "item": "PP-19-01",
+    "itemTpl": "59984ab886f7743e98271174",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Gunsmith - Old Friends Request",
+    "condType": "WeaponAssembly",
+    "item": "Glock 17",
+    "itemTpl": "5a7ae0c351dfba0017554310",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 3",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Farming - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Farming - Part 1",
+    "condType": "LeaveItemAtLocation",
+    "item": "Toolset",
+    "itemTpl": "590c2e1186f77425357b6124",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Farming - Part 1",
+    "condType": "LeaveItemAtLocation",
+    "item": "Toolset",
+    "itemTpl": "590c2e1186f77425357b6124",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Capacity Check",
+    "condType": "LeaveItemAtLocation",
+    "item": "Toolset",
+    "itemTpl": "590c2e1186f77425357b6124",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Capacity Check",
+    "condType": "LeaveItemAtLocation",
+    "item": "Toolset",
+    "itemTpl": "590c2e1186f77425357b6124",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Capacity Check",
+    "condType": "LeaveItemAtLocation",
+    "item": "Toolset",
+    "itemTpl": "590c2e1186f77425357b6124",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 3",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Secured Perimeter",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Make Amends - Equipment",
+    "condType": "HandoverItem",
+    "item": "SVDS",
+    "itemTpl": "5c46fbd72e2216398b5a8c9c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 5",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Network Provider - Part 1",
+    "condType": "HandoverItem",
+    "item": "SG-C10",
+    "itemTpl": "5c052f6886f7746b1e3db148",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Special Equipment",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Missing Informant",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Order From Outside",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Simple Side Job",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Network Provider - Part 1",
+    "condType": "HandoverItem",
+    "item": "GasAn",
+    "itemTpl": "590a3efd86f77437d351a25b",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sanitary Standards - Part 1",
+        "trader": "THERAPIST",
+        "via": "find"
+      },
+      {
+        "quest": "Sanitary Standards - Part 2",
+        "trader": "THERAPIST",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Network Provider - Part 1",
+    "condType": "HandoverItem",
+    "item": "GPhone",
+    "itemTpl": "56742c324bdc2d150f8b456d",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Assessment - Part 3",
+    "condType": "HandoverItem",
+    "item": "SJ1",
+    "itemTpl": "5c0e531286f7747fa54205c2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Colleagues - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Assessment - Part 3",
+    "condType": "HandoverItem",
+    "item": "SJ6",
+    "itemTpl": "5c0e531d86f7747fa23f4d42",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Colleagues - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "A Key to Salvation",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Radical Treatment",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "An Alternative",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Key to the Tower",
+    "condType": "HandoverItem",
+    "item": "Plexiglass",
+    "itemTpl": "59e366c186f7741778269d85",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Booze",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Key to the Tower",
+    "condType": "HandoverItem",
+    "item": "MCB",
+    "itemTpl": "5d0376a486f7747d8050965c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Huntsman Path - Big Game",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Steady Signal",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Whats Your Evidence",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Key to the Tower",
+    "condType": "HandoverItem",
+    "item": "SG-C10",
+    "itemTpl": "5c052f6886f7746b1e3db148",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Lend-Lease - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Special Equipment",
+        "trader": "PEACEKEEPER",
+        "via": "find"
+      },
+      {
+        "quest": "Missing Informant",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Order From Outside",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Simple Side Job",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Key to the Tower",
+    "condType": "HandoverItem",
+    "item": "LCD",
+    "itemTpl": "5d1b304286f774253763a528",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "SSD",
+    "itemTpl": "590c392f86f77444754deb29",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Shady Business",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Counteraction",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "New Day New Paths",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Confidential Info",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "RBattery",
+    "itemTpl": "590a358486f77429692b2790",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "CPU",
+    "itemTpl": "573477e124597737dd42e191",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Signal - Part 2",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Developers Secrets - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "Wires",
+    "itemTpl": "5c06779c86f77426e00dd782",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Fertilizers",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Gunsmith - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 10",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 3",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "Caps",
+    "itemTpl": "5c06782b86f77426df5407d2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Fertilizers",
+        "trader": "MECHANIC",
+        "via": "find"
+      },
+      {
+        "quest": "Gunsmith - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 5",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "NIXXOR",
+    "itemTpl": "5d1b2ffd86f77425243e8d17",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Farming - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Hot Wheels - Lets Try Again",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "Secret Benefactor",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "LCD",
+    "itemTpl": "5d1b304286f774253763a528",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Customer Communication",
+        "trader": "(not curated)",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "Camera Action",
+    "condType": "HandoverItem",
+    "item": "Bulb",
+    "itemTpl": "5d1b392c86f77425243e98fe",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 2",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Farming - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Needle in a Haystack",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Friend from Norvinsk - Part 3",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "The Door",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "The Door",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "The Courier",
+    "condType": "LeaveItemAtLocation",
+    "item": "REAP-IR",
+    "itemTpl": "5a1eaa87fcdbcb001865f75e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 22",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Import",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Sadist",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Make an Impression",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "MECHANIC",
+    "quest": "The Courier",
+    "condType": "LeaveItemAtLocation",
+    "item": "REAP-IR",
+    "itemTpl": "5a1eaa87fcdbcb001865f75e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 22",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Import",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Sadist",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Make an Impression",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Gratitude",
+    "condType": "LeaveItemAtLocation",
+    "item": "Ghost",
+    "itemTpl": "5ab8f4ff86f77431c60d91ba",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Key to Success",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Hot Delivery",
+    "condType": "LeaveItemAtLocation",
+    "item": "6B47",
+    "itemTpl": "5a7c4850e899ef00150be885",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Youve Got Mail",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Hot Delivery",
+    "condType": "LeaveItemAtLocation",
+    "item": "Gzhel-K",
+    "itemTpl": "5ab8e79e86f7742d8b372e78",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sew it Good - Part 2",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Dressed to Kill",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Sew it Good - Part 3",
+    "condType": "HandoverItem",
+    "item": "6B43",
+    "itemTpl": "545cdb794bdc2d3a198b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Escort",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Capturing Outposts",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Before the Rain",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Sew it Good - Part 3",
+    "condType": "HandoverItem",
+    "item": "6B43",
+    "itemTpl": "545cdb794bdc2d3a198b456a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Escort",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Capturing Outposts",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Before the Rain",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Old Patterns",
+    "condType": "HandoverItem",
+    "item": "0.2BTC",
+    "itemTpl": "59faff1d86f7746c51718c9c",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Spa Tour - Part 2",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Farming - Part 4",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Fertilizers",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Import",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 25",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Small Business - Part 2",
+        "trader": "FENCE",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Special Order",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Supply and Demand",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "DVL-10",
+    "itemTpl": "588892092459774ac91d4b11",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 6",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Long Road",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Special Comms",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 3 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "DVL-10",
+    "itemTpl": "5888988e24597752fe43a6fa",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 3",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Wet Job - Part 6",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Long Road",
+        "trader": "SKIER",
+        "via": "reward"
+      },
+      {
+        "quest": "Special Comms",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 3 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "SpecterDR",
+    "itemTpl": "57aca93d2459771f2c7e26db",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 4",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Eagle Eye",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "TCW SP",
+    "itemTpl": "65702566bfc87b3a3409324d",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "To Great Heights - Part 1 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "To Great Heights - Part 3 PVE ZONE",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "BCP FMJ",
+    "itemTpl": "65702561cfc010a0f5006a28",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Special Comms",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "M80",
+    "itemTpl": "65702558cfc010a0f5006a25",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "TerraGroup Employee",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Rite of Passage",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Hidden Layer",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Last Spurt - Pioneer",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "M62",
+    "itemTpl": "65702554bfc87b3a34093247",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Good Times - Part 1",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Dragnet",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "M61",
+    "itemTpl": "6570254fcfc010a0f5006a22",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Wet Job - Part 6",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Peacekeeping Mission",
+        "trader": "PEACEKEEPER",
+        "via": "reward"
+      },
+      {
+        "quest": "Broadcast - Part 5",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Break the Deal",
+    "condType": "LeaveItemAtLocation",
+    "item": "M993",
+    "itemTpl": "648984e3f09d032aa9399d53",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "A Shooter Born in Heaven",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Gunsmith - Part 21",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Drip-Out - Part 1",
+    "condType": "HandoverItem",
+    "item": "TV-106 + TV-109",
+    "itemTpl": "59e7643b86f7742cbf2c109a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sew it Good - Part 4",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Make ULTRA Great Again",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Drip-Out - Part 2",
+    "condType": "HandoverItem",
+    "item": "LBCR GE",
+    "itemTpl": "628baf0b967de16aab5a4f36",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Special Offer",
+        "trader": "RAGMAN",
+        "via": "find"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "RAGMAN",
+    "quest": "Drip-Out - Part 2",
+    "condType": "HandoverItem",
+    "item": "Slick",
+    "itemTpl": "5e4abb5086f77406975c9342",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sew it Good - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "The Survivalist Path - Thrifty",
+    "condType": "LeaveItemAtLocation",
+    "item": "Iskra",
+    "itemTpl": "590c5d4b86f774784e1b9c45",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "General Wares",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "The Survivalist Path - Thrifty",
+    "condType": "LeaveItemAtLocation",
+    "item": "Water",
+    "itemTpl": "5448fee04bdc2dbc018b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "First in Line",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "The Survivalist Path - Thrifty",
+    "condType": "LeaveItemAtLocation",
+    "item": "Iskra",
+    "itemTpl": "590c5d4b86f774784e1b9c45",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "General Wares",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "The Survivalist Path - Thrifty",
+    "condType": "LeaveItemAtLocation",
+    "item": "Water",
+    "itemTpl": "5448fee04bdc2dbc018b4567",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Operation Aquarius - Part 1",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "First in Line",
+        "trader": "THERAPIST",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "Acquaintance",
+    "condType": "HandoverItem",
+    "item": "Iskra",
+    "itemTpl": "590c5d4b86f774784e1b9c45",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "General Wares",
+        "trader": "THERAPIST",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Thrifty",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "Rite of Passage",
+    "condType": "HandoverItem",
+    "item": "Fuel",
+    "itemTpl": "5d1b36a186f7742523398433",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 16",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Blood of War - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Thrifty",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Possessor",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gloves Off",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Preemptive Strike",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "JAEGER",
+    "quest": "Broadcast - Part 5",
+    "condType": "LeaveItemAtLocation",
+    "item": "Knife",
+    "itemTpl": "5fc64ea372b0dd78d51159dc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Compensation for Damage - Barkeep",
+    "condType": "HandoverItem",
+    "item": "Whiskey",
+    "itemTpl": "5d403f9186f7743cac3f229b",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Booze",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "The Price of Celebration",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Is This a Reference",
+    "condType": "LeaveItemAtLocation",
+    "item": "Camera",
+    "itemTpl": "5b4391a586f7745321235ab2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Friend from Norvinsk - Part 1",
+        "trader": "MECHANIC",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Small Business - Part 3",
+    "condType": "LeaveItemAtLocation",
+    "item": "Knife",
+    "itemTpl": "5fc64ea372b0dd78d51159dc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Small Business - Part 3",
+    "condType": "LeaveItemAtLocation",
+    "item": "Knife",
+    "itemTpl": "5fc64ea372b0dd78d51159dc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Small Business - Part 3",
+    "condType": "LeaveItemAtLocation",
+    "item": "Knife",
+    "itemTpl": "5fc64ea372b0dd78d51159dc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Small Business - Part 3",
+    "condType": "LeaveItemAtLocation",
+    "item": "Knife",
+    "itemTpl": "5fc64ea372b0dd78d51159dc",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Night Sweep",
+        "trader": "SKIER",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "The Choice",
+    "condType": "HandoverItem",
+    "item": "Epsilon",
+    "itemTpl": "59db794186f77448bc595262",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "The Punisher - Part 6",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Collector",
+    "condType": "HandoverItem",
+    "item": "#FireKlean",
+    "itemTpl": "5bc9b355d4351e6d1509862a",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Forced Alliance",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": false,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Collector",
+    "condType": "HandoverItem",
+    "item": "Raven",
+    "itemTpl": "5e54f62086f774219b0f1937",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Living High is Not a Crime - Part 2",
+        "trader": "RAGMAN",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Collector",
+    "condType": "HandoverItem",
+    "item": "Egg",
+    "itemTpl": "62a09cfe4f842e1bd12da3e4",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Living High is Not a Crime - Part 1",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Proper Comeback",
+        "trader": "SKIER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "FENCE",
+    "quest": "Collector",
+    "condType": "HandoverItem",
+    "item": "Axel",
+    "itemTpl": "62a091170b9d3c46de5b6cf2",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Living High is Not a Crime - Part 2",
+        "trader": "RAGMAN",
+        "via": "find"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "LIGHTHOUSEKEEPER",
+    "quest": "Provocation",
+    "condType": "LeaveItemAtLocation",
+    "item": "Moonshine",
+    "itemTpl": "5d1b376e86f774252519444e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Sensory Analysis - Part 1",
+        "trader": "RAGMAN",
+        "via": "find"
+      },
+      {
+        "quest": "Sensory Analysis - Part 2",
+        "trader": "BTR",
+        "via": "find"
+      },
+      {
+        "quest": "Circulate",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Key to the City",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "Cream of the Crop",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Building Foundations",
+        "trader": "BTR",
+        "via": "reward"
+      },
+      {
+        "quest": "This Is My Party",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "External Interest",
+        "trader": "(not curated)",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "LIGHTHOUSEKEEPER",
+    "quest": "Spotter",
+    "condType": "LeaveItemAtLocation",
+    "item": "REAP-IR",
+    "itemTpl": "5a1eaa87fcdbcb001865f75e",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 22",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "Import",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Huntsman Path - Sadist",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Make an Impression",
+        "trader": "LIGHTHOUSEKEEPER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "BTR",
+    "quest": "Discombobulate",
+    "condType": "LeaveItemAtLocation",
+    "item": "VOG-25",
+    "itemTpl": "5e340dcdcb6d5863cc5e5efb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Hell on Earth - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "BTR",
+    "quest": "Discombobulate",
+    "condType": "LeaveItemAtLocation",
+    "item": "VOG-25",
+    "itemTpl": "5e340dcdcb6d5863cc5e5efb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Hell on Earth - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "BTR",
+    "quest": "Discombobulate",
+    "condType": "LeaveItemAtLocation",
+    "item": "VOG-25",
+    "itemTpl": "5e340dcdcb6d5863cc5e5efb",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Grenadier",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Hell on Earth - Part 2",
+        "trader": "PRAPOR",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": false
+  },
+  {
+    "trader": "BTR",
+    "quest": "Natural Exchange",
+    "condType": "LeaveItemAtLocation",
+    "item": "Fuel",
+    "itemTpl": "5d1b36a186f7742523398433",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 16",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Blood of War - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Thrifty",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Possessor",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gloves Off",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Preemptive Strike",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  },
+  {
+    "trader": "BTR",
+    "quest": "Natural Exchange",
+    "condType": "LeaveItemAtLocation",
+    "item": "Fuel",
+    "itemTpl": "5d1b36a186f7742523398433",
+    "isQuestItem": false,
+    "providers": [
+      {
+        "quest": "Gunsmith - Part 16",
+        "trader": "MECHANIC",
+        "via": "reward"
+      },
+      {
+        "quest": "The Blood of War - Part 1",
+        "trader": "RAGMAN",
+        "via": "reward"
+      },
+      {
+        "quest": "The Survivalist Path - Thrifty",
+        "trader": "JAEGER",
+        "via": "reward"
+      },
+      {
+        "quest": "Possessor",
+        "trader": "PRAPOR",
+        "via": "reward"
+      },
+      {
+        "quest": "Gloves Off",
+        "trader": "(not curated)",
+        "via": "reward"
+      },
+      {
+        "quest": "Preemptive Strike",
+        "trader": "JAEGER",
+        "via": "reward"
+      }
+    ],
+    "crossTrader": true,
+    "providerOutsideCurated": true
+  }
+]

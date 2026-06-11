@@ -1,0 +1,1287 @@
+Curated quests scanned: 442
+Hand-in objectives flagged (item not obtained in-quest): 282
+  of those involving a QUEST ITEM: 7
+  of those whose provider is a DIFFERENT curated trader: 219
+
+============================================================
+CROSS-TRADER HAND-OFFS (provider is a different curated trader)
+============================================================
+
+[PRAPOR] Viewer
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Viewer
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Viewer
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: PFilter  via HandoverItem
+   provided by: [RAGMAN] Dressed to Kill (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Surveillance (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Import ontrol (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] In and Out (reward)  <-- DIFFERENT TRADER
+   provided by: [BTR] Hot Wheels (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Hypotheses Testing (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: Iridium  via HandoverItem
+   provided by: [MECHANIC] Import (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Hunting Trip (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Special Equipment (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: MCable  via HandoverItem
+   provided by: [(not curated)] Customer Communication (find)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 2 (reward)
+   provided by: [MECHANIC] Watching You (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Steady Signal (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: SG-C10  via HandoverItem
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Special Equipment (find)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Missing Informant (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Order From Outside (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Simple Side Job (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: MCB  via HandoverItem
+   provided by: [JAEGER] The Huntsman Path - Big Game (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Steady Signal (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Whats Your Evidence (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: Virtex  via HandoverItem
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Special Equipment (find)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Information Source (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Provocation (reward)  <-- DIFFERENT TRADER
+   provided by: [FENCE] Small Business - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Order From Outside (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Simple Side Job (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Keepers Word (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: DVD  via HandoverItem
+   provided by: [MECHANIC] Friend from Norvinsk - Part 5 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: PSU  via HandoverItem
+   provided by: [MECHANIC] Secrets of Polikhim (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: GPU  via HandoverItem
+   provided by: [MECHANIC] Farming - Part 4 (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Chemistry Closet (reward)  <-- DIFFERENT TRADER
+   provided by: [BTR] Natural Exchange (reward)  <-- DIFFERENT TRADER
+   provided by: [BTR] The Price of Independence (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Holiday Beyond the Means (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: PCB  via HandoverItem
+   provided by: [MECHANIC] Farming - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Signal - Part 2 (find)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: CPU fan  via HandoverItem
+   provided by: [MECHANIC] Farming - Part 4 (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Developers Secrets - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: CPU  via HandoverItem
+   provided by: [MECHANIC] Signal - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Developers Secrets - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: Cord  via HandoverItem
+   provided by: [MECHANIC] Farming - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Customer Communication (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Secrets of Polikhim (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Friend from Norvinsk - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Friend from Norvinsk - Part 4 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Half-Empty
+   hand in: Wires  via HandoverItem
+   provided by: [MECHANIC] Fertilizers (find)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 10 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Friend from Norvinsk - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Friend from Norvinsk - Part 4 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Special Comms
+   hand in: MCable  via LeaveItemAtLocation
+   provided by: [(not curated)] Customer Communication (find)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 2 (reward)
+   provided by: [MECHANIC] Watching You (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Steady Signal (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Special Comms
+   hand in: Bulbex  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 19 (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Special Comms
+   hand in: MCable  via LeaveItemAtLocation
+   provided by: [(not curated)] Customer Communication (find)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 2 (reward)
+   provided by: [MECHANIC] Watching You (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Steady Signal (reward)  <-- DIFFERENT TRADER
+
+[PRAPOR] Special Comms
+   hand in: Bulbex  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 19 (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] Postman Pat - Part 2
+   hand in: Letter  (QUEST ITEM)  via HandoverItem
+   provided by: [PRAPOR] Postman Pat - Part 1 (find)  <-- DIFFERENT TRADER
+
+[THERAPIST] An Alternative
+   hand in: Emelya  via HandoverItem
+   provided by: [JAEGER] Courtesy Visit (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] An Alternative
+   hand in: MRE  via HandoverItem
+   provided by: [PEACEKEEPER] Humanitarian Supplies (find)  <-- DIFFERENT TRADER
+
+[THERAPIST] An Alternative
+   hand in: Iskra  via HandoverItem
+   provided by: [THERAPIST] General Wares (reward)
+   provided by: [JAEGER] The Survivalist Path - Thrifty (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] An Alternative
+   hand in: Superwater  via HandoverItem
+   provided by: [RAGMAN] Booze (find)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Conservation Area (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] An Alternative
+   hand in: Aquamari  via HandoverItem
+   provided by: [JAEGER] The Survivalist Path - Zhivchik (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Thirsty - Echo (reward)
+
+[THERAPIST] First in Line
+   hand in: GoldenStar  via HandoverItem
+   provided by: [SKIER] Vitamins - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Ambulance (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: Morphine  via HandoverItem
+   provided by: [THERAPIST] Painkiller (find)
+   provided by: [PEACEKEEPER] Spa Tour - Part 7 (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Health Care Privacy - Part 3 (reward)
+   provided by: [SKIER] Vitamins - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Decontamination Service (reward)
+   provided by: [THERAPIST] Pets Wont Need It - Part 2 (reward)
+
+[THERAPIST] First in Line
+   hand in: Grizzly  via HandoverItem
+   provided by: [THERAPIST] Car Repair (reward)
+   provided by: [THERAPIST] Health Care Privacy - Part 4 (reward)
+   provided by: [JAEGER] Ambulance (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 3 (reward)
+   provided by: [THERAPIST] Disease History (reward)
+   provided by: [THERAPIST] Lost Contact (reward)
+   provided by: [(not curated)] Important Patient (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Ambulances Again (reward)
+
+[THERAPIST] First in Line
+   hand in: AFAK  via HandoverItem
+   provided by: [THERAPIST] Pharmacist (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 5 (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: CMS  via HandoverItem
+   provided by: [JAEGER] Ambulance (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Supply Plans (reward)
+   provided by: [JAEGER] The Survivalist Path - Tough Guy (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Work Smarter (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: Surv12  via HandoverItem
+   provided by: [JAEGER] Ambulance (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Sadist (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 2 (reward)
+   provided by: [JAEGER] Broadcast - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Ambulances Again (reward)
+
+[THERAPIST] First in Line
+   hand in: 3-(b-TG)  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 3 (find)
+   provided by: [(not curated)] Radical Treatment (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] This Tape Sucks (reward)
+
+[THERAPIST] First in Line
+   hand in: AHF1-M  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 3 (find)
+
+[THERAPIST] First in Line
+   hand in: L1  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 3 (reward)
+   provided by: [THERAPIST] Pets Wont Need It - Part 2 (reward)
+
+[THERAPIST] First in Line
+   hand in: M.U.L.E.  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Crisis (reward)
+   provided by: [THERAPIST] Thirsty - Echo (reward)
+   provided by: [(not curated)] A Key to Salvation (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: Meldonin  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 3 (reward)
+   provided by: [THERAPIST] This Tape Sucks (reward)
+
+[THERAPIST] First in Line
+   hand in: Obdolbos  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: P22  via HandoverItem
+   provided by: [PEACEKEEPER] Samples (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Colleagues - Part 2 (reward)
+
+[THERAPIST] First in Line
+   hand in: xTG-12  via HandoverItem
+   provided by: [SKIER] Night Sweep (reward)  <-- DIFFERENT TRADER
+   provided by: [FENCE] Immunity (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: Defib  via HandoverItem
+   provided by: [JAEGER] Ambulance (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Crisis (find)
+   provided by: [THERAPIST] Closer to the People (reward)
+
+[THERAPIST] First in Line
+   hand in: LEDX  via HandoverItem
+   provided by: [THERAPIST] Private Clinic (find)
+   provided by: [THERAPIST] Crisis (find)
+   provided by: [LIGHTHOUSEKEEPER] Payback (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: Bloodset  via HandoverItem
+   provided by: [SKIER] Vitamins - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Pets Wont Need It - Part 1 (reward)
+
+[THERAPIST] First in Line
+   hand in: Meds  via HandoverItem
+   provided by: [THERAPIST] Crisis (find)
+   provided by: [THERAPIST] Painkiller (reward)
+   provided by: [THERAPIST] Pharmacist (reward)
+   provided by: [JAEGER] The Survivalist Path - Tough Guy (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Pets Wont Need It - Part 2 (reward)
+
+[THERAPIST] First in Line
+   hand in: Vitamins  via HandoverItem
+   provided by: [THERAPIST] Crisis (find)
+   provided by: [MECHANIC] Bad Habit (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] Thirsty - Secrets
+   hand in: Vitamins  via HandoverItem
+   provided by: [THERAPIST] Crisis (find)
+   provided by: [MECHANIC] Bad Habit (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] Health Care Privacy - Part 5
+   hand in: Kite  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 4 (reward)  <-- DIFFERENT TRADER
+
+[THERAPIST] Drug Trafficking
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] The Walls Have Eyes
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] The Walls Have Eyes
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] The Walls Have Eyes
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Thirsty - Delivery
+   hand in: Propane  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 7 (find)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Thirsty - Breadwinner (find)
+   provided by: [JAEGER] The Huntsman Path - Justice (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] A Fuel Matter (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] No Swiping (reward)
+
+[SKIER] Thirsty - Delivery
+   hand in: Propane  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 7 (find)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Thirsty - Breadwinner (find)
+   provided by: [JAEGER] The Huntsman Path - Justice (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] A Fuel Matter (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] No Swiping (reward)
+
+[SKIER] Safety Guarantee
+   hand in: Zhuk EMR  via HandoverItem
+   provided by: [PRAPOR] Gendarmerie - District Patrol (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 6 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Safety Guarantee
+   hand in: Vulkan-5  via HandoverItem
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Before the Rain (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Hot Zone (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Informed Means Armed
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Informed Means Armed
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Informed Means Armed
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PS12B  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Regulated Materials (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: 7N40  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Shipping Delay - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Shootout Picnic (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Ice Cream Cones (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 8 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Pressured by Circumstances (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Youve Got Mail (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Indisputable Authority (reward)
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] No Place for Renegades (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Gendarmerie - Tickets Please (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Ours by Right (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Cheer Up (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Khorovod (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PAB-9  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Stick in the Wheel (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [SKIER] Safe Corridor (reward)
+   provided by: [PRAPOR] Forge a Friendship (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [JAEGER] The Survivalist Path - Junkie (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: SP-6  via LeaveItemAtLocation
+   provided by: [PRAPOR] Anesthesia (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Provide Cover (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PS12B  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Regulated Materials (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: 7N40  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Shipping Delay - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Shootout Picnic (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Ice Cream Cones (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 8 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Pressured by Circumstances (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Youve Got Mail (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Indisputable Authority (reward)
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] No Place for Renegades (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Gendarmerie - Tickets Please (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Ours by Right (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Cheer Up (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Khorovod (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PAB-9  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Stick in the Wheel (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [SKIER] Safe Corridor (reward)
+   provided by: [PRAPOR] Forge a Friendship (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [JAEGER] The Survivalist Path - Junkie (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: SP-6  via LeaveItemAtLocation
+   provided by: [PRAPOR] Anesthesia (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Provide Cover (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PS12B  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Regulated Materials (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: 7N40  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Shipping Delay - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Shootout Picnic (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Ice Cream Cones (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 8 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BS  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Pressured by Circumstances (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Youve Got Mail (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Indisputable Authority (reward)
+
+[SKIER] Hindsight 2020
+   hand in: PP  via LeaveItemAtLocation
+   provided by: [PRAPOR] No Place for Renegades (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Gendarmerie - Tickets Please (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Ours by Right (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Bunker - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Cheer Up (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Khorovod (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: PAB-9  via LeaveItemAtLocation
+   provided by: [PRAPOR] Test Drive - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Stick in the Wheel (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BP  via LeaveItemAtLocation
+   provided by: [SKIER] Safe Corridor (reward)
+   provided by: [PRAPOR] Forge a Friendship (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: BT  via LeaveItemAtLocation
+   provided by: [JAEGER] The Survivalist Path - Junkie (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Hindsight 2020
+   hand in: SP-6  via LeaveItemAtLocation
+   provided by: [PRAPOR] Anesthesia (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Provide Cover (reward)  <-- DIFFERENT TRADER
+
+[SKIER] A Life Lesson
+   hand in: Vodka  via HandoverItem
+   provided by: [RAGMAN] Booze (find)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Flint (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Glory to CPSU - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Gendarmerie - District Patrol (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Viewer (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] The Price of Celebration (reward)  <-- DIFFERENT TRADER
+
+[SKIER] A Life Lesson
+   hand in: Whiskey  via HandoverItem
+   provided by: [RAGMAN] Booze (find)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] The Price of Celebration (reward)  <-- DIFFERENT TRADER
+
+[SKIER] A Life Lesson
+   hand in: Moonshine  via HandoverItem
+   provided by: [RAGMAN] Sensory Analysis - Part 1 (find)  <-- DIFFERENT TRADER
+   provided by: [BTR] Sensory Analysis - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Circulate (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Key to the City (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Cream of the Crop (reward)  <-- DIFFERENT TRADER
+   provided by: [BTR] Building Foundations (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] This Is My Party (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] External Interest (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Chumming
+   hand in: GoldChain  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] The Cult - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Trophy (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Chumming
+   hand in: GoldChain  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] The Cult - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Trophy (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Chumming
+   hand in: GoldChain  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] The Cult - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Trophy (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Bullshit
+   hand in: SV-98  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Back Door (reward)  <-- DIFFERENT TRADER
+
+[SKIER] Bullshit
+   hand in: Roler  via LeaveItemAtLocation
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (find)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Friend From the West - Part 1 (reward)
+   provided by: [SKIER] Chumming (reward)
+   provided by: [JAEGER] The Huntsman Path - Trophy (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Audiophile (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Fishing Gear
+   hand in: SV-98  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Back Door (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Spa Tour - Part 3
+   hand in: WD-40  via HandoverItem
+   provided by: [MECHANIC] Forklift Certified (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Secret Benefactor (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Spa Tour - Part 3
+   hand in: WD-40  via HandoverItem
+   provided by: [JAEGER] The Huntsman Path - Justice (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Spa Tour - Part 3
+   hand in: Hose  via HandoverItem
+   provided by: [PEACEKEEPER] Spa Tour - Part 7 (find)
+   provided by: [MECHANIC] Gunsmith - Part 13 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Delicious Sausage (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Spa Tour - Part 6
+   hand in: USD  via HandoverItem
+   provided by: [THERAPIST] Car Repair (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] The Extortionist (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Spa Tour - Part 1 (reward)
+   provided by: [PEACEKEEPER] Spa Tour - Part 2 (reward)
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)
+   provided by: [PEACEKEEPER] Spa Tour - Part 4 (reward)
+   provided by: [PEACEKEEPER] Spa Tour - Part 5 (reward)
+   provided by: [PEACEKEEPER] Fishing Gear (reward)
+   provided by: [PEACEKEEPER] Tigr Safari (reward)
+   provided by: [PEACEKEEPER] Scrap Metal (reward)
+   provided by: [PEACEKEEPER] Eagle Eye (reward)
+   provided by: [PEACEKEEPER] Humanitarian Supplies (reward)
+   provided by: [PEACEKEEPER] The Cult - Part 1 (reward)
+   provided by: [PEACEKEEPER] The Cult - Part 2 (reward)
+   provided by: [PEACEKEEPER] Cargo X - Part 1 (reward)
+   provided by: [PEACEKEEPER] Cargo X - Part 2 (reward)
+   provided by: [PEACEKEEPER] Cargo X - Part 3 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 1 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 2 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 3 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 4 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 5 (reward)
+   provided by: [PEACEKEEPER] Wet Job - Part 6 (reward)
+   provided by: [SKIER] Friend From the West - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 13 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 7 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 12 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Lend-Lease - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Bullshit (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Insomnia (reward)
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (reward)
+   provided by: [PEACEKEEPER] The Guide (reward)
+   provided by: [JAEGER] The Huntsman Path - Eraser - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Samples (reward)
+   provided by: [PEACEKEEPER] TerraGroup Employee (reward)
+   provided by: [PEACEKEEPER] Revision - Reserve (reward)
+   provided by: [PEACEKEEPER] Classified Technologies (reward)
+   provided by: [SKIER] Night Sweep (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Overpopulation (reward)
+   provided by: [PEACEKEEPER] Revision - Lighthouse (reward)
+   provided by: [PEACEKEEPER] Counteraction (reward)
+   provided by: [PEACEKEEPER] Cargo X - Part 4 (reward)
+   provided by: [PEACEKEEPER] Your Car Needs a Service (reward)
+   provided by: [PEACEKEEPER] Revision - Streets of Tarkov (reward)
+   provided by: [MECHANIC] Gunsmith - Part 11 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 14 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Hustle (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] The Punisher Harvest (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Whats Your Evidence (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Caught Red-Handed (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] One Less Loose End (reward)
+   provided by: [PEACEKEEPER] New Day New Paths (reward)
+   provided by: [(not curated)] Global Threat (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Order From Outside (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Simple Side Job (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Seizing the Initiative (reward)
+   provided by: [PEACEKEEPER] Confidential Info (reward)
+   provided by: [(not curated)] Keepers Word (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Surprise Gift PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Confidential Info
+   hand in: VOG-25  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Hell on Earth - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Confidential Info
+   hand in: VOG-17  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Confidential Info
+   hand in: M67  via LeaveItemAtLocation
+   provided by: [PRAPOR] No Offence (find)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Spa Tour - Part 2 (reward)
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)
+   provided by: [PEACEKEEPER] Tigr Safari (reward)
+
+[PEACEKEEPER] Confidential Info
+   hand in: F-1  via LeaveItemAtLocation
+   provided by: [PRAPOR] Polikhim Hobo (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Chemical - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+
+[PEACEKEEPER] Confidential Info
+   hand in: RGD-5  via LeaveItemAtLocation
+   provided by: [PRAPOR] Polikhim Hobo (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Belka and Strelka (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Friend from Norvinsk - Part 4
+   hand in: MB  via HandoverItem
+   provided by: [LIGHTHOUSEKEEPER] Missing Informant (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Payback (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Spotter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Friend from Norvinsk - Part 5
+   hand in: Letter  (QUEST ITEM)  via LeaveItemAtLocation
+   provided by: [PRAPOR] Postman Pat - Part 1 (find)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 3
+   hand in: MP5  via WeaponAssembly
+   provided by: [PEACEKEEPER] Scrap Metal (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Rigged Game (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 4
+   hand in: OP-SKS  via WeaponAssembly
+   provided by: [SKIER] Whats on the Flash Drive (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 5
+   hand in: M870  via WeaponAssembly
+   provided by: [SKIER] The Extortionist (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] The Door (reward)
+
+[MECHANIC] Gunsmith - Part 7
+   hand in: M4A1  via WeaponAssembly
+   provided by: [PRAPOR] The Punisher - Part 5 (find)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 4 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Cargo X - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 9 (reward)
+   provided by: [MECHANIC] Gunsmith - Part 11 (reward)
+   provided by: [(not curated)] Customer Communication (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 8
+   hand in: AKS-74N  via WeaponAssembly
+   provided by: [PRAPOR] The Punisher - Part 5 (find)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 11
+   hand in: Vector 9x19  via WeaponAssembly
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Vitamins - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] House Arrest - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Hint (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 12
+   hand in: MPX  via WeaponAssembly
+   provided by: [PEACEKEEPER] Spa Tour - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Eagle Eye (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Hustle (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 13
+   hand in: RSASS  via WeaponAssembly
+   provided by: [PEACEKEEPER] Wet Job - Part 5 (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 14
+   hand in: HK 416A5  via WeaponAssembly
+   provided by: [PEACEKEEPER] Wet Job - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Against the Conscience - Part 1 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 15
+   hand in: AS VAL  via WeaponAssembly
+   provided by: [PRAPOR] Anesthesia (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Test Drive - Part 5 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Stick in the Wheel (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 16
+   hand in: DVL-10  via WeaponAssembly
+   provided by: [PRAPOR] The Punisher - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Wet Job - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Long Road (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Special Comms (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] To Great Heights - Part 3 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 20
+   hand in: M1A  via WeaponAssembly
+   provided by: [PEACEKEEPER] Fishing Gear (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Good Times - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Dragnet (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 21
+   hand in: M700  via WeaponAssembly
+   provided by: [PEACEKEEPER] Peacekeeping Mission (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Woods Keeper (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Fishing Place (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Administrator (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Rite of Passage (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] To Great Heights - Part 1 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 22
+   hand in: M4A1  via WeaponAssembly
+   provided by: [PRAPOR] The Punisher - Part 5 (find)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] The Punisher - Part 4 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Cargo X - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 9 (reward)
+   provided by: [MECHANIC] Gunsmith - Part 11 (reward)
+   provided by: [(not curated)] Customer Communication (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 23
+   hand in: Mk47  via WeaponAssembly
+   provided by: [SKIER] Bullshit (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] To Great Heights - Part 2 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Part 24
+   hand in: SR-25  via WeaponAssembly
+   provided by: [PEACEKEEPER] The Cult - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Gunsmith - Old Friends Request
+   hand in: T-5000M  via WeaponAssembly
+   provided by: [SKIER] Lend-Lease - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Farming - Part 1
+   hand in: Toolset  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Farming - Part 1
+   hand in: Toolset  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Capacity Check
+   hand in: Toolset  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Capacity Check
+   hand in: Toolset  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Capacity Check
+   hand in: Toolset  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Spa Tour - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Secured Perimeter (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Network Provider - Part 1
+   hand in: SG-C10  via HandoverItem
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Special Equipment (find)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Missing Informant (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Order From Outside (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Simple Side Job (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Network Provider - Part 1
+   hand in: GasAn  via HandoverItem
+   provided by: [THERAPIST] Sanitary Standards - Part 1 (find)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Sanitary Standards - Part 2 (find)  <-- DIFFERENT TRADER
+
+[MECHANIC] Assessment - Part 3
+   hand in: SJ1  via HandoverItem
+   provided by: [THERAPIST] Colleagues - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] A Key to Salvation (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Assessment - Part 3
+   hand in: SJ6  via HandoverItem
+   provided by: [THERAPIST] Colleagues - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] A Key to Salvation (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Radical Treatment (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] An Alternative (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Key to the Tower
+   hand in: Plexiglass  via HandoverItem
+   provided by: [RAGMAN] Booze (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Key to the Tower
+   hand in: MCB  via HandoverItem
+   provided by: [JAEGER] The Huntsman Path - Big Game (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Steady Signal (reward)
+   provided by: [(not curated)] Whats Your Evidence (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Key to the Tower
+   hand in: SG-C10  via HandoverItem
+   provided by: [PEACEKEEPER] Lend-Lease - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Special Equipment (find)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Missing Informant (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Order From Outside (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Simple Side Job (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Camera Action
+   hand in: SSD  via HandoverItem
+   provided by: [JAEGER] Shady Business (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Counteraction (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] New Day New Paths (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Confidential Info (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] Camera Action
+   hand in: NIXXOR  via HandoverItem
+   provided by: [MECHANIC] Farming - Part 2 (reward)
+   provided by: [BTR] Hot Wheels - Lets Try Again (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] Secret Benefactor (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] The Courier
+   hand in: REAP-IR  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 22 (reward)
+   provided by: [MECHANIC] Import (reward)
+   provided by: [JAEGER] The Huntsman Path - Sadist (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Make an Impression (reward)  <-- DIFFERENT TRADER
+
+[MECHANIC] The Courier
+   hand in: REAP-IR  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 22 (reward)
+   provided by: [MECHANIC] Import (reward)
+   provided by: [JAEGER] The Huntsman Path - Sadist (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Make an Impression (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Hot Delivery
+   hand in: 6B47  via LeaveItemAtLocation
+   provided by: [PRAPOR] Youve Got Mail (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Sew it Good - Part 3
+   hand in: 6B43  via HandoverItem
+   provided by: [PRAPOR] The Punisher - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Escort (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Capturing Outposts (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Before the Rain (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Sew it Good - Part 3
+   hand in: 6B43  via HandoverItem
+   provided by: [PRAPOR] The Punisher - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Escort (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Capturing Outposts (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Before the Rain (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Old Patterns
+   hand in: 0.2BTC  via HandoverItem
+   provided by: [PEACEKEEPER] Spa Tour - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Farming - Part 4 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Fertilizers (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Import (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 25 (reward)  <-- DIFFERENT TRADER
+   provided by: [FENCE] Small Business - Part 2 (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Gunsmith - Special Order (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Supply and Demand (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: DVL-10  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Wet Job - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Long Road (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Special Comms (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] To Great Heights - Part 3 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: DVL-10  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 3 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Wet Job - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Long Road (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Special Comms (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] To Great Heights - Part 3 PVE ZONE (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: SpecterDR  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Punisher - Part 4 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Eagle Eye (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: BCP FMJ  via LeaveItemAtLocation
+   provided by: [PRAPOR] Special Comms (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: M80  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] TerraGroup Employee (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Rite of Passage (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Hidden Layer (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Last Spurt - Pioneer (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: M62  via LeaveItemAtLocation
+   provided by: [PRAPOR] The Good Times - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Dragnet (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: M61  via LeaveItemAtLocation
+   provided by: [PEACEKEEPER] Wet Job - Part 6 (reward)  <-- DIFFERENT TRADER
+   provided by: [PEACEKEEPER] Peacekeeping Mission (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Broadcast - Part 5 (reward)  <-- DIFFERENT TRADER
+
+[RAGMAN] Break the Deal
+   hand in: M993  via LeaveItemAtLocation
+   provided by: [MECHANIC] A Shooter Born in Heaven (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Gunsmith - Part 21 (reward)  <-- DIFFERENT TRADER
+
+[JAEGER] The Survivalist Path - Thrifty
+   hand in: Iskra  via LeaveItemAtLocation
+   provided by: [THERAPIST] General Wares (reward)  <-- DIFFERENT TRADER
+
+[JAEGER] The Survivalist Path - Thrifty
+   hand in: Water  via LeaveItemAtLocation
+   provided by: [THERAPIST] Operation Aquarius - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] First in Line (reward)  <-- DIFFERENT TRADER
+
+[JAEGER] The Survivalist Path - Thrifty
+   hand in: Iskra  via LeaveItemAtLocation
+   provided by: [THERAPIST] General Wares (reward)  <-- DIFFERENT TRADER
+
+[JAEGER] The Survivalist Path - Thrifty
+   hand in: Water  via LeaveItemAtLocation
+   provided by: [THERAPIST] Operation Aquarius - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [THERAPIST] First in Line (reward)  <-- DIFFERENT TRADER
+
+[JAEGER] Acquaintance
+   hand in: Iskra  via HandoverItem
+   provided by: [THERAPIST] General Wares (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Survivalist Path - Thrifty (reward)
+
+[JAEGER] Rite of Passage
+   hand in: Fuel  via HandoverItem
+   provided by: [MECHANIC] Gunsmith - Part 16 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] The Blood of War - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Survivalist Path - Thrifty (reward)
+   provided by: [PRAPOR] Possessor (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Gloves Off (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Preemptive Strike (reward)
+
+[JAEGER] Broadcast - Part 5
+   hand in: Knife  via LeaveItemAtLocation
+   provided by: [SKIER] Night Sweep (find)  <-- DIFFERENT TRADER
+
+[FENCE] Compensation for Damage - Barkeep
+   hand in: Whiskey  via HandoverItem
+   provided by: [RAGMAN] Booze (find)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] The Price of Celebration (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Is This a Reference
+   hand in: Camera  via LeaveItemAtLocation
+   provided by: [MECHANIC] Friend from Norvinsk - Part 1 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Small Business - Part 3
+   hand in: Knife  via LeaveItemAtLocation
+   provided by: [SKIER] Night Sweep (find)  <-- DIFFERENT TRADER
+
+[FENCE] Small Business - Part 3
+   hand in: Knife  via LeaveItemAtLocation
+   provided by: [SKIER] Night Sweep (find)  <-- DIFFERENT TRADER
+
+[FENCE] Small Business - Part 3
+   hand in: Knife  via LeaveItemAtLocation
+   provided by: [SKIER] Night Sweep (find)  <-- DIFFERENT TRADER
+
+[FENCE] Small Business - Part 3
+   hand in: Knife  via LeaveItemAtLocation
+   provided by: [SKIER] Night Sweep (find)  <-- DIFFERENT TRADER
+
+[FENCE] The Choice
+   hand in: Epsilon  via HandoverItem
+   provided by: [PRAPOR] The Punisher - Part 6 (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Collector
+   hand in: Raven  via HandoverItem
+   provided by: [RAGMAN] Living High is Not a Crime - Part 2 (find)  <-- DIFFERENT TRADER
+
+[FENCE] Collector
+   hand in: Egg  via HandoverItem
+   provided by: [RAGMAN] Living High is Not a Crime - Part 1 (find)  <-- DIFFERENT TRADER
+   provided by: [SKIER] Proper Comeback (reward)  <-- DIFFERENT TRADER
+
+[FENCE] Collector
+   hand in: Axel  via HandoverItem
+   provided by: [RAGMAN] Living High is Not a Crime - Part 2 (find)  <-- DIFFERENT TRADER
+
+[LIGHTHOUSEKEEPER] Provocation
+   hand in: Moonshine  via LeaveItemAtLocation
+   provided by: [RAGMAN] Sensory Analysis - Part 1 (find)  <-- DIFFERENT TRADER
+   provided by: [BTR] Sensory Analysis - Part 2 (find)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Circulate (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] Key to the City (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Cream of the Crop (reward)  <-- DIFFERENT TRADER
+   provided by: [BTR] Building Foundations (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] This Is My Party (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] External Interest (reward)  <-- DIFFERENT TRADER
+
+[LIGHTHOUSEKEEPER] Spotter
+   hand in: REAP-IR  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 22 (reward)  <-- DIFFERENT TRADER
+   provided by: [MECHANIC] Import (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Huntsman Path - Sadist (reward)  <-- DIFFERENT TRADER
+   provided by: [LIGHTHOUSEKEEPER] Make an Impression (reward)
+
+[BTR] Discombobulate
+   hand in: VOG-25  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Hell on Earth - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[BTR] Discombobulate
+   hand in: VOG-25  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Hell on Earth - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[BTR] Discombobulate
+   hand in: VOG-25  via LeaveItemAtLocation
+   provided by: [PRAPOR] Grenadier (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Hell on Earth - Part 2 (reward)  <-- DIFFERENT TRADER
+
+[BTR] Natural Exchange
+   hand in: Fuel  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 16 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] The Blood of War - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Survivalist Path - Thrifty (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Possessor (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Gloves Off (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Preemptive Strike (reward)  <-- DIFFERENT TRADER
+
+[BTR] Natural Exchange
+   hand in: Fuel  via LeaveItemAtLocation
+   provided by: [MECHANIC] Gunsmith - Part 16 (reward)  <-- DIFFERENT TRADER
+   provided by: [RAGMAN] The Blood of War - Part 1 (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] The Survivalist Path - Thrifty (reward)  <-- DIFFERENT TRADER
+   provided by: [PRAPOR] Possessor (reward)  <-- DIFFERENT TRADER
+   provided by: [(not curated)] Gloves Off (reward)  <-- DIFFERENT TRADER
+   provided by: [JAEGER] Preemptive Strike (reward)  <-- DIFFERENT TRADER
+
+============================================================
+QUEST-ITEM HAND-OFFS (all, incl. same-trader chains & non-curated providers)
+============================================================
+
+[PRAPOR] Shipping Delay - Part 1
+   hand in: Package  (QUEST ITEM)  via HandoverItem
+   provided by: [PRAPOR] A Helping Hand (find)
+
+[THERAPIST] Postman Pat - Part 2
+   hand in: Letter  (QUEST ITEM)  via HandoverItem
+   provided by: [PRAPOR] Postman Pat - Part 1 (find)  <-- DIFFERENT TRADER
+
+[THERAPIST] First in Line
+   hand in: LEDX US  (QUEST ITEM)  via HandoverItem
+   provided by: [THERAPIST] Quality Standard (find)
+
+[THERAPIST] First in Line
+   hand in: BSample  (QUEST ITEM)  via HandoverItem
+   provided by: [THERAPIST] Health Care Privacy - Part 3 (find)
+
+[THERAPIST] First in Line
+   hand in: Sample  (QUEST ITEM)  via HandoverItem
+   provided by: [THERAPIST] Health Care Privacy - Part 6 (find)
+
+[THERAPIST] First in Line
+   hand in: Sample  (QUEST ITEM)  via HandoverItem
+   provided by: [THERAPIST] All Is Revealed (find)
+
+[MECHANIC] Friend from Norvinsk - Part 5
+   hand in: Letter  (QUEST ITEM)  via LeaveItemAtLocation
+   provided by: [PRAPOR] Postman Pat - Part 1 (find)  <-- DIFFERENT TRADER

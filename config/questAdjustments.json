@@ -24,121 +24,215 @@
   },
   "FenceStartRequiredQuests": ["The Punisher - Part 6"],
   "deleteReqList": {
+    "The Punisher - Part 5": {
+      "id": ["59ca2c9e86f77428ea721232", "59ca2cbe86f7740fe95c3e52"]
+    },
+    "Escort": {
+      "id": [
+        "60ec07bcd7b7cb55e94c1760",
+        "60ec08fafd1bf4491c4e4550",
+        "60ec0a9571035f300c301acb",
+        "60ec0af8a664b027ab1441af",
+        "60ec0b1871035f300c301acd"
+      ]
+    },
+    "Peacekeeping Mission": {
+      "id": [
+        "5c1b713f86f774719c22e8a0",
+        "63aec4fe6d6c3377e64b9f39",
+        "65e08aa9f5879b2586d5fd4c"
+      ]
+    },
+    "A Shooter Born in Heaven": {
+      "id": [
+        "629f10b114061f3074380298",
+        "63aec6f256503c322a190374",
+        "64b694c8a857ea477002a408",
+        "65e0812209dffc3fd97b99e8"
+      ]
+    },
+    "The Courier": {
+      "id": ["60e85b2a26b88043510e0ada"]
+    },
+    "Forklift Certified": {
+      "id": [
+        "669fafa5f597899ad6bc55bb",
+        "669fafa76172f63531f6e74d",
+        "669fafa9299830ffe78e937d",
+        "66a80f20fe47046136f14c8b",
+        "66bd67615936a4753b7345be",
+        "66bd6765b9e77d3672edfeee",
+        "66c2331d75e8aa67fbf65930"
+      ]
+    },
+    "Camera Action": {
+      "id": [
+        "667c257562774a862480925c",
+        "667c25970b2c3c93bfc0f204",
+        "667c25a8b3d49a2e3f4bd05c",
+        "667c25b7b4419ddadbe352be",
+        "667c25eeb3fba3b8f07b9193",
+        "667c26159bd3d32fb565578e"
+      ]
+    },
+    "Slaughterhouse": {
+      "id": [
+        "63a9b52b009ffc6a551631a7",
+        "63a9b557da7999196148ba61",
+        "63a9b591da7999196148ba63",
+        "63a9b5b2813bba58a50c9eeb",
+        "63a9b5f064b9631d9178276b",
+        "65e0a329893b7bf535c6a9fd"
+      ]
+    },
+    "The Huntsman Path - Big Game": {
+      "id": ["65bb698050fd7c32f5d666d1", "65bb6a61a845e4eb51390b4e"]
+    },
+    "The Huntsman Path - Crooked Cop": {
+      "id": ["6582b05dc992d6dcc0a40c75"]
+    },
     "Is This a Reference": {
       "id": [
         "66d9cbb67b491f9d5304f6e9",
         "66d9cbb67b491f9d5304f6ea",
+        "66d9cbb67b491f9d5304f6eb",
         "66dacf2a88c7001436a67390",
-        "66dad1d941756590432b0eaa",
-        "66dad1ddec53b0df3b10a1b9",
-        "66dad1e0703b718902451ee4",
         "66dad1e607181e2f78a3a0a2",
+        "66dad1e843a718561db0fdd3",
         "66dad1ebc5c8e6cd26dd1d31",
+        "66dad1edbc4fdd0c6eb38c5e",
         "66dad1f00e049ac7abb6d801",
+        "66dad1f22edc2103eb176de8",
         "66db1f8d7539f4b4eb640aff",
+        "66db1f8f564045697071d934",
         "66db1f928d59a9fe511dfc25",
+        "66db1f94a147d9840ec0dfba",
+        "66db1f98b8e22a92437fe5c6",
+        "66db1f9b4f7bf01d937eb150",
         "66db1ff798d52a5a8e4ed1f8",
-        "66debf2e1e254957b82711ff"
-      ]
-    },
-    "Small Business - Part 1": {
-      "id": [
-        "666729738d4b7a9182ad4a89",
-        "66672a1a928cfea6db3ff6cb",
-        "66672b010cf940754acb3a83",
-        "66672b18eba38faad31d29c3",
-        "66672b7dd70d15a60bb41e04",
-        "66672b88a8236f9caf29c39e",
-        "666730b475bbbbfd5049b7da",
-        "666730d6386cf75012a431f2"
+        "66debf2b9e4ce2ef233ee5b7",
+        "66debf2e1e254957b82711ff",
+        "66debf30802386a45d0adb60"
       ]
     },
     "Collector": {
-      "index": [
-        1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 19, 23, 24, 25, 26, 27, 28, 29,
-        30, 31, 33, 39, 41, 47, 50, 51, 52, 53, 54, 55, 57
-      ]
-    },
-    "Escort": {
-      "index": [0, 1, 3, 5, 6]
-    },
-    "Beneath The Streets": {
       "id": [
-        "66aba85403e0ee3101042878",
-        "66aba85403e0ee310104287a",
-        "66aba97b1000025218c82ea8"
+        "5c51bfc286f77478bc7ae1d9",
+        "5c51c03186f7740ada3f2c3d",
+        "5c51c04286f77478be4009f5",
+        "5c51c23a86f77478bb033466",
+        "5c51c24c86f77416a11e5cb7",
+        "5c51c25c86f77478bf5632af",
+        "5ec7998dc1683c0db84484e7",
+        "5ec79b3ced84ad5ddb58e24c",
+        "5ec79c5ac1683c0db84484eb",
+        "5ec79fb273279f683254baaa",
+        "5f75d4558f70ca7a1d684dac",
+        "5f75d521edb90b73913272a3",
+        "60cfa136f81cc57f471718cb",
+        "60d06e921bdece56c249cc0c",
+        "60d06f3420a6283a506aeb69",
+        "60e827faf09904268a4dbc40",
+        "60d074211bdece56c249cc13",
+        "60d074ef401d874962160aee",
+        "62a6ff004de19a4c3422ea5d",
+        "62a6ff141c307729c3264f96",
+        "62a6ff203e015d7ce1151d8a",
+        "62a6ff454de19a4c3422ea5e",
+        "62a6ff633e015d7ce1151d8b",
+        "62a6ff6b3e015d7ce1151d8c",
+        "62a6ff7f1c307729c3264f97",
+        "62a6ff897230237f257cac2a",
+        "62a6ffaa7230237f257cac2c",
+        "62a6ffb4a9a0ea77981b57d5",
+        "62a6ffbcec21e50cad3b6708",
+        "65b10c6a8511b7ef8694e060",
+        "66b4bcc0e6d7bc4faf7f817c",
+        "66b4bcec0f6e68013a5f0bac",
+        "66b4bd0fe194ef246734689e"
       ]
-    },
-    "Pyramid Scheme": {
-      "index": [0, 1, 3, 5, 6, 8, 12, 14, 15]
-    },
-    "Samples": {
-      "id": [
-        "5edac0e02ddc9e4c802cd969",
-        "5edac1040880da21347b3845",
-        "5edac13760bdcc7ff355811f",
-        "5edac1530880da21347b3846"
-      ]
-    },
-    "Foresters Duty": {
-      "id": ["66ab9da7eb102b9bcd08591d", "66ab9da7eb102b9bcd08591f"]
-    },
-    "Slaughterhouse": {
-      "id": [
-        "63a9b41dad5cc12f22162022",
-        "63a9b45bda7999196148ba5f",
-        "63a9b5f064b9631d9178276b",
-        "65e0a329893b7bf535c6a9fd",
-        "63a9b591da7999196148ba63"
-      ]
-    },
-    "Key to the Tower": {
-      "id": [
-        "62602b061ed3bb5bcc5bd9ea",
-        "62602b0ea4eb80027c4f2e0e",
-        "62602b17f7308432be1d44ca",
-        "62602b1ec4874104f230c0cb",
-        "62602b26e7578c305945c9c6",
-        "633d8b77f2ab4f3f095029d6"
-      ]
-    },
-    "Secrets of Polikhim": {
-      "id": ["66aa74571e5e199ecd094f1b", "66aa74571e5e199ecd094f1e"]
-    },
-    "Trouble in the Big City": {
-      "id": [
-        "63bd64ba3d34b0e64b0d0a17",
-        "639b002fda859817035a344b",
-        "639ae7423174277743234bb7"
-      ]
-    },
-    "Hot Wheels": {
-      "id": ["673f5065cdfe082966842575"]
     }
   },
   "adjustReqsList": {
-    "Shortage": {
-      "59689eb886f7740d137ebfc3": { "value": 2 },
-      "5968edc086f77420d2328014": { "value": 2 }
+    "Spa Tour - Part 6": {
+      "5a28127b86f7743808504ecc": { "value": 4000 }
     },
-    "General Wares": {
-      "596a1f0486f77456630ea4d2": { "value": 5 },
-      "596a1f1586f77420d2328077": { "value": 5 }
+    "Trophies": {
+      "60e8174d0367e10a450f7818": { "value": 10 },
+      "60e81795479eef59b01b0bdf": { "value": 10 }
     },
-    "Connections Up North": {
-      "676418a60b9bcbe280972288": { "value": 15 }
-    },
-    "Insomnia": {
-      "5c1242fa86f7742aa04fed52": { "value": 10 }
+    "Counteraction": {
+      "61a61c085d06a344766f3a29": { "value": 10 },
+      "617fc08b30ccff6c7c37fcd3": { "value": 10 }
     },
     "The Cleaner": {
       "60e745d6479eef59b01b0bdc": { "value": 20 }
     },
-    "Long Line": {
-      "60e73ee8b567ff641b129570": { "value": 10 }
+    "Insomnia": {
+      "5c1242fa86f7742aa04fed52": { "value": 10 }
     },
-    "Dandies": {
-      "65734c186dc1e402c80dc1a2": { "value": 10 }
+    "Special Equipment": {
+      "60e7434ed1a062318d3d2260": { "value": 2 },
+      "60e7436675131b4e61703b7b": { "value": 2 },
+      "60e7439975131b4e61703b7c": { "value": 2 },
+      "60e743cd0367e10a450f780e": { "value": 2 },
+      "62a70191a9a0ea77981b57d9": { "value": 2 },
+      "60e74302d1a062318d3d225f": { "value": 2 },
+      "60e7432875131b4e61703b7a": { "value": 2 },
+      "60e7449875131b4e61703b7e": { "value": 2 },
+      "60e744c9d1a062318d3d2262": { "value": 2 },
+      "62a7019ea9a0ea77981b57da": { "value": 2 }
+    },
+    "Assessment - Part 1": {
+      "625ed292c4874104f230c0c8": { "value": 10 }
+    },
+    "Assessment - Part 3": {
+      "62602aaff7308432be1d44c9": { "value": 1 },
+      "62602a37c4874104f230c0ca": { "value": 1 }
+    },
+    "Farming - Part 4": {
+      "5ac5083d86f7740be2744eed": { "value": 5 },
+      "5ac5084d86f7740bde1b0031": { "value": 5 }
+    },
+    "Make Amends - Equipment": {
+      "62616b17e7578c305945c9c9": { "value": 2 }
+    },
+    "Friend from Norvinsk - Part 4": {
+      "686404255d33a395fc466b61": { "value": 1 },
+      "6864043476d267246cfce5b3": { "value": 1 },
+      "6864044a289d4d4c5f337cf8": { "value": 1 }
+    },
+    "Bad Habit": {
+      "5ac5ee9986f7746e7a509a26": { "value": 3 },
+      "5ac5eee986f77401fd341c9e": { "value": 3 },
+      "5ac5ef2a86f7741c5804f9f5": { "value": 3 },
+      "5ac5ef5686f77416ca60f644": { "value": 3 },
+      "5ac5ef9886f7746e7a509a2d": { "value": 3 },
+      "5ac5eff886f7740f43322559": { "value": 3 }
+    },
+    "Network Provider - Part 1": {
+      "625eb7fe1ed3bb5bcc5bd9e6": { "value": 1 },
+      "625eb80da4eb80027c4f2e0a": { "value": 1 },
+      "625eb81df7308432be1d44c6": { "value": 1 },
+      "625eb82ac4874104f230c0c6": { "value": 1 }
+    },
+    "Key to the Tower": {
+      "62602b061ed3bb5bcc5bd9ea": { "value": 1 },
+      "62602b17f7308432be1d44ca": { "value": 1 }
+    },
+    "Old Patterns": {
+      "6669acb8c4d34bd547a4d2ac": { "value": 1 }
+    },
+    "Vacate the Premises": {
+      "67d03be712fb5f8fd2096334": { "value": 12 }
+    },
+    "Drip-Out - Part 1": {
+      "66151401efb0539ae10875af": { "value": 30 },
+      "66168239957ac58c30b29135": { "value": 10 }
+    },
+    "Drip-Out - Part 2": {
+      "6615141bfda04449120269a8": { "value": 30 },
+      "661682aed31d408548016468": { "value": 10 }
     },
     "Booze": {
       "60e73333465ea8368012cc5b": { "value": 1 },
@@ -150,121 +244,213 @@
       "60f0284e8b669d08a35bfada": { "value": 1 },
       "62a70110eb3cb46d9a0bba78": { "value": 2 }
     },
-    "Foresters Duty": {
-      "66ab9da7eb102b9bcd085922": { "oneSessionOnly": false }
+    "Textile - Part 1": {
+      "5e383a6386f77465910ce1f4": { "value": 2 },
+      "5e383a6386f77465910ce1f5": { "value": 2 },
+      "5e383a6386f77465910ce1f6": { "value": 3 },
+      "5e383a6386f77465910ce1f7": { "value": 3 },
+      "5e383a6386f77465910ce1f8": { "value": 1 },
+      "5e383a6386f77465910ce1f9": { "value": 1 }
+    },
+    "Textile - Part 2": {
+      "5e4d515e86f77438b2195245": { "value": 3 },
+      "5e4d515e86f77438b2195246": { "value": 3 },
+      "5e4d515e86f77438b2195247": { "value": 3 },
+      "5e4d515e86f77438b2195248": { "value": 3 },
+      "5e4d515e86f77438b2195249": { "value": 2 },
+      "5e4d515e86f77438b219524a": { "value": 2 }
+    },
+    "Long Line": {
+      "60e73ee8b567ff641b129570": { "value": 10 }
+    },
+    "Dandies": {
+      "65734c186dc1e402c80dc1a2": { "value": 10 }
+    },
+    "Make ULTRA Great Again": {
+      "5ae44ecd86f77414a13c970e": { "value": 15 }
+    },
+    "Living High is Not a Crime - Part 1": {
+      "5b47899386f77470315db7f3": { "value": 1 },
+      "5b4789b586f7744d190d8f43": { "value": 1 },
+      "5b4789df86f77468074619d7": { "value": 1 },
+      "5b478a0986f7744d190d8f46": { "value": 1 }
+    },
+    "Living High is Not a Crime - Part 2": {
+      "5ca7254e86f7740d424a2043": { "value": 1 },
+      "5ca7258986f7740d424a2044": { "value": 1 },
+      "62a700a37230237f257cac2d": { "value": 1 },
+      "5c11427386f77430ff393793": { "value": 1 },
+      "5c122c5f86f77437e44bcb0e": { "value": 1 },
+      "62a700c2ec21e50cad3b670c": { "value": 1 }
+    },
+    "The Huntsman Path - Forest Cleaning": {
+      "5d2701b586f77469f1599fe2": { "value": 15 }
     },
     "Hunter": {
       "600303250b79c6604058ce30": { "value": 5 }
     },
-    "Slaughterhouse": {
-      "63a9b3d7813bba58a50c9ee9": { "value": 1 },
-      "63a9b52b009ffc6a551631a7": { "value": 1 },
-      "63a9b557da7999196148ba61": { "value": 1 },
-      "63a9b5b2813bba58a50c9eeb": { "value": 1 }
+    "The Huntsman Path - Administrator": {
+      "639285879444fb141f4e6f25": { "value": 10 }
     },
-    "Assessment - Part 1": {
-      "625ed292c4874104f230c0c8": { "value": 10 }
+    "The Huntsman Path - Big Game": {
+      "64e7ba4a6393886f74119f3d": { "value": 2 }
     },
-    "Assessment - Part 3": {
-      "6260295faa168e51321d69d9": { "value": 5 },
-      "62602aaff7308432be1d44c9": { "value": 1 },
-      "62602a37c4874104f230c0ca": { "value": 1 },
-      "62602a44e7578c305945c9c5": { "value": 1 },
-      "fa875a2b80abb1c4c9a489fb": { "value": 1 }
+    "The Huntsman Path - Crooked Cop": {
+      "6580130847df99b0741919f0": { "value": 2 }
+    },
+    "Fishing Place": {
+      "5d2f375186f7745916404955": { "value": 1 },
+      "5d8a09d386f77410b4225d13": { "value": 1 }
     },
     "Trouble in the Big City": {
-      "639aea2228d8a21b593a3491": {
-        "conditionType": "PlaceBeacon",
-        "dynamicLocale": false,
-        "globalQuestCounterId": "",
-        "id": "639aea2228d8a21b593a3491",
-        "index": 2,
-        "parentId": "",
-        "plantTime": 10,
-        "target": ["5991b51486f77447b112d44f"],
-        "value": 1,
-        "visibilityConditions": [
-          {
-            "conditionType": "CompleteCondition",
-            "id": "63bd6881629bfa6e640689dc",
-            "target": "63bd64552803ffbfad0e3e48"
-          }
-        ],
-        "zoneId": "quest_zone_keeper10_place"
-      }
+      "639ae7423174277743234bb7": { "value": 10 }
+    },
+    "Following the Bread Crumbs": {
+      "639adf3edbf1d842d260cda6": { "value": 10 }
+    },
+    "Make an Impression": {
+      "6397ac912e519e69d2139b26": { "value": 3 }
+    },
+    "General Wares": {
+      "596a1f0486f77456630ea4d2": { "value": 5 },
+      "596a1f1586f77420d2328077": { "value": 5 }
+    },
+    "Car Repair": {
+      "596b46ec86f77457c7006f89": { "value": 3 },
+      "596b472686f77457c7006f8a": { "value": 3 }
+    },
+    "Colleagues - Part 3": {
+      "5f07025e27cec53d5d24fe25": { "value": 3 },
+      "5f04935cde3b9e0ecf03d864": { "value": 3 }
+    },
+    "Crisis": {
+      "60e8658571035f300c301ac6": { "value": 1 },
+      "60e865a60cef122b414a156a": { "value": 1 },
+      "60e866175d67b234af3d392a": { "value": 1 },
+      "62a701587230237f257cac30": { "value": 2 },
+      "60e866c50cef122b414a156c": { "value": 1 },
+      "60e866f926b88043510e0adf": { "value": 1 },
+      "60e867265d67b234af3d392c": { "value": 1 },
+      "62a70168eb3cb46d9a0bba7a": { "value": 2 }
+    },
+    "Safety Guarantee": {
+      "67af6e1ee67a772b14e08061": { "value": 1 },
+      "67af6f1d268fd33c21524a02": { "value": 1 },
+      "67af6f7961ee5d07d0c210c9": { "value": 1 }
+    },
+    "A Life Lesson": {
+      "67af71c90036a462a17a72d3": { "value": 3 },
+      "67af71d6a6e77337205f5bfe": { "value": 3 },
+      "67af71f19ce81d8ebb21530f": { "value": 3 }
+    },
+    "Night Sweep": {
+      "60e82c12fd1bf4491c4e4547": { "value": 2 },
+      "60e82c5926b88043510e0ad7": { "value": 2 }
+    },
+    "Connections Up North": {
+      "676418a60b9bcbe280972288": { "value": 15 }
+    },
+    "Consolation Prize": {
+      "67af727750e1b6f21d9f5511": { "value": 5 },
+      "67af730c69887224a61084ac": { "value": 30 }
     }
   },
-  "manualAssortReassignment": [
-    {
-      "key": "67877f70ecc0f80789060177",
-      "name": "patron_545x39_FMJ",
-      "tpl": "56dff0bed2720bb0668b4567",
-      "level": 1,
-      "QuestName": "Search Mission"
-    },
-    {
-      "key": "64a8578f0e9876295f0f83ed",
-      "name": "scope_30mm_burris_fullfield_tac30_1_4x24",
-      "tpl": "5b2388675acfc4771e1be0be",
-      "level": 2,
-      "QuestName": "Chemical - Part 4"
-    },
-    {
-      "key": "676d24aa798491c5260f4cff",
-      "name": "scope_all_eotech_hhs_1_tan",
-      "tpl": "5c0a2cec0db834001b7ce47d",
-      "level": 2,
-      "QuestName": "Eagle Eye",
-      "Cost": "Доллары"
-    },
-    {
-      "key": "64a8578f0e9876295f0f83ef",
-      "name": "scope_30mm_eotech_vudu_1_6x24",
-      "tpl": "5b3b99475acfc432ff4dcbee",
-      "level": 3,
-      "QuestName": "House Arrest - Part 2"
-    },
-    {
-      "key": "64a8578f0e9876295f0f83ee",
-      "name": "scope_30mm_razor_hd_gen_2_1_6x24",
-      "tpl": "618ba27d9008e4636a67f61d",
-      "level": 3,
-      "QuestName": "Silent Caliber",
-      "Cost": "Рубли"
-    },
-    {
-      "key": "676d24a8798491c5260f4c36",
-      "name": "patron_762x51_M80",
-      "tpl": "58dd3ad986f77403051cba8f",
-      "level": 3,
-      "QuestName": "Worst Job in the World",
-      "Cost": "Доллары"
-    },
-    {
-      "key": "64a2e6f09b9ad2b93b0cab9c",
-      "name": "launcher_ak_toz_gp25_40_vog",
-      "tpl": "62e7e7bbe6da9612f743f1e0",
-      "level": 2,
-      "QuestName": "Bad Habit",
-      "Cost": "Рубли"
-    },
-    {
-      "key": "64a2e6f09b9ad2b93b0cab9e",
-      "name": "launcher_ar15_colt_m203_40x46",
-      "tpl": "6357c98711fb55120211f7e1",
-      "level": 3,
-      "QuestName": "Farming - Part 4",
-      "Cost": "Рубли"
-    },
-    {
-      "key": "677536c8b06e57fd5c0e09cc",
-      "name": "stock_ar15_hera_arms_cqr",
-      "tpl": "5a33e75ac4a2826c6e06d759",
-      "level": 1,
-      "QuestName": "Farming - Part 2",
-      "Cost": "Евро"
-    }
+  "weaponBuildStripList": [
+    "Test Drive - Part 1",
+    "Test Drive - Part 2",
+    "Test Drive - Part 3",
+    "Test Drive - Part 4",
+    "Test Drive - Part 5",
+    "Test Drive - Part 6"
   ],
+  "skillConditionStripList": [
+    "Signal - Part 4",
+    "Psycho Sniper",
+    "Wet Job - Part 6",
+    "Health Care Privacy - Part 4",
+    "The Survivalist Path - Combat Medic",
+    "Make an Impression"
+  ],
+  "containerRewardList": {
+    "Debut": "544a11ac4bdc2d470e8b456a",
+    "The Punisher - Part 1": "5857a8b324597729ab0a0e7d",
+    "The Punisher - Part 6": "59db794186f77448bc595262",
+    "The Choice": "5857a8bc2459772bad15db29",
+    "Collector": "5c093ca986f7740a1867ab12"
+  },
+  "_notes": {
+    "The Punisher - Part 5": "Removed the 2x Makarov PM find+handover objectives (FiR pistols are hard to find). Kept AK-74 + M4A1 finds and the PMC-kill objective.",
+    "Escort": "Trimmed from 8 maps to 3 (kept Shoreline, Woods, Ground Zero); removed Factory, Customs, Reserve, Interchange, The Lab kill objectives.",
+    "weaponBuildStripList": "RUNTIME FEATURE (not yet implemented): for each listed quest, walk every CounterCreator > Kills condition and CLEAR weaponModsInclusive + weaponModsExclusive so only the base weapon (weapon[]) is required, not the specific scope/suppressor build. Used for the Test Drive chain.",
+    "General Wares": "15 -> 5 cans of beef stew (find + handover). Matches old mod.",
+    "Car Repair": "8 -> 3 spark plugs (find + handover); car batteries kept at 4.",
+    "Colleagues - Part 3": "10 -> 3 TerraGroup Labs access keycards (find + handover).",
+    "Crisis": "Huge endgame collection. Trimmed rare items: defib 3->1, ophthalmoscope 3->1, LEDX 2->1, multivitamins 10->2. Piles of meds kept at 20 (common loot = the intended grind).",
+    "The Cleaner": "40 -> 20 Raiders on Reserve. Matches old mod.",
+    "Insomnia": "25 -> 10 PMC night kills. Matches old mod.",
+    "Peacekeeping Mission": "12 Scavs x 6 maps (72 kills in full UN uniform). Trimmed to 3 maps (kept Woods, Customs, Interchange; removed Shoreline, Streets, Ground Zero).",
+    "Special Equipment": "24 rare electronics FiR (5/5/5/5/4). Trimmed every find+handover to 2 each.",
+    "Spa Tour - Part 6": "Currency handover 8000 USD (chain-internal, can't remove). Trimmed by half to 4000.",
+    "Trophies": "20 BEAR + 20 USEC dogtags (lvl 50+) FiR. Trimmed by half to 10 each.",
+    "Counteraction": "20 BEAR kills + 20 BEAR dogtags FiR. Trimmed by half to 10 each.",
+    "Safety Guarantee": "Brutal armor/helmet handover (15 Zhuk EMR + 12 Vulkan-5 + 3 Killa shields). Trimmed to 1 of each.",
+    "A Life Lesson": "Booze handover (8 vodka + 15 whiskey + 15 moonshine = 38 bottles). Trimmed to 3 each. Dead-end after House Arrest chain.",
+    "Key Partner": "REMOVED (Constants.RemoveList): merchant grind 'Sell 75 items to Peacekeeper'.",
+    "Night Sweep": "12 rare 'unusual knives' FiR. Trimmed find+handover to 2.",
+    "Connections Up North": "50 PMC kills 40m+ with bolt-action night/thermal scope. Trimmed to 15 (kept the fun constraint).",
+    "Consolation Prize": "The Lab capstone: 15 extracts + 100 Raiders. Trimmed to 5 extracts + 30 Raiders.",
+    "Indisputable Authority": "Labyrinth/Minotaur boss kill. Relocated to END of Skier per Labyrinth-at-end rule.",
+    "skillConditionStripList": "RUNTIME FEATURE (not yet implemented): for each listed quest, REMOVE the Skill-type AvailableForFinish condition, keeping all other objectives. If a quest has ONLY a skill condition (Signal - Part 4 = Attention 8) it becomes a pass-through (auto-complete) in its chain.",
+    "containerRewardList": "RUNTIME FEATURE (not yet implemented): { questName: containerTpl }. These quests AWARD a secure container as their defining prize. The reward-rebalance pass MUST IGNORE every quest listed here (do not strip/replace their rewards) - the container is added/placed MANUALLY after rebalance. Player STARTS WITH NO CONTAINER. Full ladder: Alpha 2x2 (Debut, Prapor #1) -> Beta 3x2 (The Punisher - Part 1) -> Epsilon 4x2 (The Punisher - Part 6) -> Gamma 3x3 (The Choice: hand over Epsilon; Gamma is otherwise EoD-only/unobtainable) -> Kappa 3x4 (Collector, final). 'Give me X, get a better Y.'",
+    "Debut": "AWARDS Alpha container (544a11ac4bdc2d470e8b456a) - player's FIRST container (they start with none). In containerRewardList.",
+    "The Punisher - Part 1": "AWARDS Beta container (5857a8b324597729ab0a0e7d). In containerRewardList.",
+    "The Punisher - Part 6": "AWARDS Epsilon container (59db794186f77448bc595262). In containerRewardList so reward-rebalance ignores it.",
+    "The Choice": "Hand over Epsilon. AWARDS Gamma container (5857a8bc2459772bad15db29) instead of 1M roubles. In containerRewardList.",
+    "Collector": "Kappa capstone (Fence final). AWARDS Kappa container (5c093ca986f7740a1867ab12). In containerRewardList so reward-rebalance ignores it.",
+    "Insider": "REMOVED (Constants.RemoveList): loyalty gate 'Reach LL3 Prapor'. Pulled out of Network Provider chain.",
+    "Hypotheses Testing": "Labyrinth (5 Labrys notes). Relocated to END of the Network Provider chain (Mechanic) per Labyrinth-at-end rule.",
+    "Breathing Room": "Kept as a Gunsmith-style WeaponAssembly (modify IWI UZI). No change.",
+    "A Shooter Born in Heaven": "5 bolt-action headshots x 8 maps. Trimmed to 4 maps (kept Woods/Reserve/Shoreline/Customs).",
+    "The Courier": "2x Trijicon REAP-IR thermal stash. Trimmed to 1.",
+    "Forklift Certified": "Locate 12 forklifts on Factory. Trimmed to first 5 (deleted indices 5-11 so quest-page references stay easy).",
+    "Camera Action": "12 different electronics (1 each) FiR. Cut in half to first 6 (deleted last 6).",
+    "Assessment - Part 1": "15 -> 10 PMC kills.",
+    "Assessment - Part 3": "SJ1 15->1, SJ6 5->1 (SJ9 already 1); kept the 7-Raiders-in-Lab kill.",
+    "Farming - Part 4": "15 -> 5 CPU fans (find + handover); GPU kept at 3.",
+    "Make Amends - Equipment": "4 -> 2 SVDS FiR handover.",
+    "Friend from Norvinsk - Part 4": "2 CPU / 4 RAM / 3 boards FiR -> 1 each.",
+    "Bad Habit": "5 each (Malboro/Strike/Wilston) -> 3 each (find + handover).",
+    "Network Provider - Part 1": "4 each (EC/transmitter/gas analyzer/GPhone) FiR -> 1 each.",
+    "Key to the Tower": "Trimmed the 2x electronics to 1 (plexiglass 2->1, military circuit board 2->1).",
+    "Old Patterns": "Currency/loyalty: hand over 15 Physical Bitcoin (chain-internal, can't remove). Trimmed to 1.",
+    "Circulate": "REMOVED (Constants.RemoveList): merchant grind 'Sell 250 backpacks/rigs to Ragman'.",
+    "Vacate the Premises": "Labyrinth (36 kills). End of Sew it Good chain. Trimmed 36 -> 12.",
+    "Drip-Out - Part 1": "100 Raiders + 50 WARTECH FiR -> 30 + 10.",
+    "Drip-Out - Part 2": "100 Rogues + 50 LBT FiR -> 30 + 10.",
+    "Booze": "10 vodka / 10 whiskey / 3 water / 20 beer FiR -> 1 / 1 / 1 / 2.",
+    "Textile - Part 1": "5 Aramid / 10 Ripstop / 3 Paracord FiR -> 2 / 3 / 1.",
+    "Textile - Part 2": "10 Fleece / 10 Cordura / 5 KEK FiR -> 3 / 3 / 2.",
+    "Long Line": "20 -> 10 PMC in ULTRA mall.",
+    "Dandies": "30 -> 10 kills (hat+glasses constraint kept).",
+    "Make ULTRA Great Again": "25 -> 15 Scavs on Interchange.",
+    "Living High is Not a Crime - Part 1": "Figurines reduced to 1 each (lions 2->1, horses 2->1; cat/roler/egg already 1).",
+    "Living High is Not a Crime - Part 2": "Antiques reduced to 1 each (teapots 3->1, vases 2->1, ravens 2->1; axel already 1).",
+    "Slaughterhouse": "10 Scav melee kills x 9 maps. Trimmed to 3 maps (kept Factory, Streets, Lighthouse).",
+    "The Huntsman Path - Forest Cleaning": "30 -> 15 Scavs.",
+    "Hunter": "20x Shturman boss kills -> 5. Matches old mod.",
+    "The Huntsman Path - Administrator": "20 -> 10 kills at Pinewood hotel.",
+    "The Huntsman Path - Big Game": "Removed Basmach + Gus objectives; Kaban's guards 5 -> 2. Kept Kaban kill.",
+    "The Huntsman Path - Crooked Cop": "Removed the police-baton handover; Kollontay's guards 4 -> 2. Kept Kollontay kill.",
+    "Fishing Place": "2 -> 1 TerraGroup Labs access keycards (find + handover).",
+    "Is This a Reference": "27 WI-FI cameras across all maps. Trimmed to 7 (3 Ground Zero + 4 Lighthouse); deleted the other 20.",
+    "Collector": "Kappa capstone, 39 collectibles. Trimmed heavily to 6 (kept firesteel, antique axe, antique book, FireKlean, golden rooster, silver badge); deleted the other 33. Reward = Kappa via containerRewardList.",
+    "Trouble in the Big City": "50 -> 10 PMC kills.",
+    "Following the Bread Crumbs": "20 -> 10 Raiders in The Lab.",
+    "Make an Impression": "Skill (Sniper 10) stripped via skillConditionStripList; marksman @350m+ kills 10 -> 3.",
+    "Building Foundations": "REMOVED (Constants.RemoveList): merchant grind 'Sell 50 items each to Ragman/Prapor/Peacekeeper' (150 total).",
+    "The Price of Independence": "KEPT (BTR capstone). Has non-transit reqs: find letter, stash letter, kills, flares - per the IFF rule."
+  },
+  "manualAssortReassignment": [],
   "unlockAssortWeightFactorZeroToOne": 0.7,
   "refMoneyMultiplier": 20
 }

@@ -1,0 +1,1081 @@
+Curated quests scanned: 440
+(A) item-flow cross-trader hits: 217  (of which QUEST ITEMS = hard block: 0)
+(B) quest-link cross-trader hits: 222
+
+================================================================
+(A1) HARD BLOCKS - cross-trader QUEST-ITEM flow (cannot buy/loot)
+================================================================
+
+================================================================
+(A2) SOFT - cross-trader normal-item flow (item is buyable/lootable)
+================================================================
+
+[PRAPOR] Viewer  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[PRAPOR] Viewer  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[PRAPOR] Viewer  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem PFilter
+     also found/rewarded by [RAGMAN] Dressed to Kill (reward)
+     also found/rewarded by [MECHANIC] Surveillance (reward)
+     also found/rewarded by [BTR] Hot Wheels (reward)
+     also found/rewarded by [MECHANIC] Hypotheses Testing (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem Iridium
+     also found/rewarded by [MECHANIC] Import (reward)
+     also found/rewarded by [JAEGER] Hunting Trip (reward)
+     also found/rewarded by [PEACEKEEPER] Special Equipment (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem MCable
+     also found/rewarded by [MECHANIC] Watching You (reward)
+     also found/rewarded by [MECHANIC] Steady Signal (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem SG-C10
+     also found/rewarded by [PEACEKEEPER] Lend-Lease - Part 2 (find)
+     also found/rewarded by [PEACEKEEPER] Special Equipment (find)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Missing Informant (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Order From Outside (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Simple Side Job (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem MCB
+     also found/rewarded by [JAEGER] The Huntsman Path - Big Game (reward)
+     also found/rewarded by [MECHANIC] Steady Signal (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem Virtex
+     also found/rewarded by [PEACEKEEPER] Lend-Lease - Part 2 (find)
+     also found/rewarded by [PEACEKEEPER] Special Equipment (find)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Information Source (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Provocation (reward)
+     also found/rewarded by [FENCE] Small Business - Part 1 (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Order From Outside (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Simple Side Job (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem DVD
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 5 (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem PSU
+     also found/rewarded by [MECHANIC] Secrets of Polikhim (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem GPU
+     also found/rewarded by [MECHANIC] Farming - Part 4 (find)
+     also found/rewarded by [MECHANIC] Chemistry Closet (reward)
+     also found/rewarded by [BTR] Natural Exchange (reward)
+     also found/rewarded by [BTR] The Price of Independence (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem PCB
+     also found/rewarded by [MECHANIC] Farming - Part 2 (find)
+     also found/rewarded by [MECHANIC] Signal - Part 2 (find)
+
+[PRAPOR] Half-Empty  -- HandoverItem CPU fan
+     also found/rewarded by [MECHANIC] Farming - Part 4 (find)
+     also found/rewarded by [MECHANIC] Developers Secrets - Part 1 (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem CPU
+     also found/rewarded by [MECHANIC] Signal - Part 2 (find)
+     also found/rewarded by [MECHANIC] Developers Secrets - Part 1 (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem Cord
+     also found/rewarded by [MECHANIC] Farming - Part 2 (find)
+     also found/rewarded by [MECHANIC] Secrets of Polikhim (reward)
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 2 (reward)
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 4 (reward)
+
+[PRAPOR] Half-Empty  -- HandoverItem Wires
+     also found/rewarded by [MECHANIC] Fertilizers (find)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 2 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 10 (reward)
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 3 (reward)
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 4 (reward)
+
+[PRAPOR] Special Comms  -- LeaveItemAtLocation MCable
+     also found/rewarded by [MECHANIC] Watching You (reward)
+     also found/rewarded by [MECHANIC] Steady Signal (reward)
+
+[PRAPOR] Special Comms  -- LeaveItemAtLocation Bulbex
+     also found/rewarded by [MECHANIC] Gunsmith - Part 19 (reward)
+
+[PRAPOR] Special Comms  -- LeaveItemAtLocation MCable
+     also found/rewarded by [MECHANIC] Watching You (reward)
+     also found/rewarded by [MECHANIC] Steady Signal (reward)
+
+[PRAPOR] Special Comms  -- LeaveItemAtLocation Bulbex
+     also found/rewarded by [MECHANIC] Gunsmith - Part 19 (reward)
+
+[THERAPIST] An Alternative  -- HandoverItem Emelya
+     also found/rewarded by [JAEGER] Courtesy Visit (reward)
+
+[THERAPIST] An Alternative  -- HandoverItem MRE
+     also found/rewarded by [PEACEKEEPER] Humanitarian Supplies (find)
+
+[THERAPIST] An Alternative  -- HandoverItem Iskra
+     also found/rewarded by [JAEGER] The Survivalist Path - Thrifty (reward)
+
+[THERAPIST] An Alternative  -- HandoverItem Superwater
+     also found/rewarded by [RAGMAN] Booze (find)
+
+[THERAPIST] An Alternative  -- HandoverItem Aquamari
+     also found/rewarded by [JAEGER] The Survivalist Path - Zhivchik (reward)
+
+[THERAPIST] First in Line  -- HandoverItem GoldenStar
+     also found/rewarded by [SKIER] Vitamins - Part 2 (reward)
+     also found/rewarded by [JAEGER] Ambulance (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Morphine
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 7 (find)
+     also found/rewarded by [SKIER] Vitamins - Part 2 (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Grizzly
+     also found/rewarded by [JAEGER] Ambulance (reward)
+
+[THERAPIST] First in Line  -- HandoverItem AFAK
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 5 (reward)
+
+[THERAPIST] First in Line  -- HandoverItem CMS
+     also found/rewarded by [JAEGER] Ambulance (find)
+     also found/rewarded by [JAEGER] The Survivalist Path - Tough Guy (reward)
+     also found/rewarded by [JAEGER] Work Smarter (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Surv12
+     also found/rewarded by [JAEGER] Ambulance (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Sadist (reward)
+     also found/rewarded by [JAEGER] Broadcast - Part 3 (reward)
+
+[THERAPIST] First in Line  -- HandoverItem 3-(b-TG)
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem AHF1-M
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem L1
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem M.U.L.E.
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem Meldonin
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem Obdolbos
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem P22
+     also found/rewarded by [PEACEKEEPER] Samples (find)
+
+[THERAPIST] First in Line  -- HandoverItem xTG-12
+     also found/rewarded by [SKIER] Night Sweep (reward)
+     also found/rewarded by [FENCE] Immunity (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Defib
+     also found/rewarded by [JAEGER] Ambulance (find)
+
+[THERAPIST] First in Line  -- HandoverItem LEDX
+     also found/rewarded by [LIGHTHOUSEKEEPER] Payback (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Bloodset
+     also found/rewarded by [SKIER] Vitamins - Part 2 (find)
+
+[THERAPIST] First in Line  -- HandoverItem Meds
+     also found/rewarded by [JAEGER] The Survivalist Path - Tough Guy (reward)
+
+[THERAPIST] First in Line  -- HandoverItem Vitamins
+     also found/rewarded by [MECHANIC] Bad Habit (reward)
+
+[THERAPIST] Thirsty - Secrets  -- HandoverItem Vitamins
+     also found/rewarded by [MECHANIC] Bad Habit (reward)
+
+[THERAPIST] Health Care Privacy - Part 5  -- LeaveItemAtLocation Kite
+     also found/rewarded by [MECHANIC] Gunsmith - Part 4 (reward)
+
+[THERAPIST] Drug Trafficking  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] The Walls Have Eyes  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] The Walls Have Eyes  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] The Walls Have Eyes  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] Thirsty - Delivery  -- LeaveItemAtLocation Propane
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 7 (find)
+     also found/rewarded by [JAEGER] The Huntsman Path - Justice (reward)
+     also found/rewarded by [RAGMAN] A Fuel Matter (reward)
+
+[SKIER] Thirsty - Delivery  -- LeaveItemAtLocation Propane
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 7 (find)
+     also found/rewarded by [JAEGER] The Huntsman Path - Justice (reward)
+     also found/rewarded by [RAGMAN] A Fuel Matter (reward)
+
+[SKIER] Safety Guarantee  -- HandoverItem Zhuk EMR
+     also found/rewarded by [PRAPOR] Gendarmerie - District Patrol (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 6 (reward)
+
+[SKIER] Safety Guarantee  -- HandoverItem Vulkan-5
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (reward)
+
+[SKIER] Informed Means Armed  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] Informed Means Armed  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] Informed Means Armed  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PS12B
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Regulated Materials (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation 7N40
+     also found/rewarded by [PRAPOR] Test Drive - Part 3 (reward)
+     also found/rewarded by [PRAPOR] Shipping Delay - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Shootout Picnic (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Ice Cream Cones (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [MECHANIC] Gunsmith - Part 8 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [PRAPOR] The Bunker - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Youve Got Mail (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 6 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] No Place for Renegades (reward)
+     also found/rewarded by [PRAPOR] Gendarmerie - Tickets Please (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [PRAPOR] The Bunker - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Test Drive - Part 5 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PAB-9
+     also found/rewarded by [PRAPOR] Test Drive - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Stick in the Wheel (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Forge a Friendship (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [JAEGER] The Survivalist Path - Junkie (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation SP-6
+     also found/rewarded by [PRAPOR] Anesthesia (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PS12B
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Regulated Materials (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation 7N40
+     also found/rewarded by [PRAPOR] Test Drive - Part 3 (reward)
+     also found/rewarded by [PRAPOR] Shipping Delay - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Shootout Picnic (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Ice Cream Cones (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [MECHANIC] Gunsmith - Part 8 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [PRAPOR] The Bunker - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Youve Got Mail (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 6 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] No Place for Renegades (reward)
+     also found/rewarded by [PRAPOR] Gendarmerie - Tickets Please (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [PRAPOR] The Bunker - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Test Drive - Part 5 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PAB-9
+     also found/rewarded by [PRAPOR] Test Drive - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Stick in the Wheel (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Forge a Friendship (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [JAEGER] The Survivalist Path - Junkie (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation SP-6
+     also found/rewarded by [PRAPOR] Anesthesia (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PS12B
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Regulated Materials (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation 7N40
+     also found/rewarded by [PRAPOR] Test Drive - Part 3 (reward)
+     also found/rewarded by [PRAPOR] Shipping Delay - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Shootout Picnic (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] Ice Cream Cones (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [MECHANIC] Gunsmith - Part 8 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BS
+     also found/rewarded by [PRAPOR] The Bunker - Part 2 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Youve Got Mail (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 6 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PP
+     also found/rewarded by [PRAPOR] No Place for Renegades (reward)
+     also found/rewarded by [PRAPOR] Gendarmerie - Tickets Please (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [PRAPOR] The Bunker - Part 1 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Test Drive - Part 5 (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation PAB-9
+     also found/rewarded by [PRAPOR] Test Drive - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Stick in the Wheel (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BP
+     also found/rewarded by [PRAPOR] Forge a Friendship (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation BT
+     also found/rewarded by [JAEGER] The Survivalist Path - Junkie (reward)
+
+[SKIER] Hindsight 2020  -- LeaveItemAtLocation SP-6
+     also found/rewarded by [PRAPOR] Anesthesia (reward)
+
+[SKIER] A Life Lesson  -- HandoverItem Vodka
+     also found/rewarded by [RAGMAN] Booze (find)
+     also found/rewarded by [PRAPOR] Glory to CPSU - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Gendarmerie - District Patrol (reward)
+     also found/rewarded by [PRAPOR] Viewer (reward)
+
+[SKIER] A Life Lesson  -- HandoverItem Whiskey
+     also found/rewarded by [RAGMAN] Booze (find)
+
+[SKIER] A Life Lesson  -- HandoverItem Moonshine
+     also found/rewarded by [RAGMAN] Sensory Analysis - Part 1 (find)
+     also found/rewarded by [BTR] Sensory Analysis - Part 2 (find)
+     also found/rewarded by [RAGMAN] Circulate (reward)
+     also found/rewarded by [RAGMAN] Key to the City (reward)
+     also found/rewarded by [BTR] Building Foundations (reward)
+
+[SKIER] Chumming  -- LeaveItemAtLocation GoldChain
+     also found/rewarded by [PEACEKEEPER] The Cult - Part 1 (reward)
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Trophy (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Chumming  -- LeaveItemAtLocation GoldChain
+     also found/rewarded by [PEACEKEEPER] The Cult - Part 1 (reward)
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Trophy (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Chumming  -- LeaveItemAtLocation GoldChain
+     also found/rewarded by [PEACEKEEPER] The Cult - Part 1 (reward)
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Trophy (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 2 (reward)
+
+[SKIER] Bullshit  -- LeaveItemAtLocation SV-98
+     also found/rewarded by [PRAPOR] The Punisher - Part 1 (reward)
+     also found/rewarded by [MECHANIC] Back Door (reward)
+
+[SKIER] Bullshit  -- LeaveItemAtLocation Roler
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (find)
+     also found/rewarded by [JAEGER] The Huntsman Path - Trophy (reward)
+     also found/rewarded by [RAGMAN] Audiophile (reward)
+
+[PEACEKEEPER] Fishing Gear  -- LeaveItemAtLocation SV-98
+     also found/rewarded by [PRAPOR] The Punisher - Part 1 (reward)
+     also found/rewarded by [MECHANIC] Back Door (reward)
+
+[PEACEKEEPER] Spa Tour - Part 3  -- HandoverItem WD-40
+     also found/rewarded by [MECHANIC] Forklift Certified (reward)
+     also found/rewarded by [THERAPIST] Secret Benefactor (reward)
+
+[PEACEKEEPER] Spa Tour - Part 3  -- HandoverItem WD-40
+     also found/rewarded by [JAEGER] The Huntsman Path - Justice (reward)
+
+[PEACEKEEPER] Spa Tour - Part 3  -- HandoverItem Hose
+     also found/rewarded by [MECHANIC] Gunsmith - Part 13 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+     also found/rewarded by [JAEGER] The Delicious Sausage (reward)
+
+[PEACEKEEPER] Spa Tour - Part 6  -- HandoverItem USD
+     also found/rewarded by [THERAPIST] Car Repair (reward)
+     also found/rewarded by [SKIER] The Extortionist (reward)
+     also found/rewarded by [PRAPOR] The Punisher - Part 3 (reward)
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (reward)
+     also found/rewarded by [SKIER] Friend From the West - Part 1 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 3 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 13 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 7 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 5 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 12 (reward)
+     also found/rewarded by [SKIER] Lend-Lease - Part 1 (reward)
+     also found/rewarded by [SKIER] Bullshit (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Eraser - Part 1 (reward)
+     also found/rewarded by [SKIER] Night Sweep (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 11 (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 14 (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Order From Outside (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Simple Side Job (reward)
+
+[PEACEKEEPER] Confidential Info  -- LeaveItemAtLocation VOG-25
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Hell on Earth - Part 2 (reward)
+
+[PEACEKEEPER] Confidential Info  -- LeaveItemAtLocation VOG-17
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+
+[PEACEKEEPER] Confidential Info  -- LeaveItemAtLocation M67
+     also found/rewarded by [PRAPOR] No Offence (find)
+
+[PEACEKEEPER] Confidential Info  -- LeaveItemAtLocation F-1
+     also found/rewarded by [PRAPOR] Polikhim Hobo (reward)
+     also found/rewarded by [SKIER] Chemical - Part 2 (reward)
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+
+[PEACEKEEPER] Confidential Info  -- LeaveItemAtLocation RGD-5
+     also found/rewarded by [PRAPOR] Polikhim Hobo (reward)
+     also found/rewarded by [PRAPOR] Belka and Strelka (reward)
+
+[MECHANIC] Friend from Norvinsk - Part 4  -- HandoverItem MB
+     also found/rewarded by [LIGHTHOUSEKEEPER] Missing Informant (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Payback (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Spotter (reward)
+
+[MECHANIC] Gunsmith - Part 3  -- WeaponAssembly MP5
+     also found/rewarded by [PEACEKEEPER] Scrap Metal (reward)
+     also found/rewarded by [SKIER] Rigged Game (reward)
+
+[MECHANIC] Gunsmith - Part 4  -- WeaponAssembly OP-SKS
+     also found/rewarded by [SKIER] Whats on the Flash Drive (reward)
+
+[MECHANIC] Gunsmith - Part 5  -- WeaponAssembly M870
+     also found/rewarded by [SKIER] The Extortionist (reward)
+
+[MECHANIC] Gunsmith - Part 7  -- WeaponAssembly M4A1
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (find)
+     also found/rewarded by [PRAPOR] The Punisher - Part 4 (reward)
+     also found/rewarded by [PEACEKEEPER] Cargo X - Part 2 (reward)
+
+[MECHANIC] Gunsmith - Part 8  -- WeaponAssembly AKS-74N
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (find)
+
+[MECHANIC] Gunsmith - Part 11  -- WeaponAssembly Vector 9x19
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [SKIER] Vitamins - Part 2 (reward)
+     also found/rewarded by [SKIER] House Arrest - Part 2 (reward)
+
+[MECHANIC] Gunsmith - Part 12  -- WeaponAssembly MPX
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 1 (reward)
+     also found/rewarded by [PEACEKEEPER] Eagle Eye (reward)
+
+[MECHANIC] Gunsmith - Part 13  -- WeaponAssembly RSASS
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 5 (reward)
+
+[MECHANIC] Gunsmith - Part 14  -- WeaponAssembly HK 416A5
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 3 (reward)
+     also found/rewarded by [PEACEKEEPER] Lend-Lease - Part 2 (reward)
+
+[MECHANIC] Gunsmith - Part 15  -- WeaponAssembly AS VAL
+     also found/rewarded by [PRAPOR] Anesthesia (reward)
+     also found/rewarded by [PRAPOR] Test Drive - Part 5 (reward)
+     also found/rewarded by [PRAPOR] Stick in the Wheel (reward)
+
+[MECHANIC] Gunsmith - Part 16  -- WeaponAssembly DVL-10
+     also found/rewarded by [PRAPOR] The Punisher - Part 3 (reward)
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 6 (reward)
+     also found/rewarded by [SKIER] Long Road (reward)
+     also found/rewarded by [PRAPOR] Special Comms (reward)
+
+[MECHANIC] Gunsmith - Part 20  -- WeaponAssembly M1A
+     also found/rewarded by [PEACEKEEPER] Fishing Gear (reward)
+     also found/rewarded by [PRAPOR] The Good Times - Part 1 (reward)
+     also found/rewarded by [JAEGER] Dragnet (reward)
+
+[MECHANIC] Gunsmith - Part 21  -- WeaponAssembly M700
+     also found/rewarded by [PEACEKEEPER] Peacekeeping Mission (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Woods Keeper (reward)
+     also found/rewarded by [JAEGER] Fishing Place (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Administrator (reward)
+     also found/rewarded by [JAEGER] Rite of Passage (reward)
+
+[MECHANIC] Gunsmith - Part 22  -- WeaponAssembly M4A1
+     also found/rewarded by [PRAPOR] The Punisher - Part 5 (find)
+     also found/rewarded by [PRAPOR] The Punisher - Part 4 (reward)
+     also found/rewarded by [PEACEKEEPER] Cargo X - Part 2 (reward)
+
+[MECHANIC] Gunsmith - Part 23  -- WeaponAssembly Mk47
+     also found/rewarded by [SKIER] Bullshit (reward)
+
+[MECHANIC] Gunsmith - Part 24  -- WeaponAssembly SR-25
+     also found/rewarded by [PEACEKEEPER] The Cult - Part 2 (reward)
+
+[MECHANIC] Gunsmith - Old Friends Request  -- WeaponAssembly T-5000M
+     also found/rewarded by [SKIER] Lend-Lease - Part 1 (reward)
+
+[MECHANIC] Farming - Part 1  -- LeaveItemAtLocation Toolset
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+
+[MECHANIC] Farming - Part 1  -- LeaveItemAtLocation Toolset
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+
+[MECHANIC] Capacity Check  -- LeaveItemAtLocation Toolset
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+
+[MECHANIC] Capacity Check  -- LeaveItemAtLocation Toolset
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+
+[MECHANIC] Capacity Check  -- LeaveItemAtLocation Toolset
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 3 (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Secured Perimeter (reward)
+
+[MECHANIC] Network Provider - Part 1  -- HandoverItem SG-C10
+     also found/rewarded by [PEACEKEEPER] Lend-Lease - Part 2 (find)
+     also found/rewarded by [PEACEKEEPER] Special Equipment (find)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Missing Informant (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Order From Outside (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Simple Side Job (reward)
+
+[MECHANIC] Network Provider - Part 1  -- HandoverItem GasAn
+     also found/rewarded by [THERAPIST] Sanitary Standards - Part 1 (find)
+     also found/rewarded by [THERAPIST] Sanitary Standards - Part 2 (find)
+
+[MECHANIC] Assessment - Part 3  -- HandoverItem SJ1
+     also found/rewarded by [THERAPIST] Colleagues - Part 1 (reward)
+
+[MECHANIC] Assessment - Part 3  -- HandoverItem SJ6
+     also found/rewarded by [THERAPIST] Colleagues - Part 1 (reward)
+     also found/rewarded by [THERAPIST] An Alternative (reward)
+
+[MECHANIC] Key to the Tower  -- HandoverItem Plexiglass
+     also found/rewarded by [RAGMAN] Booze (reward)
+
+[MECHANIC] Key to the Tower  -- HandoverItem MCB
+     also found/rewarded by [JAEGER] The Huntsman Path - Big Game (reward)
+
+[MECHANIC] Key to the Tower  -- HandoverItem SG-C10
+     also found/rewarded by [PEACEKEEPER] Lend-Lease - Part 2 (find)
+     also found/rewarded by [PEACEKEEPER] Special Equipment (find)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Missing Informant (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Order From Outside (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Simple Side Job (reward)
+
+[MECHANIC] Camera Action  -- HandoverItem SSD
+     also found/rewarded by [JAEGER] Shady Business (reward)
+     also found/rewarded by [PEACEKEEPER] Counteraction (reward)
+     also found/rewarded by [PEACEKEEPER] New Day New Paths (reward)
+     also found/rewarded by [PEACEKEEPER] Confidential Info (reward)
+
+[MECHANIC] Camera Action  -- HandoverItem NIXXOR
+     also found/rewarded by [BTR] Hot Wheels - Lets Try Again (reward)
+     also found/rewarded by [THERAPIST] Secret Benefactor (reward)
+
+[MECHANIC] The Courier  -- LeaveItemAtLocation REAP-IR
+     also found/rewarded by [JAEGER] The Huntsman Path - Sadist (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Make an Impression (reward)
+
+[MECHANIC] The Courier  -- LeaveItemAtLocation REAP-IR
+     also found/rewarded by [JAEGER] The Huntsman Path - Sadist (reward)
+     also found/rewarded by [LIGHTHOUSEKEEPER] Make an Impression (reward)
+
+[RAGMAN] Hot Delivery  -- LeaveItemAtLocation 6B47
+     also found/rewarded by [PRAPOR] Youve Got Mail (reward)
+
+[RAGMAN] Sew it Good - Part 3  -- HandoverItem 6B43
+     also found/rewarded by [PRAPOR] The Punisher - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Escort (reward)
+     also found/rewarded by [PRAPOR] Capturing Outposts (reward)
+
+[RAGMAN] Sew it Good - Part 3  -- HandoverItem 6B43
+     also found/rewarded by [PRAPOR] The Punisher - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Escort (reward)
+     also found/rewarded by [PRAPOR] Capturing Outposts (reward)
+
+[RAGMAN] Old Patterns  -- HandoverItem 0.2BTC
+     also found/rewarded by [PEACEKEEPER] Spa Tour - Part 2 (reward)
+     also found/rewarded by [MECHANIC] Farming - Part 4 (reward)
+     also found/rewarded by [MECHANIC] Fertilizers (reward)
+     also found/rewarded by [MECHANIC] Import (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 25 (reward)
+     also found/rewarded by [FENCE] Small Business - Part 2 (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation DVL-10
+     also found/rewarded by [PRAPOR] The Punisher - Part 3 (reward)
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 6 (reward)
+     also found/rewarded by [SKIER] Long Road (reward)
+     also found/rewarded by [PRAPOR] Special Comms (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation DVL-10
+     also found/rewarded by [PRAPOR] The Punisher - Part 3 (reward)
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 6 (reward)
+     also found/rewarded by [SKIER] Long Road (reward)
+     also found/rewarded by [PRAPOR] Special Comms (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation SpecterDR
+     also found/rewarded by [PRAPOR] The Punisher - Part 4 (reward)
+     also found/rewarded by [PEACEKEEPER] Eagle Eye (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation BCP FMJ
+     also found/rewarded by [PRAPOR] Special Comms (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation M80
+     also found/rewarded by [PEACEKEEPER] TerraGroup Employee (reward)
+     also found/rewarded by [JAEGER] Rite of Passage (reward)
+     also found/rewarded by [MECHANIC] Last Spurt - Pioneer (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation M62
+     also found/rewarded by [PRAPOR] The Good Times - Part 1 (reward)
+     also found/rewarded by [JAEGER] Dragnet (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation M61
+     also found/rewarded by [PEACEKEEPER] Wet Job - Part 6 (reward)
+     also found/rewarded by [PEACEKEEPER] Peacekeeping Mission (reward)
+     also found/rewarded by [JAEGER] Broadcast - Part 5 (reward)
+
+[RAGMAN] Break the Deal  -- LeaveItemAtLocation M993
+     also found/rewarded by [MECHANIC] A Shooter Born in Heaven (reward)
+     also found/rewarded by [MECHANIC] Gunsmith - Part 21 (reward)
+
+[JAEGER] The Survivalist Path - Thrifty  -- LeaveItemAtLocation Iskra
+     also found/rewarded by [THERAPIST] General Wares (reward)
+
+[JAEGER] The Survivalist Path - Thrifty  -- LeaveItemAtLocation Water
+     also found/rewarded by [THERAPIST] Operation Aquarius - Part 1 (reward)
+     also found/rewarded by [THERAPIST] First in Line (reward)
+
+[JAEGER] The Survivalist Path - Thrifty  -- LeaveItemAtLocation Iskra
+     also found/rewarded by [THERAPIST] General Wares (reward)
+
+[JAEGER] The Survivalist Path - Thrifty  -- LeaveItemAtLocation Water
+     also found/rewarded by [THERAPIST] Operation Aquarius - Part 1 (reward)
+     also found/rewarded by [THERAPIST] First in Line (reward)
+
+[JAEGER] Acquaintance  -- HandoverItem Iskra
+     also found/rewarded by [THERAPIST] General Wares (reward)
+
+[JAEGER] Rite of Passage  -- HandoverItem Fuel
+     also found/rewarded by [MECHANIC] Gunsmith - Part 16 (reward)
+     also found/rewarded by [RAGMAN] The Blood of War - Part 1 (reward)
+     also found/rewarded by [PRAPOR] Possessor (reward)
+
+[JAEGER] Broadcast - Part 5  -- LeaveItemAtLocation Knife
+     also found/rewarded by [SKIER] Night Sweep (find)
+
+[FENCE] Compensation for Damage - Barkeep  -- HandoverItem Whiskey
+     also found/rewarded by [RAGMAN] Booze (find)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Is This a Reference  -- LeaveItemAtLocation Camera
+     also found/rewarded by [MECHANIC] Friend from Norvinsk - Part 1 (reward)
+
+[FENCE] Small Business - Part 3  -- LeaveItemAtLocation Knife
+     also found/rewarded by [SKIER] Night Sweep (find)
+
+[FENCE] Small Business - Part 3  -- LeaveItemAtLocation Knife
+     also found/rewarded by [SKIER] Night Sweep (find)
+
+[FENCE] Small Business - Part 3  -- LeaveItemAtLocation Knife
+     also found/rewarded by [SKIER] Night Sweep (find)
+
+[FENCE] Small Business - Part 3  -- LeaveItemAtLocation Knife
+     also found/rewarded by [SKIER] Night Sweep (find)
+
+[FENCE] The Choice  -- HandoverItem Epsilon
+     also found/rewarded by [PRAPOR] The Punisher - Part 6 (reward)
+
+[FENCE] Collector  -- HandoverItem Raven
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 2 (find)
+
+[FENCE] Collector  -- HandoverItem Egg
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 1 (find)
+     also found/rewarded by [SKIER] Proper Comeback (reward)
+
+[FENCE] Collector  -- HandoverItem Axel
+     also found/rewarded by [RAGMAN] Living High is Not a Crime - Part 2 (find)
+
+[LIGHTHOUSEKEEPER] Provocation  -- LeaveItemAtLocation Moonshine
+     also found/rewarded by [RAGMAN] Sensory Analysis - Part 1 (find)
+     also found/rewarded by [BTR] Sensory Analysis - Part 2 (find)
+     also found/rewarded by [RAGMAN] Circulate (reward)
+     also found/rewarded by [RAGMAN] Key to the City (reward)
+     also found/rewarded by [BTR] Building Foundations (reward)
+
+[LIGHTHOUSEKEEPER] Spotter  -- LeaveItemAtLocation REAP-IR
+     also found/rewarded by [MECHANIC] Gunsmith - Part 22 (reward)
+     also found/rewarded by [MECHANIC] Import (reward)
+     also found/rewarded by [JAEGER] The Huntsman Path - Sadist (reward)
+
+[BTR] Discombobulate  -- LeaveItemAtLocation VOG-25
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Hell on Earth - Part 2 (reward)
+
+[BTR] Discombobulate  -- LeaveItemAtLocation VOG-25
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Hell on Earth - Part 2 (reward)
+
+[BTR] Discombobulate  -- LeaveItemAtLocation VOG-25
+     also found/rewarded by [PRAPOR] Grenadier (reward)
+     also found/rewarded by [PRAPOR] Hell on Earth - Part 2 (reward)
+
+[BTR] Natural Exchange  -- LeaveItemAtLocation Fuel
+     also found/rewarded by [MECHANIC] Gunsmith - Part 16 (reward)
+     also found/rewarded by [RAGMAN] The Blood of War - Part 1 (reward)
+     also found/rewarded by [JAEGER] The Survivalist Path - Thrifty (reward)
+     also found/rewarded by [PRAPOR] Possessor (reward)
+     also found/rewarded by [JAEGER] Preemptive Strike (reward)
+
+[BTR] Natural Exchange  -- LeaveItemAtLocation Fuel
+     also found/rewarded by [MECHANIC] Gunsmith - Part 16 (reward)
+     also found/rewarded by [RAGMAN] The Blood of War - Part 1 (reward)
+     also found/rewarded by [JAEGER] The Survivalist Path - Thrifty (reward)
+     also found/rewarded by [PRAPOR] Possessor (reward)
+     also found/rewarded by [JAEGER] Preemptive Strike (reward)
+
+================================================================
+(B) QUEST-LINK cross-trader (Quest-type condition -> different trader)
+================================================================
+[PRAPOR] Big Customer  (AvailableForStart)  ->  [SKIER] Chemical - Part 4
+[PRAPOR] Forge a Friendship  (AvailableForStart)  ->  [BTR] Swift Retribution
+[PRAPOR] Forge a Friendship  (AvailableForStart)  ->  [BTR] Natural Exchange
+[PRAPOR] Polikhim Hobo  (AvailableForStart)  ->  [SKIER] Chemical - Part 1
+[PRAPOR] Shipping Delay - Part 1  (AvailableForStart)  ->  [MECHANIC] A Helping Hand
+[PRAPOR] A Helping Hand  (AvailableForStart)  ->  [MECHANIC] Saving the Mole
+[PRAPOR] Green Corridor  (AvailableForStart)  ->  [PEACEKEEPER] Spa Tour - Part 7
+[PRAPOR] Viewer  (AvailableForStart)  ->  [SKIER] Minute of Fame
+[PRAPOR] The Good Times - Part 2  (AvailableForStart)  ->  [MECHANIC] Airmail
+[THERAPIST] Secret Benefactor  (AvailableForStart)  ->  [JAEGER] Fight Back
+[THERAPIST] Out of Curiosity  (AvailableForStart)  ->  [SKIER] Chemical - Part 4
+[THERAPIST] The Tarkov Butcher  (AvailableForStart)  ->  [MECHANIC] Forced Alliance  (linked quest NOT in curated set)
+[THERAPIST] All Is Revealed  (AvailableForStart)  ->  [MECHANIC] Capacity Check
+[THERAPIST] Thirsty - Echo  (AvailableForStart)  ->  [SKIER] Thirsty - Delivery
+[THERAPIST] Colleagues - Part 3  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Sadist
+[THERAPIST] Ambulances Again  (AvailableForStart)  ->  [JAEGER] Cease Fire
+[THERAPIST] Quality Standard  (AvailableForStart)  ->  [PRAPOR] The Good Times - Part 1
+[THERAPIST] This Tape Sucks  (AvailableForStart)  ->  [MECHANIC] Offensive Reconnaissance  (linked quest NOT in curated set)
+[SKIER] Exit Here  (AvailableForStart)  ->  [MECHANIC] Scout
+[SKIER] Serious Allegations  (AvailableForStart)  ->  [PRAPOR] Viewer
+[SKIER] Minute of Fame  (AvailableForStart)  ->  [PRAPOR] The Good Times - Part 2
+[SKIER] Thirsty - Breadwinner  (AvailableForStart)  ->  [JAEGER] Thirsty - Hounds
+[SKIER] The Higher They Fly  (AvailableForStart)  ->  [MECHANIC] A Helping Hand
+[SKIER] Rigged Game  (AvailableForStart)  ->  [PRAPOR] Anesthesia
+[SKIER] Proper Comeback  (AvailableForStart)  ->  [MECHANIC] Camera Action
+[SKIER] Indisputable Authority  (AvailableForStart)  ->  [MECHANIC] Offensive Reconnaissance  (linked quest NOT in curated set)
+[SKIER] Staff Shortage  (AvailableForStart)  ->  [JAEGER] Preemptive Strike
+[SKIER] Choose Your Friends Wisely  (AvailableForStart)  ->  [BTR] Discombobulate
+[SKIER] Connections Up North  (AvailableForStart)  ->  [JAEGER] Hunting Trip
+[PEACEKEEPER] Fishing Gear  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[PEACEKEEPER] The Cult - Part 1  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[PEACEKEEPER] Spa Tour - Part 1  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[PEACEKEEPER] Confidential Info  (AvailableForStart)  ->  [MECHANIC] Offensive Reconnaissance  (linked quest NOT in curated set)
+[PEACEKEEPER] Lend-Lease - Part 2  (AvailableForStart)  ->  [SKIER] Lend-Lease - Part 1
+[PEACEKEEPER] Revision - Reserve  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[PEACEKEEPER] Samples  (AvailableForStart)  ->  [PRAPOR] Anesthesia
+[PEACEKEEPER] Samples  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[PEACEKEEPER] TerraGroup Employee  (AvailableForStart)  ->  [THERAPIST] Colleagues - Part 3
+[PEACEKEEPER] Trophies  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Forest Cleaning
+[MECHANIC] Airmail  (AvailableForStart)  ->  [THERAPIST] Quality Standard
+[MECHANIC] Psycho Sniper  (AvailableForStart)  ->  [PEACEKEEPER] Wet Job - Part 6
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [PRAPOR] The Punisher - Part 4
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [SKIER] Chemical - Part 4
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [SKIER] House Arrest - Part 1
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [PEACEKEEPER] Cargo X - Part 4
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [PEACEKEEPER] The Cult - Part 2
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [RAGMAN] A Fuel Matter
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [RAGMAN] Database - Part 2
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [JAEGER] Courtesy Visit
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [THERAPIST] Seaside Vacation
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [THERAPIST] Lost Contact
+[MECHANIC] Network Provider - Part 1  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Forest Cleaning
+[MECHANIC] Top Secret  (AvailableForStart)  ->  [SKIER] Missing Cargo
+[MECHANIC] Camera Action  (AvailableForStart)  ->  [SKIER] Serious Allegations
+[MECHANIC] Chemistry Closet  (AvailableForStart)  ->  [PRAPOR] Anesthesia
+[MECHANIC] Chemistry Closet  (AvailableForStart)  ->  [THERAPIST] Colleagues - Part 1
+[RAGMAN] Another Shipping Delay  (AvailableForStart)  ->  [BTR] Natural Exchange
+[RAGMAN] Another Shipping Delay  (AvailableForStart)  ->  [BTR] Inevitable Response
+[RAGMAN] Sensory Analysis - Part 1  (AvailableForStart)  ->  [MECHANIC] Hidden Layer  (linked quest NOT in curated set)
+[RAGMAN] Sensory Analysis - Part 1  (AvailableForFinish)  ->  [BTR] Sensory Analysis - Part 2
+[RAGMAN] Stabilize Business  (AvailableForStart)  ->  [BTR] Ask for Directions
+[RAGMAN] Vacate the Premises  (AvailableForStart)  ->  [MECHANIC] Offensive Reconnaissance  (linked quest NOT in curated set)
+[RAGMAN] Key to the City  (AvailableForStart)  ->  [SKIER] Proper Comeback
+[JAEGER] Preemptive Strike  (AvailableForStart)  ->  [THERAPIST] An Alternative
+[JAEGER] Acquaintance  (AvailableForStart)  ->  [MECHANIC] Introduction
+[JAEGER] Shady Business  (AvailableForStart)  ->  [SKIER] Whats on the Flash Drive
+[JAEGER] The Huntsman Path - Sellout  (AvailableForStart)  ->  [RAGMAN] Sales Night
+[JAEGER] The Huntsman Path - Woods Keeper  (AvailableForStart)  ->  [THERAPIST] Supply Plans
+[JAEGER] The Huntsman Path - Sadist  (AvailableForStart)  ->  [SKIER] Rigged Game
+[JAEGER] The Huntsman Path - Sadist  (AvailableForStart)  ->  [THERAPIST] Colleagues - Part 2
+[JAEGER] The Huntsman Path - Sadist  (AvailableForStart)  ->  [MECHANIC] Chemistry Closet
+[JAEGER] The Huntsman Path - Factory Chief  (AvailableForStart)  ->  [MECHANIC] Scout
+[JAEGER] The Huntsman Path - Big Game  (AvailableForStart)  ->  [THERAPIST] Urban Medicine
+[JAEGER] Broadcast - Part 3  (AvailableForStart)  ->  [MECHANIC] Broadcast - Part 2
+[JAEGER] Dragnet  (AvailableForStart)  ->  [PEACEKEEPER] One Less Loose End
+[FENCE] The Choice  (AvailableForStart)  ->  [PRAPOR] The Punisher - Part 6
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Athlete  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Decontamination Service
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Health Care Privacy - Part 5
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Car Repair
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Tarkov Shooter - Part 8
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Gunsmith - Part 22
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] General Wares
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Setup
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Flint  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Lend-Lease - Part 1
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Chumming
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Only Business  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Make ULTRA Great Again
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Big Sale
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] The Blood of War - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Dressed to Kill
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Database - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Farming - Part 4
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Sew it Good - Part 4
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Signal - Part 4
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] The Key to Success
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] No Fuss Needed  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Gratitude
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Bad Habit
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Sales Night
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Scout
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Insider
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Supervisor
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Hot Delivery
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Minibus
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] The Blood of War - Part 3
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Living High is Not a Crime - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Scavenger  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Golden Swag
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Chemical - Part 3
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Friend From the West - Part 2  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Vitamins - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Informed Means Armed
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Fertilizers
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] A Shooter Born in Heaven
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Psycho Sniper
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Scrap Metal
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Eagle Eye
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Humanitarian Supplies
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] The Cult - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Spa Tour - Part 7
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Cargo X - Part 3
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Wet Job - Part 6
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Lend-Lease - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] The Guide
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] BP Depot
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Ice Cream Cones
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] The Punisher - Part 6
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Shaking Up the Teller
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Test Drive - Part 1
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Perfect Mediator  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Survivalist Path - Wounded Beast
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Eraser - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Ambulance
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Courtesy Visit
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Shady Business
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Nostalgia
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Fishing Place
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Survivalist Path - Junkie
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Survivalist Path - Combat Medic
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Insomnia
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Revision - Reserve
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Classified Technologies
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Documents
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] No Place for Renegades
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Disease History
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Surplus Goods
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Back Door
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Inventory Check
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] A Fuel Matter
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Pest Control
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Factory Chief
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Cargo X - Part 4
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Long Road
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Hermit
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Missing Cargo
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Outcasts
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Easy Job - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Lost Contact
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Overpopulation
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Corporate Secrets
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Revision - Lighthouse
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Seaside Vacation
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Energy Crisis
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Justice
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Sellout
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Woods Keeper
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] The Bunker - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Colleagues - Part 2
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] Peacekeeping Mission
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Import
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Chemistry Closet
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Controller
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Hunting Trip
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Stray Dogs
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Broadcast - Part 1
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Reconnaissance
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Drug Trafficking
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Safe Corridor
+[FENCE] Collector  (AvailableForStart)  ->  [PEACEKEEPER] TerraGroup Employee
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Stirrup
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Charisma Brings Success  (linked quest NOT in curated set)
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] The Huntsman Path - Evil Watchman
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Rigged Game
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Search Mission
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Crisis
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Intimidator
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Regulated Materials
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Rough Tarkov
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Every Hunter Knows This
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Forklift Certified
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Exit Here
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Claustrophobia
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Possessor
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Black Swan
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] The Walls Have Eyes
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] All Is Revealed
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Dragnet
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Capacity Check
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Health Care Privacy - Part 6
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Test Drive - Part 5
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Abandoned Cargo
+[FENCE] Collector  (AvailableForStart)  ->  [RAGMAN] Break the Deal
+[FENCE] Collector  (AvailableForStart)  ->  [MECHANIC] Passion for Ergonomics
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Shipment Tracking
+[FENCE] Collector  (AvailableForStart)  ->  [THERAPIST] Closer to the People
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Work Smarter
+[FENCE] Collector  (AvailableForStart)  ->  [JAEGER] Rite of Passage
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Test Drive - Part 6
+[FENCE] Collector  (AvailableForStart)  ->  [PRAPOR] Belka and Strelka
+[FENCE] Collector  (AvailableForStart)  ->  [SKIER] Private Club
+[LIGHTHOUSEKEEPER] Simple Side Job  (AvailableForStart)  ->  [BTR] Swift Retribution
+[LIGHTHOUSEKEEPER] Information Source  (AvailableForStart)  ->  [MECHANIC] Knock-Knock
+[LIGHTHOUSEKEEPER] Order From Outside  (AvailableForStart)  ->  [BTR] Inevitable Response
+[BTR] Sensory Analysis - Part 2  (AvailableForStart)  ->  [RAGMAN] Sensory Analysis - Part 1
+[BTR] Shipping Delay - Part 2  (AvailableForStart)  ->  [MECHANIC] A Helping Hand
+[BTR] Shipping Delay - Part 2  (AvailableForFinish)  ->  [MECHANIC] A Helping Hand
+[BTR] Building Foundations  (AvailableForStart)  ->  [MECHANIC] A Helping Hand
+[BTR] Ask for Directions  (AvailableForStart)  ->  [RAGMAN] Another Shipping Delay
+[BTR] Hot Wheels  (AvailableForStart)  ->  [MECHANIC] A Helping Hand
+[BTR] Battery Change  (AvailableForStart)  ->  [RAGMAN] Stabilize Business

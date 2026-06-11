@@ -15,23 +15,15 @@
      [2] FindItem  (val=1 item=Machinery)  id=5975de1f86f7744ca53b7c82
          "Obtain the key to the fuel tanker truck"
 
-3. Postman Pat - Part 1   [PickUp]  id=59675ea386f77414b32bded2
-     [0] FindItem  (val=1 item=Letter)  id=596895f986f7740d14064722
-         "Locate the dead messenger and obtain his letter on Factory"
-     [1] CounterCreator  (val=1)  id=5968962686f7740e7266d973
-         "Survive and extract from the location"
-     [2] Quest  (item=596760e186f7741e11214d58)  id=596896c386f7740d1570bbd4
-         "Hand over the letter to Therapist"
-
-4. Belka and Strelka   [Completion]  id=675c3507a06634b5110e3c18
+3. Belka and Strelka   [Completion]  id=675c3507a06634b5110e3c18
      [0] CounterCreator  (val=1)  id=675c3507a06634b5110e3c1a
          "Survive and extract from Customs through Railroad Passage"
 
-5. Shootout Picnic   [Elimination]  id=59674cd986f7744ab26e32f2
+4. Shootout Picnic   [Elimination]  id=59674cd986f7744ab26e32f2
      [0] CounterCreator  (val=15 kill=Savage)  id=5cb31b6188a450159d330a18
          "Eliminate Scavs on Woods"
 
-6. Search Mission   [Exploration]  id=5fd9fad9c1ce6b1a3b486d00
+5. Search Mission   [Exploration]  id=5fd9fad9c1ce6b1a3b486d00
      [0] CounterCreator  (val=1 1session)  id=5fd9fad9c1ce6b1a3b486d03
          "Locate Prapor's missing convoy on Woods"
      [1] CounterCreator  (val=1 1session)  id=5fd9fad9c1ce6b1a3b486d05
@@ -39,19 +31,19 @@
      [2] CounterCreator  (val=1 1session)  id=5fd9fad9c1ce6b1a3b486d0d
          "Survive and extract from the location"
 
-7. Big Customer   [Completion]  id=597a171586f77405ba6887d3
+6. Big Customer   [Completion]  id=597a171586f77405ba6887d3
      [0] CounterCreator  (val=1)  id=5a3fbec386f77413bd5fc20a
          "Locate the transport with the chemicals on Customs"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5998360886f77456936817f3
          "Mark the vehicle with an MS2000 Marker"
 
-8. Forge a Friendship   [PickUp]  id=6740a15566e6a521aa051b15
+7. Forge a Friendship   [PickUp]  id=6740a15566e6a521aa051b15
      [0] FindItem  (val=1 item=Cargo)  id=6740a202086cf3dbf687279a
          "Locate and obtain Prapor's cargo on Shoreline"
      [1] HandoverItem  (val=1 item=Cargo)  id=6740a20cc6daae7f8f12a77d
          "Hand over the found cargo"
 
-9. BP Depot   [Discover]  id=59c124d686f774189b3c843f
+8. BP Depot   [Discover]  id=59c124d686f774189b3c843f
      [0] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=59c128b986f77415037680df
          "Locate and mark the first fuel tank with an MS2000 Marker on Customs"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=59c128cc86f774189b3c84b5
@@ -61,7 +53,7 @@
      [3] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=59c128f386f774189b3c84bb
          "Locate and mark the fourth fuel tank with an MS2000 Marker on Customs"
 
-10. Bad Rep Evidence   [PickUp]  id=5967530a86f77462ba22226b
+9. Bad Rep Evidence   [PickUp]  id=5967530a86f77462ba22226b
      [0] CounterCreator  (val=1)  id=5a3fbdb086f7745a554f0c31
          "Gain access to the locked room in the office hallway on the third floor on Factory"
      [1] FindItem  (val=1 item=Bunkhouse)  id=5968941f86f7740d1570bbd2
@@ -73,7 +65,7 @@
      [4] CounterCreator  (val=1)  id=596762ec86f77426d3687a87
          "Survive and extract from the location"
 
-11. Shaking Up the Teller   [PickUp]  id=5967725e86f774601a446662
+10. Shaking Up the Teller   [PickUp]  id=5967725e86f774601a446662
      [0] FindItem  (val=1 item=Case)  id=5968981986f7740d1648df42
          "Locate and obtain the valuable item in dorm room 203 on Customs"
      [1] HandoverItem  (val=1 item=Case)  id=5968988286f7740d14064724
@@ -81,11 +73,11 @@
      [2] CounterCreator  (val=1)  id=5a3fc03286f77414d64f9941
          "Gain access to dorm room 214 on Customs"
 
-12. The Punisher - Part 1  (chain)   [Elimination]  id=59c50a9e86f7745fef66f4ff
+11. The Punisher - Part 1  (chain)   [Elimination]  id=59c50a9e86f7745fef66f4ff
      [0] CounterCreator  (val=15 kill=Savage)  id=59674d5186f00443b872d5f7
          "Eliminate Scavs while using an AKM series weapon on Shoreline"
 
-13. The Punisher - Part 2  (chain)   [Elimination]  id=59c50c8886f7745fed3193bf
+12. The Punisher - Part 2  (chain)   [Elimination]  id=59c50c8886f7745fed3193bf
      [0] CounterCreator  (val=12 kill=Savage)  id=59624d5386f77446b872d5f7
          "Eliminate Scavs while using a suppressed weapon on Reserve"
      [1] FindItem  (val=7 item=Half-mask FiR)  id=5cb5e2ff86f7746ef64c979b
@@ -93,11 +85,11 @@
      [2] HandoverItem  (val=7 item=Half-mask FiR)  id=59c50f1686f77412ef2c01e7
          "Hand over the half-masks"
 
-14. The Punisher - Part 3  (chain)   [Elimination]  id=59c512ad86f7741f0d09de9b
+13. The Punisher - Part 3  (chain)   [Elimination]  id=59c512ad86f7741f0d09de9b
      [0] CounterCreator  (val=25 kill=Savage)  id=59674d5186f77446b852d5f7
          "Eliminate Scavs while using an AKS-74U on Customs"
 
-15. The Punisher - Part 4  (chain)   [Elimination]  id=59ca264786f77445a80ed044
+14. The Punisher - Part 4  (chain)   [Elimination]  id=59ca264786f77445a80ed044
      [0] CounterCreator  (val=10 kill=Savage)  id=59674d5986f77446b872d5f7
          "Eliminate Scavs while using a 12ga shotgun on Lighthouse"
      [1] CounterCreator  (val=10 kill=AnyPmc)  id=59ca27f786f77445aa0ddc14
@@ -107,7 +99,7 @@
      [3] HandoverItem  (val=5 item=A-2607 FiR)  id=59ca29ab86f77445ab431c86
          "Hand over the knives"
 
-16. The Punisher - Part 5  (chain)   [PickUp]  id=59ca29fb86f77445ab465c87
+15. The Punisher - Part 5  (chain)   [PickUp]  id=59ca29fb86f77445ab465c87
      [0] FindItem  (val=1 item=AK-74N/AK-74M/… FiR)  id=59ca293c86f77445a80ed147
          "Find any Kalashnikov AK-74 assault rifle in raid"
      [1] HandoverItem  (val=1 item=AK-74N/AK-74/… FiR)  id=59ca29ab86f77445ab133c86
@@ -123,7 +115,7 @@
      [6] CounterCreator  (val=10 kill=AnyPmc)  id=5c922dde86f77438500a0fec
          "Eliminate PMC operatives while wearing a PACA body armor and 6B47 helmet"
 
-17. The Punisher - Part 6  (chain)   [Elimination]  id=59ca2eb686f77445a80ed049
+16. The Punisher - Part 6  (chain)   [Elimination]  id=59ca2eb686f77445a80ed049
      [0] CounterCreator  (val=15 kill=AnyPmc)  id=59ca2fba86f77445e4732b25
          "Eliminate PMC operatives while using an SVD rifle (excluding Factory)"
      [1] HandoverItem  (val=7 item=BEAR/BEAR/…)  id=5b0548e686f7740306753506
@@ -131,7 +123,7 @@
      [2] HandoverItem  (val=7 item=USEC/USEC/…)  id=5cb3397c88a450159a723d79
          "Hand over any USEC dogtags"
 
-18. Luxurious Life   [PickUp]  id=657315e1dccd301f1301416a
+17. Luxurious Life   [PickUp]  id=657315e1dccd301f1301416a
      [0] CounterCreator  (val=1)  id=6575aa67197bd678a0c3f552
          "Locate the liquor store on Ground Zero"
      [1] FindItem  (val=1 item=Wine)  id=65817cabba2ba6ef71fc72ca
@@ -139,17 +131,17 @@
      [2] HandoverItem  (val=1 item=Wine)  id=65817cd2881a7e07b3ec1249
          "Hand over the wine bottle"
 
-19. Delivery From the Past   [PickUp]  id=59674eb386f774539f14813a
+18. Delivery From the Past   [PickUp]  id=59674eb386f774539f14813a
      [0] FindItem  (val=1 item=0022)  id=5968929e86f7740d121082d3
          "Locate and obtain the valuable folder in Tarcone director's office on Customs"
      [1] LeaveItemAtLocation  (val=1 item=0022 plant=10)  id=59674fe586f7744f4e358aa2
          "Stash the package in the break room on the 2nd floor near Gate 3 on Factory"
 
-20. Polikhim Hobo   [Elimination]  id=5979f8bb86f7743ec214c7a6
+19. Polikhim Hobo   [Elimination]  id=5979f8bb86f7743ec214c7a6
      [0] CounterCreator  (val=25 kill=Savage)  id=5b0e766b86f7746bfa618964
          "Eliminate Scavs on Customs"
 
-21. Ice Cream Cones   [PickUp]  id=59675d6c86f7740a842fc482
+20. Ice Cream Cones   [PickUp]  id=59675d6c86f7740a842fc482
      [0] FindItem  (val=3 item=6L31 FiR)  id=5968ed3186f77420d2328013
          "Find AK-74 5.45x39 6L31 60-round magazines in raid"
      [1] HandoverItem  (val=3 item=6L31 FiR)  id=59675e1d86f77414b07f137d
@@ -159,13 +151,13 @@
      [3] CounterCreator  (val=1)  id=5a3fbe3a86f77414422e0d9b
          "Locate the locked bunker on Woods"
 
-22. Possessor   [Discover]  id=669fa399033a3ce9870338a8
+21. Possessor   [Discover]  id=669fa399033a3ce9870338a8
      [0] FindItem  (val=1 item=Logbook)  id=669fb4a56e66d3d79183a5c9
          "Locate and obtain the helicopter logbook on Factory"
      [1] HandoverItem  (val=1 item=Logbook)  id=669fb4b21f2e5268651cc96a
          "Hand over the found information"
 
-23. Documents   [PickUp]  id=60896b7bfa70fc097863b8f5
+22. Documents   [PickUp]  id=60896b7bfa70fc097863b8f5
      [0] FindItem  (val=1 item=Docs #1)  id=60916aeac49cf53e4772cc3c
          "Obtain the first folder with military documents in the command bunker offices on Reserve"
      [1] FindItem  (val=1 item=Docs #2)  id=60ae0dfe2d6a8320983d19ba
@@ -179,11 +171,11 @@
      [5] HandoverItem  (val=1 item=Docs #3)  id=60ae0f17b809a4748759078c
          "Hand over the third documents"
 
-24. No Place for Renegades   [Elimination]  id=60896bca6ee58f38c417d4f2
+23. No Place for Renegades   [Elimination]  id=60896bca6ee58f38c417d4f2
      [0] CounterCreator  (val=5 kill=pmcBot)  id=608bffeee0cc9c2d4d2ccb29
          "Eliminate Raiders in the command bunker on Reserve"
 
-25. The Bunker - Part 1  (chain)   [Completion]  id=5ede55112c95834b583f052a
+24. The Bunker - Part 1  (chain)   [Completion]  id=5ede55112c95834b583f052a
      [0] CounterCreator  (val=1 1session)  id=5ee8eea538ca5b3b4f3c4647
          "Locate the underground bunker on Reserve"
      [1] CounterCreator  (val=1 1session)  id=5ee8eecc0b4ef7326256c660
@@ -191,7 +183,7 @@
      [2] CounterCreator  (val=1 1session)  id=5ee0e5a8c321a77fc55084d2
          "Survive and extract from the location"
 
-26. The Bunker - Part 2  (chain)   [Completion]  id=5ede567cfa6dc072ce15d6e3
+25. The Bunker - Part 2  (chain)   [Completion]  id=5ede567cfa6dc072ce15d6e3
      [0] CounterCreator  (val=1 1session)  id=5ee8ec5ed72d953f5d2aabd1
          "Locate the hermetic door leading to the hospital (White Bishop) on Reserve"
      [1] CounterCreator  (val=1 1session)  id=5ee8ecd75eb3205dae135d17
@@ -205,7 +197,7 @@
      [5] CounterCreator  (val=1 1session)  id=5ee0e722c321a77fc55084d5
          "Survive and extract from the location"
 
-27. Anesthesia   [Discover]  id=5eda19f0edce541157209cee
+26. Anesthesia   [Discover]  id=5eda19f0edce541157209cee
      [0] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5eda1d6ec586607c09662d54
          "Mark the first trading post with an MS2000 Marker on Shoreline"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5eda1da9a58a4c49c74165ee
@@ -213,7 +205,7 @@
      [2] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5eda1dd3317f6066993c1744
          "Mark the third trading post with an MS2000 Marker on Shoreline"
 
-28. Shooting Cans   [Elimination]  id=657315df034d76585f032e01
+27. Shooting Cans   [Elimination]  id=657315df034d76585f032e01
      [0] CounterCreator  (val=1)  id=657333fee3fbaa77d3b5cd7c
          "Locate the Utyos machine gun on Ground Zero"
      [1] CounterCreator  (val=1)  id=6573340403f471fb2bb12df1
@@ -221,15 +213,15 @@
      [2] CounterCreator  (val=5 kill=Any)  id=657334311dbb8b7569bb83c4
          "Eliminate any target on Ground Zero"
 
-29. Stick in the Wheel   [Elimination]  id=6740a3f4eca8acb2d2055159
+28. Stick in the Wheel   [Elimination]  id=6740a3f4eca8acb2d2055159
      [0] CounterCreator  (val=30 kill=Any)  id=6740a42c508599fd5a066f19
          "Eliminate any target on any location"
 
-30. Shipping Delay - Part 1  (chain)   [Completion]  id=673f348dd3346c21670217e7
+29. Shipping Delay - Part 1  (chain)   [Completion]  id=673f348dd3346c21670217e7
      [0] HandoverItem  (val=1 item=Package)  id=673f34c674ec5bf80ea69eee
          "Hand over the package from the depot on Woods"
 
-31. A Helping Hand  (chain)   [Exploration]  id=6752f6d83038f7df520c83e8
+30. A Helping Hand  (chain)   [Exploration]  id=6752f6d83038f7df520c83e8
      [0] FindItem  (val=1 item=Package)  id=6752f86d538945df8cc3fc3a
          "Locate and obtain Prapor's package on Woods"
      [1] CounterCreator  (val=1)  id=6756bcb3f93f4c1fc2b2d685
@@ -237,13 +229,13 @@
      [2] Quest  (item=673f348dd3346c21670217e7)  id=6752f85800c5b2c48240c45f
          "Complete the task Shipping Delay - Part 1"
 
-32. No Offence  (chain)   [PickUp]  id=59ca1a6286f774509a270942
+31. No Offence  (chain)   [PickUp]  id=59ca1a6286f774509a270942
      [0] FindItem  (val=10 item=M67)  id=59ca1b1b86f7741b067dba42
          "Obtain M67 hand grenades"
      [1] HandoverItem  (val=10 item=M67)  id=59ca1b4f86f774509a270943
          "Hand over the grenades"
 
-33. Reconnaissance   [Exploration]  id=626bd75c71bd851e971b82a5
+32. Reconnaissance   [Exploration]  id=626bd75c71bd851e971b82a5
      [0] CounterCreator  (val=1 1session)  id=63ac1b741b5c95746621ddb4
          "Recon the roof of the first water treatment plant facility on Lighthouse"
      [1] CounterCreator  (val=1 1session)  id=63ac1bd387413d64ae0ac22b
@@ -253,13 +245,13 @@
      [3] CounterCreator  (val=1 1session)  id=62987d43b7bd956bd62a09b3
          "Survive and extract from the location"
 
-34. Youve Got Mail   [Completion]  id=6391359b9444fb141f4e6ee6
+33. Youve Got Mail   [Completion]  id=6391359b9444fb141f4e6ee6
      [0] FindItem  (val=1 item=Letter)  id=6391359b9444fb141f4e6ee7
          "Obtain the registered mail on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=Letter)  id=6391359b9444fb141f4e6ee8
          "Hand over the letter"
 
-35. Green Corridor   [Completion]  id=639136d68ba6894d155e77cf
+34. Green Corridor   [Completion]  id=639136d68ba6894d155e77cf
      [0] CounterCreator  (val=1 1session)  id=63a7d53904d3dc28a52a2100
          "Locate the cargo convoy on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=63a7d58004d3dc28a52a2102
@@ -267,7 +259,7 @@
      [2] CounterCreator  (val=1 1session)  id=639cee16f5765f47cc7f0ea1
          "Survive and extract from the location"
 
-36. Viewer   [Completion]  id=666314bd920800278d0f6748
+35. Viewer   [Completion]  id=666314bd920800278d0f6748
      [0] LeaveItemAtLocation  (val=1 item=Camera plant=40)  id=667bf8370849ce7edf2b124e
          "Install a WI-FI Camera on the mountain ledge on Woods"
      [1] LeaveItemAtLocation  (val=1 item=Camera plant=40)  id=667bf840981b1c594af358ce
@@ -275,13 +267,13 @@
      [2] LeaveItemAtLocation  (val=1 item=Camera plant=40)  id=66d07fa69d373d977f437fe0
          " Install a WI-FI Camera at the office corridor on Factory"
 
-37. Glory to CPSU - Part 1  (chain)   [Completion]  id=639135b04ed9512be67647d7
+36. Glory to CPSU - Part 1  (chain)   [Completion]  id=639135b04ed9512be67647d7
      [0] CounterCreator  (val=1 1session)  id=63a7db4a3e491955e65fb88b
          "Locate the apartment of Prapor's friend on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=639c8c875573fd6cc27d99bb
          "Survive and extract from the location"
 
-38. Glory to CPSU - Part 2  (chain)   [Completion]  id=64f5aac4b63b74469b6c14c2
+37. Glory to CPSU - Part 2  (chain)   [Completion]  id=64f5aac4b63b74469b6c14c2
      [0] CounterCreator  (val=1)  id=64f5aac4b63b74469b6c14c7
          "Locate the place of work of Prapor's friend on Streets of Tarkov"
      [1] FindItem  (val=1 item=Journal)  id=64f5b876a2a5bb727b61c5ad
@@ -289,7 +281,7 @@
      [2] HandoverItem  (val=1 item=Journal)  id=64f5bbc967e11a7c6206e00e
          "Hand over the found data"
 
-39. Properties All Around   [PickUp]  id=6573397ef3f8344c4575cd87
+38. Properties All Around   [PickUp]  id=6573397ef3f8344c4575cd87
      [0] CounterCreator  (val=1)  id=6573397ef3f8344c4575cd88
          "Locate the real estate fund on Streets of Tarkov"
      [1] FindItem  (val=1 item=Records)  id=6581676e7a18ff402fd23e68
@@ -297,13 +289,13 @@
      [2] HandoverItem  (val=1 item=Records)  id=658167a0e53c40116f8632fa
          "Hand over the obtained information"
 
-40. Half-Empty   [PickUp]  id=6740a2c17e3818d5bb0648b6
+39. Half-Empty   [PickUp]  id=6740a2c17e3818d5bb0648b6
      [0] HandoverItem  (val=5 item=PFilter/MGT/… FiR)  id=6749aa9b1badcb1e8056d769
          "Hand over the found in raid military electronic items"
      [1] HandoverItem  (val=10 item=DVD/PSU/… FiR)  id=6740a33685a62f9581c2beaf
          "Hand over the found in raid PC component items"
 
-41. Special Comms   [Discover]  id=66ab970848ddbe9d4a0c49a8
+40. Special Comms   [Discover]  id=66ab970848ddbe9d4a0c49a8
      [0] LeaveItemAtLocation  (val=1 item=MCable plant=30)  id=66ab9c5c60199cdb0902f8cc
          "Stash a Military cable at the boulder next to RUAF gate on Woods"
      [1] LeaveItemAtLocation  (val=1 item=Bulbex plant=30)  id=66ab9c78e192b852d889e2bf
@@ -315,29 +307,29 @@
      [4] LeaveItemAtLocation  (val=1 item=Bulbex plant=30)  id=66ab9c7ea3a7219e87d4b75e
          "Stash a Bulbex cable cutter at the sandbags next to LAV III above the storage warehouse on Reserve"
 
-42. Grenadier   [Elimination]  id=5c0d190cd09282029f5390d8
+41. Grenadier   [Elimination]  id=5c0d190cd09282029f5390d8
      [0] CounterCreator  (val=8 kill=AnyPmc)  id=5c1b760686f77412780211a3
          "Eliminate PMC operatives while using hand grenades"
 
-43. Kings of the Rooftops   [Completion]  id=639136f086e646067c176a8b
+42. Kings of the Rooftops   [Completion]  id=639136f086e646067c176a8b
      [0] CounterCreator  (val=10 kill=marksman)  id=63929224744e45201147081a
          "Eliminate rooftop Sniper Scavs on Streets of Tarkov"
 
-44. Easy Job - Part 1  (chain)   [Discover]  id=6179ac7511973d018217d0b9
+43. Easy Job - Part 1  (chain)   [Discover]  id=6179ac7511973d018217d0b9
      [0] CounterCreator  (val=1)  id=63ac1e0a87413d64ae0ac233
          "Locate the helicopter at the water treatment plant on Lighthouse"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=6179b804bca27a099552e057
          "Mark the helicopter with an MS2000 Marker"
 
-45. Easy Job - Part 2  (chain)   [Elimination]  id=6179acbdc760af5ad2053585
+44. Easy Job - Part 2  (chain)   [Elimination]  id=6179acbdc760af5ad2053585
      [0] CounterCreator  (val=20 kill=Any)  id=617bd94c5a52d2390a2630c7
          "Eliminate any target around the helicopter area at the water treatment plant on Lighthouse"
 
-46. The Art of Explosion  (chain)   [Elimination]  id=67b45467814ab0ffa000c7e7
+45. The Art of Explosion  (chain)   [Elimination]  id=67b45467814ab0ffa000c7e7
      [0] CounterCreator  (val=35 kill=Any)  id=67b45467814ab0ffa000c7ea
          "Eliminate any target while using grenades or grenade launchers"
 
-47. Capturing Outposts   [Elimination]  id=60e71b9bbd90872cb85440f3
+46. Capturing Outposts   [Elimination]  id=60e71b9bbd90872cb85440f3
      [0] CounterCreator  (val=8 kill=AnyPmc)  id=60ec18b73b5f7d790a7ad034
          "Eliminate PMC operatives at the Scav base on Customs"
      [1] CounterCreator  (val=8 kill=AnyPmc)  id=60ec1e72d7b7cb55e94c1764
@@ -345,41 +337,41 @@
      [2] CounterCreator  (val=8 kill=AnyPmc)  id=60ec2229fd1bf4491c4e4552
          "Eliminate PMC operatives at the Health Resort on Shoreline"
 
-48. Intimidator   [Elimination]  id=60e71bb4e456d449cd47ca75
+47. Intimidator   [Elimination]  id=60e71bb4e456d449cd47ca75
      [0] CounterCreator  (val=40 kill=Savage)  id=60e8650e5d67b234af3d3926
          "Eliminate Scavs with headshots"
 
-49. Best Job in the World   [Elimination]  id=63a9ae24009ffc6a551631a5
+48. Best Job in the World   [Elimination]  id=63a9ae24009ffc6a551631a5
      [0] CounterCreator  (val=30 kill=Any)  id=63a9ae63da7999196148ba5c
          "Eliminate any target from over 100 meters away while using AK-74 series weapons"
 
-50. Gendarmerie - Mall Cop  (chain)   [Elimination]  id=64e7b99017ab941a6f7bf9d7
+49. Gendarmerie - Mall Cop  (chain)   [Elimination]  id=64e7b99017ab941a6f7bf9d7
      [0] CounterCreator  (val=15 kill=Any)  id=64e7bc2c5e6d3e61ca2ca097
          "Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov"
 
-51. Gendarmerie - Tickets Please  (chain)   [Elimination]  id=64e7b9a4aac4cd0a726562cb
+50. Gendarmerie - Tickets Please  (chain)   [Elimination]  id=64e7b9a4aac4cd0a726562cb
      [0] CounterCreator  (val=25 kill=Any)  id=64e7bd0c6393886f74119f41
          "Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov"
 
-52. Gendarmerie - District Patrol  (chain)   [Elimination]  id=64e7b9bffd30422ed03dad38
+51. Gendarmerie - District Patrol  (chain)   [Elimination]  id=64e7b9bffd30422ed03dad38
      [0] CounterCreator  (val=30 kill=Any)  id=64e7bdd52d369a1c0172722f
          "Eliminate any target at the Cardinal apartment complex while using Assault rifles or Assault carbines on Streets of Tarkov"
 
-53. Our Own Land   [Elimination]  id=6179b5b06e9dd54ac275e409
+52. Our Own Land   [Elimination]  id=6179b5b06e9dd54ac275e409
      [0] CounterCreator  (val=20 kill=Usec)  id=6193dc1e6623e330c82e0be9
          "Eliminate USEC PMC operatives on Lighthouse"
      [1] HandoverItem  (val=20 item=USEC/USEC/…)  id=6194fbf785a6d62c481a7aee
          "Hand over the found in raid USEC PMC dogtags"
 
-54. The Good Times - Part 1  (chain)   [Elimination]  id=666314b4d7f171c4c20226c3
+53. The Good Times - Part 1  (chain)   [Elimination]  id=666314b4d7f171c4c20226c3
      [0] CounterCreator  (val=10 kill=AnyPmc)  id=666333e93962787efd64004a
          "Eliminate PMC operatives while using Colt M4A1, 6B43 body armor, and Kiver-M helmet on Factory"
 
-55. The Good Times - Part 2  (chain)   [Elimination]  id=666314bafd5ca9577902e03a
+54. The Good Times - Part 2  (chain)   [Elimination]  id=666314bafd5ca9577902e03a
      [0] CounterCreator  (val=10 kill=Any)  id=6663389aa257916ad3c89529
          "Eliminate any target while using the golden TT-33 pistol"
 
-56. Escort   [Elimination]  id=60e71b62a0beca400d69efc4
+55. Escort   [Elimination]  id=60e71b62a0beca400d69efc4
      [0] CounterCreator  (val=4 kill=AnyPmc)  id=60ec07bcd7b7cb55e94c1760
          "Eliminate PMC operatives on daytime Factory"
      [1] CounterCreator  (val=4 kill=AnyPmc)  id=60ec08fafd1bf4491c4e4550
@@ -397,15 +389,15 @@
      [7] CounterCreator  (val=4 kill=AnyPmc)  id=65e19abadf39d26751b3bb1e
          "Eliminate PMC operatives on Ground Zero"
 
-57. Hell on Earth - Part 1  (chain)   [Merchant]  id=666314b0acf8442f8b0531a1
+56. Hell on Earth - Part 1  (chain)   [Merchant]  id=666314b0acf8442f8b0531a1
      [0] WeaponAssembly  (val=1 item=MP-43-1C)  id=66632cf3fbd7dedfa6153a9f
          "Modify an MP-43-1C shotgun to comply with the given specifications"
 
-58. Hell on Earth - Part 2  (chain)   [Elimination]  id=666314b2a9290f9e0806cca3
+57. Hell on Earth - Part 2  (chain)   [Elimination]  id=666314b2a9290f9e0806cca3
      [0] CounterCreator  (val=3 kill=sectantPriest/sectantWarrior)  id=66632deea5607d352f3aa844
          "Eliminate the hooded men while using the double barrel shotgun"
 
-59. Regulated Materials   [PickUp]  id=5d4bec3486f7743cac246665
+58. Regulated Materials   [PickUp]  id=5d4bec3486f7743cac246665
      [0] FindItem  (val=1 item=Tank battery FiR)  id=5d4bfe4b86f7744a9d4fe032
          "Find 6-STEN-140-M military battery in raid"
      [1] HandoverItem  (val=1 item=Tank battery FiR)  id=5d4bfe7c86f7744a9c66b316
@@ -415,43 +407,39 @@
      [3] HandoverItem  (val=5 item=OFZ FiR)  id=5d4c028c86f774389001e027
          "Hand over the OFZ shells"
 
-60. Test Drive - Part 1  (chain)   [Elimination]  id=5c0bd94186f7747a727f09b2
+59. Test Drive - Part 1  (chain)   [Elimination]  id=5c0bd94186f7747a727f09b2
      [0] CounterCreator  (val=5 kill=AnyPmc)  id=5c1b765d86f77413193fa4f2
          "Eliminate PMC operatives from over 60 meters away while using an M1A rifle with Hybrid 46 suppressor and Schmidt & Bender PM II 1-8x24 scope"
 
-61. Test Drive - Part 2  (chain)   [Elimination]  id=63a5cf262964a7488f5243ce
+60. Test Drive - Part 2  (chain)   [Elimination]  id=63a5cf262964a7488f5243ce
      [0] CounterCreator  (val=20 kill=AnyPmc)  id=63a5cf262964a7488f5243d1
          "Eliminate PMC operatives while using an SR-2M with a suppressor and KP-SR2 sight on Streets of Tarkov"
 
-62. Test Drive - Part 3  (chain)   [Elimination]  id=64f5deac39e45b527a7c4232
+61. Test Drive - Part 3  (chain)   [Elimination]  id=64f5deac39e45b527a7c4232
      [0] CounterCreator  (val=20 kill=AnyPmc)  id=64f5deac39e45b527a7c4235
          "Eliminate PMC operatives while using an AK-12 with a suppressor and Valday PS-320 1/6x scope on Lighthouse"
 
-63. Test Drive - Part 4  (chain)   [Elimination]  id=6574e0dedc0d635f633a5805
+62. Test Drive - Part 4  (chain)   [Elimination]  id=6574e0dedc0d635f633a5805
      [0] CounterCreator  (val=30 kill=Any)  id=6574e0dedc0d635f633a5807
          "Eliminate any target while using an RPDN machine gun with 1P78-1 scope on Shoreline"
 
-64. Test Drive - Part 5  (chain)   [Elimination]  id=669fa3a40c828825de06d6a1
+63. Test Drive - Part 5  (chain)   [Elimination]  id=669fa3a40c828825de06d6a1
      [0] CounterCreator  (val=50 kill=Any)  id=66a0f5a7f9eae6761253114c
          "Eliminate any target while using an UZI PRO with 240mm barrel, SBR stock, and BOSS Xe reflex sight on Factory"
 
-65. Test Drive - Part 6  (chain)   [Elimination]  id=675c1ff1a757ddd00404f0aa
+64. Test Drive - Part 6  (chain)   [Elimination]  id=675c1ff1a757ddd00404f0aa
      [0] CounterCreator  (val=50 kill=Any)  id=675c1ff1a757ddd00404f0ae
          "Eliminate any target while using an Aklys Defense Velociraptor on Customs"
 
 ========== THERAPIST ==========
 
-1. Postman Pat - Part 2   [PickUp]  id=596760e186f7741e11214d58
-     [0] HandoverItem  (val=1 item=Letter)  id=5968975586f7740e7266d974
-         "Hand over the letter from Prapor's messenger"
-
-2. Closer to the People   [PickUp]  id=675c04f4db8807b75d0f38e8
+1. Closer to the People   [PickUp]  id=675c04f4db8807b75d0f38e8
      [0] FindItem  (val=1 item=Report)  id=675c04f4db8807b75d0f38eb
          "Locate and obtain the delivery crew's shipment notes on Customs"
      [1] HandoverItem  (val=1 item=Report)  id=675c04f4db8807b75d0f38ec
          "Hand over the found information"
 
-3. Secret Benefactor   [PickUp]  id=67f3ea78c54fde6cc2004855
+2. Secret Benefactor   [PickUp]  id=67f3ea78c54fde6cc2004855
      [0] FindItem  (val=1 item=Notes)  id=67f45f2598742add16d22abf
          "Locate and obtain the new charity recruiters' notes"
      [1] HandoverItem  (val=1 item=Notes)  id=67f45f31e2662881c816ffaf
@@ -459,25 +447,25 @@
      [2] VisitPlace  (val=1 item=1)  id=67ff74183ce253402679842a
          "Scout the Scav checkpoints on Customs, Shoreline or Woods"
 
-4. Out of Curiosity   [PickUp]  id=597a160786f77477531d39d2
+3. Out of Curiosity   [PickUp]  id=597a160786f77477531d39d2
      [0] CounterCreator  (val=1)  id=5a3fc1f286f7744ccc15d643
          "Locate the transport with the chemicals on Customs"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5998366886f77455853b2d9f
          "Mark the vehicle with an MS2000 Marker"
 
-5. The Tarkov Butcher   [PickUp]  id=67a09673972c11a3f507731d
+4. The Tarkov Butcher   [PickUp]  id=67a09673972c11a3f507731d
      [0] FindItem  (val=1 item=Substance)  id=67a0d92a6cf4a5745d0bc94f
          "Locate and obtain the chemical container on Ground Zero"
      [1] LeaveItemAtLocation  (val=1 item=Substance plant=30)  id=67a0d9b0771af75e83c19178
          "Stash the container inside the ambulance car by the cottages on Shoreline"
 
-6. An Alternative   [PickUp]  id=67f3ea873daf3aaf3e0e7ff5
+5. An Alternative   [PickUp]  id=67f3ea873daf3aaf3e0e7ff5
      [0] HandoverItem  (val=5 item=Tushonka/Croutons/… FiR)  id=68022bbf8396a75701b8616e
          "Hand over the found in raid dry food type items"
      [1] HandoverItem  (val=5 item=EWR/Superwater/… FiR)  id=68022c20049c6309cfc34586
          " Hand over the found in raid clean water type items"
 
-7. Supply Plans   [PickUp]  id=596a0e1686f7741ddf17dbee
+6. Supply Plans   [PickUp]  id=596a0e1686f7741ddf17dbee
      [0] FindItem  (val=1 item=0052)  id=596a0e7086f7741ddf17dbef
          "Locate and obtain Secure Folder 0052 in the sawmill cabin on Woods"
      [1] CounterCreator  (val=1)  id=596a0eaf86f774576d4c957f
@@ -485,35 +473,35 @@
      [2] HandoverItem  (val=1 item=0052)  id=596a0e8086f7741ddd6c104c
          "Hand over the folder"
 
-8. All Is Revealed   [Discover]  id=669fa39ee749756c920d02c8
+7. All Is Revealed   [Discover]  id=669fa39ee749756c920d02c8
      [0] FindItem  (val=1 item=Sample)  id=669fb6c859bdae826f7325d4
          "Take a sample of the chemicals from the damaged tank container on Factory"
      [1] HandoverItem  (val=1 item=Sample)  id=66a7eebed6bac3ecc16f7d6b
          "Hand over the collected sample"
 
-9. Operation Aquarius - Part 1  (chain)   [PickUp]  id=59689fbd86f7740d137ebfc4
+8. Operation Aquarius - Part 1  (chain)   [PickUp]  id=59689fbd86f7740d137ebfc4
      [0] CounterCreator  (val=1 1session)  id=5a3fb73b86f77458e0324376
          "Locate the water stockpile hidden inside one of the dorm rooms on Customs"
      [1] CounterCreator  (val=1 1session)  id=5968a06486f7740d14064728
          "Survive and extract from the location"
 
-10. Operation Aquarius - Part 2  (chain)   [Elimination]  id=5968eb3186f7741dde183a4d
+9. Operation Aquarius - Part 2  (chain)   [Elimination]  id=5968eb3186f7741dde183a4d
      [0] CounterCreator  (val=15 kill=Savage)  id=5968eb9b86f7741ddb481543
          "Eliminate Scavs on Customs"
 
-11. First in Line   [PickUp]  id=657315ddab5a49b71f098853
+10. First in Line   [PickUp]  id=657315ddab5a49b71f098853
      [0] CounterCreator  (val=1)  id=65732ac3c67dcd96adffa3c7
          "Locate the Emercom station on Ground Zero"
      [1] HandoverItem  (val=3 item=Augmentin/GoldenStar/… FiR)  id=65817bf31404f3565aef9fec
          "Hand over any found in raid medicine items"
 
-12. General Wares   [Completion]  id=596a1e6c86f7741ddc2d3206
+11. General Wares   [Completion]  id=596a1e6c86f7741ddc2d3206
      [0] FindItem  (val=15 item=Tushonka FiR)  id=596a1f0486f77456630ea4d2
          "Find Cans of beef stew (Small) in raid"
      [1] HandoverItem  (val=15 item=Tushonka FiR)  id=596a1f1586f77420d2328077
          "Hand over the cans"
 
-13. Pharmacist   [PickUp]  id=5969f9e986f7741dde183a50
+12. Pharmacist   [PickUp]  id=5969f9e986f7741dde183a50
      [0] FindItem  (val=1 item=Case)  id=5969fa4886f7741ddb481544
          "Locate and obtain the suitcase with the device on Customs"
      [1] HandoverItem  (val=1 item=Case)  id=5969fa8986f7741ddc2d3154
@@ -523,13 +511,13 @@
      [3] CounterCreator  (val=1)  id=5a3fb92286f77422b46cdb18
          "Find a way inside the two-story dorm room 114 on Customs"
 
-14. Population Census   [Completion]  id=639135d89444fb141f4e6eea
+13. Population Census   [Completion]  id=639135d89444fb141f4e6eea
      [0] FindItem  (val=1 item=Journal)  id=639135d89444fb141f4e6eeb
          "Obtain the journal containing resident details on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=Journal)  id=639135d89444fb141f4e6eec
          "Hand over the journal"
 
-15. Car Repair   [PickUp]  id=596a218586f77420d232807c
+14. Car Repair   [PickUp]  id=596a218586f77420d232807c
      [0] FindItem  (val=4 item=Car battery FiR)  id=596b46d886f77457ca186189
          "Find Car batteries in raid"
      [1] FindItem  (val=8 item=SPlug FiR)  id=596b46ec86f77457c7006f89
@@ -539,7 +527,7 @@
      [3] HandoverItem  (val=8 item=SPlug FiR)  id=596b472686f77457c7006f8a
          "Hand over the spark plugs"
 
-16. Abandoned Cargo   [Exploration]  id=675c03d1f7da9792a405549a
+15. Abandoned Cargo   [Exploration]  id=675c03d1f7da9792a405549a
      [0] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=675c0444db2b69f48942f37c
          "Locate and mark the first special TerraGroup cargo with an MS2000 Marker on Customs"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=675c04497439eaed82b6dfeb
@@ -555,43 +543,43 @@
      [6] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=675c3fdd5af984e99db7b4e1
          "Locate and mark the seventh special TerraGroup cargo with an MS2000 Marker on Customs"
 
-17. Shortage   [PickUp]  id=5967733e86f774602332fc84
+16. Shortage   [PickUp]  id=5967733e86f774602332fc84
      [0] FindItem  (val=3 item=Salewa FiR)  id=5968edc086f77420d2328014
          "Find Salewa first aid kits in raid"
      [1] HandoverItem  (val=3 item=Salewa FiR)  id=59689eb886f7740d137ebfc3
          "Hand over the items"
 
-18. Sanitary Standards - Part 1  (chain)   [PickUp]  id=59689ee586f7740d1570bbd5
+17. Sanitary Standards - Part 1  (chain)   [PickUp]  id=59689ee586f7740d1570bbd5
      [0] FindItem  (val=1 item=GasAn FiR)  id=5cb6f32986f7746ef55e17a0
          "Find a Gas analyzer in raid"
      [1] HandoverItem  (val=1 item=GasAn FiR)  id=59689f7586f7740d14064726
          "Hand over the items"
 
-19. Sanitary Standards - Part 2  (chain)   [Completion]  id=596a204686f774576d4c95de
+18. Sanitary Standards - Part 2  (chain)   [Completion]  id=596a204686f774576d4c95de
      [0] FindItem  (val=2 item=GasAn FiR)  id=5ec1398886f7561e047757a5
          "Find Gas analyzers in raid"
      [1] HandoverItem  (val=2 item=GasAn FiR)  id=596a20ac86f7741ddf17dbf4
          "Hand over the items"
 
-20. Lost Contact   [Exploration]  id=6179afd0bca27a099552e040
+19. Lost Contact   [Exploration]  id=6179afd0bca27a099552e040
      [0] CounterCreator  (val=1 1session)  id=63ac0c99f83fd608393890bf
          "Find the lost group in the chalet area on Lighthouse"
      [1] CounterCreator  (val=1 1session)  id=6190464d74169a76c90aa230
          "Survive and extract from the location"
 
-21. Seaside Vacation   [PickUp]  id=6179ad56c760af5ad2053587
+20. Seaside Vacation   [PickUp]  id=6179ad56c760af5ad2053587
      [0] FindItem  (val=1 item=Toughbook)  id=617bf2a6f8e6c97ec70878b7
          "Find the informant's briefcase on Lighthouse"
      [1] HandoverItem  (val=1 item=Toughbook)  id=617bf29a52e86c73d372a917
          "Hand over the found package"
 
-22. Painkiller   [PickUp]  id=5969f90786f77420d2328015
+21. Painkiller   [PickUp]  id=5969f90786f77420d2328015
      [0] FindItem  (val=4 item=Morphine FiR)  id=5969f98286f774576d4c9542
          "Find Morphine injectors in raid"
      [1] HandoverItem  (val=4 item=Morphine FiR)  id=5969f99286f77456630ea442
          "Hand over the injectors"
 
-23. Thirsty - Echo  (chain)   [PickUp]  id=665eeca45d86b6c8aa03c79d
+22. Thirsty - Echo  (chain)   [PickUp]  id=665eeca45d86b6c8aa03c79d
      [0] CounterCreator  (val=1)  id=6660785fc37356435d193ae4
          "Locate any information about Thirsty on Shoreline"
      [1] FindItem  (val=1 item=Diary)  id=66607896f2ea02201517c203
@@ -599,7 +587,7 @@
      [2] HandoverItem  (val=1 item=Diary)  id=666078bee6ed30ab2294f593
          "Hand over the found information"
 
-24. Thirsty - Secrets  (chain)   [PickUp]  id=665eeca92f7aedcc900b0437
+23. Thirsty - Secrets  (chain)   [PickUp]  id=665eeca92f7aedcc900b0437
      [0] HandoverItem  (val=2 item=Adrenaline FiR)  id=6661a28be2cdba6a469447c7
          "Hand over the found in raid item: Adrenaline injector"
      [1] HandoverItem  (val=4 item=Vitamins FiR)  id=6661a2ae387c59056c822add
@@ -607,11 +595,11 @@
      [2] HandoverItem  (val=3 item=NaCl FiR)  id=6661a2bf4846fd2b6ba30f90
          "Hand over the found in raid item: Bottle of saline solution"
 
-25. Dangerous Road   [Exploration]  id=63ab180c87413d64ae0ac20a
+24. Dangerous Road   [Exploration]  id=63ab180c87413d64ae0ac20a
      [0] CounterCreator  (val=1)  id=63ab184ff627f540861d1185
          "Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex"
 
-26. Health Care Privacy - Part 1  (chain)   [Discover]  id=5a68661a86f774500f48afb0
+25. Health Care Privacy - Part 1  (chain)   [Discover]  id=5a68661a86f774500f48afb0
      [0] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5a6873bc86f7741f8d4589a3
          "Locate and mark the first ambulance with an MS2000 Marker on Shoreline"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5a6873d786f7743ad1151d6e
@@ -619,7 +607,7 @@
      [2] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=5a6873ec86f7743cc55d8622
          "Locate and mark the third ambulance with an MS2000 Marker on Shoreline"
 
-27. Health Care Privacy - Part 2  (chain)   [Discover]  id=5a68663e86f774501078f78a
+26. Health Care Privacy - Part 2  (chain)   [Discover]  id=5a68663e86f774501078f78a
      [0] FindItem  (val=1 item=0060)  id=5a68760f86f7743cc55d8709
          "Locate and obtain any info about TerraGroup's research in Health Resort west wing on Shoreline"
      [1] HandoverItem  (val=1 item=0060)  id=5a68763786f77474c33a40a1
@@ -627,7 +615,7 @@
      [2] CounterCreator  (val=1)  id=5a68764c86f77474c4269f3c
          "Survive and extract from the location"
 
-28. Health Care Privacy - Part 3  (chain)   [Discover]  id=5a68665c86f774255929b4c7
+27. Health Care Privacy - Part 3  (chain)   [Discover]  id=5a68665c86f774255929b4c7
      [0] CounterCreator  (val=1)  id=5a68770f86f774747d4b0d8b
          "Locate the van of the Health Resort medical services director on Woods"
      [1] FindItem  (val=1 item=BSample)  id=5a68776786f774759f1f55f6
@@ -637,23 +625,23 @@
      [3] CounterCreator  (val=1)  id=5a68778c86f77423391f38f0
          "Survive and extract from the location"
 
-29. Health Care Privacy - Part 4  (chain)   [Skill]  id=5a68667486f7742607157d28
+28. Health Care Privacy - Part 4  (chain)   [Skill]  id=5a68667486f7742607157d28
      [0] Skill  (val=4 item=Health)  id=5a6878e886f7745e65687985
          "Reach the required Health skill level"
 
-30. Health Care Privacy - Part 5  (chain)   [Multi]  id=5a68669a86f774255929b4d4
+29. Health Care Privacy - Part 5  (chain)   [Multi]  id=5a68669a86f774255929b4d4
      [0] CounterCreator  (val=1)  id=5a6879be86f774284429b1bb
          "Locate the drop spot on night-time Factory"
      [1] LeaveItemAtLocation  (val=3 item=Kite plant=30)  id=5a687a1c86f7745f2152168c
          "Obtain 3 packs of Gunpowder "Kite" and stash them in the designated spot"
 
-31. Health Care Privacy - Part 6  (chain)   [Discover]  id=669fa3a3ad7f1eac2607ed48
+30. Health Care Privacy - Part 6  (chain)   [Discover]  id=669fa3a3ad7f1eac2607ed48
      [0] FindItem  (val=1 item=Sample)  id=66a0f391676953651bd8b796
          "Locate the dead worker and take their blood sample on Factory"
      [1] HandoverItem  (val=1 item=Sample)  id=66a0f37f04fb80a0bfdbaf60
          "Hand over the blood sample"
 
-32. Private Clinic  (chain)   [Completion]  id=5c0be5fc86f774467a116593
+31. Private Clinic  (chain)   [Completion]  id=5c0be5fc86f774467a116593
      [0] FindItem  (val=1 item=OScope FiR)  id=5fd892bc37b6e511a4734969
          "Find an Ophthalmoscope in raid"
      [1] FindItem  (val=1 item=LEDX FiR)  id=5fd8935b7dd32f724e0fe7ee
@@ -663,7 +651,7 @@
      [3] HandoverItem  (val=1 item=LEDX FiR)  id=5c0be69086f7743c9c1ecf43
          "Hand over the LEDX Skin Transilluminator"
 
-33. Disease History   [Completion]  id=60896e28e4a85c72ef3fa301
+32. Disease History   [Completion]  id=60896e28e4a85c72ef3fa301
      [0] FindItem  (val=1 item=Journal #1)  id=6091698a30bb620b3239874c
          "Obtain Medical record #1 on Reserve"
      [1] FindItem  (val=1 item=Journal #2)  id=60ae12ffb809a474875907aa
@@ -673,7 +661,7 @@
      [3] HandoverItem  (val=1 item=Journal #2)  id=60ae134cabb9675f0062cf6e
          "Hand over the second journal"
 
-34. Colleagues - Part 1  (chain)   [Discover]  id=5edab736cc183c769d778bc2
+33. Colleagues - Part 1  (chain)   [Discover]  id=5edab736cc183c769d778bc2
      [0] CounterCreator  (val=1 1session)  id=5edab7d3cc183c769d778bc5
          "Locate the group that was sent to the Health Resort on Shoreline"
      [1] CounterCreator  (val=1 1session)  id=5edab8890880da21347b3826
@@ -683,7 +671,7 @@
      [3] CounterCreator  (val=1 1session)  id=5f03969a51823847c253afa0
          "Survive and extract from the location"
 
-35. Colleagues - Part 2  (chain)   [PickUp]  id=5edaba7c0c502106f869bc02
+34. Colleagues - Part 2  (chain)   [PickUp]  id=5edaba7c0c502106f869bc02
      [0] FindItem  (val=1 item=Surgical set)  id=5edabb0b0c502106f869bc03
          "Locate and obtain Sanitar's surgery kit marked with a blue symbol on Shoreline"
      [1] HandoverItem  (val=1 item=Surgical set)  id=5edabb950c502106f869bc04
@@ -693,7 +681,7 @@
      [3] HandoverItem  (val=1 item=OScope)  id=5edabc2ca0055865214cb5a6
          "Hand over Sanitar's ophthalmoscope"
 
-36. Colleagues - Part 3  (chain)   [PickUp]  id=5edac34d0bb72a50635c2bfa
+35. Colleagues - Part 3  (chain)   [PickUp]  id=5edac34d0bb72a50635c2bfa
      [0] Quest  (item=5edac34d0bb72a50635c2bfa)  id=5f046f9825b2ad51bd275800
          "Do not kill Sanitar"
      [1] FindItem  (val=10 item=Access FiR)  id=5f07025e27cec53d5d24fe25
@@ -709,19 +697,19 @@
      [6] HandoverItem  (val=1 item=3-(b-TG) FiR)  id=5f0495b8efefac7f7227de63
          "Hand over the injector"
 
-37. Drug Trafficking   [PickUp]  id=626bd75b05f287031503c7f6
+36. Drug Trafficking   [PickUp]  id=626bd75b05f287031503c7f6
      [0] CounterCreator  (val=1)  id=63ac210b1287ef0b827d0cb8
          "Locate the hidden drug lab on Lighthouse"
      [1] LeaveItemAtLocation  (val=1 item=Camera plant=10)  id=626c3010a371ee3a7a3514cb
          "Stash a WI-FI Camera in the drug lab"
 
-38. Shipment Tracking   [PickUp]  id=675c047fa46173572a0bd878
+37. Shipment Tracking   [PickUp]  id=675c047fa46173572a0bd878
      [0] FindItem  (val=1 item=Documents)  id=675c04b3fc6b273a36ed294a
          "Locate and obtain the TerraGroup shipment lists on Customs"
      [1] HandoverItem  (val=1 item=Documents)  id=675c04c1b68cc8180efb38c6
          "Hand over the found information"
 
-39. Urban Medicine   [Completion]  id=639135e0fa894f0a866afde6
+38. Urban Medicine   [Completion]  id=639135e0fa894f0a866afde6
      [0] CounterCreator  (val=1)  id=63a7d64710b7a13eb015961f
          "Locate the chemical laboratory on Streets of Tarkov"
      [1] FindItem  (val=1 item=Chemcont)  id=639135e0fa894f0a866afde7
@@ -729,7 +717,7 @@
      [2] HandoverItem  (val=1 item=Chemcont)  id=639135e0fa894f0a866afde8
          "Hand over the container"
 
-40. Ambulances Again   [Completion]  id=64f3176921045e77405d63b5
+39. Ambulances Again   [Completion]  id=64f3176921045e77405d63b5
      [0] FindItem  (val=1 item=GPX)  id=64f3176921045e77405d63ba
          "Locate and obtain the ambulance paramedic's smartphone on Streets of Tarkov"
      [1] CounterCreator  (val=1)  id=64f4fdfa67e11a7c6206de72
@@ -737,7 +725,7 @@
      [2] HandoverItem  (val=1 item=GPX)  id=64f3176921045e77405d63bb
          "Hand over the smartphone"
 
-41. Pets Wont Need It - Part 1  (chain)   [Exploration]  id=64f731ab83cfca080a361e42
+40. Pets Wont Need It - Part 1  (chain)   [Exploration]  id=64f731ab83cfca080a361e42
      [0] CounterCreator  (val=1 1session)  id=64f731fa39e45b527a7c4300
          "Locate and scout the vet clinic on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=64f732240e186112c4455d84
@@ -745,7 +733,7 @@
      [2] CounterCreator  (val=1 1session)  id=64f7325739e45b527a7c4302
          "Survive and extract from the location"
 
-42. Pets Wont Need It - Part 2  (chain)   [Discover]  id=6573387d0b26ed4fde798de3
+41. Pets Wont Need It - Part 2  (chain)   [Discover]  id=6573387d0b26ed4fde798de3
      [0] CounterCreator  (val=1 1session)  id=6573387d0b26ed4fde798de4
          "Locate the first pharmacy on Primorsky Ave on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=657338ded9b444e1fb07b1a8
@@ -755,17 +743,17 @@
      [3] CounterCreator  (val=1 1session)  id=658009db6b313a8a4ed58851
          "Survive and extract from the location"
 
-43. Quality Standard   [PickUp]  id=666314b696a9349baa021bac
+42. Quality Standard   [PickUp]  id=666314b696a9349baa021bac
      [0] FindItem  (val=1 item=LEDX US)  id=6672e47f25ab92726912c3e5
          "Locate and obtain the special version of the LEDX Skin Transilluminator in The Lab"
      [1] HandoverItem  (val=1 item=LEDX US)  id=6672e49679243c500ec02c2e
          "Hand over the found item"
 
-44. Decontamination Service   [Elimination]  id=5c0d1c4cd0928202a02a6f5c
+43. Decontamination Service   [Elimination]  id=5c0d1c4cd0928202a02a6f5c
      [0] CounterCreator  (val=40 kill=Savage)  id=5c1b778286f774294438b536
          "Eliminate Scavs from less than 60 meters away while wearing a gas mask or respirator on Interchange"
 
-45. This Tape Sucks   [Exploration]  id=67a0972e77dd677f600804bd
+44. This Tape Sucks   [Exploration]  id=67a0972e77dd677f600804bd
      [0] CounterCreator  (val=1)  id=67a0de6954c67082e9148328
          "Locate the torture room inside The Labyrinth"
      [1] FindItem  (val=1 item=Slaughter)  id=67a0de84e8e35296a13500c8
@@ -773,7 +761,7 @@
      [2] HandoverItem  (val=1 item=Slaughter)  id=67a0de9190545ec5612fdda5
          "Hand over the found information"
 
-46. Beneath The Streets   [Discover]  id=66aba85403e0ee3101042877
+45. Beneath The Streets   [Discover]  id=66aba85403e0ee3101042877
      [0] CounterCreator  (val=1 1session)  id=66aba85403e0ee3101042878
          "Locate the passage leading to The Lab on Streets of Tarkov (In one raid)"
      [1] CounterCreator  (val=1 1session)  id=66aba85403e0ee310104287a
@@ -787,7 +775,7 @@
      [5] CounterCreator  (val=1 1session)  id=66aba97b1000025218c82ea8
          "Locate the passage leading to Streets of Tarkov in The Lab (In one raid)"
 
-47. Crisis   [PickUp]  id=60e71c48c1bfa3050473b8e5
+46. Crisis   [PickUp]  id=60e71c48c1bfa3050473b8e5
      [0] FindItem  (val=3 item=Defib FiR)  id=60e8658571035f300c301ac6
          "Find Portable defibrillators in raid"
      [1] FindItem  (val=3 item=OScope FiR)  id=60e865a60cef122b414a156a
@@ -1035,19 +1023,13 @@
      [0] CounterCreator  (val=8 kill=Savage)  id=6193dabd5f6468204470571f
          "Eliminate Scavs along the shore and the main road on Lighthouse"
 
-33. Indisputable Authority   [Elimination]  id=67a097379f2068e74603c6ac
-     [0] CounterCreator  (val=1 kill=bossTagillaAgro)  id=67a0df619fb6c42b9a08e8e9
-         "Locate and neutralize the "Minotaur" inside The Labyrinth"
-     [1] CounterCreator  (val=6 kill=tagillaHelperAgro/bossKillaAgro)  id=67a0df7f2cd4d4413cd29b45
-         "Eliminate the "Minotaur's" guards inside The Labyrinth"
-
-34. Staff Shortage   [Elimination]  id=67f3eab9a33cd296b20ee695
+33. Staff Shortage   [Elimination]  id=67f3eab9a33cd296b20ee695
      [0] CounterCreator  (val=1 kill=bossPartisan)  id=67f71386222d15f53e5be7ee
          "Locate and neutralize Partisan"
      [1] CounterCreator  (val=10 kill=AnyPmc)  id=67f7142fa9a0ae3401ddb94c
          "Eliminate PMC operatives"
 
-35. Lend-Lease - Part 1   [PickUp]  id=5b4794cb86f774598100d5d4
+34. Lend-Lease - Part 1   [PickUp]  id=5b4794cb86f774598100d5d4
      [0] FindItem  (val=1 item=Controller #1)  id=66d078aadf338e6c13578080
          "Obtain the first motor controller on Woods"
      [1] HandoverItem  (val=1 item=Controller #1)  id=66d07de6c7ef9040fff0b789
@@ -1069,13 +1051,13 @@
      [9] HandoverItem  (val=1 item=FOG #2)  id=5b4c7aec86f77459732b4b08
          "Hand over the second gyroscope"
 
-36. House Arrest - Part 1  (chain)   [Completion]  id=639135c3744e452011470807
+35. House Arrest - Part 1  (chain)   [Completion]  id=639135c3744e452011470807
      [0] CounterCreator  (val=1 1session)  id=63a7d767f32fa1316250c3da
          "Locate where the missing group was held captive on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=63972c5d61b7754ff93bf3ba
          "Survive and extract from the location"
 
-37. House Arrest - Part 2  (chain)   [Completion]  id=639135cd8ba6894d155e77cb
+36. House Arrest - Part 2  (chain)   [Completion]  id=639135cd8ba6894d155e77cb
      [0] CounterCreator  (val=1 1session)  id=63a7dbc31943b749b5021ec3
          "Locate the improvised jail warden's apartment on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=63a7dbefee7b4d0d5507baf8
@@ -1083,7 +1065,7 @@
      [2] CounterCreator  (val=1 1session)  id=63972db222ea23711e21aaaa
          "Survive and extract from the location"
 
-38. A Life Lesson  (chain)   [PickUp]  id=67af4c1cc0e59d55e2010b97
+37. A Life Lesson  (chain)   [PickUp]  id=67af4c1cc0e59d55e2010b97
      [0] HandoverItem  (val=8 item=Vodka)  id=67af71c90036a462a17a72d3
          "Hand over the item: Bottle of Tarkovskaya vodka"
      [1] HandoverItem  (val=15 item=Whiskey)  id=67af71d6a6e77337205f5bfe
@@ -1091,13 +1073,13 @@
      [2] HandoverItem  (val=15 item=Moonshine)  id=67af71f19ce81d8ebb21530f
          "Hand over the item: Bottle of Fierce Hatchling moonshine"
 
-39. No Swiping   [Elimination]  id=658027799634223183395339
+38. No Swiping   [Elimination]  id=658027799634223183395339
      [0] CounterCreator  (val=1)  id=65802779963422318339533a
          "Locate the smugglers' base on Shoreline"
      [1] CounterCreator  (val=25 kill=Any)  id=65802779963422318339533c
          "Eliminate any target in the base area"
 
-40. Chumming   [Completion]  id=5b4795fb86f7745876267770
+39. Chumming   [Completion]  id=5b4795fb86f7745876267770
      [0] LeaveItemAtLocation  (val=3 item=GoldChain plant=20)  id=5b47968e86f7745877352c28
          "Stash Golden neck chains under the mattress next to BTR-82A in Generic Store on Interchange"
      [1] LeaveItemAtLocation  (val=3 item=GoldChain plant=20)  id=5b4796c086f7745877352c2c
@@ -1107,13 +1089,13 @@
      [3] CounterCreator  (val=5 kill=AnyPmc)  id=5c923d3d86f774556e08d7a5
          "Eliminate PMC operatives in the time period of 22:00-10:00 on Interchange"
 
-41. Silent Caliber   [Elimination]  id=5c0bc91486f7746ab41857a2
+40. Silent Caliber   [Elimination]  id=5c0bc91486f7746ab41857a2
      [0] CounterCreator  (val=20 kill=Savage)  id=5c0bc95086f7746e784f39ec
          "Eliminate Scavs while using a suppressed 12ga shotgun"
      [1] CounterCreator  (val=10 kill=AnyPmc)  id=5c0bcc9c86f7746fe16dbba9
          "Eliminate PMC operatives while using a suppressed 12ga shotgun"
 
-42. Bullshit   [Discover]  id=5c0bbaa886f7746941031d82
+41. Bullshit   [Discover]  id=5c0bbaa886f7746941031d82
      [0] FindItem  (val=1 item=Bullshit)  id=5c50481c86f77410650e0521
          "Locate and obtain the false flash drive at the specified spot on Customs"
      [1] LeaveItemAtLocation  (val=1 item=SV-98 plant=15)  id=5c0bc32986f7743e4d1002d2
@@ -1123,37 +1105,33 @@
      [3] LeaveItemAtLocation  (val=1 item=Bullshit plant=15)  id=5c12320586f77437e44bcb15
          "Stash the false flash drive in the trash next to stairs on the 3rd floor of the dorm on Customs"
 
-43. Debtor   [Completion]  id=639dbaf17c898a131e1cffff
+42. Debtor   [Completion]  id=639dbaf17c898a131e1cffff
      [0] CounterCreator  (val=1 1session)  id=63a7cd3aee7b4d0d5507baee
          "Find the debtor on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=639dbba35b759c65a3476549
          "Survive and extract from the location"
 
-44. Setup   [Elimination]  id=5c1234c286f77406fa13baeb
+43. Setup   [Elimination]  id=5c1234c286f77406fa13baeb
      [0] CounterCreator  (val=8 kill=AnyPmc)  id=5c1fa9c986f7740de474cb3d
          "Eliminate PMC operatives while wearing the specified gear on Customs"
 
-45. Key Partner   [Merchant]  id=6746053b5b555b53460d9896
-     [0] SellItemToTrader  (val=75 item=SOIC/AEM/…)  id=675197664e610fc2b88e0bf3
-         "Sell any items to Peacekeeper"
-
-46. Beyond the Red Meat - Part 1  (chain)   [Completion]  id=64f5e20652fc01298e2c61e3
+44. Beyond the Red Meat - Part 1  (chain)   [Completion]  id=64f5e20652fc01298e2c61e3
      [0] FindItem  (val=1 item=Diary)  id=64f6a9e6dd44b6417729b535
          "Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=Diary)  id=64f6aa6cdd44b6417729b536
          "Hand over the found data"
 
-47. Beyond the Red Meat - Part 2  (chain)   [Completion]  id=64f6aafd67e11a7c6206e0d0
+45. Beyond the Red Meat - Part 2  (chain)   [Completion]  id=64f6aafd67e11a7c6206e0d0
      [0] FindItem  (val=1 item=Vial)  id=64f6aafd67e11a7c6206e0d1
          "Locate and obtain the secret ingredient at the TerraGroup office on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=Vial)  id=64f6aafd67e11a7c6206e0d2
          "Hand over the chemical additive"
 
-48. Dangerous Props   [Exploration]  id=671a59e43d73dac1360765cc
+46. Dangerous Props   [Exploration]  id=671a59e43d73dac1360765cc
      [0] CounterCreator  (val=20 kill=Any)  id=671ac68e30609eb2c7e9a7f7
          "Eliminate any target while using the MPS Auto Assault-12 shotgun"
 
-49. Route Deviation   [Discover]  id=674600a366e6a521aa05eb66
+47. Route Deviation   [Discover]  id=674600a366e6a521aa05eb66
      [0] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=67460118d3498f1b35e0a025
          "Mark the Collapsed Crane BTR stop with an MS2000 Marker on Streets of Tarkov"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=6746011dfd1dc9d0f502e55d
@@ -1167,7 +1145,7 @@
      [5] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=6746012d871e69a9abb5873d
          "Mark the Rodina Cinema BTR stop with an MS2000 Marker on Streets of Tarkov"
 
-50. Pyramid Scheme   [Discover]  id=6572e876dc0d635f633a5714
+48. Pyramid Scheme   [Discover]  id=6572e876dc0d635f633a5714
      [0] CounterCreator  (val=1)  id=6573057d66de94c756a60472
          "Locate the first ATM on Nizhnaya Sadovaya Street on Streets of Tarkov"
      [1] CounterCreator  (val=1)  id=65730580123b33fa7bb1a9fc
@@ -1199,7 +1177,7 @@
      [14] CounterCreator  (val=1)  id=6573059ace022903ee1e6b11
          "Locate the ATM at the expo on Streets of Tarkov"
 
-51. Choose Your Friends Wisely   [Multi]  id=67460662d0fbbc74ca0f7229
+49. Choose Your Friends Wisely   [Multi]  id=67460662d0fbbc74ca0f7229
      [0] CounterCreator  (val=1 1session)  id=674606bac840f707bea6242f
          "Use the transit from Customs to Reserve"
      [1] CounterCreator  (val=1 1session)  id=674606ccff406a9f6a28e26f
@@ -1211,21 +1189,27 @@
      [4] CounterCreator  (val=5 kill=AnyPmc 1session)  id=674607317781508c405fb979
          "Eliminate PMC operatives while completing the other objectives"
 
-52. Night Sweep   [PickUp]  id=60e71c11d54b755a3b53eb65
+50. Night Sweep   [PickUp]  id=60e71c11d54b755a3b53eb65
      [0] FindItem  (val=12 item=Knife FiR)  id=60e82c12fd1bf4491c4e4547
          "Find the unusual knives in raid"
      [1] HandoverItem  (val=12 item=Knife FiR)  id=60e82c5926b88043510e0ad7
          "Hand over the knives"
 
-53. Connections Up North   [Elimination]  id=6764174c86addd02bc033d68
+51. Connections Up North   [Elimination]  id=6764174c86addd02bc033d68
      [0] CounterCreator  (val=50 kill=AnyPmc)  id=676418a60b9bcbe280972288
          "Eliminate PMC operatives from over 40 meters away while using a bolt-action rifle with night or thermal scope"
 
-54. Consolation Prize   [Exploration]  id=67af4c1d8c9482eca103e477
+52. Consolation Prize   [Exploration]  id=67af4c1d8c9482eca103e477
      [0] CounterCreator  (val=15)  id=67af727750e1b6f21d9f5511
          "Survive and extract from The Lab"
      [1] CounterCreator  (val=100 kill=pmcBot)  id=67af730c69887224a61084ac
          "Eliminate Raiders in The Lab"
+
+53. Indisputable Authority   [Elimination]  id=67a097379f2068e74603c6ac
+     [0] CounterCreator  (val=1 kill=bossTagillaAgro)  id=67a0df619fb6c42b9a08e8e9
+         "Locate and neutralize the "Minotaur" inside The Labyrinth"
+     [1] CounterCreator  (val=6 kill=tagillaHelperAgro/bossKillaAgro)  id=67a0df7f2cd4d4413cd29b45
+         "Eliminate the "Minotaur's" guards inside The Labyrinth"
 
 ========== PEACEKEEPER ==========
 
@@ -1659,13 +1643,7 @@
      [2] HandoverItem  (val=1 item=Encr. info)  id=5d249aa286f77475e8376399
          "Hand over the message"
 
-3. Hypotheses Testing   [PickUp]  id=67a0970f05d1611ed90be75d
-     [0] CounterCreator  (val=1)  id=67dbe16ece16a02860ed9d33
-         "Locate the lab area with the prototype weapon inside The Labyrinth"
-     [1] HandoverItem  (val=5 item=Labrys FiR)  id=67a0dcf4ff6f74931359b9f9
-         "Hand over the found in raid item: Labrys research notes"
-
-4. Needle in a Haystack   [Exploration]  id=67a0964e972c11a3f507731b
+3. Needle in a Haystack   [Exploration]  id=67a0964e972c11a3f507731b
      [0] CounterCreator  (val=1)  id=67a0bc81fcbc1c559d09b58f
          "Investigate the courtyard park by TerraGroup HQ on Ground Zero"
      [1] CounterCreator  (val=1)  id=67a0bc83182c4b0c71edd0ce
@@ -1679,7 +1657,7 @@
      [5] CounterCreator  (val=1)  id=67a0bc8ab12fe4b1baa60e4c
          "Investigate the children's playground by the Health Resort on Shoreline"
 
-5. Shady Contractor   [PickUp]  id=67a09636b8725511260bc421
+4. Shady Contractor   [PickUp]  id=67a09636b8725511260bc421
      [0] CounterCreator  (val=1)  id=67a0a91f4681b4e43d13892b
          "Locate the Knossos LLC senior manager's car on Ground Zero"
      [1] FindItem  (val=1 item=Knossos)  id=67a0ab610345d81cb3cbb24c
@@ -1687,7 +1665,7 @@
      [2] HandoverItem  (val=1 item=Knossos)  id=67a0ab83359e2d00cf9d6b06
          "Hand over the diary"
 
-6. Friend from Norvinsk - Part 1  (chain)   [Exploration]  id=6863cf925eaeb676d50a9651
+5. Friend from Norvinsk - Part 1  (chain)   [Exploration]  id=6863cf925eaeb676d50a9651
      [0] CounterCreator  (val=1)  id=6863d3483b99c746b7d4edf9
          "Scout the command bunker offices on Reserve"
      [1] CounterCreator  (val=1)  id=6863d36f469fe5d17ca13f26
@@ -1697,13 +1675,13 @@
      [3] CounterCreator  (val=1)  id=6863d38fa49de200bca14224
          "Survive and extract from the location"
 
-7. Friend from Norvinsk - Part 2  (chain)   [PickUp]  id=6863d9bcd3bfdcb2bc075956
+6. Friend from Norvinsk - Part 2  (chain)   [PickUp]  id=6863d9bcd3bfdcb2bc075956
      [0] FindItem  (val=1 item=Phone)  id=6863e054c8f163e8b4bca826
          "Locate and obtain anything that could help with the investigation at the Health Resort on Shoreline"
      [1] HandoverItem  (val=1 item=Phone)  id=6863e060345c735419ff5b8c
          "Hand over the found info"
 
-8. Friend from Norvinsk - Part 3  (chain)   [Elimination]  id=6863e09a5f4d17fd3e01feee
+7. Friend from Norvinsk - Part 3  (chain)   [Elimination]  id=6863e09a5f4d17fd3e01feee
      [0] CounterCreator  (val=15 kill=Savage)  id=6863e0ddcc3c166557cafb02
          "Eliminate Scavs"
      [1] FindItem  (val=1 item=Map)  id=6864032814ff9de0dac01d6e
@@ -1713,7 +1691,7 @@
      [3] HandoverItem  (val=1 item=Diary)  id=686403674743ebae0e0e5441
          "Hand over the found item"
 
-9. Friend from Norvinsk - Part 4  (chain)   [PickUp]  id=686403eeb4aaef121c0f0f06
+8. Friend from Norvinsk - Part 4  (chain)   [PickUp]  id=686403eeb4aaef121c0f0f06
      [0] HandoverItem  (val=2 item=CPU FiR)  id=686404255d33a395fc466b61
          "Hand over the found in raid item: PC CPU"
      [1] HandoverItem  (val=4 item=RAM FiR)  id=6864043476d267246cfce5b3
@@ -1721,7 +1699,7 @@
      [2] HandoverItem  (val=3 item=PCB/MB FiR)  id=6864044a289d4d4c5f337cf8
          "Hand over the found in raid item: Printed circuit board or Microcontroller board"
 
-10. Friend from Norvinsk - Part 5  (chain)   [PickUp]  id=686404d348e7bb4146002cac
+9. Friend from Norvinsk - Part 5  (chain)   [PickUp]  id=686404d348e7bb4146002cac
      [0] HandoverItem  (val=1 item=Disk)  id=686407a72737deb604314e16
          "Figure out the cipher and hand over the found item"
      [1] CounterCreator  (val=1)  id=686407ff1250f86c92d09ad7
@@ -1729,7 +1707,7 @@
      [2] LeaveItemAtLocation  (val=1 item=Letter plant=5)  id=68640823f018e0b92ac8d368
          "Stash the copy of the diary in the specified location"
 
-11. Steady Signal   [Discover]  id=6578ec473dbd035d04531a8d
+10. Steady Signal   [Discover]  id=6578ec473dbd035d04531a8d
      [0] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=6578ec473dbd035d04531a92
          "Mark the first weather station with an MS2000 Marker on Woods"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=6578ec473dbd035d04531a93
@@ -1741,123 +1719,123 @@
      [4] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=6578ed7792685671c65edf07
          "Mark the fifth weather station with an MS2000 Marker on Woods"
 
-12. Airmail   [Completion]  id=666314b8312343839d032d24
+11. Airmail   [Completion]  id=666314b8312343839d032d24
      [0] CounterCreator  (val=1)  id=6672edebec0c3e2ad7d4e489
          "Launch a red signal flare at the old sawmill on Woods"
 
-13. Passion for Ergonomics   [PickUp]  id=675c1570526ff496850895d9
+12. Passion for Ergonomics   [PickUp]  id=675c1570526ff496850895d9
      [0] FindItem  (val=1 item=Upgraded tools)  id=675c15916580a378dc0f012f
          "Locate and obtain the customized tool set at the garage complex on Customs"
      [1] HandoverItem  (val=1 item=Upgraded tools)  id=675c1595a4c063af74ee5279
          "Hand over the found item"
 
-14. Gunsmith - Part 1  (chain)   [WeaponAssembly]  id=5ac23c6186f7741247042bad
+13. Gunsmith - Part 1  (chain)   [WeaponAssembly]  id=5ac23c6186f7741247042bad
      [0] WeaponAssembly  (val=1 item=MP-133)  id=5accd5e386f77463027e9397
          "Modify an MP-133 to comply with the given specifications"
 
-15. Gunsmith - Part 2  (chain)   [WeaponAssembly]  id=5ac2426c86f774138762edfe
+14. Gunsmith - Part 2  (chain)   [WeaponAssembly]  id=5ac2426c86f774138762edfe
      [0] WeaponAssembly  (val=1 item=AKS-74U)  id=5accd9b686f774112d7173d1
          "Modify an AKS-74U to comply with the given specifications"
 
-16. Gunsmith - Part 3  (chain)   [WeaponAssembly]  id=5ac2428686f77412450b42bf
+15. Gunsmith - Part 3  (chain)   [WeaponAssembly]  id=5ac2428686f77412450b42bf
      [0] WeaponAssembly  (val=1 item=MP5)  id=5accde3686f7740cea1b7ec2
          "Modify an MP5 to comply with the given specifications"
 
-17. Gunsmith - Part 4  (chain)   [WeaponAssembly]  id=639872f9decada40426d3447
+16. Gunsmith - Part 4  (chain)   [WeaponAssembly]  id=639872f9decada40426d3447
      [0] WeaponAssembly  (val=1 item=OP-SKS)  id=63987404e5163c24b3029356
          "Modify an OP-SKS to comply with the given specifications"
 
-18. Gunsmith - Part 5  (chain)   [WeaponAssembly]  id=5ae3267986f7742a413592fe
+17. Gunsmith - Part 5  (chain)   [WeaponAssembly]  id=5ae3267986f7742a413592fe
      [0] WeaponAssembly  (val=1 item=M870)  id=5ae34b8b86f7741e5b1e5d48
          "Modify a Remington Model 870 to comply with the given specifications"
 
-19. Breathing Room  (chain)   [WeaponAssembly]  id=6864fcef9809a149400dd2ee
+18. Breathing Room  (chain)   [WeaponAssembly]  id=6864fcef9809a149400dd2ee
      [0] WeaponAssembly  (val=1 item=UZI)  id=68650e9f3fcd447ed9be380c
          "Modify an IWI UZI to comply with the given specifications"
 
-20. Gunsmith - Part 6  (chain)   [WeaponAssembly]  id=5ae3270f86f77445ba41d4dd
+19. Gunsmith - Part 6  (chain)   [WeaponAssembly]  id=5ae3270f86f77445ba41d4dd
      [0] WeaponAssembly  (val=1 item=AKM)  id=5ae3550b86f7741cf44fc799
          "Modify an AKM to comply with the given specifications"
 
-21. Gunsmith - Part 7  (chain)   [WeaponAssembly]  id=5ac244eb86f7741356335af1
+20. Gunsmith - Part 7  (chain)   [WeaponAssembly]  id=5ac244eb86f7741356335af1
      [0] WeaponAssembly  (val=1 item=M4A1)  id=5accdfdb86f77412265cbfc9
          "Modify an M4A1 to comply with the given specifications"
 
-22. Gunsmith - Part 8  (chain)   [WeaponAssembly]  id=5ae3277186f7745973054106
+21. Gunsmith - Part 8  (chain)   [WeaponAssembly]  id=5ae3277186f7745973054106
      [0] WeaponAssembly  (val=1 item=AKS-74N)  id=5ae3570b86f7746efa6b4494
          "Modify an AKS-74N to comply with the given specifications"
 
-23. Gunsmith - Part 9  (chain)   [WeaponAssembly]  id=639872fa9b4fb827b200d8e5
+22. Gunsmith - Part 9  (chain)   [WeaponAssembly]  id=639872fa9b4fb827b200d8e5
      [0] WeaponAssembly  (val=1 item=P226R)  id=6398776f93ae507d5858c3a8
          "Modify a P226R to comply with the given specifications"
 
-24. Gunsmith - Part 10  (chain)   [WeaponAssembly]  id=5ae327c886f7745c7b3f2f3f
+23. Gunsmith - Part 10  (chain)   [WeaponAssembly]  id=5ae327c886f7745c7b3f2f3f
      [0] WeaponAssembly  (val=1 item=AK-105)  id=5ae445f386f7744e87761331
          "Modify an AK-105 to comply with the given specifications"
 
-25. Gunsmith - Part 11  (chain)   [WeaponAssembly]  id=639872fc93ae507d5858c3a6
+24. Gunsmith - Part 11  (chain)   [WeaponAssembly]  id=639872fc93ae507d5858c3a6
      [0] WeaponAssembly  (val=1 item=Vector 9x19)  id=63987860c8f8cc12a47b02a6
          "Modify a KRISS Vector 9x19 to comply with the given specifications"
 
-26. Gunsmith - Part 12  (chain)   [WeaponAssembly]  id=5b47799d86f7746c5d6a5fd8
+25. Gunsmith - Part 12  (chain)   [WeaponAssembly]  id=5b47799d86f7746c5d6a5fd8
      [0] WeaponAssembly  (val=1 item=MPX)  id=5b477b3b86f77401da02e6c4
          "Modify a SIG MPX to comply with the given specifications"
 
-27. Gunsmith - Part 13  (chain)   [WeaponAssembly]  id=5ac244c486f77413e12cf945
+26. Gunsmith - Part 13  (chain)   [WeaponAssembly]  id=5ac244c486f77413e12cf945
      [0] WeaponAssembly  (val=1 item=RSASS)  id=5acce11786f77411ed6fa6eb
          "Modify an R11 RSASS to comply with the given specifications"
 
-28. Gunsmith - Part 14  (chain)   [WeaponAssembly]  id=639872fe8871e1272b10ccf6
+27. Gunsmith - Part 14  (chain)   [WeaponAssembly]  id=639872fe8871e1272b10ccf6
      [0] WeaponAssembly  (val=1 item=HK 416A5)  id=639879addecada40426d3449
          "Modify an HK 416A5 to comply with the given specifications"
 
-29. Gunsmith - Part 15  (chain)   [WeaponAssembly]  id=5ae3280386f7742a41359364
+28. Gunsmith - Part 15  (chain)   [WeaponAssembly]  id=5ae3280386f7742a41359364
      [0] WeaponAssembly  (val=1 item=AS VAL)  id=5ae4479686f7744f6c79b7b3
          "Modify an AS VAL to comply with the given specifications"
 
-30. Gunsmith - Part 16  (chain)   [WeaponAssembly]  id=5ac242ab86f77412464f68b4
+29. Gunsmith - Part 16  (chain)   [WeaponAssembly]  id=5ac242ab86f77412464f68b4
      [0] WeaponAssembly  (val=1 item=DVL-10)  id=5acce08b86f7745f8521fa64
          "Modify a DVL-10 to comply with the given specifications"
 
-31. Gunsmith - Part 17  (chain)   [WeaponAssembly]  id=5b47749f86f7746c5d6a5fd4
+30. Gunsmith - Part 17  (chain)   [WeaponAssembly]  id=5b47749f86f7746c5d6a5fd4
      [0] WeaponAssembly  (val=1 item=AK-102)  id=5b47796686f774374f4a8bb1
          "Modify an AK-102 to comply with the given specifications"
 
-32. Gunsmith - Part 18  (chain)   [WeaponAssembly]  id=5b477b6f86f7747290681823
+31. Gunsmith - Part 18  (chain)   [WeaponAssembly]  id=5b477b6f86f7747290681823
      [0] WeaponAssembly  (val=1 item=AKMN)  id=5b477f1486f7743009493232
          "Modify an AKMN to comply with the given specifications"
 
-33. Gunsmith - Part 19  (chain)   [WeaponAssembly]  id=639873003693c63d86328f25
+32. Gunsmith - Part 19  (chain)   [WeaponAssembly]  id=639873003693c63d86328f25
      [0] WeaponAssembly  (val=1 item=SVDS)  id=63987a4e3693c63d86328f27
          "Modify an SVDS to comply with the given specifications"
 
-34. Gunsmith - Part 20  (chain)   [WeaponAssembly]  id=5b477f7686f7744d1b23c4d2
+33. Gunsmith - Part 20  (chain)   [WeaponAssembly]  id=5b477f7686f7744d1b23c4d2
      [0] WeaponAssembly  (val=1 item=M1A)  id=5b47824386f7744d190d8dd1
          "Modify an M1A to comply with the given specifications"
 
-35. Gunsmith - Part 21  (chain)   [WeaponAssembly]  id=63987301e11ec11ff5504036
+34. Gunsmith - Part 21  (chain)   [WeaponAssembly]  id=63987301e11ec11ff5504036
      [0] WeaponAssembly  (val=1 item=M700)  id=63987b49cd51826f7a069b85
          "Modify an M700 to comply with the given specifications"
      [1] WeaponAssembly  (val=1 item=M1911A1)  id=63987b9c05aa481907106505
          "Modify an M1911 to comply with the given specifications"
 
-36. Gunsmith - Part 22  (chain)   [WeaponAssembly]  id=5b47825886f77468074618d3
+35. Gunsmith - Part 22  (chain)   [WeaponAssembly]  id=5b47825886f77468074618d3
      [0] WeaponAssembly  (val=1 item=M4A1)  id=5b4783ba86f7744d1c353185
          "Modify an M4A1 to comply with the given specifications"
 
-37. Gunsmith - Part 23  (chain)   [WeaponAssembly]  id=64f83bb69878a0569d6ecfbe
+36. Gunsmith - Part 23  (chain)   [WeaponAssembly]  id=64f83bb69878a0569d6ecfbe
      [0] WeaponAssembly  (val=1 item=Mk47)  id=64f83d0eed30ed471f49bcde
          "Modify a CMMG Mk47 Mutant to comply with the given specifications"
 
-38. Gunsmith - Part 24  (chain)   [WeaponAssembly]  id=64f83bcdde58fc437700d8fa
+37. Gunsmith - Part 24  (chain)   [WeaponAssembly]  id=64f83bcdde58fc437700d8fa
      [0] WeaponAssembly  (val=1 item=SR-25)  id=64f83e9d52fc01298e2c857e
          "Modify a KAC SR-25 to comply with the given specifications"
 
-39. Gunsmith - Part 25  (chain)   [WeaponAssembly]  id=64f83bd983cfca080a362c82
+38. Gunsmith - Part 25  (chain)   [WeaponAssembly]  id=64f83bd983cfca080a362c82
      [0] WeaponAssembly  (val=1 item=PKP)  id=64f841199a4f905106515448
          "Modify a PKP machine gun to comply with the given specifications"
 
-40. Gunsmith - Old Friends Request  (chain)   [WeaponAssembly]  id=676529af9c90953d090882e7
+39. Gunsmith - Old Friends Request  (chain)   [WeaponAssembly]  id=676529af9c90953d090882e7
      [0] WeaponAssembly  (val=1 item=T-5000M)  id=676529e759261ce07bc47b62
          "Modify a T-5000M to comply with the given specifications"
      [1] WeaponAssembly  (val=1 item=PP-19-01)  id=676529af9c90953d090882ea
@@ -1865,7 +1843,7 @@
      [2] WeaponAssembly  (val=1 item=Glock 17)  id=67652a2f4f75e1a9543289ed
          "Modify a Glock 17 to comply with the given specifications"
 
-41. Saving the Mole  (chain)   [PickUp]  id=657315e4a6af4ab4b50f3459
+40. Saving the Mole  (chain)   [PickUp]  id=657315e4a6af4ab4b50f3459
      [0] CounterCreator  (val=1)  id=6575a524a39d2be74e620546
          "Locate the USEC group at the parking lot of the TerraGroup complex"
      [1] CounterCreator  (val=1)  id=6575a62a62028c6d5cb43cb7
@@ -1877,7 +1855,7 @@
      [4] HandoverItem  (val=1 item=HDD)  id=65817fc99a039ed2e97896e4
          "Hand over the hard drive"
 
-42. Bad Habit  (chain)   [PickUp]  id=5ac3475486f7741d6224abd3
+41. Bad Habit  (chain)   [PickUp]  id=5ac3475486f7741d6224abd3
      [0] FindItem  (val=5 item=Malboro FiR)  id=5ac5ee9986f7746e7a509a26
          "Find Malboro cigarettes in raid"
      [1] HandoverItem  (val=5 item=Malboro FiR)  id=5ac5eee986f77401fd341c9e
@@ -1891,7 +1869,7 @@
      [5] HandoverItem  (val=5 item=Wilston FiR)  id=5ac5eff886f7740f43322559
          "Hand over the items"
 
-43. Secrets of Polikhim   [Elimination]  id=66aa74571e5e199ecd094f18
+42. Secrets of Polikhim   [Elimination]  id=66aa74571e5e199ecd094f18
      [0] FindItem  (val=1 item=Tools)  id=66ab97a5c74ce045d6c32578
          "Locate and obtain the precision tools package in the laboratory on Customs"
      [1] CounterCreator  (val=1 1session)  id=66aa74571e5e199ecd094f1b
@@ -1901,13 +1879,13 @@
      [3] LeaveItemAtLocation  (val=1 item=Tools plant=40)  id=66ab97d56cb6e3bfd7c79fbc
          "Stash the package at the laboratory storage room on Factory"
 
-44. Farming - Part 1  (chain)   [Completion]  id=5ac345dc86f774288030817f
+43. Farming - Part 1  (chain)   [Completion]  id=5ac345dc86f774288030817f
      [0] LeaveItemAtLocation  (val=1 item=Toolset plant=20)  id=5ac7a4ba86f77409f3423628
          "Fix the first control board with a Toolset on Factory"
      [1] LeaveItemAtLocation  (val=1 item=Toolset plant=20)  id=5ac7a51a86f774738a4ffc96
          "Fix the second control board with a Toolset on Factory"
 
-45. Farming - Part 2  (chain)   [PickUp]  id=5ac3460c86f7742880308185
+44. Farming - Part 2  (chain)   [PickUp]  id=5ac3460c86f7742880308185
      [0] FindItem  (val=2 item=Cord FiR)  id=5ac502a786f7740bde1b000c
          "Find Power cords in raid"
      [1] HandoverItem  (val=2 item=Cord FiR)  id=5ac5055a86f7745cae22b582
@@ -1921,7 +1899,7 @@
      [5] HandoverItem  (val=2 item=PCB FiR)  id=5ac5062586f774587c327395
          "Hand over the items"
 
-46. Farming - Part 3  (chain)   [PickUp]  id=5ac3462b86f7741d6118b983
+45. Farming - Part 3  (chain)   [PickUp]  id=5ac3462b86f7741d6118b983
      [0] CounterCreator  (val=1)  id=5ac6240786f77417204ca2b9
          "Locate the warehouse of seized goods on Customs"
      [1] FindItem  (val=1 item=Package)  id=5ac6248586f77416781dd3a3
@@ -1929,7 +1907,7 @@
      [2] HandoverItem  (val=1 item=Package)  id=5ac624b286f77416781dd3ac
          "Hand over the package"
 
-47. Farming - Part 4  (chain)   [PickUp]  id=5ac3464c86f7741d651d6877
+46. Farming - Part 4  (chain)   [PickUp]  id=5ac3464c86f7741d651d6877
      [0] FindItem  (val=3 item=GPU FiR)  id=5ac5081086f7740bde1b002f
          "Find Graphics cards in raid"
      [1] HandoverItem  (val=3 item=GPU FiR)  id=5ac5082586f77418804f7d4c
@@ -1939,7 +1917,7 @@
      [3] HandoverItem  (val=15 item=CPU fan FiR)  id=5ac5084d86f7740bde1b0031
          "Hand over the items"
 
-48. Watching You  (chain)   [Completion]  id=639136fa9444fb141f4e6eee
+47. Watching You  (chain)   [Completion]  id=639136fa9444fb141f4e6eee
      [0] CounterCreator  (val=1)  id=63a7d8665199ab1f7d4a7747
          "Locate the surveillance spot on Streets of Tarkov"
      [1] FindItem  (val=1 item=Flash)  id=639136fa9444fb141f4e6eef
@@ -1947,7 +1925,7 @@
      [2] HandoverItem  (val=1 item=Flash)  id=639136fa9444fb141f4e6ef0
          "Hand over the data"
 
-49. Signal - Part 1  (chain)   [Discover]  id=5ac3467986f7741d6224abc2
+48. Signal - Part 1  (chain)   [Discover]  id=5ac3467986f7741d6224abc2
      [0] CounterCreator  (val=1 1session)  id=5ac5e0fa86f77431c305d243
          "Locate the first signal source on Shoreline"
      [1] CounterCreator  (val=1 1session)  id=5ac5e13586f7746074388f93
@@ -1955,7 +1933,7 @@
      [2] CounterCreator  (val=1 1session)  id=5ac5e18c86f7743ebd6c9575
          "Survive and extract from the location"
 
-50. Signal - Part 2  (chain)   [PickUp]  id=5ac346a886f7744e1b083d67
+49. Signal - Part 2  (chain)   [PickUp]  id=5ac346a886f7744e1b083d67
      [0] FindItem  (val=3 item=CPU FiR)  id=5cb6f81d86f7740e9d452683
          "Find PC CPUs in raid"
      [1] HandoverItem  (val=3 item=CPU FiR)  id=5ac5e79986f7747398341847
@@ -1973,7 +1951,7 @@
      [7] HandoverItem  (val=3 item=GPhone FiR)  id=5ac5ea0586f774609f36280c
          "Hand over the items"
 
-51. Signal - Part 3  (chain)   [Completion]  id=5ac346cf86f7741d63233a02
+50. Signal - Part 3  (chain)   [Completion]  id=5ac346cf86f7741d63233a02
      [0] PlaceBeacon  (val=1 item=Jammer plant=10)  id=5ac7a7bf86f774132252a524
          "Place the Signal jammer on the first specified place on Shoreline"
      [1] PlaceBeacon  (val=1 item=Jammer plant=10)  id=5ac7a83b86f774665012340b
@@ -1981,11 +1959,11 @@
      [2] PlaceBeacon  (val=1 item=Jammer plant=10)  id=5ac7a8d386f7741321499e3c
          "Place the Signal jammer on the third specified place on Shoreline"
 
-52. Signal - Part 4  (chain)   [Skill]  id=5ac346e886f7741d6118b99b
+51. Signal - Part 4  (chain)   [Skill]  id=5ac346e886f7741d6118b99b
      [0] Skill  (val=8 item=Attention)  id=5ac5eb3286f7746e7a509a09
          "Reach the required Attention skill level"
 
-53. Import  (chain)   [PickUp]  id=5c139eb686f7747878361a6f
+52. Import  (chain)   [PickUp]  id=5c139eb686f7747878361a6f
      [0] FindItem  (val=1 item=RFIDR FiR)  id=5ec14003e16f6c41ee73525f
          "Find UHF RFID Reader in raid"
      [1] FindItem  (val=1 item=VPX FiR)  id=5ec14080c9ffe55cca300867
@@ -1995,7 +1973,7 @@
      [3] HandoverItem  (val=1 item=VPX FiR)  id=5c139eb686f7747878361a73
          "Hand over the storage module"
 
-54. Black Swan   [Exploration]  id=669fa39b91b0a8c9680fc467
+53. Black Swan   [Exploration]  id=669fa39b91b0a8c9680fc467
      [0] PlaceBeacon  (val=1 item=MS2000 plant=40)  id=669fb647a5be751be095da27
          "Locate and mark the first heat exchanger with an MS2000 Marker on Factory"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=40)  id=669fb64aa7e974b27a9c7e1f
@@ -2003,7 +1981,7 @@
      [2] PlaceBeacon  (val=1 item=MS2000 plant=40)  id=669fb64b5150ba5196dae347
          "Locate and mark the third heat exchanger with an MS2000 Marker on Factory"
 
-55. Capacity Check   [Completion]  id=669fa3a1c26f13bd04030f37
+54. Capacity Check   [Completion]  id=669fa3a1c26f13bd04030f37
      [0] LeaveItemAtLocation  (val=1 item=Toolset plant=40)  id=66a0e7581ad4ff329a13ebc8
          "Fix the first reactor mixer with a Toolset on Factory"
      [1] LeaveItemAtLocation  (val=1 item=Toolset plant=40)  id=66a0e75bd9cb07ea69e018c7
@@ -2011,7 +1989,7 @@
      [2] LeaveItemAtLocation  (val=1 item=Toolset plant=40)  id=66a0e75df6e0911101eed474
          "Fix the third reactor mixer with a Toolset on Factory"
 
-56. Forklift Certified  (chain)   [Exploration]  id=669fa394e0c9f9fafa082897
+55. Forklift Certified  (chain)   [Exploration]  id=669fa394e0c9f9fafa082897
      [0] CounterCreator  (val=1)  id=669faf99963982aef42a5ba4
          "Locate the first forklift on Factory"
      [1] CounterCreator  (val=1)  id=669fafa09a13dcb8bf66e6bd
@@ -2037,7 +2015,7 @@
      [11] CounterCreator  (val=1)  id=66c2331d75e8aa67fbf65930
          "Locate the twelfth forklift on Factory"
 
-57. A Shooter Born in Heaven  (chain)   [Elimination]  id=5c0bde0986f77479cf22c2f8
+56. A Shooter Born in Heaven  (chain)   [Elimination]  id=5c0bde0986f77479cf22c2f8
      [0] CounterCreator  (val=5 kill=AnyPmc)  id=5c0bdf2c86f7746f016734a8
          "Eliminate PMC operatives with a headshot while using a bolt-action rifle on Woods"
      [1] CounterCreator  (val=5 kill=AnyPmc)  id=5c137b8886f7747ae3220ff4
@@ -2055,25 +2033,21 @@
      [7] CounterCreator  (val=5 kill=AnyPmc)  id=65e0812209dffc3fd97b99e8
          "Eliminate PMC operatives with a headshot while using a bolt-action rifle on Ground Zero"
 
-58. Psycho Sniper  (chain)   [Completion]  id=5c0be13186f7746f016734aa
+57. Psycho Sniper  (chain)   [Completion]  id=5c0be13186f7746f016734aa
      [0] Skill  (val=10 item=Sniper)  id=5c0be2b486f7747bcb347d58
          "Reach the required Bolt-action Rifles skill level"
      [1] CounterCreator  (val=5 kill=AnyPmc)  id=64b67c6358b5637e2d71a655
          "Eliminate PMC operatives without dying while using a bolt-action rifle"
 
-59. Calibration  (chain)   [Elimination]  id=60e71d23c1bfa3050473b8e6
+58. Calibration  (chain)   [Elimination]  id=60e71d23c1bfa3050473b8e6
      [0] CounterCreator  (val=20 kill=AnyPmc)  id=60e740b8b567ff641b129573
          "Eliminate PMC operatives from over 100 meters away"
 
-60. Make Amends - Equipment   [PickUp]  id=6261482fa4eb80027c4f2e11
+59. Make Amends - Equipment   [PickUp]  id=6261482fa4eb80027c4f2e11
      [0] HandoverItem  (val=4 item=SVDS FiR)  id=62616b17e7578c305945c9c9
          "Hand over the found in raid SVDS sniper rifles"
 
-61. Insider  (chain)   [Standing]  id=5ac3479086f7742880308199
-     [0] TraderLoyalty  (val=3 item=54cb50c76803fa8b248b4571)  id=5dbadfd186f77449467d1482
-         "Reach level 3 loyalty with Prapor"
-
-62. Network Provider - Part 1  (chain)   [PickUp]  id=625d6ff5ddc94657c21a1625
+60. Network Provider - Part 1  (chain)   [PickUp]  id=625d6ff5ddc94657c21a1625
      [0] HandoverItem  (val=4 item=EC FiR)  id=625eb7fe1ed3bb5bcc5bd9e6
          "Hand over the found in raid Electronic components"
      [1] HandoverItem  (val=4 item=SG-C10 FiR)  id=625eb80da4eb80027c4f2e0a
@@ -2083,7 +2057,7 @@
      [3] HandoverItem  (val=4 item=GPhone FiR)  id=625eb82ac4874104f230c0c6
          "Hand over the found in raid Broken GPhone smartphones"
 
-63. Network Provider - Part 2  (chain)   [Completion]  id=625d6ffaf7308432be1d44c5
+61. Network Provider - Part 2  (chain)   [Completion]  id=625d6ffaf7308432be1d44c5
      [0] PlaceBeacon  (val=1 item=Repeater plant=40)  id=625ecedaa4eb80027c4f2e0b
          "Set up the radio repeater inside the MI-8 helicopter at the water treatment plant on Lighthouse"
      [1] PlaceBeacon  (val=1 item=Repeater plant=40)  id=625ecee6f7308432be1d44c7
@@ -2093,11 +2067,11 @@
      [3] PlaceBeacon  (val=1 item=Repeater plant=40)  id=6386410704a59f742a7a3b45
          "Set up the radio repeater on the roof of the sunken building at the shore on Lighthouse"
 
-64. Assessment - Part 1  (chain)   [Elimination]  id=625d6ffcaa168e51321d69d7
+62. Assessment - Part 1  (chain)   [Elimination]  id=625d6ffcaa168e51321d69d7
      [0] CounterCreator  (val=15 kill=AnyPmc)  id=625ed292c4874104f230c0c8
          "Eliminate PMC operatives near the Lighthouse peninsula"
 
-65. Assessment - Part 2  (chain)   [PickUp]  id=625d6fff4149f1149b5b12c9
+63. Assessment - Part 2  (chain)   [PickUp]  id=625d6fff4149f1149b5b12c9
      [0] PlaceBeacon  (val=1 item=MS2000 plant=10)  id=62602852c48e6c62a440fab6
          "Locate and mark the first bunker with an MS2000 marker on Woods"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=10)  id=62602858efebc4442a7b3876
@@ -2107,7 +2081,7 @@
      [3] PlaceBeacon  (val=1 item=MS2000 plant=10)  id=638643e03674202b7d07c9e5
          "Locate and mark the fourth bunker with an MS2000 marker on Woods"
 
-66. Assessment - Part 3  (chain)   [Elimination]  id=625d7001c4874104f230c0c5
+64. Assessment - Part 3  (chain)   [Elimination]  id=625d7001c4874104f230c0c5
      [0] CounterCreator  (val=7 kill=pmcBot)  id=6260295faa168e51321d69d9
          "Eliminate Raiders in The Lab"
      [1] HandoverItem  (val=15 item=SJ1 FiR)  id=62602aaff7308432be1d44c9
@@ -2117,7 +2091,7 @@
      [3] HandoverItem  (val=1 item=SJ9 FiR)  id=62602a44e7578c305945c9c5
          "Hand over the found in raid SJ9 TGLabs combat stimulant injector"
 
-67. Key to the Tower  (chain)   [PickUp]  id=625d70031ed3bb5bcc5bd9e5
+65. Key to the Tower  (chain)   [PickUp]  id=625d70031ed3bb5bcc5bd9e5
      [0] HandoverItem  (val=2 item=Plexiglass FiR)  id=62602b061ed3bb5bcc5bd9ea
          "Hand over the found in raid Piece of plexiglass"
      [1] HandoverItem  (val=1 item=Tape FiR)  id=62602b0ea4eb80027c4f2e0e
@@ -2133,13 +2107,13 @@
      [6] HandoverItem  (val=1 item=Body)  id=633d8b77f2ab4f3f095029d6
          "Hand over the Radio transmitter body"
 
-68. Knock-Knock  (chain)   [Exploration]  id=625d7005a4eb80027c4f2e09
+66. Knock-Knock  (chain)   [Exploration]  id=625d7005a4eb80027c4f2e09
      [0] CounterCreator  (val=1 1session)  id=63ab617b87413d64ae0ac210
          "Check if the radio transmitter works near the Lighthouse peninsula"
      [1] CounterCreator  (val=1 1session)  id=62602c89a4eb80027c4f2e0f
          "Survive and extract from the location"
 
-69. Getting Acquainted  (chain)   [Exploration]  id=625d700cc48e6c62a440fab5
+67. Getting Acquainted  (chain)   [Exploration]  id=625d700cc48e6c62a440fab5
      [0] FindItem  (val=1 item=V3 Flash)  id=6391e2f9e705511c8a4a1b85
          "Obtain the V3 Flash drive on Lighthouse"
      [1] FindItem  (val=1 item=DSPT)  id=6391e31bfa894f0a866afdec
@@ -2149,7 +2123,7 @@
      [3] CounterCreator  (val=1)  id=63ab727b1287ef0b827d0c95
          "Visit the Lighthouse building"
 
-70. Top Secret  (chain)   [Exploration]  id=626bd75d5bef5d7d590bd415
+68. Top Secret  (chain)   [Exploration]  id=626bd75d5bef5d7d590bd415
      [0] CounterCreator  (val=1)  id=63ac19f9de609574d97adf78
          "Locate the radar station commandant's office on Lighthouse"
      [1] FindItem  (val=1 item=HDD)  id=62863b9ae5b4f5010e0d30c8
@@ -2157,7 +2131,13 @@
      [2] HandoverItem  (val=1 item=HDD)  id=626c30c55bef5d7d590bd41b
          "Hand over the drive"
 
-71. Scout   [Exploration]  id=5ac3477486f7741d651d6885
+69. Hypotheses Testing  (chain)   [PickUp]  id=67a0970f05d1611ed90be75d
+     [0] CounterCreator  (val=1)  id=67dbe16ece16a02860ed9d33
+         "Locate the lab area with the prototype weapon inside The Labyrinth"
+     [1] HandoverItem  (val=5 item=Labrys FiR)  id=67a0dcf4ff6f74931359b9f9
+         "Hand over the found in raid item: Labrys research notes"
+
+70. Scout   [Exploration]  id=5ac3477486f7741d651d6885
      [0] CounterCreator  (val=1 1session)  id=5ac61a8a86f7743a8d663c77
          "Locate the first Factory extraction"
      [1] CounterCreator  (val=1 1session)  id=5ac61ab986f7746e352cec8c
@@ -2169,7 +2149,7 @@
      [4] CounterCreator  (val=1 1session)  id=5ac61b1486f7743a8f30fc84
          "Survive and extract from the location"
 
-72. Fertilizers   [PickUp]  id=5c1128e386f7746565181106
+71. Fertilizers   [PickUp]  id=5c1128e386f7746565181106
      [0] FindItem  (val=5 item=Wires FiR)  id=5ca719ef86f7740a78020783
          "Find Bundles of wires in raid"
      [1] FindItem  (val=5 item=Caps FiR)  id=5ca71a1e86f7740f5a5b88a2
@@ -2179,13 +2159,13 @@
      [3] HandoverItem  (val=5 item=Caps FiR)  id=5c112a1b86f774656777d1ae
          "Hand over the capacitors"
 
-73. Broadcast - Part 1  (chain)   [PickUp]  id=626bd75e47ea7f506e5493c5
+72. Broadcast - Part 1  (chain)   [PickUp]  id=626bd75e47ea7f506e5493c5
      [0] CounterCreator  (val=1)  id=63ac232087413d64ae0ac23c
          "Locate the hidden recording studio on Lighthouse"
      [1] LeaveItemAtLocation  (val=1 item=Jammer plant=10)  id=626c3158a371ee3a7a3514cc
          "Place a Signal Jammer inside the studio"
 
-74. Camera Action  (chain)   [PickUp]  id=666314c10aa5c7436c00908c
+73. Camera Action  (chain)   [PickUp]  id=666314c10aa5c7436c00908c
      [0] HandoverItem  (val=1 item=SSD FiR)  id=66675a4567c0cf0989946e12
          "Hand over the found in raid item: SSD drive"
      [1] HandoverItem  (val=1 item=USB-A FiR)  id=66675a50f15c3daac1fcb57d
@@ -2211,13 +2191,13 @@
      [11] HandoverItem  (val=1 item=Bulb FiR)  id=667c26159bd3d32fb565578e
          "Hand over the found in raid item: Light bulb"
 
-75. Broadcast - Part 2  (chain)   [Completion]  id=63913715f8e5dd32bf4e3aaa
+74. Broadcast - Part 2  (chain)   [Completion]  id=63913715f8e5dd32bf4e3aaa
      [0] CounterCreator  (val=1 1session)  id=63a7d99804d3dc28a52a2106
          "Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=639da5ec8fe84d33a25a1435
          "Survive and extract from the location"
 
-76. Energy Crisis   [Exploration]  id=6179b3a12153c15e937d52bc
+75. Energy Crisis   [Exploration]  id=6179b3a12153c15e937d52bc
      [0] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=617bf5860cf4a041de5b396b
          "Find and mark the group of fuel tanks with an MS2000 Marker on Lighthouse"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=61926522b0295324b5484459
@@ -2227,31 +2207,31 @@
      [3] PlaceBeacon  (val=1 item=MS2000 plant=30)  id=61926544bb0c712ed42d583c
          "Find and mark the third tanker truck with an MS2000 Marker on Lighthouse"
 
-77. Chemistry Closet   [Exploration]  id=5f04886a3937dc337a6b8238
+76. Chemistry Closet   [Exploration]  id=5f04886a3937dc337a6b8238
      [0] CounterCreator  (val=1 1session)  id=5f0488c590eea473df674002
          "Locate Sanitar's office in the health resort"
      [1] CounterCreator  (val=1 1session)  id=5f04983ffbed7a08077b4367
          "Survive and extract from the location"
 
-78. Back Door   [Completion]  id=6089736efa70fc097863b8f6
+77. Back Door   [Completion]  id=6089736efa70fc097863b8f6
      [0] CounterCreator  (val=1 1session)  id=608a94101a66564e74191fc3
          "Find the unpowered secret exit on Reserve"
      [1] CounterCreator  (val=1 1session)  id=608a94ae1a66564e74191fc6
          "Survive and extract from the location through the secret exit"
 
-79. Surveillance   [Completion]  id=639135e8c115f907b14700aa
+78. Surveillance   [Completion]  id=639135e8c115f907b14700aa
      [0] FindItem  (val=1 item=HDD)  id=639135e8c115f907b14700ab
          "Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=HDD)  id=639135e8c115f907b14700ac
          "Hand over the information"
 
-80. Surplus Goods   [Exploration]  id=6089732b59b92115597ad789
+79. Surplus Goods   [Exploration]  id=6089732b59b92115597ad789
      [0] FindItem  (val=1 item=MBT NC)  id=6092942fb0f07c6ea1246e3a
          "Obtain the MBT Integrated Navigation System on Reserve"
      [1] HandoverItem  (val=1 item=MBT NC)  id=6092947635915c62b44fd05b
          "Hand over the navigation system"
 
-81. Corporate Secrets   [Exploration]  id=6179b3bdc7560e13d23eeb8d
+80. Corporate Secrets   [Exploration]  id=6179b3bdc7560e13d23eeb8d
      [0] FindItem  (val=1 item=Data)  id=617bf6c70cf4a041de5b3972
          "Find the data on the water pump operation on Lighthouse"
      [1] HandoverItem  (val=1 item=Data)  id=617bf77a3de8a6689b533a2a
@@ -2261,7 +2241,7 @@
      [3] HandoverItem  (val=1 item=Report)  id=61951c3e2e2805073c2d29db
          "Hand over the extracted data"
 
-82. Developers Secrets - Part 1  (chain)   [Discover]  id=65733403eefc2c312a759ddb
+81. Developers Secrets - Part 1  (chain)   [Discover]  id=65733403eefc2c312a759ddb
      [0] CounterCreator  (val=1 1session)  id=65733403eefc2c312a759ddc
          "Locate the IT firm office on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=65801ad655315fdce2096bec
@@ -2269,13 +2249,13 @@
      [2] CounterCreator  (val=1 1session)  id=65801b07a26e65a69c2fedd1
          "Survive and extract from the location"
 
-83. Developers Secrets - Part 2  (chain)   [Discover]  id=6573382e557ff128bf3da536
+82. Developers Secrets - Part 2  (chain)   [Discover]  id=6573382e557ff128bf3da536
      [0] CounterCreator  (val=1 1session)  id=6573382e557ff128bf3da537
          "Unravel the secret of the IT firm's employees' high morale on Streets of Tarkov"
      [1] CounterCreator  (val=1 1session)  id=65800413f41301adef3c9698
          "Survive and extract from the location"
 
-84. The Door   [Exploration]  id=64ee9df4496db64f9b7a4432
+83. The Door   [Exploration]  id=64ee9df4496db64f9b7a4432
      [0] CounterCreator  (val=1)  id=64ee9df4496db64f9b7a4433
          "Locate the cause of the signal jamming on Streets of Tarkov"
      [1] LeaveItemAtLocation  (val=1 item=Camera plant=40)  id=64ee9df4496db64f9b7a4435
@@ -2283,7 +2263,7 @@
      [2] LeaveItemAtLocation  (val=1 item=Camera plant=30)  id=64eea6059878a0569d6ec98b
          "Install a WI-FI Camera to watch the stairwell"
 
-85. The Courier   [Multi]  id=60e71d6d7fcf9c556f325055
+84. The Courier   [Multi]  id=60e71d6d7fcf9c556f325055
      [0] LeaveItemAtLocation  (val=1 item=REAP-IR plant=30)  id=60e84ba726b88043510e0ad8
          "Stash a Trijicon REAP-IR scope under the base of the yellow crane at the construction site on Customs"
      [1] LeaveItemAtLocation  (val=1 item=REAP-IR plant=30)  id=60e85b2a26b88043510e0ada
@@ -2565,11 +2545,7 @@
      [0] CounterCreator  (val=15 kill=Any)  id=66696cd3997231debad40d19
          "Eliminate any target that is using a 20+ container size backpack"
 
-34. Circulate   [Loyalty]  id=6663149f1d3ec95634095e75
-     [0] SellItemToTrader  (val=250 item=6Sh118/Sling/…)  id=666973ee1d80fbbbfeaf46c9
-         "Sell Ragman any backpacks or tactical rigs"
-
-35. Dandies   [Elimination]  id=65734c186dc1e402c80dc19e
+34. Dandies   [Elimination]  id=65734c186dc1e402c80dc19e
      [0] CounterCreator  (val=30 kill=Any)  id=65734c186dc1e402c80dc1a2
          "Eliminate any target while wearing a Bomber beanie and RayBench Hipster Reserve sunglasses on Streets of Tarkov"
      [1] LeaveItemAtLocation  (val=1 item=Bomber plant=20)  id=657356c410becd24bc776f55
@@ -2577,7 +2553,7 @@
      [2] LeaveItemAtLocation  (val=1 item=RayBench plant=20)  id=657356d0a95a1e7e1a8d8d99
          "Stash RayBench Hipster Reserve sunglasses inside the barber shop on Streets of Tarkov"
 
-36. Textile - Part 1  (chain)   [PickUp]  id=5e383a6386f77465910ce1f3
+35. Textile - Part 1  (chain)   [PickUp]  id=5e383a6386f77465910ce1f3
      [0] FindItem  (val=5 item=Aramid FiR)  id=5e383a6386f77465910ce1f4
          "Find Aramid fabrics in raid"
      [1] HandoverItem  (val=5 item=Aramid FiR)  id=5e383a6386f77465910ce1f5
@@ -2591,7 +2567,7 @@
      [5] HandoverItem  (val=3 item=Paracord FiR)  id=5e383a6386f77465910ce1f9
          "Hand over the paracords"
 
-37. Textile - Part 2  (chain)   [PickUp]  id=5e4d515e86f77438b2195244
+36. Textile - Part 2  (chain)   [PickUp]  id=5e4d515e86f77438b2195244
      [0] FindItem  (val=10 item=Fleece FiR)  id=5e4d515e86f77438b2195245
          "Find Fleece fabrics in raid"
      [1] HandoverItem  (val=10 item=Fleece FiR)  id=5e4d515e86f77438b2195246
@@ -2605,7 +2581,7 @@
      [5] HandoverItem  (val=5 item=KEK FiR)  id=5e4d515e86f77438b219524a
          "Hand over the duct tapes"
 
-38. Booze   [PickUp]  id=60e71dc67fcf9c556f325056
+37. Booze   [PickUp]  id=60e71dc67fcf9c556f325056
      [0] FindItem  (val=10 item=Vodka FiR)  id=60e73333465ea8368012cc5b
          "Find Bottles of Tarkovskaya vodka in raid"
      [1] FindItem  (val=10 item=Whiskey FiR)  id=60e733590367e10a450f7805
@@ -2623,17 +2599,17 @@
      [7] HandoverItem  (val=20 item=Pevko FiR)  id=62a70110eb3cb46d9a0bba78
          "Hand over the beer"
 
-39. Combat Proven   [Elimination]  id=666314a31cd52e3d040a2e76
+38. Combat Proven   [Elimination]  id=666314a31cd52e3d040a2e76
      [0] CounterCreator  (val=5 kill=bossBoar/bossBully/bossGluhar/bossKilla/bossKojaniy/bossKolontay/bossSanitar/bossTagilla/bossZryachiy)  id=6669abb8dac5788ebd0ff74a
          "Locate and neutralize any Boss (excluding The Goons and Partisan) while using any Goons Edition tactical rig"
 
-40. Key to the City   [PickUp]  id=666314c5a9290f9e0806cca5
+39. Key to the City   [PickUp]  id=666314c5a9290f9e0806cca5
      [0] FindItem  (val=1 item=Souvenir)  id=6679884cef969161e3e9d64d
          "Locate and obtain the souvenir key to the city on Streets of Tarkov"
      [1] HandoverItem  (val=1 item=Souvenir)  id=667988545af9f7082798b67d
          "Hand over the found item"
 
-41. Special Offer   [PickUp]  id=666314a1920800278d0f6746
+40. Special Offer   [PickUp]  id=666314a1920800278d0f6746
      [0] FindItem  (val=1 item=Sanitar FiR)  id=666976536518781b9feb2f28
          "Find Sanitar's bag in raid"
      [1] HandoverItem  (val=1 item=Sanitar FiR)  id=6669766290442b8d8e0688b3
@@ -2655,19 +2631,19 @@
      [9] HandoverItem  (val=1 item=CPC GE FiR)  id=666978023255d2720cbdf76d
          "Hand over the equipment"
 
-42. Drip-Out - Part 1  (chain)   [Completion]  id=66151401efb0539ae10875ae
+41. Drip-Out - Part 1  (chain)   [Completion]  id=66151401efb0539ae10875ae
      [0] CounterCreator  (val=100 kill=pmcBot)  id=66151401efb0539ae10875af
          "Eliminate Raiders"
      [1] HandoverItem  (val=50 item=TV-115/Berkut/… FiR)  id=66168239957ac58c30b29135
          "Hand over the found in raid WARTECH brand equipment"
 
-43. Drip-Out - Part 2  (chain)   [Completion]  id=6615141bfda04449120269a7
+42. Drip-Out - Part 2  (chain)   [Completion]  id=6615141bfda04449120269a7
      [0] CounterCreator  (val=100 kill=exUsec)  id=6615141bfda04449120269a8
          "Eliminate Rogues"
      [1] HandoverItem  (val=50 item=LBCR GE/LBT-1476A/… FiR)  id=661682aed31d408548016468
          "Hand over the found in raid LBT brand equipment"
 
-44. Know Your Place   [Elimination]  id=66aa61663aa37705c5024277
+43. Know Your Place   [Elimination]  id=66aa61663aa37705c5024277
      [0] CounterCreator  (val=5 kill=Any 1session)  id=66aa61663aa37705c5024278
          "Eliminate any target on Streets of Tarkov (In one raid)"
      [1] CounterCreator  (val=1 1session)  id=66aa61663aa37705c502427c
@@ -2675,7 +2651,7 @@
      [2] CounterCreator  (val=5 kill=Any 1session)  id=66aa61663aa37705c502427e
          "Eliminate any target on Interchange (In one raid)"
 
-45. The Key to Success   [PickUp]  id=5ae4498786f7744bde357695
+44. The Key to Success   [PickUp]  id=5ae4498786f7744bde357695
      [0] FindItem  (val=1 item=Book p.1)  id=5ae9c0a686f774703201f143
          "Locate and obtain the first book of clothes design on Interchange"
      [1] HandoverItem  (val=1 item=Book p.1)  id=5ae9c0c986f77468ab400f88
@@ -3439,21 +3415,13 @@
      [0] CounterCreator  (val=10 kill=Savage)  id=6745fd2e3d6070c3563039a9
          "Eliminate Scavs on Woods"
 
-4. Building Foundations   [Merchant]  id=673f629c5b555b53460cf827
-     [0] SellItemToTrader  (val=50 item=SOIC/AEM/…)  id=673f637a1fbc23a60a72b743
-         "Sell any items to Ragman"
-     [1] SellItemToTrader  (val=50 item=SOIC/AEM/…)  id=67519696567b9773f0811bae
-         "Sell any items to Prapor"
-     [2] SellItemToTrader  (val=50 item=SOIC/AEM/…)  id=675196dff77c0b8436ec1ef5
-         "Sell any items to Peacekeeper"
-
-5. Protect the Sky   [Discover]  id=6744ab1def61d56e020b5c56
+4. Protect the Sky   [Discover]  id=6744ab1def61d56e020b5c56
      [0] FindItem  (val=1 item=KOSA)  id=6744ab1def61d56e020b5c5f
          "Locate the package in the specified spot on Woods"
      [1] HandoverItem  (val=1 item=KOSA)  id=6744ab1def61d56e020b5c60
          "Hand over the package"
 
-6. Discombobulate   [Discover]  id=6744aca8d3346c216702c583
+5. Discombobulate   [Discover]  id=6744aca8d3346c216702c583
      [0] LeaveItemAtLocation  (val=1 item=VOG-25 plant=15)  id=6744ae5cc771515803d615ec
          "Stash a VOG-25 Khattabka grenade at the first RPG ammo crate on Woods"
      [1] LeaveItemAtLocation  (val=1 item=VOG-25 plant=15)  id=6744ae63b3b4be24ffc607a4
@@ -3461,7 +3429,7 @@
      [2] LeaveItemAtLocation  (val=1 item=VOG-25 plant=15)  id=6744ae65f8c1438fb9374575
          "Stash a VOG-25 Khattabka grenade at the third RPG ammo crate on Woods"
 
-7. Ask for Directions   [Discover]  id=674492b6909d2013670a347a
+6. Ask for Directions   [Discover]  id=674492b6909d2013670a347a
      [0] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=674492e56e8d2d5239a3fd37
          "Locate and mark the first section of the cliff path with an MS2000 Marker on Lighthouse"
      [1] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=674492ebf6f84f7d09ef1abb
@@ -3471,23 +3439,23 @@
      [3] PlaceBeacon  (val=1 item=MS2000 plant=15)  id=674492f30f45cb752f21df39
          "Locate and mark the fourth section of the cliff path with an MS2000 Marker on Lighthouse"
 
-8. Hot Wheels   [Discover]  id=673f4e956f1b89c7bc0f56ef
+7. Hot Wheels   [Discover]  id=673f4e956f1b89c7bc0f56ef
      [0] LeaveItemAtLocation  (val=1 item=MS2000 plant=15)  id=673f507029a1128d5c4d7498
          "Locate and mark the spare BTR wheels with an MS2000 Marker"
      [1] LeaveItemAtLocation  (val=1 item=MS2000 plant=15)  id=673f5065cdfe082966842575
          "Complete the main objective as soon as possible"
 
-9. Hot Wheels - Lets Try Again   [Discover]  id=673f5a4976553f78350bdac1
+8. Hot Wheels - Lets Try Again   [Discover]  id=673f5a4976553f78350bdac1
      [0] LeaveItemAtLocation  (val=1 item=MS2000 plant=20)  id=673f5a9537550b9d7fd30777
          "Locate and mark the spare BTR wheels with an MS2000 Marker on Reserve"
 
-10. Natural Exchange   [Exploration]  id=6740a02a69a58fceba0ff399
+9. Natural Exchange   [Exploration]  id=6740a02a69a58fceba0ff399
      [0] LeaveItemAtLocation  (val=1 item=Fuel plant=15)  id=6740a0c33c7152ccfe151146
          "Stash the first metal fuel tank at the smugglers' base on Shoreline"
      [1] LeaveItemAtLocation  (val=1 item=Fuel plant=15)  id=6740a0d5b05fb787316fe7d5
          "Stash the second metal fuel tank at the smugglers' base on Shoreline"
 
-11. Inevitable Response   [Elimination]  id=673f6027352b4da8e00322d2
+10. Inevitable Response   [Elimination]  id=673f6027352b4da8e00322d2
      [0] CounterCreator  (val=5 kill=Savage 1session)  id=673f60910aed589d887b5ea1
          "Eliminate Scavs on Woods"
      [1] CounterCreator  (val=1 1session)  id=67499a4f03b8295863172dea
@@ -3495,13 +3463,13 @@
      [2] CounterCreator  (val=5 kill=Savage 1session)  id=67499a61ddf14e140a675607
          "Eliminate Scavs on Reserve"
 
-12. Battery Change   [Discover]  id=6744a9dfef61d56e020b5c4a
+11. Battery Change   [Discover]  id=6744a9dfef61d56e020b5c4a
      [0] FindItem  (val=1 item=Tank battery)  id=683db86c1090d855fb0f2c23
          "Find the item: 6-STEN-140-M military battery"
      [1] HandoverItem  (val=1 item=Tank battery)  id=6744a9dfef61d56e020b5c54
          "Hand over the item: 6-STEN-140-M military battery"
 
-13. The Price of Independence   [Multi]  id=6745cbee909d2013670a4a55
+12. The Price of Independence   [Multi]  id=6745cbee909d2013670a4a55
      [0] FindItem  (val=1 item=Letter)  id=6745cbee909d2013670a4a60
          "Locate and obtain the incriminating letter on Customs"
      [1] CounterCreator  (val=1 1session)  id=6745cbee909d2013670a4a61
