@@ -589,6 +589,19 @@ public class OverhaulModule(
                         upd.StackObjectsCount = (upd.StackObjectsCount ?? 0) + add;
                 }
             }
+            // Other traders: proportional rep so cumulative standing hits the trader's MAX
+            // loyalty-level requirement after TraderRepMaxFraction of the chain is complete.
+            else if (config.TraderRepMaxFraction > 0 && standingPool.Count > 0)
+            {
+                var target = MaxLoyaltyStanding(trader);
+                if (target > 0)
+                {
+                    var denom = Math.Max(1, (int)Math.Round(config.TraderRepMaxFraction * standingPool.Count));
+                    var perQuest = Math.Round(target / denom, 4);
+                    foreach (var rew in standingPool)
+                        rew.Value = perQuest;
+                }
+            }
 
             // Reassign pooled rewards by chain position.
             for (var i = 0; i < rebalanceNames.Count; i++)
@@ -633,6 +646,20 @@ public class OverhaulModule(
         logger.Success(
             $"{Prefix} reward rebalance done. Traders rebalanced: {rebalancedTraders}. " +
             $"Containers granted: {containersGranted}.");
+    }
+
+    /// <summary>
+    /// The MAX loyalty-level rep requirement (top level's MinStanding) for a trader key,
+    /// or 0 if it can't be resolved. Used to size proportional quest-rep payouts.
+    /// </summary>
+    private double MaxLoyaltyStanding(string traderKey)
+    {
+        if (!Constants.TraderIds.TryGetValue(traderKey, out var tid)) return 0;
+        var traders = databaseService.GetTables().Traders;
+        if (traders == null || !traders.TryGetValue(new MongoId(tid), out var tr)) return 0;
+        var levels = tr?.Base?.LoyaltyLevels;
+        if (levels == null || levels.Count == 0) return 0;
+        return levels[^1].MinStanding ?? 0;
     }
 
     /// <summary>Flatten the curated MainQuests structure into all quest names (incl. chain members).</summary>

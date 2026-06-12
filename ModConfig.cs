@@ -68,6 +68,15 @@ public record ModConfig
     [JsonPropertyName("traderStandingRewardModifier")]
     public double TraderStandingRewardModifier { get; set; } = 1;
 
+    /// <summary>
+    /// NEW — proportional trader rep. Each trader's top loyalty-level rep requirement is
+    /// split evenly across its quest chain so cumulative standing reaches MAX after this
+    /// fraction of the chain is complete (0.75 = maxed at 3/4 done). 0 disables (keep
+    /// vanilla per-quest rep amounts).
+    /// </summary>
+    [JsonPropertyName("traderRepMaxFraction")]
+    public double TraderRepMaxFraction { get; set; } = 0.75;
+
     [JsonPropertyName("itemRewardModifier")]
     public double ItemRewardModifier { get; set; } = 1;
 
