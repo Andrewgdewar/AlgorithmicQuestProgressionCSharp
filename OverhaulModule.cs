@@ -213,6 +213,8 @@ public class OverhaulModule(
         var adjusted = 0;
         var weaponStripped = 0;
         var skillStripped = 0;
+        var emptyRemoved = 0;
+        var toRemove = new List<MongoId>();
 
         foreach (var (id, quest) in quests)
         {
@@ -278,12 +280,26 @@ public class OverhaulModule(
             // --- skillConditionStripList: remove Skill-type finish conditions ---
             if (adjustments.SkillConditionStripList.Contains(name))
                 skillStripped += finish.RemoveAll(c => c.ConditionType == "Skill");
+
+            // --- zero finish conditions left -> remove the quest entirely ---
+            // (e.g. a skill-only quest after its Skill condition was stripped). A quest with
+            // no objectives would soft-lock or auto-complete oddly; just drop it. The chain
+            // rebuild closes the gap automatically (missing ids are filtered out).
+            if (finish.Count == 0)
+            {
+                toRemove.Add(id);
+                emptyRemoved++;
+            }
         }
+
+        foreach (var id in toRemove)
+            quests.Remove(id);
 
         logger.Success(
             $"{Prefix} applier done. Hidden (non-curated @lvl99): {hidden}. " +
             $"deleteReqList: {deleted} conditions removed. adjustReqsList: {adjusted} conditions tuned. " +
-            $"weaponBuildStrip: {weaponStripped} kills conditions. skillStrip: {skillStripped} conditions removed.");
+            $"weaponBuildStrip: {weaponStripped} kills conditions. skillStrip: {skillStripped} conditions removed. " +
+            $"Removed (zero objectives): {emptyRemoved}.");
     }
 
     /// <summary>
@@ -305,6 +321,9 @@ public class OverhaulModule(
         string IdOrEmpty(string name) => nameToId.GetValueOrDefault(name) ?? "";
 
         // ---- chain rebuild per trader ----
+        // NOTE: missing/removed quests (e.g. skill-only quests dropped by the applier, or
+        // anything not in the DB) are filtered out entirely so the chain CLOSES the gap
+        // rather than leaving a dead placeholder slot.
         var chainsBuilt = 0;
         foreach (var (trader, list) in mainQuests)
         {
@@ -317,7 +336,9 @@ public class OverhaulModule(
                 {
                     var s = el.GetString();
                     if (string.IsNullOrEmpty(s)) continue;
-                    mainList.Add(IdOrEmpty(s));
+                    var qid = IdOrEmpty(s);
+                    if (qid.Length == 0) continue;   // removed/missing -> skip, close the gap
+                    mainList.Add(qid);
                 }
                 else if (el.ValueKind == JsonValueKind.Array)
                 {
@@ -326,6 +347,7 @@ public class OverhaulModule(
                         .Select(x => x.GetString())
                         .Where(s => !string.IsNullOrEmpty(s))
                         .Select(s => IdOrEmpty(s!))
+                        .Where(qid => qid.Length > 0)   // removed/missing -> skip
                         .ToList();
                     if (group.Count == 0) continue;
                     groups.Add(group);
