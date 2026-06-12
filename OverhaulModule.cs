@@ -633,11 +633,14 @@ public class OverhaulModule(
             if (!quest.Rewards.TryGetValue("Success", out var success) || success == null)
                 quest.Rewards["Success"] = success = [];
 
-            // Strip any money-item rewards (container is the prize).
+            // Strip any money-item rewards (container is the prize) and any existing
+            // item reward that is already this container (vanilla often grants it too —
+            // without this you'd get TWO containers, e.g. Punisher 6's vanilla Epsilon
+            // plus ours).
             success.RemoveAll(r =>
             {
                 var tpl = r.Items?.FirstOrDefault()?.Template.ToString();
-                return tpl != null && Constants.MoneyTpls.Contains(tpl);
+                return tpl != null && (Constants.MoneyTpls.Contains(tpl) || tpl == containerTpl);
             });
 
             success.Add(Utils.ItemReward(questName, containerTpl));
