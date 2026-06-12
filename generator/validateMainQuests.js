@@ -64,7 +64,7 @@ const removeList = [
   "Dont Believe Your Eyes","Dirty Blood","Burn It Down","The Root Cause","Matter of Technique",
   "Find the Source","Gloves Off","Sample IV - A New Hope","Darkest Hour Is Just Before Dawn",
   "Radical Treatment","Forgotten Oaths","Global Threat","Watch the Watcher","Not a Step Back",
-  "Pressured by Circumstances","Conservation Area","Contagious Beast",
+  "Pressured by Circumstances","Conservation Area","Contagious Beast","Gratitude",
 ];
 const seasonalEventIds = new Set(
   Object.entries(questConfig.eventQuests || {})

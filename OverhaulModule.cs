@@ -104,6 +104,7 @@ public class OverhaulModule(
         var levelsStripped = 0;
         var transitStripped = 0;
         var crossLinksStripped = 0;
+        var visibilityCleared = 0;
         foreach (var (id, quest) in quests.ToList())
         {
             // Arena/Ref quests are owned by Lacy's PvE Tweaks (refChanges) — never touch them.
@@ -158,6 +159,19 @@ public class OverhaulModule(
                 failRewards?.Clear();
             quest.Restartable = true;
 
+            // --- remove ALL objective hiding: every finish objective is visible from the
+            // start (no "complete objective X to reveal objective Y" gating). Also removes
+            // any dangling visibility gate that pointed at a deleted condition.
+            if (finish != null)
+                foreach (var c in finish)
+                {
+                    if (c.VisibilityConditions is { Count: > 0 } vis)
+                    {
+                        visibilityCleared += vis.Count;
+                        c.VisibilityConditions = [];
+                    }
+                }
+
             // --- disassociate: strip cross-quest links so the chain can be rebuilt cleanly ---
             crossLinksStripped += conds.AvailableForStart?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
             crossLinksStripped += finish?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
@@ -166,9 +180,9 @@ public class OverhaulModule(
         logger.Success(
             $"{Prefix} teardown done. Removed: {removedRemoveList} (removeList), {removedEvent} (seasonal), " +
             $"{removedEventEnemy} (event-enemy), {removedPureTransit} (pure-transit). " +
-            $"Stripped: {levelsStripped} level reqs, {transitStripped} transit conditions, {crossLinksStripped} cross-quest links. " +
+            $"Stripped: {levelsStripped} level reqs, {transitStripped} transit conditions, {crossLinksStripped} cross-quest links, " +
+            $"{visibilityCleared} visibility gates. " +
             $"Quests remaining: {quests.Count}");
-
         // ---- Phase 2a: applier (consumes MainQuests + questAdjustments) ----
         ApplyAdjustments(quests);
 

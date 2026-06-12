@@ -23,6 +23,8 @@ public static class Constants
         "Insider",
         // Merchant grind: "Sell 250 backpacks/rigs to Ragman".
         "Circulate",
+        // Ragman: hand-over items too difficult to obtain — removed by request.
+        "Gratitude",
         // Merchant grind: "Sell 50 items each to Ragman/Prapor/Peacekeeper" (150 total).
         "Building Foundations",
         "Make Amends",
