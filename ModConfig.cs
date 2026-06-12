@@ -37,7 +37,21 @@ public record ModConfig
     /// "SPT Zero to hero", so it's the only selectable profile option.
     /// </summary>
     [JsonPropertyName("onlyZeroToHeroProfile")]
-    public bool OnlyZeroToHeroProfile { get; set; } = false;
+    public bool OnlyZeroToHeroProfile { get; set; } = true;
+
+    /// <summary>
+    /// NEW — when onlyZeroToHeroProfile is on, also customize the kept "SPT Zero to hero"
+    /// starting kit: remove the alpha secured container, remove the starting knife, and
+    /// give this many Roubles in the stash (0 = don't add money).
+    /// </summary>
+    [JsonPropertyName("zeroToHeroRemoveSecuredContainer")]
+    public bool ZeroToHeroRemoveSecuredContainer { get; set; } = true;
+
+    [JsonPropertyName("zeroToHeroRemoveKnife")]
+    public bool ZeroToHeroRemoveKnife { get; set; } = true;
+
+    [JsonPropertyName("zeroToHeroStartingRoubles")]
+    public int ZeroToHeroStartingRoubles { get; set; } = 100000;
 
     [JsonPropertyName("baseKillCountQuantity")]
     public double BaseKillCountQuantity { get; set; } = 4;

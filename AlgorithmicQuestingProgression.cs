@@ -74,7 +74,7 @@ public class AlgorithmicQuestingProgression(
 
         if (config.OnlyZeroToHeroProfile)
         {
-            new ProfileModule(logger, databaseService).Run();
+            new ProfileModule(logger, databaseService, config).Run();
         }
 
         logger.Success(
