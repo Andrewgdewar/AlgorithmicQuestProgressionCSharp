@@ -72,6 +72,11 @@ public class AlgorithmicQuestingProgression(
             logger.Debug($"{Prefix} Ref/Arena quests are delegated to Lacy's PvE Tweaks (refChanges) — AQP does not touch them.");
         }
 
+        if (config.OnlyZeroToHeroProfile)
+        {
+            new ProfileModule(logger, databaseService).Run();
+        }
+
         logger.Success(
             $"{Prefix} Loaded. Overhaul: {config.EnableOverhaulModule}, Adjuster: {config.EnableAdjusterModule}, " +
             $"Transits: {config.RemoveTransitQuests}, Ref: {config.RefChanges}");

@@ -32,6 +32,13 @@ public record ModConfig
     [JsonPropertyName("disableDailies")]
     public bool DisableDailies { get; set; } = true;
 
+    /// <summary>
+    /// NEW — when true, on server start strip every launcher profile template EXCEPT
+    /// "SPT Zero to hero", so it's the only selectable profile option.
+    /// </summary>
+    [JsonPropertyName("onlyZeroToHeroProfile")]
+    public bool OnlyZeroToHeroProfile { get; set; } = false;
+
     [JsonPropertyName("baseKillCountQuantity")]
     public double BaseKillCountQuantity { get; set; } = 4;
 

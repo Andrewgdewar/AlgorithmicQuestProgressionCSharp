@@ -4,6 +4,7 @@
   "removeTransitQuests": true,
   "refChanges": false,
   "disableDailies": true,
+  "onlyZeroToHeroProfile": false,
   "baseKillCountQuantity": 4,
   "killCountModifier": 0.5,
   "questLevelUnlockModifier": 1,
