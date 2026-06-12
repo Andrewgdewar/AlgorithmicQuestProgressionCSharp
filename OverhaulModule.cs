@@ -270,6 +270,7 @@ public class OverhaulModule(
                     if (!adjustSpec.TryGetValue(c.Id.ToString(), out var fields)) continue;
                     if (fields.Value.HasValue) c.Value = fields.Value.Value;
                     if (fields.OneSessionOnly.HasValue) c.OneSessionOnly = fields.OneSessionOnly.Value;
+                    if (fields.Target is { Count: > 0 }) c.Target = new(fields.Target, null);
                     adjusted++;
                 }
             }

@@ -27,6 +27,27 @@
     "Last Spurt - Pioneer": {
       "id": ["688e09b8b382e272af9ab263"]
     },
+    "Small Business - Part 1": {
+      "id": [
+        "666729738d4b7a9182ad4a89",
+        "66672a99bf7a7a1fcee35af0",
+        "66672a9e351098ce6dee9d3e",
+        "66672b010cf940754acb3a83",
+        "66672b18eba38faad31d29c3",
+        "66672b3330d5ad1d58cc1e95",
+        "66672b47d515c72d9075fe64",
+        "66672b7dd70d15a60bb41e04",
+        "66672b88a8236f9caf29c39e",
+        "6667306ec19fb654f22fa05a",
+        "6667308a456e86f33c87437c",
+        "666730b475bbbbfd5049b7da",
+        "666730d6386cf75012a431f2",
+        "666730f88db8c7927a859959",
+        "6667310584936a1238607d39",
+        "66673136b23cfc3ecab865d6",
+        "6667314ae24cc783e69ad784"
+      ]
+    },
     "Needle in a Haystack": {
       "id": [
         "67a0bc87c60a93d7a3f28b23",
@@ -164,6 +185,22 @@
     }
   },
   "adjustReqsList": {
+    "Small Business - Part 1": {
+      "66672a1a928cfea6db3ff6cb": {
+        "value": 5,
+        "target": [
+          "655c67ab0d37ca5135388f4b",
+          "655c66e40b2de553b618d4b8",
+          "66572c82ad599021091c6118",
+          "66572be36a723f7f005a066e",
+          "655c67782a1356436041c9c5",
+          "655c673673a43e23e857aebd",
+          "66572cbdad599021091c611a",
+          "655c669103999d3c810c025b",
+          "66572b8d80b1cd4b6a67847f"
+        ]
+      }
+    },
     "Spa Tour - Part 6": {
       "5a28127b86f7743808504ecc": { "value": 4000 }
     },

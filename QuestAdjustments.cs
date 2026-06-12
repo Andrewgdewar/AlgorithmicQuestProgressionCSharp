@@ -72,4 +72,11 @@ public record AdjustFields
 
     [JsonPropertyName("oneSessionOnly")]
     public bool? OneSessionOnly { get; set; }
+
+    /// <summary>
+    /// Optional: replace the condition's target with this list of template ids, so the
+    /// objective accepts ANY of them (e.g. hand over N of any figurine from a set).
+    /// </summary>
+    [JsonPropertyName("target")]
+    public List<string>? Target { get; set; }
 }
