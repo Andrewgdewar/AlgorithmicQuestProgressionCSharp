@@ -229,6 +229,8 @@ public class OverhaulModule(
         var skillStripped = 0;
         var emptyRemoved = 0;
         var toRemove = new List<MongoId>();
+        // conditionId -> override text, collected from adjustReqsList "locale" fields.
+        var localeOverrides = new Dictionary<string, string>();
 
         foreach (var (id, quest) in quests)
         {
@@ -271,6 +273,7 @@ public class OverhaulModule(
                     if (fields.Value.HasValue) c.Value = fields.Value.Value;
                     if (fields.OneSessionOnly.HasValue) c.OneSessionOnly = fields.OneSessionOnly.Value;
                     if (fields.Target is { Count: > 0 }) c.Target = new(fields.Target, null);
+                    if (!string.IsNullOrEmpty(fields.Locale)) localeOverrides[c.Id.ToString()] = fields.Locale!;
                     adjusted++;
                 }
             }
@@ -310,11 +313,25 @@ public class OverhaulModule(
         foreach (var id in toRemove)
             quests.Remove(id);
 
+        // Apply objective-text overrides (adjustReqsList "locale") across all languages.
+        if (localeOverrides.Count > 0)
+        {
+            var locales = databaseService.GetTables().Locales?.Global;
+            if (locales != null)
+                foreach (var (_, lazy) in locales)
+                    lazy.AddTransformer(data =>
+                    {
+                        foreach (var (condId, text) in localeOverrides)
+                            data[condId] = text;
+                        return data;
+                    });
+        }
+
         logger.Success(
             $"{Prefix} applier done. Hidden (non-curated @lvl99): {hidden}. " +
             $"deleteReqList: {deleted} conditions removed. adjustReqsList: {adjusted} conditions tuned. " +
             $"weaponBuildStrip: {weaponStripped} kills conditions. skillStrip: {skillStripped} conditions removed. " +
-            $"Removed (zero objectives): {emptyRemoved}.");
+            $"Removed (zero objectives): {emptyRemoved}. localeOverrides: {localeOverrides.Count}.");
     }
 
     /// <summary>

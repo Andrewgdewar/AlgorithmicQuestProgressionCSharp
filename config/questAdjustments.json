@@ -187,7 +187,8 @@
   "adjustReqsList": {
     "Small Business - Part 1": {
       "66672a1a928cfea6db3ff6cb": {
-        "value": 5,
+        "value": 8,
+        "locale": "Hand over figurines",
         "target": [
           "655c67ab0d37ca5135388f4b",
           "655c66e40b2de553b618d4b8",

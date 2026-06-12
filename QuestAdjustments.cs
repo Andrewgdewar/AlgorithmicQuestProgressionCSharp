@@ -79,4 +79,12 @@ public record AdjustFields
     /// </summary>
     [JsonPropertyName("target")]
     public List<string>? Target { get; set; }
+
+    /// <summary>
+    /// Optional: override the objective's displayed text (all languages). The condition's
+    /// id keys directly into the locale, so this rewrites e.g. "Hand over the item" to a
+    /// custom string like "Hand over figurines".
+    /// </summary>
+    [JsonPropertyName("locale")]
+    public string? Locale { get; set; }
 }
