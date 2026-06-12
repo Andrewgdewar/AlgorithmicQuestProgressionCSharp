@@ -24,6 +24,9 @@
   },
   "FenceStartRequiredQuests": ["The Punisher - Part 6"],
   "deleteReqList": {
+    "Last Spurt - Pioneer": {
+      "id": ["688e09b8b382e272af9ab263"]
+    },
     "The Punisher - Part 5": {
       "id": ["59ca2c9e86f77428ea721232", "59ca2cbe86f7740fe95c3e52"]
     },
