@@ -13,7 +13,6 @@
   "questLevelUnlockModifier": 1,
   "questExperienceModifier": 1,
   "traderStandingRewardModifier": 1,
-  "traderRepMaxFraction": 0.75,
   "itemRewardModifier": 1,
   "killQuestCountModifier": 1,
   "findItemQuestModifier": 0.5,
