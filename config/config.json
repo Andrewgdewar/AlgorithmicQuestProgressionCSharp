@@ -1,8 +1,6 @@
 {
   "enableOverhaulModule": true,
   "enableAdjusterModule": true,
-  "removeTransitQuests": true,
-  "refChanges": false,
   "disableDailies": false,
   "onlyZeroToHeroProfile": true,
   "zeroToHeroRemoveSecuredContainer": true,
@@ -11,13 +9,12 @@
   "baseKillCountQuantity": 4,
   "killCountModifier": 0.5,
   "questLevelUnlockModifier": 1,
-  "questExperienceModifier": 1,
+  "questExperienceModifier": 0.5,
   "traderStandingRewardModifier": 1,
   "itemRewardModifier": 1,
   "killQuestCountModifier": 1,
   "findItemQuestModifier": 0.5,
   "plantTimeModifier": 0.1,
   "replaceGunsmith": true,
-  "overHaulDebug": false,
-  "adjusterDebug": false
+  "overHaulDebug": false
 }

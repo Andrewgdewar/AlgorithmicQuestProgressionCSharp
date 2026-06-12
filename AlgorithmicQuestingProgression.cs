@@ -61,25 +61,13 @@ public class AlgorithmicQuestingProgression(
             new AdjusterModule(logger, databaseService, config, localeConfig).Run();
         }
 
-        if (config.RemoveTransitQuests)
-        {
-            logger.Debug($"{Prefix} Transit removal handled inside Overhaul teardown for now");
-            // NOTE: transit stripping currently runs inside OverhaulModule; standalone TransitModule TBD
-        }
-
-        if (config.RefChanges)
-        {
-            logger.Debug($"{Prefix} Ref/Arena quests are delegated to Lacy's PvE Tweaks (refChanges) — AQP does not touch them.");
-        }
-
         if (config.OnlyZeroToHeroProfile)
         {
             new ProfileModule(logger, databaseService, config).Run();
         }
 
         logger.Success(
-            $"{Prefix} Loaded. Overhaul: {config.EnableOverhaulModule}, Adjuster: {config.EnableAdjusterModule}, " +
-            $"Transits: {config.RemoveTransitQuests}, Ref: {config.RefChanges}");
+            $"{Prefix} Loaded. Overhaul: {config.EnableOverhaulModule}, Adjuster: {config.EnableAdjusterModule}.");
 
         return Task.CompletedTask;
     }

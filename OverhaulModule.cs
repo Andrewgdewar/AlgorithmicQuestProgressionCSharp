@@ -177,7 +177,7 @@ public class OverhaulModule(
             crossLinksStripped += finish?.RemoveAll(c => c.ConditionType == "Quest") ?? 0;
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} teardown done. Removed: {removedRemoveList} (removeList), {removedEvent} (seasonal), " +
             $"{removedEventEnemy} (event-enemy), {removedPureTransit} (pure-transit). " +
             $"Stripped: {levelsStripped} level reqs, {transitStripped} transit conditions, {crossLinksStripped} cross-quest links, " +
@@ -327,7 +327,7 @@ public class OverhaulModule(
                     });
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} applier done. Hidden (non-curated @lvl99): {hidden}. " +
             $"deleteReqList: {deleted} conditions removed. adjustReqsList: {adjusted} conditions tuned. " +
             $"weaponBuildStrip: {weaponStripped} kills conditions. skillStrip: {skillStripped} conditions removed. " +
@@ -478,7 +478,7 @@ public class OverhaulModule(
             }
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} chain rebuild done. Traders chained: {chainsBuilt}. " +
             $"Trader unlocks wired: {unlocksWired}. Fence start reqs added: {fenceReqsAdded}. " +
             $"Duplicate-name siblings synced: {siblingsSynced}.");
@@ -665,7 +665,7 @@ public class OverhaulModule(
             containersGranted++;
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} reward rebalance done. Traders rebalanced: {rebalancedTraders}. " +
             $"Containers granted: {containersGranted}.");
     }
@@ -795,7 +795,7 @@ public class OverhaulModule(
             tradersTouched++;
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} assort reassignment done. Traders: {tradersTouched}. Unlocks reassigned: {totalReassigned}.");
     }
 
@@ -859,7 +859,7 @@ public class OverhaulModule(
             }
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} trader tweaks done. Faction gates cleared. " +
             $"Dailies disabled: {dailiesDisabled}. Ammo loyalty levels set: {ammoLevelsSet}.");
     }

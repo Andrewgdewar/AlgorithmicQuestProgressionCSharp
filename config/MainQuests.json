@@ -516,13 +516,13 @@
     "Friend Among Strangers",
     "Immunity",
     "Is This a Reference",
+     "The Choice",
     [
       "Small Business - Part 1",
       "Small Business - Part 2",
-      "Small Business - Part 3"
-    ],
-    "The Choice",
-    "Collector"
+      "Small Business - Part 3",
+          "Collector"
+    ]
   ],
   "LIGHTHOUSEKEEPER": [
     "Simple Side Job",

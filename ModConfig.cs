@@ -17,16 +17,6 @@ public record ModConfig
     [JsonPropertyName("enableAdjusterModule")]
     public bool EnableAdjusterModule { get; set; } = true;
 
-    /// <summary>NEW — remove map-transit requirements (port of Lacy's EditTransits).</summary>
-    [JsonPropertyName("removeTransitQuests")]
-    public bool RemoveTransitQuests { get; set; } = true;
-
-    /// <summary>NEW — Ref/Arena questline is delegated to Lacy's PvE Tweaks (its own
-    /// refChanges option); AQP leaves all Arena-trader quests untouched. Kept as an
-    /// informational toggle only.</summary>
-    [JsonPropertyName("refChanges")]
-    public bool RefChanges { get; set; } = false;
-
     // --- Adjuster modifiers ---
 
     [JsonPropertyName("disableDailies")]
@@ -87,7 +77,4 @@ public record ModConfig
 
     [JsonPropertyName("overHaulDebug")]
     public bool OverHaulDebug { get; set; }
-
-    [JsonPropertyName("adjusterDebug")]
-    public bool AdjusterDebug { get; set; }
 }

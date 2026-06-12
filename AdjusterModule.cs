@@ -157,7 +157,7 @@ public class AdjusterModule(
         if (gunsmithLocale.Count > 0)
             ApplyGunsmithLocale(gunsmithLocale);
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} done. plantTime: {plantAdjusted}, find/handover: {findAdjusted}, kill: {killAdjusted} adjusted. " +
             $"Gunsmith replaced: {gunsmithReplaced}. Rewards adjusted: {rewardsAdjusted}.");
     }

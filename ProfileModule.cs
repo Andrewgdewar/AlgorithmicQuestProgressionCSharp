@@ -75,7 +75,7 @@ public class ProfileModule(
             }
         }
 
-        logger.Success(
+        logger.Debug(
             $"{Prefix} customized '{Keep}' kit (removeContainer={config.ZeroToHeroRemoveSecuredContainer}, " +
             $"removeKnife={config.ZeroToHeroRemoveKnife}, roubles={config.ZeroToHeroStartingRoubles}).");
     }
