@@ -30,7 +30,7 @@ public record ModConfig
     // --- Adjuster modifiers ---
 
     [JsonPropertyName("disableDailies")]
-    public bool DisableDailies { get; set; } = true;
+    public bool DisableDailies { get; set; } = false;
 
     /// <summary>
     /// NEW — when true, on server start strip every launcher profile template EXCEPT

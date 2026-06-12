@@ -801,14 +801,15 @@ public class OverhaulModule(
         }
 
         // --- dailies (config-gated) ---
+        // NOTE: only zero NumQuests — do NOT clear TraderWhitelist. The client still hits
+        // /client/repeatalbeQuests/activityPeriods, and RepeatableQuestController draws a
+        // random trader from the whitelist; an empty whitelist throws "index out of range"
+        // in DrawRandomFromList. NumQuests=0 already prevents any quests being generated.
         var dailiesDisabled = false;
         if (config.DisableDailies && questConfig?.RepeatableQuests != null)
         {
             foreach (var rq in questConfig.RepeatableQuests)
-            {
                 rq.NumQuests = 0;
-                rq.TraderWhitelist = [];
-            }
             dailiesDisabled = true;
         }
 

@@ -3,7 +3,7 @@
   "enableAdjusterModule": true,
   "removeTransitQuests": true,
   "refChanges": false,
-  "disableDailies": true,
+  "disableDailies": false,
   "onlyZeroToHeroProfile": true,
   "zeroToHeroRemoveSecuredContainer": true,
   "zeroToHeroRemoveKnife": true,
