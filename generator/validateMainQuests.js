@@ -37,6 +37,13 @@ for (const [trader, arr] of Object.entries(mainQuests)) {
 
 const dbNames = new Set(quests.map((q) => q.QuestName));
 
+// name -> [ {id, traderKey}, ... ]  (to detect duplicate quest names)
+const nameToEntries = {};
+for (const q of quests) {
+  const key = NICK_TO_KEY[traderNames[q.traderId]] || traderNames[q.traderId] || q.traderId;
+  (nameToEntries[q.QuestName] = nameToEntries[q.QuestName] || []).push({ id: q._id, trader: key });
+}
+
 // 1) Listed names that don't exist in the DB
 const staleByTrader = {};
 for (const [trader, arr] of Object.entries(mainQuests)) {
@@ -91,4 +98,21 @@ for (const [t, arr] of Object.entries(missingByTrader)) {
 }
 if (!missingCount) console.log("  (none)");
 
-console.log(`\n\nTotals: ${staleCount} stale, ${missingCount} missing. Listed: ${listed.size}, DB: ${dbNames.size}`);
+// 3) DUPLICATE names among the curated list — these break the chain rebuild:
+//    the applier clears AvailableForStart on EVERY quest with the name, but the
+//    chain rebuild only re-gates the FIRST id (name->id map), so the extra copies
+//    stay ungated and become startable immediately.
+let dupCount = 0;
+console.log("\n\n=== DUPLICATE curated names (name -> multiple DB ids) — CHAIN BREAKER ===");
+for (const name of listed) {
+  const entries = nameToEntries[name];
+  if (entries && entries.length > 1) {
+    dupCount++;
+    console.log(`\n'${name}' (${entries.length}):`);
+    entries.forEach((e) => console.log(`  - ${e.id}  [${e.trader}]`));
+  }
+}
+if (!dupCount) console.log("  (none)");
+
+console.log(`\n\nTotals: ${staleCount} stale, ${missingCount} missing, ${dupCount} duplicate. Listed: ${listed.size}, DB: ${dbNames.size}`);
+

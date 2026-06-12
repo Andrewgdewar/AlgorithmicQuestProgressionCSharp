@@ -309,13 +309,18 @@ public class OverhaulModule(
     /// </summary>
     private void RebuildChains(Dictionary<MongoId, Quest> quests)
     {
-        // name -> id (first occurrence wins on duplicate names)
+        // name -> id (first occurrence wins on duplicate names) and name -> ALL ids.
+        // Some EFT quests have edition-variant copies sharing a QuestName (e.g. Textile,
+        // Drip-Out, Battery Change). The chain gates the representative id; duplicate
+        // siblings are synced afterward so they don't stay ungated/startable.
         var nameToId = new Dictionary<string, string>();
+        var nameToIds = new Dictionary<string, List<string>>();
         foreach (var (id, quest) in quests)
         {
             var name = quest.QuestName ?? "";
-            if (name.Length > 0 && !nameToId.ContainsKey(name))
-                nameToId[name] = id.ToString();
+            if (name.Length == 0) continue;
+            if (!nameToId.ContainsKey(name)) nameToId[name] = id.ToString();
+            (nameToIds.TryGetValue(name, out var ids) ? ids : nameToIds[name] = []).Add(id.ToString());
         }
 
         string IdOrEmpty(string name) => nameToId.GetValueOrDefault(name) ?? "";
@@ -363,6 +368,30 @@ public class OverhaulModule(
                 Utils.IterateOverArrayAddingQuestReqs(quests, group, 1);
 
             chainsBuilt++;
+        }
+
+        // ---- sync duplicate-name siblings ----
+        // For any curated quest name that maps to >1 DB id, copy the representative's
+        // start requirements onto the sibling copies. The applier cleared every copy's
+        // AvailableForStart, but the chain rebuild only gated the representative; without
+        // this, edition-variant duplicates (Textile, Drip-Out, etc.) stay ungated and
+        // appear as immediately-available quests.
+        var curatedNames = FlattenMainQuests().ToHashSet();
+        var siblingsSynced = 0;
+        foreach (var name in curatedNames)
+        {
+            if (!nameToIds.TryGetValue(name, out var ids) || ids.Count < 2) continue;
+            var repId = nameToId[name];
+            if (!quests.TryGetValue(new MongoId(repId), out var rep) || rep.Conditions?.AvailableForStart == null)
+                continue;
+
+            foreach (var sibId in ids)
+            {
+                if (sibId == repId) continue;
+                if (!quests.TryGetValue(new MongoId(sibId), out var sib) || sib.Conditions == null) continue;
+                sib.Conditions.AvailableForStart = [.. rep.Conditions.AvailableForStart];
+                siblingsSynced++;
+            }
         }
 
         // ---- trader unlocks ----
@@ -419,7 +448,8 @@ public class OverhaulModule(
 
         logger.Success(
             $"{Prefix} chain rebuild done. Traders chained: {chainsBuilt}. " +
-            $"Trader unlocks wired: {unlocksWired}. Fence start reqs added: {fenceReqsAdded}.");
+            $"Trader unlocks wired: {unlocksWired}. Fence start reqs added: {fenceReqsAdded}. " +
+            $"Duplicate-name siblings synced: {siblingsSynced}.");
     }
 
     /// <summary>First quest name of a MainQuests entry (string, or first element of a group array).</summary>

@@ -16,7 +16,7 @@
   "itemRewardModifier": 1,
   "killQuestCountModifier": 1,
   "findItemQuestModifier": 0.5,
-  "plantTimeModifier": 0.2,
+  "plantTimeModifier": 0.1,
   "replaceGunsmith": true,
   "overHaulDebug": false,
   "adjusterDebug": false
