@@ -508,6 +508,7 @@
     "Dragnet"
   ],
   "FENCE": [
+     "Is This a Reference",
     [
       "Compensation for Damage - Trust",
       "Compensation for Damage - Wager",
@@ -515,13 +516,12 @@
     ],
     "Friend Among Strangers",
     "Immunity",
-    "Is This a Reference",
      "The Choice",
     [
       "Small Business - Part 1",
       "Small Business - Part 2",
       "Small Business - Part 3",
-          "Collector"
+      "Collector"
     ]
   ],
   "LIGHTHOUSEKEEPER": [

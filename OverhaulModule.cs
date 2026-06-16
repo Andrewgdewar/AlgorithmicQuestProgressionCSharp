@@ -105,6 +105,7 @@ public class OverhaulModule(
         var transitStripped = 0;
         var crossLinksStripped = 0;
         var visibilityCleared = 0;
+        var timersStripped = 0;
         foreach (var (id, quest) in quests.ToList())
         {
             // Arena/Ref quests are owned by Lacy's PvE Tweaks (refChanges) — never touch them.
@@ -150,6 +151,15 @@ public class OverhaulModule(
                 var before = conds.AvailableForStart.Count;
                 conds.AvailableForStart.RemoveAll(c => c.ConditionType == "Level");
                 levelsStripped += before - conds.AvailableForStart.Count;
+
+                // --- timers: zero any AvailableAfter delay so follow-up quests unlock
+                // immediately (no real-time "available in HH:MM:SS" wait). ---
+                foreach (var c in conds.AvailableForStart)
+                    if (c.AvailableAfter is > 0)
+                    {
+                        c.AvailableAfter = 0;
+                        timersStripped++;
+                    }
             }
 
             // --- flat failure-penalty removal: EVERY quest, always ---
@@ -181,7 +191,7 @@ public class OverhaulModule(
             $"{Prefix} teardown done. Removed: {removedRemoveList} (removeList), {removedEvent} (seasonal), " +
             $"{removedEventEnemy} (event-enemy), {removedPureTransit} (pure-transit). " +
             $"Stripped: {levelsStripped} level reqs, {transitStripped} transit conditions, {crossLinksStripped} cross-quest links, " +
-            $"{visibilityCleared} visibility gates. " +
+            $"{visibilityCleared} visibility gates, {timersStripped} availableAfter timers. " +
             $"Quests remaining: {quests.Count}");
         // ---- Phase 2a: applier (consumes MainQuests + questAdjustments) ----
         ApplyAdjustments(quests);
