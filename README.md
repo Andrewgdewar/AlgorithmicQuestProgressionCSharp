@@ -60,6 +60,7 @@ Independent multipliers applied to every quest (does NOT restructure):
 - `questLevelUnlockModifier` — scale `AvailableForStart` Level condition values.
 - `killQuestCountModifier` — scale `CounterCreator` kill counts.
 - `findItemQuestModifier` — scale `FindItem`/`HandoverItem` counts (skips real quest items).
+- `removeFoundInRaidRequirement` — when true, strip the found-in-raid requirement from every quest hand-in / find-item objective (items handed in no longer need FiR status).
 - `plantTimeModifier` — scale `LeaveItemAtLocation`/`PlaceBeacon` plant times.
 - `questExperienceModifier`, `itemRewardModifier`, `traderStandingRewardModifier` — scale success rewards.
 - `replaceGunsmith` — replace WeaponAssembly quests with a kill quest (rewrites locale text).

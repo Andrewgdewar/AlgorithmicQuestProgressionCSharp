@@ -14,6 +14,7 @@
   "itemRewardModifier": 1,
   "killQuestCountModifier": 1,
   "findItemQuestModifier": 0.5,
+  "removeFoundInRaidRequirement": true,
   "plantTimeModifier": 0.1,
   "replaceGunsmith": true,
   "overHaulDebug": false

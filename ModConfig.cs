@@ -67,6 +67,13 @@ public record ModConfig
     [JsonPropertyName("findItemQuestModifier")]
     public double FindItemQuestModifier { get; set; } = 0.5;
 
+    /// <summary>
+    /// NEW — when true, strip the "found in raid" requirement from every quest
+    /// hand-in / find-item objective, so items handed in don't need FiR status.
+    /// </summary>
+    [JsonPropertyName("removeFoundInRaidRequirement")]
+    public bool RemoveFoundInRaidRequirement { get; set; } = false;
+
     [JsonPropertyName("plantTimeModifier")]
     public double PlantTimeModifier { get; set; } = 0.2;
 

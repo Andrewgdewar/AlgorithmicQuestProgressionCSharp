@@ -37,6 +37,7 @@ public class AdjusterModule(
         var killAdjusted = 0;
         var gunsmithReplaced = 0;
         var rewardsAdjusted = 0;
+        var firRemoved = 0;
 
         foreach (var (id, quest) in quests)
         {
@@ -82,6 +83,12 @@ public class AdjusterModule(
 
                         case "HandoverItem":
                         case "FindItem":
+                            // Optionally strip the found-in-raid requirement (runs regardless of count modifier).
+                            if (config.RemoveFoundInRaidRequirement && c.OnlyFoundInRaid == true)
+                            {
+                                c.OnlyFoundInRaid = false;
+                                firRemoved++;
+                            }
                             if (config.FindItemQuestModifier == 1) break;
                             var tpl = FirstTarget(c);
                             if (tpl != null && items.TryGetValue(new MongoId(tpl), out var item) &&
@@ -159,7 +166,7 @@ public class AdjusterModule(
 
         logger.Debug(
             $"{Prefix} done. plantTime: {plantAdjusted}, find/handover: {findAdjusted}, kill: {killAdjusted} adjusted. " +
-            $"Gunsmith replaced: {gunsmithReplaced}. Rewards adjusted: {rewardsAdjusted}.");
+            $"Gunsmith replaced: {gunsmithReplaced}. Rewards adjusted: {rewardsAdjusted}. FiR removed: {firRemoved}.");
     }
 
     /// <summary>
