@@ -62,6 +62,26 @@ public static class Utils
     };
 
     /// <summary>
+    /// Build a "fail this quest when quest X succeeds" Fail condition. Used to fork two
+    /// mutually-exclusive quests (Gunsmith / Deathsmith): completing one auto-fails the
+    /// other. status [4] = Success.
+    /// </summary>
+    public static QuestCondition FailOnQuestSuccess(string questId, string seed) => new()
+    {
+        AvailableAfter = 0,
+        ConditionType = "Quest",
+        Dispersion = 0,
+        DynamicLocale = false,
+        GlobalQuestCounterId = "",
+        Id = new MongoId(GenerateMongoIdFromSeed(seed)),
+        Index = 0,
+        ParentId = "",
+        Status = [SPTarkov.Server.Core.Models.Enums.QuestStatusEnum.Success],
+        Target = new(null, questId),
+        VisibilityConditions = [],
+    };
+
+    /// <summary>
     /// Walk an ordered quest-id list, grouping it into sets of <paramref name="quantity"/>,
     /// and add "must complete the previous set" start requirements to each quest in every
     /// set after the first (port of TS <c>IterateOverArrayAddingQuestReqs</c>). Empty ids
@@ -208,14 +228,14 @@ public static class Utils
     /// for a Gunsmith quest (port of TS <c>getKillQuestForGunsmith</c>/<c>defaultKillQuest</c>).
     /// Kill count = round(baseKillCountQuantity + questNumber * killCountModifier).
     /// </summary>
-    public static QuestCondition GunsmithKillCondition(int questNumber, string weaponTpl, double baseKillCount, double killModifier)
+    public static QuestCondition GunsmithKillCondition(int questNumber, string weaponTpl, double baseKillCount, double killModifier, string seedSuffix = "")
     {
         var totalBots = (int)Math.Round(baseKillCount + questNumber * killModifier);
         if (totalBots < 1) totalBots = 1;
 
-        var innerId = new MongoId(GenerateMongoIdFromSeed("conditionId" + questNumber));
-        var counterId = new MongoId(GenerateMongoIdFromSeed("counterId" + questNumber));
-        var conditionId = new MongoId(GenerateMongoIdFromSeed("questId" + questNumber));
+        var innerId = new MongoId(GenerateMongoIdFromSeed("conditionId" + questNumber + seedSuffix));
+        var counterId = new MongoId(GenerateMongoIdFromSeed("counterId" + questNumber + seedSuffix));
+        var conditionId = new MongoId(GenerateMongoIdFromSeed("questId" + questNumber + seedSuffix));
 
         return new QuestCondition
         {

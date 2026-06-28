@@ -7,6 +7,7 @@ using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Utils.Cloners;
 
 namespace AlgorithmicQuestingProgression;
 
@@ -38,7 +39,8 @@ public class AlgorithmicQuestingProgression(
     ISptLogger<AlgorithmicQuestingProgression> logger,
     ModHelper modHelper,
     DatabaseService databaseService,
-    ConfigServer configServer) : IOnLoad
+    ConfigServer configServer,
+    ICloner cloner) : IOnLoad
 {
     private const string Prefix = "[AlgorithmicQuestingProgression]";
 
@@ -59,6 +61,12 @@ public class AlgorithmicQuestingProgression(
         {
             var localeConfig = modHelper.GetJsonDataFromFile<Dictionary<string, LocaleTemplate>>(pathToMod, "config/localeConfig.json");
             new AdjusterModule(logger, databaseService, config, localeConfig).Run();
+        }
+
+        if (config.AddDeathsmithFork)
+        {
+            var localeConfig = modHelper.GetJsonDataFromFile<Dictionary<string, LocaleTemplate>>(pathToMod, "config/localeConfig.json");
+            new DeathsmithModule(logger, databaseService, config, localeConfig, cloner).Run();
         }
 
         if (config.OnlyZeroToHeroProfile)

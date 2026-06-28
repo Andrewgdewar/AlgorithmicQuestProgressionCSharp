@@ -16,6 +16,7 @@
   "findItemQuestModifier": 0.5,
   "removeFoundInRaidRequirement": true,
   "plantTimeModifier": 0.1,
-  "replaceGunsmith": true,
+  "replaceGunsmith": false,
+  "addDeathsmithFork": true,
   "overHaulDebug": false
 }

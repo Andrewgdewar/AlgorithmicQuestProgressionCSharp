@@ -102,7 +102,9 @@ public class AdjusterModule(
             }
 
             // --- gunsmith replacement ---
-            if (config.ReplaceGunsmith && quest.Type == QuestTypeEnum.WeaponAssembly &&
+            // Skipped when the deathsmith fork is active: that feature keeps Gunsmith intact
+            // and adds a parallel kill-questline instead of replacing it.
+            if (config.ReplaceGunsmith && !config.AddDeathsmithFork && quest.Type == QuestTypeEnum.WeaponAssembly &&
                 finish is { Count: > 0 })
             {
                 var weaponTpl = FirstTarget(finish[0]);
@@ -221,4 +223,7 @@ public record LocaleTemplate
 
     [System.Text.Json.Serialization.JsonPropertyName("task")]
     public string Task { get; set; } = "Eliminate <number> enemies using a <weapon>.";
+
+    [System.Text.Json.Serialization.JsonPropertyName("deathsmithName")]
+    public string DeathsmithName { get; set; } = "Deathsmith - Part <number>";
 }

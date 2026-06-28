@@ -80,6 +80,16 @@ public record ModConfig
     [JsonPropertyName("replaceGunsmith")]
     public bool ReplaceGunsmith { get; set; } = true;
 
+    /// <summary>
+    /// NEW — when true, KEEP the vanilla Gunsmith questline and add a parallel
+    /// "Deathsmith - Part N" kill-questline for the same weapons. Each stage offers both
+    /// quests at once; completing one fails its sibling (no retry), and the next stage
+    /// unlocks once either is resolved. Implies Gunsmith is NOT replaced (overrides
+    /// replaceGunsmith for the Gunsmith quests).
+    /// </summary>
+    [JsonPropertyName("addDeathsmithFork")]
+    public bool AddDeathsmithFork { get; set; } = false;
+
     // --- Debug ---
 
     [JsonPropertyName("overHaulDebug")]
